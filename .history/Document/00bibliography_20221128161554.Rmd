@@ -1,5 +1,4 @@
 ---
 bibliography:
   - sa4ss.bib
-  - jmcbf2023.bib
 ---
