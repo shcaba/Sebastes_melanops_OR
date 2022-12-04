@@ -69,17 +69,24 @@ Uncertainty in management quantities for the base model of each state was charac
 
 ## Scientific uncertainty{-}
 
-#The model-estimated uncertainty around the `r endyr+1` spawning biomass was $\sigma$ = `r round(model$Pstar_sigma,2)` and the #uncertainty around the OFL was $\sigma$ = `r round(model$OFL_sigm, 2)`. This is likely an underestimate of overall uncertainty #because of the necessity to fix some parameters such as steepness, as well as a lack of explicit incorporation of model structural #uncertainty.
+Replace text with
+the sigma value and the basis for its calculation.
 
 ## Research and data needs{-}
 
 Recommended avenues for research to help improve future black rockfish stock assessments:
 
 1. Further investigation into the movement and behavior of older (> age 10) females to reconcile their absence in fisheries data. If the females are currently inaccessible to fishing gear, can we find where they are?
+
 2. Appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each.
+
 3. All states need improved historical catch reconstructions. The trawl fishery catches in particular require particular attention. Given the huge historical removals of that fleet in each state, the assessment is very sensitive to the assumed functional form of selectivity. A synoptic catch reconstruction is recommended, where states work together to resolve cross-state catch issues as well as standardize the approach to catch recommendations.
+
 4. Identifying stanzas or periods of uncertainty in the historical catch series will aid in the exploration of catch uncertainty in future assessment sensitivity runs. 
+
 5. The ODFW tagging study off Newport should be continued and expanded to other areas.  To provide better prior information on the spatial distribution of the black rockfish stock, further work should be conducted to map the extent of black rockfish habitat and the densities of black rockfish residing there.
+
 6. An independent nearshore survey should be supported in all states to avoid the reliance on fishery-based CPUE indices.
+
 7. Stock structure for black rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.
 

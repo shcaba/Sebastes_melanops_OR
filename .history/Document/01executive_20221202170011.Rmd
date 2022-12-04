@@ -69,12 +69,12 @@ Uncertainty in management quantities for the base model of each state was charac
 
 ## Scientific uncertainty{-}
 
-#The model-estimated uncertainty around the `r endyr+1` spawning biomass was $\sigma$ = `r round(model$Pstar_sigma,2)` and the #uncertainty around the OFL was $\sigma$ = `r round(model$OFL_sigm, 2)`. This is likely an underestimate of overall uncertainty #because of the necessity to fix some parameters such as steepness, as well as a lack of explicit incorporation of model structural #uncertainty.
+Replace text with
+the sigma value and the basis for its calculation.
 
 ## Research and data needs{-}
 
 Recommended avenues for research to help improve future black rockfish stock assessments:
-
 1. Further investigation into the movement and behavior of older (> age 10) females to reconcile their absence in fisheries data. If the females are currently inaccessible to fishing gear, can we find where they are?
 2. Appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each.
 3. All states need improved historical catch reconstructions. The trawl fishery catches in particular require particular attention. Given the huge historical removals of that fleet in each state, the assessment is very sensitive to the assumed functional form of selectivity. A synoptic catch reconstruction is recommended, where states work together to resolve cross-state catch issues as well as standardize the approach to catch recommendations.
