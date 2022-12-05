@@ -1,6 +1,6 @@
 ---
 geometry: margin=1in
-month: "November"
+month: "December"
 year: "2022"
 preamble: |
 output:
@@ -50,6 +50,7 @@ address:
 ---
 bibliography:
   - sa4ss.bib
+  - jmcbf2023.bib
 ---
 
 <!--chapter:end:00bibliography.Rmd-->
@@ -78,8 +79,7 @@ title: Status of Black rockfish (Sebastes melanops) off Oregon and federal water
 
 ## Stock{-}
 
-This assessment reports the status of Black Rockfish (_Scientific name_) off the US West coast using data through xxxx.
-The assessments described in this document apply to the black rockfish (Sebastes melanops) stocks that reside in the waters from Point Conception (34\textdegree27' N latitude) in the south to the U.S. boundary with Canada (approximately 48\textdegree30' N latitude).  Following the consensus recommendations from a preliminary stock assessment workshop in April 2015 (PFMC 2015), the stock assessment team (STAT) decided to prepare separate geographic stock assessments that are spatially stratified with boundaries at the CA/OR border (42\textdegree00' N latitude) and OR/WA border (46\textdegree16' N latitude).  
+The assessments described in this document apply to the black rockfish (*Sebastes melanops*) stocks that reside in the waters from Point Conception (34\textdegree27' N latitude) in the south to the U.S. boundary with Canada (approximately 48\textdegree30' N latitude).  Following the consensus recommendations from a preliminary stock assessment workshop in April 2015 (PFMC 2015), the stock assessment team (STAT) decided to prepare separate geographic stock assessments that are spatially stratified with boundaries at the CA/OR border (42\textdegree00' N latitude) and OR/WA border (46\textdegree16' N latitude).  
 
 Black rockfish are also caught from the waters off British Columbia and Alaska, but there have not been any formal assessments of stock status for those areas.
 
@@ -187,7 +187,17 @@ information gaps that seriously impede the stock assessment.
 
 # Introduction
 ## Basic Information
-This assessment reports the status of Black Rockfish (_Scientific name_) off the US West coast using data through xxxx.
+Black Rockfish (*Sebastes melanops*) are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California (Love et al. 2002).  
+
+A previous assessment of Black Rockfish off Oregon and California (Ralston and Dick 2003) reviewed the evidence supporting genetic stock structure for Black Rockfish and other rockfish off the U.S. West Coast and concluded that the Oregon and California populations of Black Rockfish are probably not genetically heterogeneous.  That assessment treated the Black Rockfish off California and Oregon as a unit stock.  Previous assessments of Black Rockfish off Washington (Wallace et al. 1999, 2007) describe a study of coastal Black Rockfish genetic structure using 10 sampled sites collected from northern California to southern British Columbia t 1995-97.  Results of that study support the notion of separate genetic stocks north and south of Cape Falcon.  However, a later study (Baker 1999) of Black Rockfish collected from eight sites along the northern Oregon coast concluded that Black Rockfish from north and south of Cape Falcon were genetically very similar.
+
+Although a stock boundary line at the Columbia River seems reasonable for Black Rockfish, both because it is a state fishery management boundary and because the Columbia River plume is likely to be a natural barrier to the north-south exchange of Black Rockfish adults and larvae, the 2007 assessment of Black Rockfish off Oregon and California (Sampson 2007) differed slightly from Ralston and Dick (2003) in placing the northern boundary at Cape Falcon rather than at the Columbia River.  The boundary was changed to avoid overlap with the separate northern assessment (Wallace et al. 2007) and to simplify the process of assembling historical commercial landings data, which are largely available in terms of Pacific Marine Fisheries Commission (PMFC) statistical areas.  The northern boundary of PMFC Area 2C is at Cape Falcon (Figure 1).  Given the spatial resolution of the historical commercial fishery data, it is very problematic to estimate the catch of Black Rockfish taken north of Cape Falcon but south of the Columbia River.
+
+During a preliminary workshop in April 2015 (PFMC 2015), to discuss approaches for assessing Black Rockfish, China rockfish (*S. nebulosus*), and kelp greenling (*Hexagrammos decagrammus*), it was agreed that the assessments for these nearshore species should at a minimum be spatially stratified with boundaries at the CA/OR border (42\textdegree00' N latitude) and the OR/WA border (46\textdegree16' N latitude).  Such a spatial stratification would be consistent with two ideas: (a) these nearshore species do not exhibit much adult movement and (b) exploitation and management histories have varied significantly among the three states.  Together these features would likely create appreciable state-to-state differences in age composition for each of the three species.  Stock assessment teams were advised that they could use geographic strata that were finer than the state level if there were data to support such an approach (Figure 1).
+
+At the same nearshore stock assessment workshop, it was agreed that recreational catch histories for the stocks of Black Rockfish should be assembled on the basis of port of landing rather than location of fish capture, even though fishing vessels landing their catches into a port in one state might have captured fish in waters off a neighboring state.
+
+Accounting for location of capture is very problematic for recreationally caught fish and for commercial catches taken with non-trawl types of gear (e.g., hook-and-line), for which there are no or very limited logbooks that report fishing location.  For these regional assessments the commercially caught Black Rockfish were apportioned to assessment region based on the port of landing, with the exception of trawl caught fish landed into Astoria, OR.  Most of these fish were assumed to have been caught off Washington and most of the trawl landings into Astoria were therefore included with the catch history for the Washington assessment region.  Details are provided below in Section 2.1.1.1 The PacFIN Era (1981 to 2014).
 
 ## Life History
 Replace text.
