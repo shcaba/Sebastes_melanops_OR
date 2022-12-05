@@ -8,7 +8,7 @@
 #C starter file written by R function SS_writestarter
 #C rerun model to get more complete formatting in starter.ss_new
 #C should work with SS version: 3.30
-#C file write time: 2022-11-04 08:40:30
+#C file write time: 2022-12-05 12:16:32
 datafile.dat
 controlfile.ctl
 0 # 0=use init values in control file; 1=use ss.par
@@ -22,7 +22,7 @@ controlfile.ctl
 1 # Use Soft Boundaries to aid convergence (0,1) (recommended)
 #
 2 # Number of datafiles to produce:  0 turns off all *.ss_new; 1st is data_echo.ss_new, 2nd is data_expval.ss, 3rd and higher are data_boot_**N.ss,
-0 # Turn off estimation for parameters entering after this phase
+6 # Turn off estimation for parameters entering after this phase
 #
 0 # MCeval burn interval
 1 # MCeval thin interval
@@ -43,5 +43,5 @@ controlfile.ctl
 0 # F_std_basis: 0=raw_annual_F; 1=F/Fspr; 2=F/Fmsy; 3=F/Fbtgt; where F means annual_F; values >=11 invoke N multiyr (up to 9!) with 10's digit; >100 invokes log(ratio)
 0 # MCMC output detail: integer part (0=default; 1=adds obj func components; 2= +write_report_for_each_mceval); and decimal part (added to SR_LN(R0) on first call to mcmc)
 0 # ALK tolerance ***disabled in code (example 0.0001)
--1 # random number seed for bootstrap data (-1 to use long(time) as seed): # 1668804420
+-1 # random number seed for bootstrap data (-1 to use long(time) as seed): # 1670272277
 3.30 # check value for end of file and for version control

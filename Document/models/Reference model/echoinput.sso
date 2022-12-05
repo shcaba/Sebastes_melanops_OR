@@ -65,7 +65,7 @@
 0  Do_all_priors
 1  SoftBound
 2  N_nudata
-0  Turn_off_phase
+6  Turn_off_phase
 0  MCeval burn_intvl
 1  MCeval thin_intvl
 0  jitter fraction for initial parm values
@@ -1261,30 +1261,30 @@ End of control file successful! 999
 N parameters: 102
 Parameters plus derived quant: 747
 Adjust the phases 
- requested turn_off phase: 0
-Fcast_dev_phase (read and adjusted): -4 -1
-ParCount 102   Active parameters: 0
-Turn_off_phase 0
- max_phase 1
+ requested turn_off phase: 6
+Fcast_dev_phase (read and adjusted): -4 -4
+ParCount 102   Active parameters: 2
+Turn_off_phase 6
+ max_phase 4
 747
-parm 102 covar 0
-deriv_start 102 0
-parm 228 covar 126
-parm 354 covar 252
-parm 478 covar 376
-parm 602 covar 500
-parm 725 covar 623
-parm 742 covar 640  after benchmark 
-parm 744 covar 642  after forecast 
+parm 102 covar 2
+deriv_start 102 2
+parm 228 covar 128
+parm 354 covar 254
+parm 478 covar 378
+parm 602 covar 502
+parm 725 covar 625
+parm 742 covar 642  after benchmark 
+parm 744 covar 644  after forecast 
  do ln(SPB) std labels for 3 years
  do Svy_sdreport labels 0
-parm 747 covar 645  after all derived quantities 
-Active parameters plus derived quantities:  645
+parm 747 covar 647  after all derived quantities 
+Active parameters plus derived quantities:  647
 Begin setting up parameters
  now dimension the selectivity arrays 63
  15 -10 -4 -2 -15 -5 -15 -15 -15 -15 -15 15 -10 -4 -2 -15 -5 15 -10 -4 -2 -15 -5 -15 -15 -15 -15 -15 15 -10 -4 -2 -15 -5 15 -10 -4 -2 -15 -5 -5 -5 1 0 -5 -5 -5 -5 -5 -5 1 -10 -4 -2 -15 -5 -15 -15 -15 -15 -15 0 2
  60 10 12 6 10 10 15 15 15 15 15 50 10 12 6 10 10 50 10 12 6 10 10 15 15 15 15 15 50 10 12 6 10 10 50 10 12 6 10 10 5 5 60 15 5 5 5 5 5 5 40 3 12 6 10 10 15 15 15 15 15 7 20
- -4 -5 -4 -4 -5 -4 -5 -5 -5 -5 -5 -4 -5 -4 -4 -5 -4 -4 -5 -4 -1 -5 -4 -5 -5 -5 -5 -5 -4 -5 -4 -4 -5 -4 -4 -5 -4 -4 -5 -4 -99 -99 -3 -4 -99 -99 -99 -99 -99 -99 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -99 -99
+ -4 -5 -4 -4 -5 -4 -5 -5 -5 -5 -5 -4 -5 -4 -4 -5 -4 -4 -5 -4 4 -5 -4 -5 -5 -5 -5 -5 -4 -5 -4 -4 -5 -4 -4 -5 -4 -4 -5 -4 -99 -99 -3 -4 -99 -99 -99 -99 -99 -99 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -99 -99
  OK after dimension the selectivity arrays 
  check 0 
  OK after dimension the 2dar arrays 
@@ -10864,7 +10864,7 @@ Finished agecomp obj_fun  40.7527 15.4269 395.607 151.777 0 0 0 0 0 0 20.235
 Wrote first version of output files (before hessian, benchmark, and forecast)
 Start benchmark and forecast, if requested
 Finished benchmark, forecast, and sdreporting
-Iterations: 8
+Iterations: 36
  finished COVAR.SSO
 Finished forecast
 Writing wtatage.ss_new

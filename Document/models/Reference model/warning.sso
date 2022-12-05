@@ -5,4 +5,5 @@ Note 3 Suggestion: Selectivity 2 is a back-compatible (SS 3.30.18 and earlier) v
 Note 4 Suggestion: Selectivity 2 is a back-compatible (SS 3.30.18 and earlier) version of selectivity 24. Recommend using 24.
 Note 5 Suggestion: Selectivity 2 is a back-compatible (SS 3.30.18 and earlier) version of selectivity 24. Recommend using 24.
 Note 6 Suggestion: Selectivity 2 is a back-compatible (SS 3.30.18 and earlier) version of selectivity 24. Recommend using 24.
- 1 warning  and 6 notes 
+Note 7 Information:  N parameters that are on or within 1% of min-max bound: 1; check results, variance may be suspect
+ 1 warning  and 7 notes 
