@@ -56,7 +56,7 @@ bibliography:
 <!--chapter:end:00bibliography.Rmd-->
 
 ---
-title: Status of Black rockfish (Sebastes melanops) off Oregon and federal waters in 2023
+title: Status of Black Rockfish (_Sebastes melanops_) off Oregon and federal waters in 2023
 ---
 
 <!--chapter:end:00title.Rmd-->
@@ -93,74 +93,44 @@ Because of their nearshore distribution and low abundance compared to other rock
 
 ## Data and assessment{-}
 
-The last stock assessments for black rockfish were conducted in 2007 for areas north and south of Cape Falcon (45\textdegree46' North latitude). The current assessments assume three areas instead of two, delineated by the state lines as was agreed upon at a pre-assessment and data workshop in March 2015. The prior assessments used Stock Synthesis 2, while the current assessments use Stock Synthesis 3. The Washington base assessment includes a dockside and tag-based CPUE series, but does not include the abundance estimate time series from that same tagging study which was included in the last assessment due to too many violations in the assumptions of abundance estimation. The same two commercial and single recreational fleets are used as in the last assessment for Washington. The Oregon assessment has three commercial fleets and two recreational fleets, while using five surveys and an additional research study for biological compositions. California also has three commercial fleets and 1 recreational fleet with three surveys of abundance, all based on recreational fisheries. All area models include age data as conditional age at lengths. Length compositions are also included in all models.
+The last stock assessments for black rockfish were conducted in 2007 for areas north and south of Cape Falcon (45\textdegree46' North latitude). The current assessments assume three areas instead of two, delineated by the state lines as was agreed upon at a pre-assessment and data workshop in March 2015. The prior assessments used Stock Synthesis 2, while the current assessments use Stock Synthesis 
 
-This assessment uses the stock assessment framework
-Stock Synthesis 
-
-(SS3).
-
-Replace text with
-date of last assessment,
-type of assessment model,
-data available,
-new information, and
-information lacking.
+. The Washington base assessment includes a dockside and tag-based CPUE series, but does not include the abundance estimate time series from that same tagging study which was included in the last assessment due to too many violations in the assumptions of abundance estimation. The same two commercial and single recreational fleets are used as in the last assessment for Washington. The Oregon assessment has three commercial fleets and two recreational fleets, while using five surveys and an additional research study for biological compositions. California also has three commercial fleets and 1 recreational fleet with three surveys of abundance, all based on recreational fisheries. All area models include age data as conditional age at lengths. Length compositions are also included in all models.
 
 ## Stock biomass and dynamics{-}
 
-Replace text with
-trends and current levels relative to virgin or historic levels and
-description of uncertainty.
-Include Table for last 10 years.
-Include Figure with long-term estimates.
+Spawning stock outputs are all at or above limit reference points (Table ES-2. Only California shows declines significantly below this reference point at any point in the time series. California and Washington stocks show a declining population through most of the 20th Century, with stronger declines in the 1980s, and recoveries beginning in the mid-1990s. Oregon stocks follow this pattern, but with a decline in the most recent period. California (33%) is below the target biomass reference point with an increasing biomass trend (Figures ES-4 and ES-5).  The Oregon stock dropped after the quick ramp up of catches in the late 1970s and continued a steady decline until around year 2000, settling in at a stock status around 60% of initial conditions. The Washington stock, currently 43%, dropped below the target biomass by in the early 1980s, then risen above since the late 1990s and has fluctuated above that point through 2014 (Figures ES-8 and ES-9).
 
 ## Recruitment{-}
 
-Replace text with
-trends and current levels relative to virgin or historic levels and
-description of uncertainty.
-Include Table for last 10 years.
-Include Figure with long-term estimates.
+The California model shows a few extraordinarily high recruitment events that are supported by the length composition data, index data and on-the-water reports (Table ES-3; Figure ES-10).  Oregon recruitment is highly uncertain (Table ES-3; Figure ES11).  Washington recruitment is dynamic, but also shows the most informed recruitment time series, which is consistent with the extent of length and age compositions available to that assessment (Table ES-3; Figure ES12). Both California and Washington support elevated recruitment in the late 2000s.
 
 ## Exploitation status{-}
 
-Replace text with
-total catch divided by exploitable biomass or SPR harvest rate.
-Include Table for last 10 years.
-Include Figure with trend in f relative to target vs. trend in biomass relative to the target.
+California and Washington models indicate that current fishing practices are near or above the SPR rate fishing intensity target, while the Oregon model is quite a bit above the target (table ES-4, compare to SPR=0.5; Figure ES-13 to Figure ES-18), though the steepness value (0.773) indicates a much lower value of SPR for sustainable removals. Fishing rates have been above the target in California in nearly all years since the 1980s, but have dropped considerably in recent years. Oregon fishing rates have been consistently high in recent years.  Washington shows a dramatic decline in fishing intensity since the late 1990s and has fluctuated mostly below the target since. 
 
 ## Ecosystem considerations{-}
 
-Replace text with
-a summary of reviewed environmental and ecosystem factors that appear to be correlated with stock dynamics.
-These may include variability in they physical environment, habitat, competitors, prey, or predators that directly or indirectly affects the stock's status, vital rates (growth, survival, productivity/recruitment) or range and distribution.
-Note which, if any, ecosystem factors are used in the assessment and how (e.g., as background information, in data preparations, as data inputs, in decisions about model structure).
+Ecosystem considerations were not explicitly included in these models, though growth deviations were considered in the Washington model. While no mechanisms have been put forth for these time-varying changes in growth, an environmental component is possible. Limited data in Oregon and California also suggest the possibility that growth has changed over time.
 
 ## Reference points{-}
 
-Replace text with
-management targets and definition of overfishing, including the harvest rate that brings the stock to equilibrium at $B_{40\%}$, i.e., the $B_{MSY}$ proxy and the equilibrium stock size that results from fishing at the default harvest rate, i.e., the $F_{MSY}$ proxy.
-Include Table of estimated reference points for ssb, SPR, exploitation rate, and yield based on SSB proxy for MSY, SPR proxy for MSY, and estimated MSY values.
+Reference points were based on the rockfish FMSY proxy (SPR50%), target relative biomass (40%) and model-estimated selectivity for each fleet. California is below the target biomass reference point, but above the limit reference biomass (25%). Oregon is well above the target biomass.  Washington relative biomass is above the target biomass. California and Washington yield values are lower than the previous assessment for similar reference points due to lower overall natural mortality values (Table ES-5). The proxy MSY values of management quantities are the most conservative compared to the estimated MSY and MSY relative to 40% biomass for both California and Washington (Table ES-5). The equilibrium estimates of yield relative to biomass are provided in Figure ES-19 to Figure ES-21.
 
 ## Management performance{-}
 
-Include Table of most recent 10 years of
-catches in comparison with OFL, ABC, HG, and OY/ACL values,
-overfishing levels,
-actual catch and discard.
-Include OFL (encountered), OFL (retained), and OFL (dead) if different due to discard and discard mortality.
+Removals have been below the equivalent ABC-ACL since the prior assessment (Table ES-6), but those specified ABCs from the 2007 assessments are higher than those coming from the current assessment models. Removals over the last few years have or may have exceeded the newly estimated ABC-ACL values in some years. The differences in the treatment of natural mortality between the previous and current assessments are the biggest reason for this discrepancy.
 
 ## Unresolved problems and major uncertainties{-}
 
-Replace text with
-any special issues that complicate scientific assessment, questions about the best model scenario, etc.
+The most significant uncertainty for all models is the treatment and value of natural mortality and the form of fleet selectivity (e.g., length-based asymptotic vs. age-based dome-shaped selectivity). Data-driven selection between the extreme “kill” (using a ramping of M) or “hide” hypotheses are not currently resolvable. The current California and Washington base models instead use a form of the “kill” hypothesis by not implementing the age-based selectivity (“hide” hypothesis) and estimating female and male natural mortality, thus avoiding a fixing natural mortality as was necessary in the Oregon model. The Oregon model also contained a step in female natural mortality, a specification not used in the California or Washington models. Another important issue is the highly uncertain historical time-series of removals in all states, which needs further consideration. The development of fishery-dependent indices of abundance still requires further attention. Steepness, while fixed, is still highly uncertain for rockfishes and currently is mismatched to the MSY proxy. And while the steepness profile shows low sensitivity in several derived quantities, steepness strongly defines the yield capacity of stocks, and therefore could cause major uncertainty in the recommended management quantities. Stock structure and its relationship to the current political/management boundaries are also not fully understood, both within U.S. jurisdiction and between the U.S. and Canada. While this is a common challenge faced in most west coast stock assessments, further improvement on this topic will likely rely on black rockfish-specific data.
 
 ## Decision table and projections{-}
 
-Replace text with
-projected yields (OFL, ABC, and ACL), spawning biomass, and stock depletion levels for each year.
-OFL calculations should be based on the assumption that future catches equal ABCs and not OFLs.
+Black rockfish assessments for California and Washington have a preliminary distinction as category 1 stock assessments, thus harvest projections and decision tables are based on using P*=0.45 and sigma = 0.36, resulting in a multiplier on the OFL of 0.956. The Oregon black rockfish assessment is a category 2 assessment, with a P*=0.45 and sigma = 0.72 with a multiplier of 0.913 applied to the OFL.  These multipliers are also combined with the rockfish MSY proxy of FSPR=50% MSY and the 40-10 harvest control rule to calculate OFLs, ABCs and ACLs. Projections for each state are provided in Table ES-7 to Table ES-9. 
+
+Uncertainty in management quantities for the base model of each state was characterized by exploring various model specifications in a decision table. Initial exploration included natural mortality and steepness values, and uncertainty in historical trawl catches for the WA and CA models. OR explored the scale factor coming from the value of the tagging catchability (Q) parameter, as well as M values. For the CA and WA models, there was very little sensitivity to steepness and trawl catches, but natural mortality produced sensitive results of predicted population scale and status. Discussion with the STAR panel resulted in high and low states of nature +/- 0.03 from the base case natural mortality values for females and males. High and low catch streams (rows) were determined by the forecasts, as described above, for each state of nature. Thus the low catch stream is based on the forecast from the low state of nature. The OR model demonstrated little sensitivity to M, but high sensitivity to the tagging survey Q. High and low states of nature, respectively, were based on a fixed tag of Q = 0.125 and Q estimated by the model. Resultant decision tables are provided in Table ES-10 to Table ES-12.
+
 
 ## Scientific uncertainty{-}
 
@@ -169,8 +139,16 @@ the sigma value and the basis for its calculation.
 
 ## Research and data needs{-}
 
-Replace text with
-information gaps that seriously impede the stock assessment.
+Recommended avenues for research to help improve future black rockfish stock assessments:
+
+1. Further investigation into the movement and behavior of older (> age 10) females to reconcile their absence in fisheries data. If the females are currently inaccessible to fishing gear, can we find where they are?
+2. Appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each.
+3. All states need improved historical catch reconstructions. The trawl fishery catches in particular require particular attention. Given the huge historical removals of that fleet in each state, the assessment is very sensitive to the assumed functional form of selectivity. A synoptic catch reconstruction is recommended, where states work together to resolve cross-state catch issues as well as standardize the approach to catch recommendations.
+4. Identifying stanzas or periods of uncertainty in the historical catch series will aid in the exploration of catch uncertainty in future assessment sensitivity runs. 
+5. The ODFW tagging study off Newport should be continued and expanded to other areas.  To provide better prior information on the spatial distribution of the black rockfish stock, further work should be conducted to map the extent of black rockfish habitat and the densities of black rockfish residing there.
+6. An independent nearshore survey should be supported in all states to avoid the reliance on fishery-based CPUE indices.
+7. Stock structure for black rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.
+
 
 <!--chapter:end:01executive.Rmd-->
 

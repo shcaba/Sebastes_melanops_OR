@@ -56,7 +56,7 @@ bibliography:
 <!--chapter:end:00bibliography.Rmd-->
 
 ---
-title: Status of Black rockfish (Sebastes melanops) off Oregon and federal waters in 2023
+title: Status of Black Rockfish (_Sebastes melanops_) off Oregon and federal waters in 2023
 ---
 
 <!--chapter:end:00title.Rmd-->
@@ -93,8 +93,9 @@ Because of their nearshore distribution and low abundance compared to other rock
 
 ## Data and assessment{-}
 
-The last stock assessments for black rockfish were conducted in 2007 for areas north and south of Cape Falcon (45\textdegree46' North latitude). The current assessments assume three areas instead of two, delineated by the state lines as was agreed upon at a pre-assessment and data workshop in March 2015. The prior assessments used Stock Synthesis 2, while the current assessments use Stock Synthesis 3. The Washington base assessment includes a dockside and tag-based CPUE series, but does not include the abundance estimate time series from that same tagging study which was included in the last assessment due to too many violations in the assumptions of abundance estimation. The same two commercial and single recreational fleets are used as in the last assessment for Washington. The Oregon assessment has three commercial fleets and two recreational fleets, while using five surveys and an additional research study for biological compositions. California also has three commercial fleets and 1 recreational fleet with three surveys of abundance, all based on recreational fisheries. All area models include age data as conditional age at lengths. Length compositions are also included in all models.
+The last stock assessments for black rockfish were conducted in 2007 for areas north and south of Cape Falcon (45\textdegree46' North latitude). The current assessments assume three areas instead of two, delineated by the state lines as was agreed upon at a pre-assessment and data workshop in March 2015. The prior assessments used Stock Synthesis 2, while the current assessments use Stock Synthesis 
 
+<<<<<<< HEAD
 This assessment uses the stock assessment framework
 Stock Synthesis 
 
@@ -451,4 +452,6 @@ Here are all the mad props!
 ![Summary of data sources used in the base model.\label{fig:data-plot}](data-plot.png){width=100% height=100% alt="Summary of data sources used in the base model"}
 
 <!--chapter:end:53figures.Rmd-->
+=======
+>>>>>>> e247732d805a333c30dac0d8cf2a475191a0e1e0
 

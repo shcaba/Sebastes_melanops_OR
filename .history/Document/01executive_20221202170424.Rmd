@@ -9,7 +9,8 @@ executive[["stock"]] <- paste0("This assessment reports the status of ",
 
 ## Stock{-}
 
-The assessments described in this document apply to the black rockfish (*Sebastes melanops*) stocks that reside in the waters from Point Conception (34\textdegree27' N latitude) in the south to the U.S. boundary with Canada (approximately 48\textdegree30' N latitude).  Following the consensus recommendations from a preliminary stock assessment workshop in April 2015 (PFMC 2015), the stock assessment team (STAT) decided to prepare separate geographic stock assessments that are spatially stratified with boundaries at the CA/OR border (42\textdegree00' N latitude) and OR/WA border (46\textdegree16' N latitude).  
+`r executive[["stock"]]`
+The assessments described in this document apply to the black rockfish (Sebastes melanops) stocks that reside in the waters from Point Conception (34\textdegree27' N latitude) in the south to the U.S. boundary with Canada (approximately 48\textdegree30' N latitude).  Following the consensus recommendations from a preliminary stock assessment workshop in April 2015 (PFMC 2015), the stock assessment team (STAT) decided to prepare separate geographic stock assessments that are spatially stratified with boundaries at the CA/OR border (42\textdegree00' N latitude) and OR/WA border (46\textdegree16' N latitude).  
 
 Black rockfish are also caught from the waters off British Columbia and Alaska, but there have not been any formal assessments of stock status for those areas.
 
@@ -68,7 +69,7 @@ Uncertainty in management quantities for the base model of each state was charac
 
 ## Scientific uncertainty{-}
 
-#The model-estimated uncertainty around the `r endyr+1` spawning biomass was $\sigma$ = `r round(model$Pstar_sigma,2)` and the #uncertainty around the OFL was $\sigma$ = `r round(model$OFL_sigm, 2)`. This is likely an underestimate of overall uncertainty #because of the necessity to fix some parameters such as steepness, as well as a lack of explicit incorporation of model structural #uncertainty.
+The model-estimated uncertainty around the `r endyr+1` spawning biomass was $\sigma$ = `r round(model$Pstar_sigma,2)` and the uncertainty around the OFL was $\sigma$ = `r round(model$OFL_sigm, 2)`. This is likely an underestimate of overall uncertainty because of the necessity to fix some parameters such as steepness, as well as a lack of explicit incorporation of model structural uncertainty.
 
 ## Research and data needs{-}
 

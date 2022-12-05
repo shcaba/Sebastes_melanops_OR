@@ -1,3 +1,7 @@
 ---
+<<<<<<< HEAD
 title: Status of Black rockfish (*Sebastes melanops*) off Oregon and federal waters in 2023
+=======
+title: Status of Black Rockfish (_Sebastes melanops_) off Oregon and federal waters in 2023
+>>>>>>> e247732d805a333c30dac0d8cf2a475191a0e1e0
 ---
