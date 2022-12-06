@@ -1,3 +1,4 @@
+
 #detach("package:sa4ss", unload = TRUE)
 #remotes::install_github("nwfsc-assess/sa4ss")
 #devtools::load_all("C:/Users/Chantel.Wetzel/Documents/GitHub/r4ss")
@@ -6,9 +7,6 @@
 
 # Specify the directory for the document
 setwd("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document")
-
-setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document")
-setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/temp")
 
 # Create the needed items to generate the "right" template that would be based on the inputs here:
  sa4ss::draft(authors = c("Jason M. Cope", "Alison D. Whitman"),
@@ -31,18 +29,13 @@ setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/temp")
  mod_loc = file.path(
    "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models",
    base_name)
-
-base_name = "Reference model"
-mod_loc = file.path(
-   "C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document/models",
-   base_name)
-
+ 
 sa4ss::read_model(
   mod_loc = mod_loc,
   create_plots = FALSE, 
   html = FALSE,
   save_loc = file.path(getwd(), "tex_tables"),
-  )
+  covar=FALSE)
 
 ###########################################################################
 # Create tex files from the executive summary tables

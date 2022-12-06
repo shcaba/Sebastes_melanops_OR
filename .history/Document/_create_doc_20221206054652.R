@@ -7,9 +7,6 @@
 # Specify the directory for the document
 setwd("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document")
 
-setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document")
-setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/temp")
-
 # Create the needed items to generate the "right" template that would be based on the inputs here:
  sa4ss::draft(authors = c("Jason M. Cope", "Alison D. Whitman"),
    			 species = "Black rockfish",
@@ -31,12 +28,7 @@ setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/temp")
  mod_loc = file.path(
    "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models",
    base_name)
-
-base_name = "Reference model"
-mod_loc = file.path(
-   "C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document/models",
-   base_name)
-
+ 
 sa4ss::read_model(
   mod_loc = mod_loc,
   create_plots = FALSE, 

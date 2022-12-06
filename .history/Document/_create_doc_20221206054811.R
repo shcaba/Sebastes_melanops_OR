@@ -8,7 +8,6 @@
 setwd("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document")
 
 setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document")
-setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/temp")
 
 # Create the needed items to generate the "right" template that would be based on the inputs here:
  sa4ss::draft(authors = c("Jason M. Cope", "Alison D. Whitman"),
