@@ -1,0 +1,6 @@
+# Data and Model Inputs
+A description of each data source is provided below (Figure \ref{fig:data-plot}).
+
+The following sections detail each data set and its preparation for each assessment model.
+
+Comparisons of the total removals in each fishery for the current and previous assessments are in Figure 20 (CA), Figure 81 (OR), and Figure 179 (WA).
