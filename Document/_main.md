@@ -49,7 +49,6 @@ address:
 
 ---
 bibliography:
-  - sa4ss.bib
   - jmcbf2023.bib
 ---
 
@@ -173,24 +172,24 @@ _**These materials do not constitute a formal publication and are for informatio
 
 # Introduction
 ## Basic Information
-Black Rockfish (*Sebastes melanops*) are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California (Love et al. 2002).  
+Black Rockfish (*Sebastes melanops*) are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California [@love_rockfishes_2002].  
 
-A previous assessment of Black Rockfish off Oregon and California (Ralston and Dick 2003) reviewed the evidence supporting genetic stock structure for Black Rockfish and other rockfish off the U.S. West Coast and concluded that the Oregon and California populations of Black Rockfish are probably not genetically heterogeneous.  That assessment treated the Black Rockfish off California and Oregon as a unit stock.  Previous assessments of Black Rockfish off Washington (Wallace et al. 1999, 2007) describe a study of coastal Black Rockfish genetic structure using 10 sampled sites collected from northern California to southern British Columbia t 1995-97.  Results of that study support the notion of separate genetic stocks north and south of Cape Falcon.  However, a later study (Baker 1999) of Black Rockfish collected from eight sites along the northern Oregon coast concluded that Black Rockfish from north and south of Cape Falcon were genetically very similar.
+A previous assessment of Black Rockfish off Oregon and California [@ralston_status_2003] reviewed the evidence supporting genetic stock structure for Black Rockfish and other rockfish off the U.S. West Coast and concluded that the Oregon and California populations of Black Rockfish are probably not genetically heterogeneous.  That assessment treated the Black Rockfish off California and Oregon as a unit stock.  Previous assessments of Black Rockfish off Washington [@wallace_status_1999; @wallace_status_2007] describe a study of coastal Black Rockfish genetic structure using 10 sampled sites collected from northern California to southern British Columbia t 1995-97.  Results of that study support the notion of separate genetic stocks north and south of Cape Falcon.  However, a later study [@baker_genetic_1999] of Black Rockfish collected from eight sites along the northern Oregon coast concluded that Black Rockfish from north and south of Cape Falcon were genetically very similar.
 
-Although a stock boundary line at the Columbia River seems reasonable for Black Rockfish, both because it is a state fishery management boundary and because the Columbia River plume is likely to be a natural barrier to the north-south exchange of Black Rockfish adults and larvae, the 2007 assessment of Black Rockfish off Oregon and California (Sampson 2007) differed slightly from Ralston and Dick (2003) in placing the northern boundary at Cape Falcon rather than at the Columbia River.  The boundary was changed to avoid overlap with the separate northern assessment (Wallace et al. 2007) and to simplify the process of assembling historical commercial landings data, which are largely available in terms of Pacific Marine Fisheries Commission (PMFC) statistical areas.  The northern boundary of PMFC Area 2C is at Cape Falcon (Figure 1).  Given the spatial resolution of the historical commercial fishery data, it is very problematic to estimate the catch of Black Rockfish taken north of Cape Falcon but south of the Columbia River.
+Although a stock boundary line at the Columbia River seems reasonable for Black Rockfish, both because it is a state fishery management boundary and because the Columbia River plume is likely to be a natural barrier to the north-south exchange of Black Rockfish adults and larvae, the 2007 assessment of Black Rockfish off Oregon and California [@sampson_status_2007] differed slightly from Ralston and Dick [-@ralston_status_2003] in placing the northern boundary at Cape Falcon rather than at the Columbia River.  The boundary was changed to avoid overlap with the separate northern assessment [@wallace_status_2007] and to simplify the process of assembling historical commercial landings data, which are largely available in terms of Pacific Marine Fisheries Commission (PMFC) statistical areas.  The northern boundary of PMFC Area 2C is at Cape Falcon (Figure 1).  Given the spatial resolution of the historical commercial fishery data, it is very problematic to estimate the catch of Black Rockfish taken north of Cape Falcon but south of the Columbia River.
 
-During a preliminary workshop in April 2015 (PFMC 2015), to discuss approaches for assessing Black Rockfish, China rockfish (*S. nebulosus*), and kelp greenling (*Hexagrammos decagrammus*), it was agreed that the assessments for these nearshore species should at a minimum be spatially stratified with boundaries at the CA/OR border (42\textdegree00' N latitude) and the OR/WA border (46\textdegree16' N latitude).  Such a spatial stratification would be consistent with two ideas: (a) these nearshore species do not exhibit much adult movement and (b) exploitation and management histories have varied significantly among the three states.  Together these features would likely create appreciable state-to-state differences in age composition for each of the three species.  Stock assessment teams were advised that they could use geographic strata that were finer than the state level if there were data to support such an approach (Figure 1).
+During a preliminary workshop in April 2015 [@pfmc_safe_2015], to discuss approaches for assessing Black Rockfish, China rockfish (*S. nebulosus*), and kelp greenling (*Hexagrammos decagrammus*), it was agreed that the assessments for these nearshore species should at a minimum be spatially stratified with boundaries at the CA/OR border (42\textdegree00' N latitude) and the OR/WA border (46\textdegree16' N latitude).  Such a spatial stratification would be consistent with two ideas: (a) these nearshore species do not exhibit much adult movement and (b) exploitation and management histories have varied significantly among the three states.  Together these features would likely create appreciable state-to-state differences in age composition for each of the three species.  Stock assessment teams were advised that they could use geographic strata that were finer than the state level if there were data to support such an approach (Figure 1).
 
 At the same nearshore stock assessment workshop, it was agreed that recreational catch histories for the stocks of Black Rockfish should be assembled on the basis of port of landing rather than location of fish capture, even though fishing vessels landing their catches into a port in one state might have captured fish in waters off a neighboring state.
 
 Accounting for location of capture is very problematic for recreationally caught fish and for commercial catches taken with non-trawl types of gear (e.g., hook-and-line), for which there are no or very limited logbooks that report fishing location.  For these regional assessments the commercially caught Black Rockfish were apportioned to assessment region based on the port of landing, with the exception of trawl caught fish landed into Astoria, OR.  Most of these fish were assumed to have been caught off Washington and most of the trawl landings into Astoria were therefore included with the catch history for the Washington assessment region.  Details are provided below in Section 2.1.1.1 The PacFIN Era (1981 to 2014).
 
 ## Life History
-Adults tend to occur in schools over rocky structure at depths less than 40 fathoms, and sometimes feed actively on or near the surface.  They feed on a wide variety of prey including zooplankton, krill, mysids, sand lance, and juvenile rockfish (Love 1969), and are subject to predation by lingcod and marine mammals. 
+Adults tend to occur in schools over rocky structure at depths less than 40 fathoms, and sometimes feed actively on or near the surface.  They feed on a wide variety of prey including zooplankton, krill, mysids, sand lance, and juvenile rockfish, and are subject to predation by lingcod and marine mammals [@love_rockfishes_2002]. 
 
-Although tagging studies have documented some individuals moving long distances (several hundreds of miles), the vast majority of recaptured individuals were found close to the areas of initial capture and tagging (Culver 1987; Ayres 1988; Starr and Green 2007; Wallace et al. 2010).  Results from a 2004-05 study off Newport, OR of 42 Black Rockfish implanted with acoustic tags indicated that all but seven fish remained within range of a 3 x 5 km array of acoustic receivers during one full year of monitoring and had relatively small home ranges that did not vary seasonally (Parker et al. 2007).  Green and Starr (2011) report similar findings from a study in Carmel Bay, CA of 23 acoustically tagged Black Rockfish. The extensive Washington state tagging study also supported low movements for most individuals, with some exceptional movements recorded (Wallace et al. 2010).
+Although tagging studies have documented some individuals moving long distances (several hundreds of miles), the vast majority of recaptured individuals were found close to the areas of initial capture and tagging [@culver_1987;@ayres_tag_1988;@wallace_tag_2010;@starr_green_2007].  Results from a 2004-05 study off Newport, OR of 42 Black Rockfish implanted with acoustic tags indicated that all but seven fish remained within range of a 3 x 5 km array of acoustic receivers during one full year of monitoring and had relatively small home ranges that did not vary seasonally (Parker et al. 2007).  Green and Starr [-@green_starr_2007] report similar findings from a study in Carmel Bay, CA of 23 acoustically tagged Black Rockfish. The extensive Washington state tagging study also supported low movements for most individuals, with some exceptional movements recorded [@wallace_tag_2010].
 
-Like all members of the genus Sebastes, Black Rockfish have internal fertilization and bear live young approximately two months after insemination. Black Rockfish are quite fecund, with a six-year-old female annually producing about 300,000 embryos and a 16-year-old producing about 950,000 embryos (Bobko and Berkeley 2004).  Recent studies have demonstrated that the relative number and quality of larvae increase with age in female Black Rockfish (Berkeley et al. 2004; Hixon et al. 2014). Parturition of larvae occurs during winter (Wyllie-Echeverria 1987) and larvae and small juveniles are pelagic for several months to a year (Boehlert and Yoklavich 1983).  Settlement occurs in estuaries, tide-pools, and in the nearshore at depths less than 20 m (Stein and Hassler 1989).  
+Like all members of the genus Sebastes, Black Rockfish have internal fertilization and bear live young approximately two months after insemination. Black Rockfish are quite fecund, with a six-year-old female annually producing about 300,000 embryos and a 16-year-old producing about 950,000 embryos [@bobko_berkeley_2004].  Recent studies have demonstrated that the relative number and quality of larvae increase with age in female Black Rockfish [@berkeley_etal_2004; @hixon_etal_1987]. Parturition of larvae occurs during winter [@wyllie_echeverria_1987] and larvae and small juveniles are pelagic for several months to a year [@boehlert_yoklavich_1983].  Settlement occurs in estuaries, tide-pools, and in the nearshore at depths less than 20 m [@stein_hassler_1989].  
 
 Black Rockfish begin recruiting to nearshore fisheries at 3-4 years of age, corresponding to a fork length of about 25-30 cm, and 50% of females attain maturity at about 6-8 years, corresponding to a fork length of about 38-42 cm.  Adult female Black Rockfish grow 3-5 cm larger than males, with a few females attaining fork lengths greater than 55 cm.
 
@@ -202,13 +201,13 @@ Black Rockfish are harvested by a wide variety of fishing methods including traw
 
 Black Rockfish are also an important component of the recreational fisheries in northern California but are of less significance south of Cape Mendocino due to their reduced prevalence compared to other species. Since 1990 annual recreational harvests of Black Rockfish have averaged 229.6 tons off California, 304.4 tons off Oregon, and 272.5 tons off Washington. Commercial annual harvests by non-trawl gear types during the same period averaged 44.6 tons in California, 62.0 tons in Oregon, and 14.7 tons in Washington. Harvests by trawl on average during this period have been less than 19.3 tons annually for all three states combined.
 
-Removal histories have been a significant axis of uncertainty in the past assessments of Black Rockfish.  Because of concerns about the effects of initial equilibrium assumptions on the level of depletion estimated in the preliminary base model, the 2003 Stock Assessment Review (STAR) panel worked with the Stock Assessment Team (STAT) to develop a catch history that avoided the need to assume historical catch and equilibrium conditions in the first year of the assessment.  The assumed catch reconstruction began in 1946, ramping up from zero in 1945 and all prior years.  In hindsight, this may not have been a good assumption, as indicated by the following text from Cleaver (1951) that describes catches of rockfish from 1941 to 1949 in Oregon.
+Removal histories have been a significant axis of uncertainty in the past assessments of Black Rockfish.  Because of concerns about the effects of initial equilibrium assumptions on the level of depletion estimated in the preliminary base model, the 2003 Stock Assessment Review (STAR) panel worked with the Stock Assessment Team (STAT) to develop a catch history that avoided the need to assume historical catch and equilibrium conditions in the first year of the assessment.  The assumed catch reconstruction began in 1946, ramping up from zero in 1945 and all prior years.  In hindsight, this may not have been a good assumption, as indicated by the following text from [@cleaver_1951] that describes catches of rockfish from 1941 to 1949 in Oregon.
 
 "The rockfish are caught by otter trawl and long-line gear.  The principal species caught by the otter trawl are the Black Rockfish (*Sebastodes melanops*); green or yellowtail rockfish (*S. flavidus*); red or orange rockfish (*S. pinniger*); and rosefish (*S. alutus*). The landings of rockfish (all species) rose rapidly during the war from 1,301,400 pounds in 1941 to a peak of over 17,000,000 in 1945. Subsequently the landings fell rapidly because of decreased demand and leveled off at about 4,000,000 per year in 1949.
 
-Cleaver also states, in an introductory section on Bottom Fisheries, that the "otter trawl fishery accounts for at least 95 percent by weight of the bottom fish landings."
+Cleaver [-@cleaver_1951] also states, in an introductory section on Bottom Fisheries, that the "otter trawl fishery accounts for at least 95 percent by weight of the bottom fish landings."
 
-That Black Rockfish is one of only four species that Cleaver identifies as composing the large landings of rockfish in Oregon (most of which was actually taken off of Washington waters) during WWII suggests that Black Rockfish were not a trivial fraction of the large catches taken during the 1940s.  One might also suppose that the otter trawl fishery took a large portion of the landings of Black Rockfish.  Cleaver's statements are certainly at odds with the catch reconstruction developed in the previous assessments.
+That Black Rockfish is one of only four species that Cleaver [-@cleaver_1951] identifies as composing the large landings of rockfish in Oregon (most of which was actually taken off of Washington waters) during WWII suggests that Black Rockfish were not a trivial fraction of the large catches taken during the 1940s.  One might also suppose that the otter trawl fishery took a large portion of the landings of Black Rockfish.  Cleaver's statements are certainly at odds with the catch reconstruction developed in the previous assessments.
 
 It seems that Black Rockfish were also landed in appreciable quantities in California during the 1940s.  Black Rockfish was identified by scientific name as one of the "half-dozen of the larger and more abundant species [that] make up over half of the annual California commercial poundage landed" (Anon. 1949).
 
@@ -246,7 +245,7 @@ In all years when there has been an OY specified for Black Rockfish the estimate
 ## Canadian and Alaska fisheries
 Black Rockfish is a "Non-Quota" species in the Department of Fisheries and Oceans Management Plan, and is not formally assessed in nearshore Canada waters (DFO, 2014).
 
-Stock assessments are not conducted for Black Rockfish stocks in Southeast Alaska or Central Alaska, and there is no concern for these stocks at this time, because the directed fisheries for Black Rockfish and pelagic shelf rockfish in these areas are small with reduced fishing effort in recent years. In the Westward region (Kodiak area) directed fisheries for Black Rockfish have been conservatively managed in the past, and a stock assessment program in this region is being developed based on acoustic techniques as an index of abundance with a goal of incorporating these data into an age-structured model in the future (Alaska Department of Fish and Wildlife, 2015).
+Add Alaska assessment text here.
 
 <!--chapter:end:11introduction.Rmd-->
 
@@ -297,10 +296,11 @@ Staff from ODFW recommended using an alternative reconstruction of historic land
 
 
 ##### Washington Commercial Fishery Landings: 1940 to 2014
+
 Commercial fishery landings of black rockfish in Washington are compiled from a variety of sources including PacFIN, agency reports, historical fish ticket information and communication with agency personnel (Table 48).  Since 1935, commercial fishing vessels have been required to submit a fish receiving ticket ("fish ticket") for each landing.  Rockfish landings from domestic fishers are usually reported in mixed-species market categories, and are routinely sampled for species composition by port samplers.  The information required on the ticket and sampling methods have changed through time. Due to these changes, we separated the data into three time periods 1935-1969, 1970-1980, and 1981-present based on the level of detail available in the data for compiling landing history in Washington for this assessment.
 
 
-###### 1935 to 1969
+##### Years 1935 to 1969
 
 Although the original paper fish tickets are no longer available for this period, WDFW recently digitized the daily aggregated data from printed reports, to assist in reconstructing the commercial groundfish fishery landings history for Washington.  These daily aggregated data reports contain summaries of daily catches for port-groups by gear and area fished.  The data are available for 1935 and for 1949-1969, and were used as the basis for the black rockfish catch reconstruction for this time period. 
 
@@ -308,7 +308,9 @@ During this period, mixed-species, nominal market categories were typically used
 
 For the commercial jig and troll fisheries, rockfish were landed in the unidentified rockfish (URCK) market category.  No species composition samples are available during this time, so we assumed 85% of URCK landings were S. melanops, which matches the species composition data from the 1985-1989 commercial jig fishery.  These estimates were also supported by interviews with port samplers active during portions of this period.  The rockfish caught by troll gears composed of mostly yellowtail and black rockfishes.  Wright (1967) reported rockfish species composition of the troll landings by port.  We assumed 80% of URCK caught off central Washington were BLCK and 20% for northern Washington landings.  
 
-###### 1970 to 1980
+
+#####  Years 1970 to 1980
+
 Original fish ticket data were used for commercial catch estimate during this period.  Fishing areas were better defined and reported during this period; there were no longer interstate areas due to the introduction of current management areas, with a boundary line at the OR/WA state border.  However, issues with URCK market category remained.  Species composition sampling of URCK were conducted for trawl and jig fisheries but not for salmon troll and the "other gears" gear types. 
 
 To estimate the trawl landings of black rockfish in the category URCK, we applied the current WDFW species composition algorithm by gear, port, and quarter.  If no species composition samples were taken during a quarter, we first borrowed annual composition data for the gear/port group.  If those data were not available, a coastwide annual composition for the particular gear type was applied.  There was no borrowing of composition information across gear groups or years.
@@ -318,7 +320,7 @@ The commercial jig fleet operates in nearshore waters and black rockfish is the 
 Rockfish (URCK) were also landed in small amounts by other commercial fleets, such as fixed gears and salmon troll.  The fleets in the 70s and 80s predominantly targeted sablefish and halibut in waters too deep for black rockfish.  Port samplers did not recall observing any black rockfish in the fixed gear landings (James Beam and Greg Lippert, pers. comm.).  Therefore, we assumed fixed gear landings were negligible.  For URCK landed by the salmon troll fleet, the majority of troll landings was yellowtail rockfish with smaller numbers of widow, canary, and black rockfish (Wendy Beeghley and James Beam, pers. comm.). We assumed that 10% of the troll rockfish landings were black rockfish for 1970-1980.  
 
 
-###### 1981 to the Present (the PacFIN era)
+##### Years 1981 to the Present (the PacFIN era)
 
 Rockfish landings from this period are pulled from the PacFIN table called VDRFD.  Landings in this table are the products of nominal landings, as well as area and species compositions.  For the remaining URCK in this table, we applied a coastwide annual composition for each gear, as described above.  After this step, there are still small amounts of URCK for trawl and setline gears.  These landings are not included in this assessment. 
 
@@ -328,7 +330,8 @@ The URCK market category was used until 2000, after which it was replaced by the
 To assign URCK commercial salmon troll landings, we used the same reasoning assumption as applied to earlier periods (see 1970-1980) to assign 10% of the URCK landed in the salmon troll fishery to black rockfish.  After a complete nearshore closure in 1999, black rockfish landings have been negligible.
 
 
-##### Foreign Fishery Catches of Black Rockfish
+#### Foreign Fishery Catches of Black Rockfish
+
 Rogers (2003) developed catch reconstructions for removals by foreign trawlers operating off the U.S. West Coast during the late 1960s to mid-1970s. Although this study reports that Japanese vessels operating in the Columbia and Eureka statistical areas (Oregon and northern California) caught substantial amounts of black rockfish, with cumulative catches of more than 500 mt over 10 years, it seems very unlikely that foreign vessels could have operated sufficiently close to shore to catch appreciable amounts of black rockfish. This assessment does not include Rogers' estimates of foreign fleet removals of black rockfish. 
 
 
@@ -409,17 +412,23 @@ Fish length measurements, primarily from the recreational fishery, are one of th
 
 A large proportion of the length composition data were from the Marine Recreational Fishery Statistics Survey (MRFSS), which is a federally funded program operating since 1980 that collects information on the marine sport fisheries.  The MRFSS program includes an intercept survey in which sport anglers are interviewed as they return from fishing trips, and where samplers can identify and measure the retained catches.  The MRFSS sampling is intended to cover all forms of marine recreational fishing, including shore-based activities from beaches, jetties, and piers.  In contrast the ORBS program that operates only in Oregon interviews and samples anglers operating from boats.  The MRFSS length data, which are housed in the RecFIN database, generally do not indicate the sex of individual fish that were measured.  Similarly, the length data collected by the ORBS program does not generally indicate gender.  In Oregon, a separate and independent sampling program from ORBS, the Marine Non-Salmonid Recreational Fishery Study (MNSRFS), collects length, age and gender data from recreational anglers operating from boats.  The length and age data collected by the MNSRFS program are the only recreational data used in the assessment where gender is recorded.
 
+
 ### Length and Age Sample Sizes
+
 The level of commercial fishery sampling for black rockfish has been erratic, with almost no samples taken in Oregon until the early 1990s (Figure 80).  In California there was a shift from trawl to non-trawl samples, which in part reflects the growing importance of hook-and-line fishing in the nearshore areas and the development of a live-fish fishery.  Sampling of the recreational fisheries in Oregon and California by the MRFSS program has been reasonably consistent except for the hiatus during 1990-92 when the program was not funded.  The standard MRFSS sampling program stopped in 2003 in Oregon and in 2004 in California, around which time the states assumed larger roles in sampling their recreational fisheries.  This resulted in some loss of continuity in the sampling processes.
 
+
 #### Multinomial Sample Sizes
+
 Initial input values for the multinomial samples sizes determine the relative weights applied in fitting the annual composition data within the set of observations for each fishery.  The initial input values in this assessment were based on the following equation developed by I. Stewart and S. Miller (NWFSC), and presented at the 2006 Stock Assessment Data and Modeling workshop.
 Neff = Ntrips + 0.138 * Nfish if Nfish/Ntrips < 44
 Neff = 7.06 * Ntrips if Nfish/Ntrips ? 44
 
 Tuning of the assessment model involved multiplying the input sample sizes for each fishery by an adjustment factor to achieve a better balance between how well the model fit the set of composition data and how well it should have fit the data given the sample sizes underlying the data.
 
+
 #### Length Compositions
+
 The length data for the assessment model were tabulated into 2-cm length bins ranging from 10 cm to 64 cm, with accumulator bins at each end. 
 
 The length composition data indicate some general differences between the three fishery types, with the trawl fisheries producing the largest fish, the recreational fisheries producing the smallest fish, and the non-trawl fisheries producing fish of intermediate length.  There is little evidence in any of the length composition data of distinct modes or successions of modes from one year to the next that might represent strong year-classes.
@@ -428,11 +437,13 @@ The recreational fishery length composition data from Oregon are generally quite
 
 Sample length composition data from the California sport fishery for 1999 and 2000 were excluded from the assessment model because they had very narrow distributions and were extremely different from adjacent years.  Close examination of the raw data did not indicate any obvious reason for the odd appearance of these length compositions.
 
+
 ##### Oregon Length Compositions
 
 ###### Commercial
 
 The biological data for the commercial fishery were extracted from PacFIN on April 24th, 2015.  These data are from trawl and non-trawl (hook-and-line) dead and live-fish fisheries from ports south of Astoria.  The PacFIN dataset contains records for Oregon landings into Astoria; however, these are believed to have been landed in Washington waters and are used in the Washington model.  Length composition data are reported either in fork length or total length (Table 27).  Fork lengths are preferred; where they are missing the total length is used. These data are expanded to reduce the effect of non-uniform sampling effort. The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value. The data were stratified by gender and fishery (Table 27).  The final sample sizes were stratified and summed by length bin (10 cm to 60 64 cm bins, 2 cm in width), and an effective sample size is computed from the number of trips and number of fish each stratum represents, according to the Stewart and Miller method for multinomial fishery data (See page 56). A small number of unsexed fish were present in the data; as these did not represent a distinct length distribution, they were excluded from the model.
+
 
 ###### Recreational
 
@@ -441,6 +452,7 @@ Recreational length composition samples for Oregon were obtained and considered 
 From 2001 through the present, the state managed ORBS program has collected unsexed groundfish fork length data from recreational boats, primarily from ocean fisheries but with a handful of samples from boats fishing in inland waters.  For this assessment, ORBS length data from 2001-2014 were obtained from ODFW (Table 29). Shore based modes are not sampled by ORBS. A comparison of the ORBS and MRFSS data showed a 2 cm different in average lengths, even though the average lengths by year within each data set change little over time. The reason for this difference is not understood. Given both data sets inform one fishery (the recreational ocean fishery), a block in the selectivity parameters was explored to address this issue, but very similar selectivity values were estimated, so the block was not included in the final base model. Therefore, the effect of this difference is very small in the model, though understanding why it exists (and if it exists in other species) should be looked into further.
 
 From 1978 through the present, ODFW has collected sexed black rockfish length composition data from recreational ocean boat fisheries in conjunction with age structure sampling, independent of both the MRFSS/SEBS and ORBS sampling programs.  These collections have been managed under various programs over the years; the current program is known as Marine Non-Salmonid Recreational Fish Studies (MNSRFS), which has existed in its current form since 2005.  Collections from 1978 were only from the port of Brookings, and from 1979-1989 were only from the port of Garibaldi.  Beginning in 1990, geographic representation improved with sampling occurring in Garibaldi, Newport, and Brookings each year.  Beginning in 1994 the port of Charleston was also sampled each year and in 1999, sampling was expanded to include all ports with significant black rockfish landings, although this has been somewhat sporadic in the relatively minor ports (Table X1).  No sampling was conducted in 2008. Due to concerns about spatial coverage and aging error in the early part of this dataset, samples from 1996 onward are used in the model.  Samples from 1996-1998 are included as a "Legacy" dataset.  Composition data were used as collected (i.e., not expanded). Sample sizes per trip for the Effective N calculation were based on unique combinations of Date, Port, BoatName and ReefNumber, as a rough approximation of a trip (Table 29).
+
 
 ##### Washington Length Compositions
 
@@ -452,12 +464,16 @@ Length composition data are reported either in fork length or total length.  For
 
 The data were stratified by gender and fishery.  The final sample sizes were stratified and summed by length bin (10 cm to 64 cm bins, 2 cm in width), and an effective sample size is computed from the number of trips and number of fish each stratum represents, according to the Stewart and Miller method for multinomial fishery data. Unsexed fish were treated as above, but entered as a separate dataset.
 
+
 ###### Recreational
 
 The Washington Department of Fish and Wildlife biological database provided sampled length data from the recreational fishery for sexed and unsexed samples for years 1979-2014. Sexed samples were the largest sample sizes and covered most years (Table 53). Composition data were used as collected (i.e., not expanded). Effective sample sizes were based on unique "sequence" sizes, which is roughly equivalent to a trip. 
 
+
 ##### Tagging data
+
 The Washington Department of Fish and Wildlife provided sampled length data from the tagging survey for sexed and unsexed samples for years 1981-2014 (Table 54). Unsexed and sexed data were generally available in different years. Like the recreational data, composition data were used as collected (i.e., not expanded) and effective sample sizes were based on unique "sequence" sizes, which is roughly equivalent to a trip. 
+
 
 #### Age Compositions
 
@@ -469,13 +485,16 @@ The age composition data generally do not show much evidence of distinct year-cl
 As for the length comps, the unsexed fish (139 samples) were treated as a separate dataset.  
 Age-at-length compositions were not expanded; the final sample sizes were set to 1 before tallying.  For all three models, the ages were modeled as conditional age-at-length.
 
+
 ##### Washington Age Compositions
 
 Commercial age composition data were a subset of the length data, 7984 records in total, and were expanded in the same manner as the lengths (Table 55).  Ages were stratified by fishery and gender, and binned in 1-year bins from 0 to 45, with additional bins 50 and 55.  As for the length compositions, the unsexed fish (29 samples) were treated as a separate dataset.  Samples were also available by sex for several years in the recreational data (Table 56).
 
 Age-at-length compositions were not expanded; the final sample sizes were the sum of all individual age samples per length bin. For all three models, the ages were modeled as conditional age-at-length.
 
+
 #### Mean weights
+
 
 ##### Oregon
 
@@ -495,10 +514,12 @@ To restrict the sets of ORBS and MRFSS data (respectively) to trips that are lik
 The resulting logistic regression coefficients for each of the other species provide a measure of the likelihood of catching the target species, given that the other species were caught.  Positive coefficients imply a greater likelihood of catching the target species.  Separate analyses were done for the dockside MRFSS and ORBS data, and only data from ocean charter boats were used.  Data from private boats were excluded because it seemed likely that private anglers would have less consistent fishing patterns than charter boat operators, and would therefore provide noisier information. A summary of indices considered in each assessment model and general the influence each has on the base models (i.e., rank) is give in Table 5.
 
 #### Oregon On-board Observer Programs
+
 The onboard observer programs in Oregon collect drift-specific information at each fishing stop on an observed trip.  At each fishing stop recorded information includes start and end times, start and end location (latitude/longitude), start and end depth, number of observed anglers (a subset of the total anglers), and the catch (retained and discarded) by species of the observed anglers.  Data for the onboard observer indices used in these black rockfish assessments for the recreational CPFV fleet are from several sampling programs. 
 
 The ODFW initiated an onboard observer program in 2001, which became a yearly sampling program in 2003 (Monk et al. 2013).  Both California and Oregon provided onboard sampling data through 2014.  Data were analyzed at the drift level and catch was taken to be the sum of observed retained and discarded fish.
 We created separate indices in California for the 1987-1999 and 2000-2014 datasets due to the number of regulation changes occurring throughout the time period (see Appendix A for regulations history).  In 1987, trips were only observed in Monterey, and are therefore excluded from the analysis. 
+
 
 ##### Data Filtering
 
@@ -520,6 +541,7 @@ Trips/drifts from the ODFW, CDFW 1999-2014, and Cal Poly databases meeting the f
 10.	Drifts occurring on a reef with <3 positive encounters of black rockfish.
 11.	Drifts occurring on a reef in which black rockfish was observed in <25% of years the reef was visited.
 
+
 #### Oregon Commercial Fishery Indices
 
 Only one abundance index is available from the Oregon commercial fisheries, one derived from a nearshore logbook CPUE time-series that was not long enough for use in the 2007 assessment.
@@ -539,9 +561,11 @@ CPUE was modeled using a delta-GLM approach, where the catch occurrence (binomia
 
 Model selection procedures identified the covariates Vessel, Port, and People as important for the catch occurrence (binomial) model component and Vessel, Month, Port, Depth, and People for the positive catch model component.  The categorical Year factor of interest was automatically included in each model component.  Extracted, back-transformed and bias corrected estimates of the Year effect from each model component were then combined and used for the abundance illustrated in Figure 86.  A jackknife resampling routine was conducted to estimate the standard error (and CV) of the Year effects.  The relative effects of each covariate are shown in Figure 87 for the catch occurrence component and Figure 88 for the positive catch component.  Standard model diagnostics show adequate fit and general consistency with GLM model assumptions for the positive catch component (Figure 89).
 
+
 #### Oregon Recreational Indices
 
 The four recreational fishery abundance indices available for the Oregon regional assessment are summarized in Table 35 and Figure 95.  The sections below describe the underlying data and derivations of the indices.
+
 
 ##### On-Board Observer CPUE for Oregon, 2001 and 2003 to 2014
 
@@ -549,6 +573,7 @@ The filtered dataset included 10,738 drifts, of which 6,410 (60%) drifts with po
 
 The selected data contained categorical variables for Year (13 levels), Wave (4 levels), two Regions (north and south of Florence), and three depth bins (Depth: 0-19 m, 20-39 m, and 40-59 m).  Model selection via AIC selected a lognormal model with Year, Wave, Depth, Region, Depth:Region, and Year:Region, while a binomial with Year, Depth, Region, and Year:Region.  There was enough data to explore a difference in the CPUE trends between regions.  The region south of Florence comprised 72% of the area where black rockfish were encountered, with the remaining 28% north of Florence.  There is no discernable difference, except for 2001, in the indices between the regions (Figure 90).  The trends between the main effects model and the area-weighted mean model are very similar (Figure 90).
 In the lognormal submodel, stepwise BIC retained the Year, Depth, Region and the Depth:Region interaction, but did not include any interactions with Year. In the binomial model, stepwise BIC retained Year and Depth. The final Year effects are shown in Table 35 and Figure 95.
+
 
 ##### MRFSS Dockside CPUE for Oregon, 1980 to 2000
 
@@ -559,6 +584,7 @@ This cut-off value was chosen to balance the false-positives against the false-n
 The MRFSS dockside standardized CPUE index for Oregon (Figure 95) was developed from the selected subset of the catch and effort data using GLMs, with a binomial model to estimate the probability of catching at least one black rockfish and a gamma model to estimate the magnitude of the positive catches per angler-fishing-hour.  In all cases, the structural models had three main effects for the factors Year, Wave (bimonthly period) and Region (southern versus northern OR), and there were no interaction terms.  
 
 The annual index values were derived as the product of two components: predicted values for the probability of catching a black rockfish during a trip, and predicted values for the number of black rockfish caught by an angler per hour of fishing, given that at least one black rockfish was caught.  This CPUE index for Oregon has a high amount of inter-annual variation, particularly in the early part of the time-series.  The index shows a fairly steady upward trend starting from 1987.
+
 
 ##### ORBS Dockside CPUE for Oregon, 2001 to 2014
 
@@ -610,6 +636,7 @@ Details for the tagging study are available in Buell et al. (2007), which is inc
 
 The method for deriving the estimates of annual abundance and their corresponding standard errors differs slightly from what is described in Appendix E.  The basic approach is to estimate the numbers of fish from the equation Ny= Cy/uy, where Cy is the catch (in numbers of fish) in year_y, Ny is the population abundance at the start of the year, and uy is the exploitation rate.  As described in Appendix E, uy can be estimated from the ratio of the estimated recovery rate ((f_y )?) times Cy divided by the number of fish sampled for marks (csy).  The Cy appearing in the numerator of the equation for Ny cancels with the Cy in the numerator of the equation for (u_y )?, leaving as the following estimator for  (N_y )?=?cs?_y?(u_y )?.  Note that csyis the number of fish checked for marks, which is known without error in this study.  Approximate estimates of variance for the (N_y )? values were derived from the delta method.
 var[(N_y )? ]?[(?cs?_y )^2?((f_y )? )^4 ]*var[(f_y )? ]
+
 
 ###### Spatial Coverage of the Oregon Tagging Study off Newport
 
