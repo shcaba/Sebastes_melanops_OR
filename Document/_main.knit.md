@@ -28,7 +28,12 @@ author:
     first: A
     middle: D
     family: Whitman
-author_list: Cope, J.M., A.D. Whitman
+  - name: Aaron M. Berger
+    code: 1
+    first: A
+    middle: D
+    family: Whitman
+author_list: Cope, J.M., A.D. Whitman, A.M. Berger
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
