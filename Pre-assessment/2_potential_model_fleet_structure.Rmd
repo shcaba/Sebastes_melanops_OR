@@ -1,0 +1,14 @@
+# Potential Model and Fleet Structure
+
+Currently, the following fleet structure is being considered for modeling commercial and recreational fisheries in both area models:
+ 
+1. Commercial Passenger Fishing Vessel (CPFV, recorded as PC mode in RecFIN), 
+2. Private Rental (PR mode in RecFIN),
+3. Commercial Fleet Landing Dead Fish, and 
+4. Commercial Fleet Landing Live Fish. 
+
+Several factors have influenced the pre-preliminary fleet selection. First, there is a differential in size of fish landed live versus dead, particularly north of Point Conception that supports the need for separate selectivity curves. Second, both the CPFV and PR fleets are expected to have corresponding fishery-dependent indices of abundance which requires two separate fleets. Finally, the removals from the recreational shoreside and beach banks for copper rockfish are very small and do not justify a separate fleet. The removals from these recreational modes will be added to the PR fleet to account for total mortality. 
+
+The commercial lengths by year, particularly when divided into two fleets based on the landed fish condition, are limited in recent years for each proposed model area. If there are issues estimating selectivity reliably for all model years, the two commercial fleets may be combined into a single fleet with selectivity estimated by a parameterization that would allow bimodal selectivity (multiple peaks in selectivity at size) using time blocks (e.g., one or more time blocks in recent years when the live fishery developed). 
+
+Finally, each model area will have at least one fishery-independent fleet. The CCFRP survey will be included in the model north of Point Conception and potentially south of Point Conception depending upon the sample sizes. Additionally, south of Point Conception will include the NWFSC Hook and Line survey as a fleet in the model. 

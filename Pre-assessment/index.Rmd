@@ -1,0 +1,73 @@
+
+---
+title: "Pre-assessment data-workshop for copper rockfish off California in 2023"
+author: 
+  - Dr. Melissa Monk, Southwest Fisheries Science Center
+  - Dr. Chantel Wetzel, Northwest Fisheries Science Center
+  - Dr. Julia Coates, California Department of Fish and Wildlife
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+    fig_caption: yes
+  #prettydoc::html_pretty:
+    theme: bootstrap
+    #highlight: tango
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  fig.pos = "!H",
+  out.extra = "",
+  collapse = TRUE,
+  comment = "#>"
+)
+
+library(sa4ss)
+
+dir <- "C:/Assessments/2023/copper_rockfish_2023/docs/data_workshop"
+
+```
+
+# 
+
+
+**_Disclaimer: All data summaries and exploration presented here are preliminary and may not be indicative of the final data that will be incorporated in the 2023 assessment models_**
+
+
+# Overview
+
+Description of data being considered for use in the 2023 stock assessments for copper rockfish in California. Exploratory analysis is provided that have been used to inform modeling choices and treatment of data.
+
+
+```{r child = "1_summary_of_2021_assessment.Rmd"}
+```
+
+
+```{r child = "2_potential_model_fleet_structure.Rmd"}
+```
+
+
+```{r child = "3_removals.Rmd"}
+```
+
+
+```{r child = "4_indices.Rmd"}
+```
+
+
+```{r child = "5_composition_data.Rmd"}
+```
+
+
+```{r child = "6_biology.Rmd"}
+```
+
+
+
+
+

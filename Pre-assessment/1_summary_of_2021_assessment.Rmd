@@ -1,0 +1,29 @@
+# Summary of the 2021 Assessment 
+
+In 2021, copper rockfish in California waters were modeled using two area based models split north and south of Point Conception. The estimated stock status in 2021 was estimated at 18% and 39% of unfished spawning output (millions of eggs) south and north of Point Conception, respectively. 
+
+The final assessment documents can be found online at the Pacific Fisheries Management Council (PFMC) website: [South of Point Conception](https://www.pcouncil.org/documents/2022/01/the-status-of-copper-rockfish-sebastes-caurinus-in-u-s-waters-off-the-coast-of-california-south-of-point-conception-in-2021-using-catch-and-length-data-december-2021.pdf/) and [North of Point Conception](https://www.pcouncil.org/documents/2022/01/the-status-of-copper-rockfish-sebastes-caurinus-in-u-s-waters-off-the-coast-of-california-north-of-point-conception-in-2021-using-catch-and-length-data-december-2021.pdf/)
+
+
+```{r, results = 'asis'}
+add_figure(
+  filein = file.path(dir, "plots", "ca_comprare_compare2_spawnbio_uncertainty.png"), 
+  caption = "Estimates of spawning output (millions of eggs) from each model area in California from the 2021 data-moderate length-based assessments",
+  label = 'ssb-est')
+
+``` 
+
+
+## Unresolved Questions and Issues from the 2021 Assessments
+
+* Growth
+* The length-at-age relationship north of Point Conception was based on data age and length data from Oregon and Washington due to a lack of age data from California fisheries.
+* The length-at-age relationship south of Point Conception was informed by limited ages from the NWFSC hook and line survey. 
+
+* There were additional sources of data that were not included in the 2021 length-based data-moderate assessment that may be used in this year's assessments:
+    * Onboard Commercial Passenger Fishing Vessels (CPFV) length sample data from 1975-1979 (Collins and Crooke), 1987-1998 (Deb Wilson-Vandenberg), and 1986-1989 (Alley and Ono). These data were explored during mop-up and had limited impact on the model results.
+    * California Collaborative Fisheries Research Program (CCFRP) index of abundance and biological samples.
+    * CPFV observer index of abundance.
+    * RecFIN dockside sampling index of abundance.
+    * California Department of Fish and Wildlife (CDFW) remotely operated vehicle (ROV) biomass estimate.
+    * Any age samples from various sources that may support estimation of growth within the model.
