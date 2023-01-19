@@ -1,6 +1,6 @@
 
 ---
-title: "2023 Pre-assessment workshop for black rockfish in off Oregon"
+title: "2023 Pre-assessment workshop for black rockfish in waters off Oregon"
 author: 
   - Jason M. Cope, Northwest Fisheries Science Center
   - Alison Whitman, Oregon Department of Fish and Wildlife
@@ -42,7 +42,7 @@ dir <- "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/docs/Pre_asses
 
 # Overview
 
-Description of data and model specification being considered for use in the 2023 assessments for black rockfish off Oregon. 
+Description of data and model specification being considered for use in the 2023 assessments for black rockfish off Oregon. Exploratory analysis is provided that have been used to inform modeling choices and treatment of data.
 
 
 ```{r child = "1_summary_of_2021_assessment.Rmd"}
