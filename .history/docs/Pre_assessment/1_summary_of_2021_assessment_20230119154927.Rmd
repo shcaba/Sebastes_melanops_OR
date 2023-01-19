@@ -19,10 +19,6 @@ add_figure(
 
 ``` 
 
-# Bridging the assessment model from Stock Synthesis 3.24 to 3.30 
-
-Since several years have passed from the last assessment model, the Stock Synthesis modelling framework has undergone many changes. While the specific changes in the model can be found in the model change log, here we simply update the model from the older 3.24V version to the newer 3.30.20 version. This was first done by migrating the data and parameter specifications from the former files to the newer files. This migration was assisted using the [SS-DL tool](https://github.com/shcaba/SS-DL-tool).
-
 ## Unresolved Questions and Issues from the 2021 Assessments
 
 * Growth

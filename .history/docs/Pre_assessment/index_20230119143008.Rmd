@@ -16,7 +16,11 @@ output:
   #prettydoc::html_pretty:
     theme: bootstrap
     #highlight: tango
-
+    knit: (function(inputFile, encoding) {
+        Sys.setenv(RSTUDIO_PANDOC='/Applications/RStudio.app/Contents/MacOS/quarto/bin');
+        rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), "README.md")) })
 ---
 
 

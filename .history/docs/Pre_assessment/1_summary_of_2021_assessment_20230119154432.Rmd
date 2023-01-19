@@ -1,6 +1,6 @@
 # Summary of the 2021 Assessment 
 
-The last assessment of black rockfish rockfish in waters off of Oregon was conducted in 2015 and estimated stock status for that year at 60.4%, and never showed a decline below the target biomass. This assessment was highly constrained by the choice to treat the catchability of the tagging index as known, thus the uncertainty in the assessment is very low. The complete assessment document can be found [here](https://www.pcouncil.org/documents/2016/03/assessments-of-california-oregon-and-washington-stocks-of-black-rockfish-sebastes-melanops-in-2015-published-03-31-2016.pdf/).
+The last assessment of black rockfish rockfish in waters off of Oregon was conducted in 2015 and estimated stock status for that year at 60.4%, and never showed a decline below the target biomass. This assessment was highly constrained by the choice to put a prior on the tagging data estimate of , thus the uncertainty in the assessment is very low. The complete assessment document can be found [here](https://www.pcouncil.org/documents/2016/03/assessments-of-california-oregon-and-washington-stocks-of-black-rockfish-sebastes-melanops-in-2015-published-03-31-2016.pdf/).
 
 
 ```{r, results = 'asis'}
@@ -18,10 +18,6 @@ add_figure(
   label = 'ssb-est')
 
 ``` 
-
-# Bridging the assessment model from Stock Synthesis 3.24 to 3.30 
-
-Since several years have passed from the last assessment model, the Stock Synthesis modelling framework has undergone many changes. While the specific changes in the model can be found in the model change log, here we simply update the model from the older 3.24V version to the newer 3.30.20 version. This was first done by migrating the data and parameter specifications from the former files to the newer files. This migration was assisted using the [SS-DL tool](https://github.com/shcaba/SS-DL-tool).
 
 ## Unresolved Questions and Issues from the 2021 Assessments
 
