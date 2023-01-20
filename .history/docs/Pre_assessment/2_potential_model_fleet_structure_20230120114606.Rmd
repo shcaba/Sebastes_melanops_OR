@@ -1,0 +1,18 @@
+# Stock Structure
+
+
+# Fleet Structure
+
+Currently, the following fleet structure is being considered for modeling commercial and recreational fisheries in both area models:
+ 
+1. Commercial fixed-gear Fleet (dead and live fisheries combined)
+2. Commercial trawl (mostly a historical fishery)
+3. Recreational boat-based 
+4. Recreational shore-based
+
+Defining fleets is largely based on whether a fishing approach differs in the selectivity (i.e., the capture of fish by length and/or age). Selectivity translates how the removals are taken via length and/or age out of the population. The above four fishery types are distinguished by different fishing activities that result in different selectivities. While in the past the commercial fixed-gear fisheries had been 
+
+
+The commercial lengths by year, particularly when divided into two fleets based on the landed fish condition, are limited in recent years for each proposed model area. If there are issues estimating selectivity reliably for all model years, the two commercial fleets may be combined into a single fleet with selectivity estimated by a parameterization that would allow bimodal selectivity (multiple peaks in selectivity at size) using time blocks (e.g., one or more time blocks in recent years when the live fishery developed). 
+
+Finally, each model area will have at least one fishery-independent fleet. The CCFRP survey will be included in the model north of Point Conception and potentially south of Point Conception depending upon the sample sizes. Additionally, south of Point Conception will include the NWFSC Hook and Line survey as a fleet in the model. 
