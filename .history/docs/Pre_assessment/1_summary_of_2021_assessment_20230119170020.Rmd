@@ -1,0 +1,38 @@
+# Summary of the 2021 Assessment 
+
+The last assessment of black rockfish rockfish in waters off of Oregon was conducted in 2015 and estimated stock status for that year at 60.4%, and never showed a decline below the target biomass. This assessment was highly constrained by the choice to treat the catchability of the tagging index as known, thus the uncertainty in the assessment is very low. The complete assessment document can be found [here](https://www.pcouncil.org/documents/2016/03/assessments-of-california-oregon-and-washington-stocks-of-black-rockfish-sebastes-melanops-in-2015-published-03-31-2016.pdf/).
+
+
+```{r, results = 'asis'}
+add_figure(
+  filein = file.path(dir, "plots", "ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png"), 
+  caption = "Estimates of spawning output (millions of eggs) for black rockfish in waters off of Oregon from the 2015 assessment. Broken lines are 95% confidence intervals",
+  label = 'ssb-est')
+
+``` 
+
+```{r, results = 'asis'}
+add_figure(
+  filein = file.path(dir, "plots", "ts9_Spawning_depletion_with_95_asymptotic_intervals_intervals.png"), 
+  caption = "Estimates of relative stock size (current spawning output/unfished spawning output) for black rockfish in waters off of Oregon from the 2015 assessment. Broken lines are 95% confidence intervals.",
+  label = 'ssb-est')
+
+``` 
+
+# Bridging the assessment model from Stock Synthesis 3.24 to 3.30 
+
+Since several years have passed from the last assessment model, the Stock Synthesis modelling framework has undergone many changes. While the specific changes in the model can be found in the model change log, here we simply update the model from the older 3.24V version to the newer 3.30.20 version. The point here is to present any differences in the model outputs when using the same information. This was first done by migrating the data and parameter specifications from the former files to the newer files. This migration was assisted using the [SS-DL tool](https://github.com/shcaba/SS-DL-tool). Once the old data was transferred to the SS 3.30.30 file, two versions of the model were run. One was fixing all parameter values to the values found in the 2015 model. The second version was allowing the same parameters estimated in the 
+
+## Unresolved Questions and Issues from the 2021 Assessments
+
+* Growth
+* The length-at-age relationship north of Point Conception was based on data age and length data from Oregon and Washington due to a lack of age data from California fisheries.
+* The length-at-age relationship south of Point Conception was informed by limited ages from the NWFSC hook and line survey. 
+
+* There were additional sources of data that were not included in the 2021 length-based data-moderate assessment that may be used in this year's assessments:
+    * Onboard Commercial Passenger Fishing Vessels (CPFV) length sample data from 1975-1979 (Collins and Crooke), 1987-1998 (Deb Wilson-Vandenberg), and 1986-1989 (Alley and Ono). These data were explored during mop-up and had limited impact on the model results.
+    * California Collaborative Fisheries Research Program (CCFRP) index of abundance and biological samples.
+    * CPFV observer index of abundance.
+    * RecFIN dockside sampling index of abundance.
+    * California Department of Fish and Wildlife (CDFW) remotely operated vehicle (ROV) biomass estimate.
+    * Any age samples from various sources that may support estimation of growth within the model.
