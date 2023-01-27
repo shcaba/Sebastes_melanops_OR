@@ -43,6 +43,6 @@ label = 'recshore-landings')
 
 ```
 
+
 ### Items for Discussion
 
-There are no major items for discussion regarding the recreational fishery, though there are notable unknowns as far as the historical recreational catches and unsampled shore-based catches. These are not believed to be of a magnitude that should influence assessment output.

@@ -20,11 +20,7 @@ As a part of the 2015 assessment, trawl landings from 3A were also split between
 
 
 ## Recreational Landings & Discards
-Black rockfish are one of the most important recreational fisheries in Oregon, especially in the boat-based fleets. Boat-bsed landings were reconstructed back in 2015, and only moderate changes were made to the catch history from 2015. A ramp in catch from 1973 to 1979 will complete the series.  
-
-For Shore/estuary landings, a more current reconstruction is proposed that uses the filtered weights from MRFSS to reconstruct biomass. A 10 year average of landings from 1996 - 2005 is used to estimate recent landings (2006 - 2022) rather than the 2015 assessment assumption of a linear relationship with fish licenses. There is also a ramp from 1892 - 1979 to account for landings prior to the availability of MRFSS data.
-
-For the final landings time series, estimate of discarded fish will be added. A review of the available data from RecFIN (2001 - 2022) shows an average % discarded of 0.92%. This low amount of discard is consistent with both expectations from management measures and the desireability of black rockfish in the recreational fishery.
+The recreational landings 
 
 
 ```{r, results = 'asis', fig.align='center'}
@@ -43,6 +39,6 @@ label = 'recshore-landings')
 
 ```
 
-### Items for Discussion
 
-There are no major items for discussion regarding the recreational fishery, though there are notable unknowns as far as the historical recreational catches and unsampled shore-based catches. These are not believed to be of a magnitude that should influence assessment output.
+### Additional Items for Discussion
+
