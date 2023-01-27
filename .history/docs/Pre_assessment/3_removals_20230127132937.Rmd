@@ -50,25 +50,16 @@ Only the commercial landings are shown for each area. Discard mortality across t
 
 
 ## Recreational Landings & Discards
-The recreational landings 
 
 
-```{r, results = 'asis', fig.align='center'}
-add_figure(
-filein = file.path(dir, "plots", "Black recreational catch_Ocean boat.png"), 
-caption = "Recreational landings (in mt) for the ocean boat-based fleet used in the 2015 versus that proposed for the 2023 assessment.",
-label = 'recboat-landings')
-
-```
 
 ```{r, results = 'asis', fig.align='center'}
 add_figure(
-filein = file.path(dir, "plots", "Black recreational catch_ShoreEstuary_all years.png"), 
-caption = "Recreational landings (in mt) for the shore-based fleet used in the 2015 versus that proposed for the 2023 assessment.",
-label = 'recshore-landings')
+filein = file.path(dir, "plots", "all_rec_landings_mt_mode_2x1.png"), 
+caption = "Recreational landings north and south of Point Conception. The landings are separated by private, CPFV and shoreside (beach and bank) modes. The landings from the CPFV fleet predominate the recreational landings in the south since 2004. In contrast, the majority of the removals north of Point Conception arise from the private fleet. Landings between 1990-1992 are missing due to a loss in fundting to MRFSS for this period. Additionally, landings from 2004 were not available in CRFS on RecFIN. Landings for these years will need to be determined and added  (sources: RecFIN and California historical catch reconstruction).",
+label = 'com-landings')
 
 ```
-
 
 ### Additional Items for Discussion
 

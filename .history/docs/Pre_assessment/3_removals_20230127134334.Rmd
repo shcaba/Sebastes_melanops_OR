@@ -50,7 +50,7 @@ Only the commercial landings are shown for each area. Discard mortality across t
 
 
 ## Recreational Landings & Discards
-The recreational landings 
+
 
 
 ```{r, results = 'asis', fig.align='center'}
@@ -60,15 +60,6 @@ caption = "Recreational landings (in mt) for the ocean boat-based fleet used in 
 label = 'recboat-landings')
 
 ```
-
-```{r, results = 'asis', fig.align='center'}
-add_figure(
-filein = file.path(dir, "plots", "Black recreational catch_ShoreEstuary_all years.png"), 
-caption = "Recreational landings (in mt) for the shore-based fleet used in the 2015 versus that proposed for the 2023 assessment.",
-label = 'recshore-landings')
-
-```
-
 
 ### Additional Items for Discussion
 

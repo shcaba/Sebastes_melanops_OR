@@ -1,0 +1,67 @@
+# Removal Data
+
+## Commerical Landings & Discards
+
+
+Black rockfish are not considered a major commercial species, but historical reconstructions have shown prominent trawl catches in the past that have subsequently waned over the last 40 years. Historical catch reconstruction were done for the 2015 assessment, and are heavily based on applying highly variable catch compositions to years that do not have those composition, but rather just report total or "unknown" rockfish catches. 
+
+When providing data to the 2015 Black rockfish assessment, ODFW staff noted that trawl landings from the 1940s to the 1980s had high year to year variability and an unreasonable magnitude of landings in some years. These data were from the then newly completed Karnowski et al (2014) catch reconstruction. ODFW provided an alternative time series that was eventually used in the 2015 assessment (P. Mirick (ODFW) was the main source of this reconstruction). Additionally, the Karnowski et al. (2014) reconstruction did not account for fish taken off of Washington but landed into Oregon, specifically Astoria port landings. The Mirick reconstruction substantially reduced the magnitude of historic trawl catches and stabilized interannual variation in landings compared to the Karnowski et al. (2014) reconstruction.
+Total rockfish 3A landings were of similar magnitude between the two reconstructions, though some different data sources were used. 
+However, species compositions were from the same dataset (Douglas report), but were utilized differently.
+The annual Douglas compositions were used for the Karnowski reconstruction, but these annual compositions were pooled for the Mirick reconstruction.
+Comparisons of 3A black rockfish from the Douglas report are different than in the Mirick reconstruction but of similar magnitude.
+As a part of the 2015 assessment, trawl landings from 3A were also split between OR and WA by using the pooled Douglas compositions and other ODFW sources of information. Static average percentages of black rockfish were applied over multiple decades to allocate fish to WA.
+
+```{r, results = 'asis', fig.align='center'}
+add_figure(
+filein = file.path(dir, "plots", "landings_by_fleet_area.png"), 
+caption = "Commercial landings north and south of Point Conception. The landings are separated by fish landed live versus dead. The commercial landings in the south are relatively low (less than 10 mt per year) across the majority of years excluding 1995-1998 when landings ranged from 24 to 32 mt. The commercial landings in the north are generally higher than those observed south of Point Conception, particularly between 1983 to 1998 with landings peaking in 1993 at 69 mt (sources: PacFIN and California historical catch reconstruction)",
+label = 'com-landings')
+
+``` 
+
+```{r, results = 'asis', fig.align='center'}
+add_figure(
+filein = file.path(dir, "plots", "percent_dead_landings.png"), 
+caption = "Proportion of commercial landings from fish landed dead north and south of Point Conception in recent years (source: PacFIN)",
+width = 100,
+height = 50, 
+label = 'com-prop-dead')
+``` 
+\ 
+
+```{r, results = 'asis', fig.align='center'}
+add_figure(
+filein = file.path(dir, "plots", "catch_by_area_year_block_gear_group.png"), 
+caption = " Landings by area, time period (grouped by decade), and gear grouping (source: PacFIN).",
+width = 100,
+height = 50, 
+label = 'com-gear-year')
+``` 
+\ 
+
+
+
+### Additional Items for Discussion
+
+Only the commercial landings are shown for each area. Discard mortality across time will need to considered to determine catches.
+
+* The 2021 assessments assumed a constant discard mortality rate of 4.4% informed by WCGOP data for each area in California.
+* The rate of discarding has likely varied across time. Are there particular periods of time when discarding likely increased/decreased?
+* Different factors impacting discarding practices by area?
+
+
+## Recreational Landings & Discards
+
+
+
+```{r, results = 'asis', fig.align='center'}
+add_figure(
+filein = file.path(dir, "plots", "all_rec_landings_mt_mode_2x1.png"), 
+caption = "Recreational landings north and south of Point Conception. The landings are separated by private, CPFV and shoreside (beach and bank) modes. The landings from the CPFV fleet predominate the recreational landings in the south since 2004. In contrast, the majority of the removals north of Point Conception arise from the private fleet. Landings between 1990-1992 are missing due to a loss in fundting to MRFSS for this period. Additionally, landings from 2004 were not available in CRFS on RecFIN. Landings for these years will need to be determined and added  (sources: RecFIN and California historical catch reconstruction).",
+label = 'com-landings')
+
+```
+
+### Additional Items for Discussion
+

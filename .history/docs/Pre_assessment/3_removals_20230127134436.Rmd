@@ -50,7 +50,7 @@ Only the commercial landings are shown for each area. Discard mortality across t
 
 
 ## Recreational Landings & Discards
-The recreational landings 
+
 
 
 ```{r, results = 'asis', fig.align='center'}
