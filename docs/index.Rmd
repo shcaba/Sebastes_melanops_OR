@@ -30,7 +30,7 @@ add_figure(
   caption = '',
   width = 60,
   height = 60,
-  label = 'copper')
+  label = 'black')
 
 ``` 
 
@@ -43,3 +43,4 @@ This year's data workshop will be held virtually. A joint workshop focusing on c
 
 [Materials for the pre-assessment data workshop - January 31 - February 1, 2023](Pre_assessment)
 
+[2015 assessment of Black rockfish stock from California to Washington](https://www.pcouncil.org/documents/2016/03/assessments-of-california-oregon-and-washington-stocks-of-black-rockfish-sebastes-melanops-in-2015-published-03-31-2016.pdf/)
