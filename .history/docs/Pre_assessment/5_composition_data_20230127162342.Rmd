@@ -1,0 +1,65 @@
+
+
+# Composition Data
+
+## Commercial length compositions
+
+Samples sizes reflect the fact that the fixed-gear fishery is more prominent than the trawl fishery. The trawl fishery is an amalgam of several contemporary gear types that do not necessarily have similar selectivities, but the removals are so small that parsimony argues for a "trawl" gear of other commercial gears taking black rockfish.
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "black commercial_histogram length by fleet.tiff"), 
+caption = "Sample sizes of the two commercial fleets.",
+label = 'com-length-n')
+
+```
+\
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "black_density plot length by gear_trawl.jpg"), 
+caption = "Aggregate length compositions by gear that comprise the 'trawl' fishery.",
+label = 'lt _gear_trawl')
+
+```
+
+\
+
+## Recreational length compositions
+
+The recreational length composition data summarized below represen data pulled from RecFIN collected by either the MRFSS (1980 - 2003) or CRFS (2004 - 2022) sampling programs. There are additional data sources that contain historical length samples from the CPFV fleets (1975-1979 from Collins and Crooke, 1987-1998 from Deb Wilson-Vandenberg, and 1986-1989 from Alley and Ono) that will be evaluated and used within each assessment model as appropriate but are not included here.
+
+The total number of length samples within RecFIN across MRFSS and CRFS are:
+
+* North of Point Conception (total lengths = 38,994): 
+  * 11,969 from CPFV, and
+  * 27,025 from Private/Rental vessels.
+* South of Point Conception (total lengths = 31,036): 
+  * 23,535 from CPFV, and
+  * 7,501 from Private/Rental vessels.
+
+In RecFIN there are lengths from shoreside modes that were not included in the analysis presented below (north of Point Conception = 148 and south = 20). All lengths below represent released fish. There were limited length observations of released fish (north = 52 and south = 187).
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "rec_length_samples_by_area_year.png"), 
+caption = "The number of length samples by year and mode for copper rockfish for areas south and north of Point Conception. Since 1980, there are a total of 11,969 CPFV and 27,025 Private/Rental length samples north of Point Conception and 23,535 CPFV and 7,501 Private/Rental length samples south of Point Conception (source: RecFIN)",
+label = 'rec-length-samples')
+
+```
+\
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "all_length_dist_by_mode_area.png"), 
+caption = "The density of size selected by mode, CPFV or Private/Rental, for each area across all years (source: RecFIN)",
+label = 'rec-length-dist')
+
+```
+\
+
+TODO: Add table and figures showing the around the number of single day and multi-day trips
+
+
+## Survey length compositions
