@@ -6,11 +6,11 @@
 
 The 2015 assessment was one of the first assessments to use functional maturity to express maturity. Functional maturity takes into consideration skipped spawning, atresia and other factors that may delay a reproductive event as opposed to biological maturity that 
 
-Fecundity-at-length is based on Dick et al. that was assumed in the last assessment.
+Fecundity-at-length is based on Dick et al. (2017) as was assumed in the last assessment and is shared among all black rockfish assessments.
 
 ## Length-Weight
 
-The length-weight relationship was estimated using all biological data available from the NWFSC West Coast Groundfish Bottom Trawl (WCGBT) and the NWFSC Hook and Line surveys. 
+
 
 ```{r, results = 'asis'}
 add_figure(
@@ -23,13 +23,10 @@ label = 'weight-length')
 
 ## Length-at-Age
 
-TODO: Add plot showing the length-at-age of available data by area
-
-TODO: Add table of the number of additional age reads by sources that the CAP lab is working on 
+T
 
 ## Natural Mortality
 
-Natural mortality was fixed in the 2021 assessments at a value of 0.108 yr^-1^ based on an assumed maximum age of 50 years. The maximum age was selected based on available age data collected within Oregon and Washington and literature values. The oldest aged observed was 51 years with two observations off of the coast of Washington and Oregon in 2019. This selection was consistent with the literature examining the longevity of copper rockfish and was supported by the observed ages that had multiple observations of fish between 44 and 51 years of age.  
+Natural mortality is not directly measured, but has been estimated in past black rockfish assessments. We will again attempt to estimate natural mortality for both males and females separately. Females demonstrate a lower frequency of occurrence than expected once they get past age 20-25. This issue is seen from California to Alaska, and has been extensively explored in the "kill 'em or hide 'em" hypotheses. These suggest either females are dying off quicker one they reach maturity (i.e., use an elevated natural mortality to kill them in the model) or have age-specific fishing avoidance behavior causing age-based dome-shaped gear selectivity (i.e., hide them from the fishery and create cryptic biomass). These hypotheses were extensively explore in the last assessment. The last assessment fixed a slight natural mortality ramp (from 0.17 to 0.2). We will likely estimate a constant natural mortality for females that is expected to be higher than males, but explore the sensitivity of results to the former assessment treatment. We will use the [Natural Mortality Tool](https://connect.fisheries.noaa.gov/natural-mortality-tool/) to develop a prior for black rockfish.  
 
-The input parameter value for natural mortality will be reconsidered within the 2023 assessments based on any new available age data. Additionally, the 2023 assessments will explore the ability to estimate natural mortality within the model and will conduct sensitivities and profiles to understand the information in the data on natural mortality and the impact of select values on the model estimates.
 
