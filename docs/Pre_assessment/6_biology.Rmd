@@ -4,16 +4,44 @@
 
 ## Maturity and Fecundity
 
-The 2015 assessment was one of the first assessments to use functional maturity to express maturity. Functional maturity takes into consideration skipped spawning, atresia and other factors that may delay a reproductive event as opposed to biological maturity that 
+The 2015 assessment was one of the first assessments to use functional maturity to express maturity. Functional maturity takes into consideration skipped spawning, atresia and other factors that may delay a reproductive event as opposed to biological (sexual) maturity that only considers whether the reproductive organs are present. Functional maturity often produces a right-shifted curve and/or non-asymptotic behavior. The length at 50% functional maturity is 41.57 cm vs 34.12 cm for 50% biological maturity. The figures below show the difference in the full maturity relationship. We plan on using the spline model for functional maturity as the maturity relationship.
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "fxn_mat_OR.png"), 
+caption = "Functional maturity of black rockfish based on fish sampled in Oregon from 2014-2021.",
+label = 'lt _rec_samples')
+
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "bio_mat_OR.png"), 
+caption = "Biological maturity of black rockfish based on fish sampled in Oregon from 2014-2021.",
+label = 'lt _rec_samples')
+
+```
+\
 
 Fecundity-at-length is based on Dick et al. (2017) as was assumed in the last assessment and is shared among all black rockfish assessments.
 
 ## Length-Weight
 
+The length-weight relationship from Oregon in 2015 was based on around 4000 unsexed samples. This relationship will be revisited with additional samples.
 
 
 ## Length-at-Age
 
+Black rockfish samples are currently being aged. There are 
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "age_samples_fleet_sex.png"), 
+caption = "Number of age samples by fleet and sex in Oregon.",
+label = 'age_samples')
+
+```
+\
 
 ## Natural Mortality
 
