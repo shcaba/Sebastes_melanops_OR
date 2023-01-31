@@ -13,7 +13,7 @@ As a part of the 2015 assessment, trawl landings from 3A were also split between
 ```{r, results = 'asis', fig.align='center'}
 add_figure(
 filein = file.path(dir, "plots", "Black commercial catch comparison_allyears.png"), 
-caption = "Commercial landings (in mt) used in the 2015 assessment versus that proposed for the 2023 assessment.",
+caption = "Commercial landings (in mt) used in the 2015 assessment (Mirick reconstruction) versus the Karnowski et al. 2014 historical reconstruction.",
 label = 'recboat-landings')
 
 ```
