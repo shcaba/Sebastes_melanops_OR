@@ -44,7 +44,7 @@ label = 'age_samples')
 
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(dir, "plots", "AG_state_year.png"), 
+filein = file.path(dir, "plots", "AG_State_Sex.png"), 
 caption = "Age at length by sex and state from the 2015 assessment.",
 label = 'age_lt_samples')
 
