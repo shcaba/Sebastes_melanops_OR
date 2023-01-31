@@ -1,0 +1,40 @@
+
+
+# Composition Data
+
+## Commercial length compositions
+
+Samples sizes reflect the fact that the fixed-gear fishery is more prominent than the trawl fishery. The trawl fishery is an amalgam of several contemporary gear types that do not necessarily have similar selectivities, but the removals are so small that parsimony argues for a "trawl" gear of other commercial gears taking black rockfish.
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "black_commercial_histogram_length_by_fleet.png"), 
+caption = "Sample sizes of the two commercial fleets.",
+label = 'com-length-n')
+
+```
+\
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "black_density plot length by gear_trawl.jpg"), 
+caption = "Aggregate length compositions by gear that comprise the 'trawl' fishery.",
+label = 'lt _gear_trawl')
+
+```
+\
+
+## Recreational length compositions
+
+The recreational length composition data summarized below represent data pulled from RecFIN collected by either the MRFSS (1980 - 2003) or ORBS (2001 - 2022). MRFSS data has both shore/estuary boat samples and ocean boat samples. ORBS samples ocean boat trips exclusively. Where the two datasets overlap (2001 - 2003), ocean boat samples are combined. 
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "Rec_sample_sizes.jpg"), 
+caption = "Length sample sizes by year and fleet.",
+label = 'lt _rec_samples')
+
+```
+\

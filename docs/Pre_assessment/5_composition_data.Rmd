@@ -9,7 +9,7 @@ Samples sizes reflect the fact that the fixed-gear fishery is more prominent tha
 
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(dir, "plots", "black commercial_histogram length by fleet.tiff"), 
+filein = file.path(dir, "plots", "black_commercial_histogram_length_by_fleet.png"), 
 caption = "Sample sizes of the two commercial fleets.",
 label = 'com-length-n')
 
@@ -23,12 +23,18 @@ caption = "Aggregate length compositions by gear that comprise the 'trawl' fishe
 label = 'lt _gear_trawl')
 
 ```
-
 \
 
 ## Recreational length compositions
 
 The recreational length composition data summarized below represent data pulled from RecFIN collected by either the MRFSS (1980 - 2003) or ORBS (2001 - 2022). MRFSS data has both shore/estuary boat samples and ocean boat samples. ORBS samples ocean boat trips exclusively. Where the two datasets overlap (2001 - 2003), ocean boat samples are combined. 
 
-<< add table from Ali's email>>
 
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "Rec_sample_sizes.png"), 
+caption = "Length sample sizes by year and fleet.",
+label = 'lt _rec_samples')
+
+```
+\

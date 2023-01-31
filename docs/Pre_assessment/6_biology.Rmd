@@ -12,18 +12,8 @@ Fecundity-at-length is based on Dick et al. (2017) as was assumed in the last as
 
 
 
-```{r, results = 'asis'}
-add_figure(
-filein = file.path(dir, "plots", "doc_Length_Weight_Sex.png"), 
-caption = "Length weight relationship by sex for copper rockfish (source: NWFSC WCGBT and HKL Surveys)",
-label = 'weight-length')
-
-```
-\
-
 ## Length-at-Age
 
-T
 
 ## Natural Mortality
 

@@ -10,7 +10,14 @@ When providing data to the 2015 Black rockfish assessment, ODFW staff noted that
 As a part of the 2015 assessment, trawl landings from 3A were also split between OR and WA by using the pooled Douglas compositions and other ODFW sources of information. Static average percentages of black rockfish were applied over multiple decades to allocate fish to WA. The STAT team is still considering the best magnitude of black rockfish in area 3A (dependent on the assumption of black rockfish composition within the unknown rockfish category) to apply to this OR-WA split. The STAT is also considering further information that may confirm the level of black rockfish in 3A that are landed in Astoria but should be assigned to the Washington state history.
 
 
+```{r, results = 'asis', fig.align='center'}
+add_figure(
+filein = file.path(dir, "plots", "Black commercial catch comparison_allyears.png"), 
+caption = "Commercial landings (in mt) used in the 2015 assessment versus that proposed for the 2023 assessment.",
+label = 'recboat-landings')
 
+```
+\
 
 
 ### Items for Discussion
@@ -30,7 +37,7 @@ For the final landings time series, estimate of discarded fish will be added to 
 ```{r, results = 'asis', fig.align='center'}
 add_figure(
 filein = file.path(dir, "plots", "Black recreational catch_Ocean boat.png"), 
-caption = "Recreational landings (in mt) for the ocean boat-based fleet used in the 2015 versus that proposed for the 2023 assessment.",
+caption = "Recreational landings (in mt) for the ocean boat-based fleet used in the 2015 assessment versus that proposed for the 2023 assessment.",
 label = 'recboat-landings')
 
 ```
