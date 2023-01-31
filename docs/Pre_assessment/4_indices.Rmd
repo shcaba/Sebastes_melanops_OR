@@ -2,23 +2,23 @@
 
 ## Fishery-Independent 
 
-There are three fishery-independent surveys that will be explored and considered:
+There are four fishery-independent surveys that will be explored and considered:
 
-* Adult tagging index (2002-20??) 
-* Adult acoustic survey ()
-* SMURFS juvenile index ()
+* Adult tagging index (2002-2013, excluded 2002 - 2004 based on ODFW recommendation) - central Oregon pit tagging project
+* Adult acoustic survey (2021) - coastwide hydroacoustic survey developed for mid-water rockfish
+* OR marine reserves hook and line survey (2013 - 2022) - standarized hook and line survey in Oregon's marine reserve network (surveys similar to CA reserve H&L survey)
+* SMURFS juvenile index (tentatively, 2011-2022) - YOY rockfish survey in two locations in Oregon's marine reserves
 
-Only the first was included in the 2015 assessment. The first two are potential measures of absolute abundance, and the third could be used as an indicator of recruitment.
-
+Only the first was included in the 2015 assessment. Selectivity for this survey was mirrored to the ocean-boat fleet in the 2015 assessment. The first two are potential measures of absolute abundance, the third of relative abundance, and the final could be used as an indicator of recruitment.
 
 
 ## Fishery-Dependent 
 
-There are three fishery-dependent surveys that will be developed for consideration:
+There are four fishery-dependent surveys that will be developed for consideration:
 
-* MRFSS dockside index (1980-2000)
-* ORBS dockside index (2001-present)
-* Oregon on-board observer index (2001,2003-present)
-* Oregon nearshore logbook index ()
+* MRFSS dockside index (1980 - 2000) - MRFSS dockside interviews of ocean boat trips
+* ORBS dockside index (2001 - 2022) - ORBS dockside interviews of ocean boat trips
+* Oregon on-board observer index (2001, 2003 - 2022) - state observed charter boat trips
+* Oregon nearshore logbook index (2003 - 2022) - commercial nearshore fixed gear trips
 
-The first three were included in the 2015 assessment.  
+All four of these were included in the 2015 assessment.  
