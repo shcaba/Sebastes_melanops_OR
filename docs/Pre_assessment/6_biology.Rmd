@@ -32,7 +32,7 @@ The length-weight relationship from Oregon in 2015 was based on around 4000 unse
 
 ## Length-at-Age
 
-Black rockfish samples are currently being aged. These are available from both the commercial and recreational fleets, with most samples having been sexed. A comparison from the past assessment of age and length data show clearly the pattern of missing the older, but not larger, females in the samples.
+Black rockfish samples are currently being aged. These are available from both the commercial and recreational fleets, with most samples having been sexed. A comparison from the past assessment of age and length data show clearly the pattern of missing the older, but not larger, females in the samples. This age and length data will be used to estimate growth parameters outside and inside (as conditional age at length data) the model, with the hope that we can rely on growth estimates within the model.
 
 ```{r, results = 'asis'}
 add_figure(

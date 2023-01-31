@@ -1,0 +1,58 @@
+
+
+# Biology
+
+## Maturity and Fecundity
+
+The 2015 assessment was one of the first assessments to use functional maturity to express maturity. Functional maturity takes into consideration skipped spawning, atresia and other factors that may delay a reproductive event as opposed to biological (sexual) maturity that only considers whether the reproductive organs are present. Functional maturity often produces a right-shifted curve and/or non-asymptotic behavior. The length at 50% functional maturity is 41.57 cm vs 34.12 cm for 50% biological maturity. The figures below show the difference in the full maturity relationship. Melissa Head and Claire Rosemond, the biologists who have provided this information, have also documented the presence of parasites in mature female black rockfish. Details of the above analysis and preliminary findings on the parasite load can be found [here](https://github.com/shcaba/Sebastes_melanops_OR/blob/main/docs/Pre_assessment/plots/Black_Rockfish_prelimiary_maturity_analysis.pdf). We plan on using the spline model for functional maturity as the maturity relationship.
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "fxn_mat_OR.png"), 
+caption = "Functional maturity of black rockfish based on fish sampled in Oregon from 2014-2021.",
+label = 'lt _rec_samples')
+
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "bio_mat_OR.png"), 
+caption = "Biological maturity of black rockfish based on fish sampled in Oregon from 2014-2021.",
+label = 'lt _rec_samples')
+
+```
+\
+
+Fecundity-at-length is based on Dick et al. (2017) as was assumed in the last assessment and is shared among all black rockfish assessments.
+
+## Length-Weight
+
+The length-weight relationship from Oregon in 2015 was based on around 4000 unsexed samples. This relationship will be revisited with additional samples.
+
+
+## Length-at-Age
+
+Black rockfish samples are currently being aged. These are available from both the commercial and recreational fleets, with most samples having been sexed. A comparison from the past assessment of age and length data show clearly the pattern of missing the older, but not larger, females in the samples. This age and length data will be used to estimate growth parameters outside and inside the model, with the hope that we can rely on growth estimates within the model.
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "age_samples_fleet_sex.png"), 
+caption = "Number of age samples by fleet and sex in Oregon.",
+label = 'age_samples')
+
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "AG_State_Sex.png"), 
+caption = "Age at length by sex and state from the 2015 assessment.",
+label = 'age_lt_samples')
+
+```
+\
+
+## Natural Mortality
+
+Natural mortality is not directly measured, but has been estimated in past black rockfish assessments. We will again attempt to estimate natural mortality for both males and females separately. Females demonstrate a lower frequency of occurrence than expected once they get past age 20-25. This issue is seen from California to Alaska, and has been extensively explored in the "kill 'em or hide 'em" hypotheses. These suggest either females are dying off quicker one they reach maturity (i.e., use an elevated natural mortality to kill them in the model) or have age-specific fishing avoidance behavior causing age-based dome-shaped gear selectivity (i.e., hide them from the fishery and create cryptic biomass). These hypotheses were extensively explore in the last assessment. The last assessment fixed a slight natural mortality ramp (from 0.17 to 0.2). We will likely estimate a constant natural mortality for females that is expected to be higher than males, but explore the sensitivity of results to the former assessment treatment. We will use the [Natural Mortality Tool](https://connect.fisheries.noaa.gov/natural-mortality-tool/) to develop a prior for black rockfish.  
+
+
