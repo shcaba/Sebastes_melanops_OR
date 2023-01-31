@@ -4,7 +4,7 @@
 
 ## Maturity and Fecundity
 
-The 2015 assessment was one of the first assessments to use functional maturity to express maturity. Functional maturity takes into consideration skipped spawning, atresia and other factors that may delay a reproductive event as opposed to biological maturity that 
+The 2015 assessment was one of the first assessments to use functional maturity to express the maturity. Functional maturity takes into consideration skipped spawning, atresia and other factors that may delay a reproductive event as opposed to biological maturity that 
 
 Fecundity-at-length is based on Dick et al. that was assumed in the last assessment.
 
