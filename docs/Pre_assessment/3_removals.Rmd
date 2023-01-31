@@ -7,7 +7,7 @@ Black rockfish are not considered a major commercial species, but historical rec
 
 When providing data to the 2015 Black rockfish assessment, ODFW staff noted that trawl landings from the 1940s to the 1980s had high year to year variability and an unreasonable magnitude of landings in some years. These data were from the then newly completed [Karnowski et al (2014)](https://www.dfw.state.or.us/mrp/publications/docs/ODFW_Info_Rpt%202014-02_Historic_Reconstruction_Oregon_Commercial_Fish_Landings.pdf) catch reconstruction. ODFW provided an alternative time series that was eventually used in the 2015 assessment (P. Mirick (ODFW) was the main source of this reconstruction). Additionally, the Karnowski et al. (2014) reconstruction did not account for fish taken off of Washington but landed into Oregon, specifically Astoria port landings. The Mirick reconstruction substantially reduced the magnitude of historic trawl catches and stabilized interannual variation in landings compared to the Karnowski et al. (2014) reconstruction. Total rockfish 3A landings were of similar magnitude between the two reconstructions, though different data sources were used in each approach. Species compositions, though, were from the same dataset (Douglas report), but differentially applied. The annual Douglas compositions were used for the Karnowski reconstruction, but these annual compositions were pooled for the Mirick reconstruction. Comparisons of 3A black rockfish from the Douglas report are different than in the Mirick reconstruction but of similar magnitude. 
 
-As a part of the 2015 assessment, trawl landings from 3A were also split between OR and WA by using the pooled Douglas compositions and other ODFW sources of information. Static average percentages of black rockfish were applied over multiple decades to allocate fish to WA. The STAT team is still considering the best magnitude of black rockfish in area 3A (dependent on the assumption of black rockfish composition within the to unknown rockfish category) to apply to this OR-WA split. The STAT is also considering further information that may confirm the level of black rockfish in 3A that are landed in Astoria but should be assigned to the Washington state history.
+As a part of the 2015 assessment, trawl landings from 3A were also split between OR and WA by using the pooled Douglas compositions and other ODFW sources of information. Static average percentages of black rockfish were applied over multiple decades to allocate fish to WA. The STAT team is still considering the best magnitude of black rockfish in area 3A (dependent on the assumption of black rockfish composition within the unknown rockfish category) to apply to this OR-WA split. The STAT is also considering further information that may confirm the level of black rockfish in 3A that are landed in Astoria but should be assigned to the Washington state history.
 
 
 
@@ -16,15 +16,15 @@ As a part of the 2015 assessment, trawl landings from 3A were also split between
 ### Items for Discussion
 
 * Absolute magnitude of historical black rockfish catches in Oregon as a percentage unknown rockfish Landings, In particular, trawl catches in the 3A area.
-* The allocation of catches in 3A bewtween Oregon and Washington (currently 1.4% and 98.6%, respectively)
+* The allocation of catches in 3A between Oregon and Washington (currently 1.4% and 98.6%, respectively, for years 1940 - 1993; thereafter, varies annually based on trawl logbook data)
 
 
 ## Recreational Landings & Discards
-Black rockfish are one of the most important recreational fisheries in Oregon, especially in the boat-based fleets. Boat-bsed landings were reconstructed back in 2015, and only moderate changes were made to the catch history from 2015. A ramp in catch from 1973 to 1979 will complete the series.  
+Black rockfish are one of the most important recreational fisheries in Oregon, especially in the ocean boat-based fleets. Boat-based landings were reconstructed in 2015, and only moderate changes were made to the catch history from 2015, based on the most recent comprehensive ODFW sport reconstruction (Whitman in review). A ramp in catch from 1973 to 1979 will complete the series.  
 
 For Shore/estuary landings, a more current reconstruction is proposed that uses the filtered weights from MRFSS to reconstruct biomass. A 10 year average of landings from 1996 - 2005 is used to estimate recent landings (2006 - 2022) rather than the 2015 assessment assumption of a linear relationship with fish licenses. There is also a ramp from 1892 - 1979 to account for landings prior to the availability of MRFSS data.
 
-For the final landings time series, estimate of discarded fish will be added. A review of the available data from RecFIN (2001 - 2022) shows an average % discarded of 0.92%. This low amount of discard is consistent with both expectations from management measures and the desireability of black rockfish in the recreational fishery.
+For the final landings time series, estimate of discarded fish will be added to the shore-based landings time series. A review of the available data from RecFIN (2001 - 2022) shows an average % discarded of 0.92%. This low amount of discard is consistent with both expectations from management measures and the desireability of black rockfish in the recreational fishery. Discards for the ocean-boat fleet are available from 2001 - 2022 from RecFIN. 
 
 
 ```{r, results = 'asis', fig.align='center'}
