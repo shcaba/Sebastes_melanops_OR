@@ -48,7 +48,7 @@ The Oregon model faced many challenges and ultimately was re-evaluated in a seco
 * A fishery-independent nearshore survey was recommended
 
 
-Most of the above recommendations were included in the 2015 assessment research recommendations. Additionally, stock structure for black rockfish was highlighted as a topic for further consideration.
+Many of the above recommendations were included in the prior assessments research recommendations. In addition, stock structure for black rockfish was highlighted as a topic for further consideration.
 
 
 # Model description
@@ -66,4 +66,6 @@ Since several years have passed from the last assessment model, the Stock Synthe
   2) Allowing the same parameters estimation specification as in the 2015 model 
 
 Results are similar between models when all parameters are fixed from the 2015 model in the updated SS files, while there are slight scale differences (Figure \ref{fig:ssb_bridge_comps}), but little relative stock status differences (Figure \ref{fig:deps_bridge_comps}), when the new SS version is allowed to estimate the same parameters as estimated in the 2015 version. Theses model comparisons are adequate to move ahead using the newest version of SS 3.30.20 without expecting large differences in reference models being due to versions of SS. 
+
+
 

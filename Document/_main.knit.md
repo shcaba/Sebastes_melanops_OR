@@ -1,7 +1,7 @@
 ---
 geometry: margin=1in
-month: "December"
-year: "2022"
+month: "February"
+year: "2023"
 preamble: |
 output:
   sa4ss::techreport_pdf:
@@ -300,7 +300,7 @@ _**These materials do not constitute a formal publication and are for informatio
 ## Basic Information
 Black Rockfish (*Sebastes melanops*) are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California [@love_rockfishes_2002].  
 
-A previous assessment of Black Rockfish off Oregon and California [@ralston_status_2003] reviewed the evidence supporting genetic stock structure for Black Rockfish and other rockfish off the U.S. West Coast and concluded that the Oregon and California populations of Black Rockfish are probably not genetically heterogeneous.  That assessment treated the Black Rockfish off California and Oregon as a unit stock.  Previous assessments of Black Rockfish off Washington [@wallace_status_1999; @wallace_status_2007] describe a study of coastal Black Rockfish genetic structure using 10 sampled sites collected from northern California to southern British Columbia t 1995-97.  Results of that study support the notion of separate genetic stocks north and south of Cape Falcon.  However, a later study [@baker_genetic_1999] of Black Rockfish collected from eight sites along the northern Oregon coast concluded that Black Rockfish from north and south of Cape Falcon were genetically very similar.
+A first assessment of Black Rockfish off considered the population off Oregon and California [@ralston_status_2003] and reviewed the evidence supporting genetic stock structure for Black Rockfish and other rockfish off the U.S. West Coast and concluded that the Oregon and California populations of Black Rockfish are probably not genetically heterogeneous.  That assessment treated the Black Rockfish off California and Oregon as a unit stock.  Previous assessments of Black Rockfish off Washington [@wallace_status_1999; @wallace_status_2007] describe a study of coastal Black Rockfish genetic structure using 10 sampled sites collected from northern California to southern British Columbia t 1995-97.  Results of that study support the notion of separate genetic stocks north and south of Cape Falcon.  However, a later study [@baker_genetic_1999] of Black Rockfish collected from eight sites along the northern Oregon coast concluded that Black Rockfish from north and south of Cape Falcon were genetically very similar.
 
 Although a stock boundary line at the Columbia River seems reasonable for Black Rockfish, both because it is a state fishery management boundary and because the Columbia River plume is likely to be a natural barrier to the north-south exchange of Black Rockfish adults and larvae, the 2007 assessment of Black Rockfish off Oregon and California [@sampson_status_2007] differed slightly from Ralston and Dick [-@ralston_status_2003] in placing the northern boundary at Cape Falcon rather than at the Columbia River.  The boundary was changed to avoid overlap with the separate northern assessment [@wallace_status_2007] and to simplify the process of assembling historical commercial landings data, which are largely available in terms of Pacific Marine Fisheries Commission (PMFC) statistical areas.  The northern boundary of PMFC Area 2C is at Cape Falcon (Figure 1).  Given the spatial resolution of the historical commercial fishery data, it is very problematic to estimate the catch of Black Rockfish taken north of Cape Falcon but south of the Columbia River.
 
@@ -388,7 +388,7 @@ A description of each data source is provided below (Figure \ref{fig:data-plot})
 
 The systems along the U.S. West Coast for monitoring commercial fishery landings in the past did not keep track of the landings of individual rockfish species, largely because many rockfish species have similar market characteristics and therefore were landed as an unsorted mix of species.  Black rockfish in particular, which are a nearshore species and much less abundant than many of the offshore rockfish species, were generally landed in mixed-species categories.  As a consequence, the historical records do not provide a detailed accounting of the landings of black rockfish.  The basic approach taken to develop the landings series in this assessment (as in past assessments) was to apply values for the proportion of black rockfish sampled in mixed-rockfish landings.  Data on the proportions of black rockfish are sparse, with the consequence that the landings reconstructions are highly uncertain.
 
-All three regional assessments use data for the modern era (for 1981 to 2014) from the Pacific Fishery Information system (PacFIN), which is a central repository for U.S. West Coast groundfish landings and auxiliary information collected by the three state fishery agencies and other agencies.  A description of basic state data collection systems and overview of PacFIN is provided in Sampson and Crone (1997).  Updated dockside sampling protocols and data processing procedures for Washington are described in Tsou et al. [-@tsou_etal_2015] and Tsou and Weyland [-@tsou_weyland_2015].  A variety of sources were used to reconstruct regional landings histories for years earlier than 1981. Comparisons of the commercial catch in each fishery for the current and previous assessments are in Figure 20 (CA), Figure 81 (OR), and Figure 179 (WA).
+Commercial landings data for the modern era (1981 to present) are taken from the Pacific Fishery Information system (PacFIN), which is a central repository for U.S. West Coast groundfish landings and auxiliary information collected by the three state fishery agencies and other agencies.  A description of basic state data collection systems and overview of PacFIN is provided in Sampson and Crone (1997).  Updated dockside sampling protocols and data processing procedures for Washington are described in Tsou et al. [-@tsou_etal_2015] and Tsou and Weyland [-@tsou_weyland_2015].  A variety of sources were used to reconstruct regional landings histories for years earlier than 1981. Comparisons of the commercial catch in each fishery for the current and previous assessments Figure 81.
 
 
 ##### The PacFIN Era: 1981 to 2014
@@ -932,11 +932,32 @@ Wallace et al [-@wallace_status_1999] constructed an assessment model by using t
 
 The 2007 assessment [@wallace_status_2007] employed Stock Synthesis 2.  Unlike the 1999 assessment, CPUE from the tag release trips and Petersen tagging study abundance estimates were included as relative abundance indices.
 
-#### 2015 California, Oregon, and Washington Assessments
 
+#### California, Oregon, and Washington Assessments
+
+The 2015 assessment defined three distinct stocks for assessment. Each stock matched the state boundaries of California, Oregon and Washington. All assessments used the Stock Synthesis 3 version 3.24V. The Oregon model had five commercial fisheries and considered 5 surveys. A research fleet was also designated in order to use ages for growth estimation. There were four primary data likelihood components for survey indices, mean weights, lengths and ages. Fits to catches also contribute to the total likelihood, but is typically very low. The models was tuned using the Francis [-@francis_data_2011] method for biological compositions and added variance for survey indices. Mean weights were not tuned. Recruitment deviations were not estimated. Natural mortality was treated as constant for males and used a step function (with a breakpoint at age 10) for females that was also constant over years. Age-based dome-shaped selectivity in the ocean boat-based recreational fishery was also implemented for females.  
+
+Results for the Oregon assessment of black rockfish in 2015 estimated stock status for that year at 60.4%, and never showed a decline below the target biomass. This assessment was highly constrained by the choice to treat the catchability of the tagging index as known, thus the uncertainty in the assessment is very low.
 
 
 ### Most Recent STAR Panel and SSC Recommendations
+
+The STAR panel identified the following issues as sources of major uncertainty:
+
+* Natural mortality, especially in females. There is no data to differentiate whether the missing older females are dying or are avoiding capture. The choice between using a constant (as used in the California and Washington assessments) or step function (used in Oregon) is also an point of uncertainty. 
+* The level of cryptic biomass. This is a result of using dome-shaped selectivity to explain the absence of old females.
+* Uncertainty in historical catch, especially in the historical trawl fishery.
+* Acknowledging that there remains uncertainty in the stock-recruit relationship parameters (particularly the Beverton-Holt steepness parameter).
+
+The Oregon model faced many challenges and ultimately was re-evaluated in a secondary review panel. That panel noted the following issues and recommendations (in addition to those above).
+
+* The lack of recruitment estimation should be re-evaluated despite the last assessment indicating no apparent information contained in the biological data as to notable recruitment deviations. There was concern recruitment was being driven by catch rather than biological signals. 
+* The tagging data q was fixed and strongly dictated scaling in the assessment. The tagging study data and subsequent constraint in q values needs further consideration.
+* Continued ageing and age validation of black rockfish samples
+* A fishery-independent nearshore survey was recommended
+
+
+Most of the above recommendations were included in the 2015 assessment research recommendations. Additionally, stock structure for black rockfish was highlighted as a topic for further consideration.
 
 
 # Model description
@@ -948,7 +969,12 @@ Stock Synthesis version 3.30.16 was used as the statistical catch-at-age modelli
 
 ## Bridging Analysis
 
+Since several years have passed from the last assessment model, the Stock Synthesis (SS) modelling framework has undergone many changes. While the specific changes in the model can be found in the model [change log](https://github.com/nmfs-stock-synthesis/stock-synthesis/blob/v3.30.19/Change_log_for_SS_3.30.xlsx?raw=true), here we simply update the model from the older 3.24V version to the newer 3.30.20 version. The point here is to present any differences in the model outputs when using the same information. This was first done by migrating the data and parameter specifications from the former files to the newer files. This migration was assisted using the [SS-DL tool](https://github.com/shcaba/SS-DL-tool). Once the old data was transferred to the SS 3.30.20 file, two versions of the model were run. 
 
+  1) fixing all parameter values to the values found in the 2015 model. 
+  2) Allowing the same parameters estimation specification as in the 2015 model 
+
+Results are similar between models when all parameters are fixed from the 2015 model in the updated SS files, while there are slight scale differences (Figure \ref{fig:ssb_bridge_comps}), but little relative stock status differences (Figure \ref{fig:deps_bridge_comps}), when the new SS version is allowed to estimate the same parameters as estimated in the 2015 version. Theses model comparisons are adequate to move ahead using the newest version of SS 3.30.20 without expecting large differences in reference models being due to versions of SS. 
 
 
 <!--chapter:end:30model.Rmd-->
@@ -1198,7 +1224,7 @@ The estimated uncertainty in the base model around the 2015 spawning output is $
 <!--chapter:end:40management.Rmd-->
 
 # Acknowledgments
-Here are all the mad props!
+Here are all the mad props!  We thank...
 
 <!--chapter:end:41acknowledgments.Rmd-->
 
@@ -1244,6 +1270,15 @@ Here are all the mad props!
 
 
 ![Summary of data sources used in the reference model.\label{fig:data-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png){width=100% height=100% alt="."}
+
+<!-- ====================================================================== --> 
+<!-- ******************* Bridge Model ************************************* --> 
+<!-- ====================================================================== --> 
+
+
+![Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:ssb_bridge_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_SB_comp_plot.png){width=100% height=100% alt="."}
+
+![Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:deps_bridge_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png){width=100% height=100% alt="."}
 
 <!--chapter:end:53figures.Rmd-->
 
