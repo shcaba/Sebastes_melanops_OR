@@ -8,5 +8,7 @@
 
 [Model Output](https://drive.google.com/drive/folders/1rB3qoVqjjwsjVQeTLzt7UsLuDHx_rZV6?usp=sharing)
 
+[Document Checkout](https://docs.google.com/spreadsheets/d/1mobe4LujOz2AB3jWhKgW7CWWkquL5m-yJRnvnJVBA94/edit?usp=sharing)
+
 [Reference material](https://drive.google.com/drive/folders/1GE08CqNsESsu4HpTFSZ76OpZ-z-6ROel?usp=sharing) (including the documentation on the hydroacoustic survey)
 
