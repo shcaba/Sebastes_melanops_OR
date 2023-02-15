@@ -115,8 +115,8 @@
 \newcommand{\trTitle}{Status of Black Rockfish (\emph{Sebastes melanops}) off Oregon and federal waters in 2023}
 \newcommand{\trYear}{2023}
 \newcommand{\trMonth}{February}
-\newcommand{\trAuthsLong}{truetruetrue}
-\newcommand{\trAuthsBack}{Cope, J.M., A.D. Whitman, A.M. Berger}
+\newcommand{\trAuthsLong}{truetruetruetrue}
+\newcommand{\trAuthsBack}{Cope, J.M., A.D. Whitman, A.M. Berger, L.R. Rasmuson}
 \newcommand{\trCitation}{
 \begin{hangparas}{1em}{1}
 \trAuthsBack{}. \trYear{}. \trTitle{}. \glsentrylong{pfmc}, Portland, Oregon. \pageref{LastPage}{}\,p.
@@ -142,7 +142,8 @@
 by\\
 Jason M. Cope\textsuperscript{1}\\
 Alison D. Whitman\textsuperscript{2}\\
-Aaron M. Berger\textsuperscript{1}\vfill
+Aaron M. Berger\textsuperscript{1}\\
+Leif R. Rasmuson\textsuperscript{2}\vfill
 \textsuperscript{1}Northwest Fisheries Science Center, U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Marine Fisheries Service, 2725 Montlake Boulevard East, Seattle, Washington 98112\\
 \textsuperscript{2}Oregon Department of Fish and Wildlife, 2040 Southeast Marine Science Drive, Newport, Oregon 97365\vfill
 \trMonth{} \trYear{}
@@ -651,7 +652,7 @@ For estimates of landings, catch rates are verified by ORBS biologists. However,
 
 Since 2001, ORBS has produced comprehensive year-round estimates of catch and effort for all developed Oregon ports (which are available from RecFIN). However, prior to 2001, ORBS sampling was typically only conducted at major ports during the peak months of sport fishing activity, and no estimates of landed catch were made for unsampled ports and times. Accordingly, ODFW reconstructed historic ORBS estimates of black rockfish to include landed catch from all ports and times (not yet available on RecFIN), as is done in recent years.
 
-The sport reconstruction addressed four spatial and temporal coverage biases identified during an external review of ORBS by the RecFIN Statistical Subcommittee ( et al. 2000): 1 ``Major ports'' that were sampled each year were not sampled during the winter months 2 ``Minor ports'' were not sampled at all during some years 3 effort counts for private boats excluded afternoon and night trips 4 undeveloped launch sites were never sampled (e.g., beaches).
+The sport reconstruction addressed four spatial and temporal coverage biases identified during an external review of ORBS by the RecFIN Statistical Subcommittee (Van Voorhees et al. 2000): 1 ``Major ports'' that were sampled each year were not sampled during the winter months 2 ``Minor ports'' were not sampled at all during some years 3 effort counts for private boats excluded afternoon and night trips 4 undeveloped launch sites were never sampled (e.g., beaches).
 
 The sport reconstruction utilized ratio estimators, based on years with complete sampling, to expand catches from years with partial sampling. For instance, the contribution of winter catch to total catch during years with complete sampling was used to the expand catches for years with missing winter catch. Similarly, the contribution of catch from a minor port to that of the major ports during years with complete sampling was used to expand catches of years that the minor port was not sampled. The reconstructed catch and effort estimates for ocean boats ramp up in a near linear fashion from the beginning of the time series in 1973 to an initial peak in 1984. Attempts to estimate ocean boat catch prior to 1973 by fitting a linear function to this initial ramp up resulted in negative catch for 1972, therefore the ocean boat fishery was assumed to have started in 1973. This comports well with anecdotal information on the early years of the ocean boat fishery, but is in contrast to the treatment of shore based and estuary boat fisheries described below.
 
@@ -662,7 +663,7 @@ Since ORBS has only produced estimates of catch and effort for the ocean boat fi
 
 Both MRFSS and ORBS were similar in that a dockside angler intercept survey component was used to obtain catch rates. However, MRFSS used a random-digit phone survey to estimate total effort, whereas ORBS used visual counts to estimate private boat effort (i.e., of vessels crossing the ocean bar or trailer counts) and obtained a census of charter effort via logbooks.
 
-Although MRFSS had comprehensive spatial and temporal coverage, MRFSS estimates were determined to be biased during the same external review that identified ORBS biases ( et al. 2000).
+Although MRFSS had comprehensive spatial and temporal coverage, MRFSS estimates were determined to be biased during the same external review that identified ORBS biases (Van Voorhees et al. 2000).
 
 The first bias was inclusion of freshwater fishing trips in effort counts for marine fisheries that caused the estimates of trips by boat (and presumably also shore-based trips) to be overestimated by 17\%. Specifically, trips from zip codes non-adjacent to the ocean were being recorded as marine trips in the phone survey. Accordingly, the reconstruction applied a scaling factor to both the shore and estuary boat estimates to remove the freshwater bias.
 
@@ -948,11 +949,8 @@ This was done for data sets with and without the Stephens-MacCall filtering meth
 \hypertarget{abundance-indices-1}{%
 \subsubsection{Abundance Indices}\label{abundance-indices-1}}
 
-\hypertarget{oregon-1}{%
-\paragraph{Oregon}\label{oregon-1}}
-
 \hypertarget{tagging-study-estimates-of-abundance-off-newport-or-2002-to-2013}{%
-\subparagraph{Tagging Study Estimates of Abundance off Newport, OR, 2002 to 2013}\label{tagging-study-estimates-of-abundance-off-newport-or-2002-to-2013}}
+\paragraph{Tagging Study Estimates of Abundance off Newport, OR, 2002 to 2013}\label{tagging-study-estimates-of-abundance-off-newport-or-2002-to-2013}}
 
 In a study that started in 2002 and concluded in 2014, the ODFW used Passive Integrated Transponder (PIT) tags to mark 2,500 to 4,000 black rockfish annually off Newport, OR. Marked fish are recovered from recreational fishery landings, with sampling focused on the charter vessel fleet. Approximately 80\% of the annual landings are sampled for marked fish, resulting in the recovery of 3,263 marked fish to date.
 
@@ -974,49 +972,30 @@ Details for the tagging study are available in Buell and Hannah , which is inclu
 
 The method for deriving the estimates of annual abundance and their corresponding standard errors differs slightly from what is described in Appendix E. The basic approach is to estimate the numbers of fish from the equation Ny= Cy/uy, where Cy is the catch (in numbers of fish) in year\_y, Ny is the population abundance at the start of the year, and uy is the exploitation rate. As described in Appendix E, uy can be estimated from the ratio of the estimated recovery rate ((f\_y )?) times Cy divided by the number of fish sampled for marks (csy). The Cy appearing in the numerator of the equation for Ny cancels with the Cy in the numerator of the equation for (u\_y )?, leaving as the following estimator for (N\_y )?=?cs?\_y?(u\_y )?. Note that csyis the number of fish checked for marks, which is known without error in this study. Approximate estimates of variance for the (N\_y )? values were derived from the delta method. var{[}(N\_y )? {]}?{[}(?cs?\_y )\^{}2?((f\_y )? )\^{}4 {]}*var{[}(f\_y )? {]}
 
-Spatial Coverage of the Oregon Tagging Study off Newport
+\hypertarget{spatial-coverage-of-the-oregon-tagging-study-off-newport}{%
+\subparagraph{Spatial Coverage of the Oregon Tagging Study off Newport}\label{spatial-coverage-of-the-oregon-tagging-study-off-newport}}
 
 One feature of the Oregon assessment model that is somewhat unique is the use of a prior probability distribution for the catchability parameter associated with the tagging study estimates of abundance of exploitable black rockfish off Newport. Based on estimates of habitat area by port coupled with port-specific estimates of black rockfish densities, a lognormal prior distribution was developed for the tagging study catchability coefficient (Tag-Q). The prior developed for the July STAR and subsequent Mop-up STAR was based on catch-per-unit-effort data (CPUE, catch numbers per angler-fishing-hour) from the MRFSS sampling program for the years 1980 to 2003. The Mop-up STAR Panel requested that the prior distribution be revised using CPUE data that were more contemporaneous with the tagging study. A revised prior distribution was developed based on CPUE data from the ORBS sampling program for the period 2001 to 2014. The analysis of habitat area coupled with CPUE fish densities indicates that on average 12.7\% of the exploitable portion of the black rockfish population off Oregon reside in the waters off Newport (Table 39). The lognormal prior distribution (Figure 96) was assumed to have a standard deviation of 0.5, which is more than double the between-port variability calculated from the available CPUE data (CV=0.157). Although trip-level variability in CPUE is typically much larger than 50\%, most of the variation in CPUE is due to variability in catchability rather variability in the abundance of the fish.
 
-\hypertarget{washington}{%
-\paragraph{Washington}\label{washington}}
+\hypertarget{nearshore-acoustic-visual-survey}{%
+\paragraph{Nearshore acoustic-visual survey}\label{nearshore-acoustic-visual-survey}}
 
-\hypertarget{tagging-cpue-index-for-washington}{%
-\subparagraph{Tagging CPUE index for Washington}\label{tagging-cpue-index-for-washington}}
+Oregon conducted the first statewide combined acoustic-visual survey of nearshore semi-pelagic rockfish in 2021 (L. Rasmuson et al. 2022). Early analysis and design of the survey is presented in Rasmuson et al. (2022)and Rasmuson et al. (2022) where perhaps the most important finding was that the population estimate from an early test of the combined acoustic-visual survey was similar to the Black Rockfish pit tagging project's population estimate (Krutzikowksy, D. W. Wagman, and Davis 2019)
 
-In Washington, the first black rockfish tagging project began in 1981. Details of this extensive program can be found in Wallace et al (2010), but germane to the possibility of extracting abundance information from the program, there were several major changes to objectives and scope of the project. In early years, the objectives were to collect biological information such as growth, movement, and population mixing rate. Since 1986, the main goal was to estimate abundance using the Jolly-Seber model (F. R. Wallace et al. 2010). Table 59 and Table 60 summarize the changes in the long-term tagging program, many of which compromise the direct calculation of abundance.
+The survey was a systematic sampling layout with parallel transects. Parallel (perpendicular to the north south axis) transects were evenly spaced from the Washington border to the California border. ``full'' transects were spaced every 15 km extending from the 80 m contour to the 0 m contour, and ``rock'' transects spaced every 1 km where ``hard'' bottom habitat existed. The length of each rock transect was equal to the east-to west length of the hard habitat plus a 0.5 km buffer applied around the hard habitat.
 
-During the tagging process, catches of black rockfish per angler minute were collected, as were covariates month and punch card area. As Spring was the most consistent time for fishing during these tagging trips as was Punch Card Area 2, the database was reduced to only using Spring trips and Punch Card Area 2 (which were the vast majority of trips). Because black rockfish were explicitly targeted during the trips, no other filters were applied. As done in the dockside CPUE analysis, a delta-GLM was used to analyze the data, using the same error distributions and diagnostics. Model selection (Table 61) and Q-Q plots were used to choose the lognormal model with Year and Month (Figure 190). A jackknife routine was used to estimate variance (Figure 191).
+The primary survey vessel was the RV Pacific Surveyor, a 17 m retired commercial fishing vessel converted for research purposes. The secondary vessel, used for shallow water applications, was the RV Arima, a 4.9 m recreational fishing vessel converted for nearshore research in depths shallower than the primary vessel could achieve. Acoustic data were collected using two downward-facing, pole-mounted transducers (BioSonics DT-X split beam Scientific Echosounders: 38 and 201 kHz). Acoustic data were informed using video collected with the Benthically Anchored Suspended Stereo Camera (BASSCam). Video deployment locations were selected in situ by the scientist monitoring the acoustic data in real-time. Twice daily hook and line sampling was also conducted.
 
-The annual absolute abundance of black rockfish using the mark-recapture portion of the tagging data was also considered, as had been done in the former assessment. The Petersen method to population assumes the population is closed to immigration, emigration, recruitment and mortality during the sampled periods and this assumption is violated. It is acknowledged that fishing mortality occurred between periods of marking and recapture. In addition, there were very low rates of tag loss (0.0035-0.007, (F. R. Wallace et al. 2010)) that were not accounted for in these estimates. Only fish marked and recaptured in a given year were used for that year's abundance estimate. Estimates are provided for 1998-2013, but the 2007 assessment author suggested only years 2000 and onward be used. Prior to 1998 there were tag and recapture efforts, but methods were sufficiently different to not recommend them for use in abundance estimation; see Wallace et al.~(2010) for more details and history on the WDFW black rockfish tagging program. No tagging occurred during 2008.
+An \href{https://www.arcgis.com/apps/mapviewer/index.html?webmap=49e8f3a8079448c29a21d4384d2b50dd}{Online Map} of our survey is available showing locations of all sampling events. A total of 595 acoustic transects were conducted and paired with 496 video drops and 48 fishing stations. A total of 35,839 fish were identified in the video and 869 fish captured using hook and line. Lengths for conversion the target-strength length conversion were generated from an aggregate of all video data from the survey. Video drops conducted \textgreater50 m from acoustically observed fish were used to predict how many fish were missed by the acoustics. Fish counts were converted to biomass using the length-weight relationship from the hook and line data.
 
-The Petersen method (Chapman 1951) estimates abundance by tagging n1 fish at time period one, then recovering fish n2 at a second time period during which the number m of tagged fish are recorded N=(n1)(n2)/m
+Acoustic data were analyzed using both echo integration and echo counting. Echo integration conversions were done using a combination of target strength length relationships from the literature at the suggestion of the SSC. Acoustic data within 1 m of the bottom (deadzone) were corrected with data from above the deadzone). Schools of fish were observed over rocky habitats at all of the major nearshore reefs. Additional small patch reefs were also observed interspersed throughout the survey area.
 
-For the estimates, only fish marked during January through July in marine area 2 were included in the marked fish counts (n1). Only tagged fish recovered through the dockside sampling program at the Westport location were included in the recaptured fish counts (m), and the total number of fished processed and scanned for pit tags and coded wire tags was n2.
+A simple design-based population estimate was generated by averaging the density of the acoustics in each habitat type (rock, gravel and sand) and multiplying it by the total area of each of those habitat types from the Washington border to the California border.
 
-The R program Rcapture (Rivest and Baillargeon 2022) was used to generate the abundance estimates and standard error. The ``Mt'' model output is the Petersen model and values included in Table 62. Figure 192 shows the abundance estimates and 95\% confidence intervals (Nt+-1.96*SEt) for each year. This index was considered as a sensitivity run in the pre-STAR base model and was shown to have no influence on any model results.
+Extensive hypoxia was encountered on the survey from the Washington border to approximately Heceta Head. Although this appeared to affect fish behavior and distribution, data were treated as though there was no affect.
 
 \hypertarget{section}{%
-\subsubsection{\texorpdfstring{\acrlong{s-aslope}}{}}\label{section}}
-
-The \gls{s-aslope} operated during the months of October to November aboard the R/V \emph{Miller Freeman}. Partial survey coverage of the US west coast occurred during the years 1988-1996 and complete coverage (north of 34\textdegree 30\textquotesingle S) during the years 1997 and 1999-2001. Typically, only these four years that are seen as complete surveys are included in assessments.
-
-\hypertarget{section-1}{%
-\subsubsection{\texorpdfstring{\acrlong{s-ccfrp}}{}}\label{section-1}}
-
-Since 2007, the \gls{s-ccfrp} has monitored several areas in California to evaluate the performance of \glspl{mpa} and understand nearshore fish populations (Wendt and Starr 2009; Starr et al. 2015). In 2017, the survey expanded beyond the four \Gls{mpa}s in central California (Año Nuevo, Point Lobos, Point Buchon, and Piedras Blancas) to include the entire California coast. Fish are collected by volunteer anglers aboard \glspl{cpfv} guided by one of the following academic institutions based on proximity to fishing location: Humboldt State University; Bodega Marine Laboratories; Moss Landing Marine Laboratories; Cal Poly San Luis Obispo; University of California, Santa Barbara; and Scripps Institution of Oceanography.
-
-Surveys consist of fishing with hook-and-line gear for 30-45 minutes within randomly chosen 500 by 500 m grid cells within and outside \glspl{mpa}. Prior to 2017, all fish were measured for length and release or descended to depth; since then, some were sampled for otoliths and fin clips.
-
-\hypertarget{section-2}{%
-\subsubsection{\texorpdfstring{\acrlong{s-tri}}{}}\label{section-2}}
-
-The \gls{s-tri} was first conducted by the \gls{afsc} in 1977, and the survey continued until 2004 (Weinberg et al. 2002). Its basic design was a series of equally-spaced east-to-west transects across the continential shelf from which searches for tows in a specific depth range were initiated. The survey design changed slightly over time. In general, all of the surveys were conducted in the mid summer through early fall. The 1977 survey was conducted from early July through late September. The surveys from 1980 through 1989 were conducted from mid-July to late September. The 1992 survey was conducted from mid July through early October. The 1995 survey was conducted from early June through late August. The 1998 survey was conducted from early June through early August. Finally, the 2001 and 2004 surveys were conducted from May to July.
-
-Haul depths ranged from 91-457 m during the 1977 survey with no hauls shallower than 91 m. Due to haul performance issues and truncated sampling with respect to depth, the data from 1977 were omitted from this analysis. The surveys in 1980, 1983, and 1986 covered the US West Coast south to 36.8\textdegree N latitude and a depth range of 55-366 m. The surveys in 1989 and 1992 covered the same depth range but extended the southern range to 34.5\textdegree N (near Point Conception). From 1995 through 2004, the surveys covered the depth range 55-500 m and surveyed south to 34.5\textdegree N. In 2004, the final year of the \gls{s-tri} series, the \gls{nwfsc} \gls{fram} conducted the survey following similar protocols to earlier years.
-
-\hypertarget{section-3}{%
-\subsubsection{\texorpdfstring{\acrlong{s-wcgbt}}{}}\label{section-3}}
+\subsubsection{\texorpdfstring{\acrlong{s-wcgbt}}{}}\label{section}}
 
 The \Gls{s-wcgbt} is based on a random-grid design; covering the coastal waters from a depth of 55-1,280 m (Bradburn, Keller, and Horness 2011). This design generally uses four industry-chartered vessels per year assigned to a roughly equal number of randomly selected grid cells and divided into two `passes' of the coast. Two vessels fish from north to south during each pass between late May to early October. This design therefore incorporates both vessel-to-vessel differences in catchability, as well as variance associated with selecting a relatively small number (approximately 700) of possible cells from a very large set of possible cells spread from the Mexican to the Canadian borders.
 
@@ -1489,9 +1468,6 @@ Buckley, R. M. 1965. {``Bottomfish Sport Fishery.''} Sport fishery investigation
 \leavevmode\vadjust pre{\hypertarget{ref-buell_hannah_2007}{}}%
 Buell, T., and B. Hannah. {``Estimation of Black Rockfish (Sebastes Melanops) Population Parameters from Recreational Fisheries Mark-Recapture Data Off Newport, Oregon.''} Oregon Department of Fish; Wildlife.
 
-\leavevmode\vadjust pre{\hypertarget{ref-chapman_1951}{}}%
-Chapman, D. 1951. {``Some Properties of the Hypergeometric Distribution with Applications to Zoological Sample Censuses.''} \emph{University of California Publications on Statistics} 1: 131-\/-160.
-
 \leavevmode\vadjust pre{\hypertarget{ref-cleaver_1951}{}}%
 Cleaver, F. C. 1965. {``Fisheries Statistics of Oregon.''} Oregon Fish Comm. Contr 16.
 
@@ -1506,9 +1482,6 @@ Council, Pacific Fishery Management. 2004. {``Acceptable Biological Catch and Op
 
 \leavevmode\vadjust pre{\hypertarget{ref-culver_1987}{}}%
 Culver, B. N. 1987. \emph{Results of Tagging Black Rockfish (Sebastes Melanops) Off the Washington and Northern Oregon Coast}. Proceedings of the International Rockfish Symposium, ak-sg-87-02. University of Alaska Sea Grant.
-
-\leavevmode\vadjust pre{\hypertarget{ref-van_voorhees_etal_2000}{}}%
-D., A. Hoffman, A. Lowther, W. Van Buskirk, J. Weinstein, and J. White. 2000. {``An Evaluation of Alternative Estimators of Ocean Boat Fishing Effort and Catch in Oregon.''} RecFIN. \url{http://old.recfin.org/lib/RecFIN_ORBS_MRFSS_Comparison.PDF}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-dick_modeling_2009}{}}%
 Dick, Edward Joseph. 2009. \emph{Modeling the {Reproductive} {Potential} of {Rockfishes} (\emph{Sebastes} {Spp}.).} PhD Thesis, University of Californai at Santa Cruz.
@@ -1536,6 +1509,9 @@ Hixon, M. A., D. W. Johnson, and S. M. Sogard. 2014. {``BOFFFFs: On the Importan
 
 \leavevmode\vadjust pre{\hypertarget{ref-karnowski_historical_2014}{}}%
 Karnowski, M., V. V. Gertseva, and Andi Stephens. 2014. {``Historical {Reconstruction} of {Oregon}'s {Commercial} {Fisheries} {Landings}.''} Oregon Department of Fish; Wildlife, Salem, OR.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Krutzikowksy_etal_2019}{}}%
+Krutzikowksy, G., D. W. Wagman, and R. Davis. 2019. {``Population Status of Black Rockfish in Oregon Coastal Waters.''} Annual Progress Report F-186-R-10. Oregon Department of Fish; Wildlife.
 
 \leavevmode\vadjust pre{\hypertarget{ref-love_2011}{}}%
 Love, M. S. 1957. \emph{Certainly More Than You Want to Know about the Fisheries of the Pacific Coast: A Postmodern Experience}. Santa Barbara, CA: Really Big Press.
@@ -1567,8 +1543,14 @@ Ralston, S., and E. J. Dick. 2003. {``The Status of Black Rockfish \emph{{Sebast
 \leavevmode\vadjust pre{\hypertarget{ref-ralston_documentation_2010}{}}%
 Ralston, Stephen, Don E. Pearson, John C. Field, and Meisha Key. 2010. {``Documentation of the {California} Catch Reconstruction Project.''} US Department of Commerce, National Oceanic; Atmospheric Adminstration, National Marine.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Rcapture_version}{}}%
-Rivest, L-P. R., and S. Baillargeon. 2022. \emph{Package {``Rcapture''} Version 1.4-4: Loglinear Models for Capture-Recapture Experiments}. \url{https://cran.r-project.org/web/packages/Rcapture/Rcapture.pdf}.
+\leavevmode\vadjust pre{\hypertarget{ref-Rasmuson_etal_SSC_2022}{}}%
+Rasmuson, L., M. T. O. Blume, K. A. Lawrence, E. J. Bailey, M. R. Terwilliger, S. A. Fields, P. S. Rankin, and A. J. Phillips. 2022. {``Oregon Nearshore Semi-Pelagic Rockfish Survey.''} Report to SSC methodology review September 2022. Oregon Department of Fish; Wildlife.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Rasmuson_etl_untrawlable_2022}{}}%
+Rasmuson, S. A. Fields, L. K., and P. S. Rankin. 2022. {``Combined Video-Hydroacoustic Survey of Nearshore Semi-Pelagic Rockfish in Untrawlable Habitats.''} \emph{{ICES} Journal of Marine Science} 79: 100--116.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Rasmuson_etl_hydrovideo_2022}{}}%
+Rasmuson, S. R. Marion, L. K., and P. S. Rankin. 2022. {``Influence of Near Bottom Fish Distribution on the Efficacy of a Combined Hydroacoustic Video Survey.''} \emph{{ICES} Journal of Marine Science} 79: 2069--83.
 
 \leavevmode\vadjust pre{\hypertarget{ref-rogers_species_2003}{}}%
 Rogers, J. B. 2003. {``Species Allocation of \emph{{Sebastes}} and \emph{Sebastolobus} Species Caught by Foreign Countries Off {Washington}, {Oregon}, and {California}, {U}.{S}.{A}. In 1965-1976.''} Unpublished document.
@@ -1578,9 +1560,6 @@ Sampson, D. B. 2007. {``The Status of Black Rockfish Off Oregon and California i
 
 \leavevmode\vadjust pre{\hypertarget{ref-starr_green_2007}{}}%
 Starr, R. M., and K. Green. 2007. {``Species Composition, Relative Abundance, and Movements of Important Nearshore Fish Species Along the North Central California Coast.''} Final report to the Pacific States Marine Fisheries Commission.
-
-\leavevmode\vadjust pre{\hypertarget{ref-Starr2015}{}}%
-Starr, R. M., D. E. Wendt, C. L. Barnes, C. I. Marks, D. Malone, G. Waltz, K. T. Schmidt, et al. 2015. {``Variation in Responses of Fishes Across Multiple Reserves Within a Network of Marine Protected Areas in Temperate Waters.''} \emph{PLoS One2} 10 (3): p.e0118502.
 
 \leavevmode\vadjust pre{\hypertarget{ref-stein_hassler_1989}{}}%
 Stein, D., and T. J. Hassler. 1989. {``Species Profiles: Life Histories and Environmental Requirements of Coastal Fishes and Invertebrates (Pacific Southwest): Brown Rockfish, Copper Rockfish, Black Rockfish.''} U.S. Fish and Wildlife Service Biological Report 82.
@@ -1600,6 +1579,9 @@ Tsou, T. S., L. L. Wargo, M. Langness, J. Colin, R. S. LeGoff, D. E. Downs, V. S
 \leavevmode\vadjust pre{\hypertarget{ref-tsou_weyland_2015}{}}%
 Tsou, T. S., and P. M. Weyland. 2015. {``Washington Commercial Groundfish Fisheries Data Collection and Processing.''} FPA 15-07. Washington Department of Fish; Wildlife.
 
+\leavevmode\vadjust pre{\hypertarget{ref-van_voorhees_etal_2000}{}}%
+Van Voorhees, D., A. Hoffman, A. Lowther, W. Van Buskirk, J. Weinstein, and J. White. 2000. {``An Evaluation of Alternative Estimators of Ocean Boat Fishing Effort and Catch in Oregon.''} RecFIN. \url{http://old.recfin.org/lib/RecFIN_ORBS_MRFSS_Comparison.PDF}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-wallace_status_1999}{}}%
 Wallace, F. R., A. Hoffman, and J. V. Tagart. 1999. {``Status of the Black Rockfish Resource in 1999.''} Vol. Appendix to the Status of the Pacific Coast Groundfish Fishery Through 1999 and Recommended Acceptable Biological Catches for 2000, Stock Assessment and Fishery Evaluation. 7700 Ambassador Place NE, Suite 200, Portland, OR: Pacific Fishery Management Council.
 
@@ -1611,12 +1593,6 @@ Wallace, F. R., T. S. Tsou, Y. W. Cheng, and L. Wargo. 2010. {``Summary of the C
 
 \leavevmode\vadjust pre{\hypertarget{ref-wallace_status_2007}{}}%
 Wallace, Y. W., F. R. aand Cheng, and T. S. Tsou. 2007. {``Status of the Black Rockfish Resource North of Cape Falcon, Oregon to the u.s.-Canadian Border in 2006.''} Vol. Appendix: Status of the Pacific Coast Groundfish Fishery Through 2007 and Recommended Biological Catches for 2009: Stock Assessment and Fishery Evaluation. 7700 Ambassador Place NE, Suite 200, Portland, OR: Pacific Fishery Management Council.
-
-\leavevmode\vadjust pre{\hypertarget{ref-weinberg_2001_2002}{}}%
-Weinberg, K. L., M. E. Wilkins, F. R. Shaw, and M. Zimmermann. 2002. {``The 2001 {Pacific} {West} {Coast} Bottom Trawl Survey of Groundfish Resources: Estimates of Distribution, Abundance and Length and Age Composition.''} \{NOAA\} \{Technical\} \{Memorandum\} NMFS-AFSC-128. U.S. Department of Commerce.
-
-\leavevmode\vadjust pre{\hypertarget{ref-Wendt2009}{}}%
-Wendt, D. E., and R. M. Starr. 2009. {``Collaborative Research: An Effective Way to Collect Data for Stock Assessments and Evaluate Marine Protected Areas in {C}alifornia.''} \emph{Marine and Coastal Fisheries: Dynamics, Management, and Ecosystem Science.} 1: 315--24.
 
 \leavevmode\vadjust pre{\hypertarget{ref-wright_1967}{}}%
 Wright, S. 1967. {``Troll Fishery Progress Report.''} Marine Fisheries Investigation. State of Washington. Department of Fisheries.

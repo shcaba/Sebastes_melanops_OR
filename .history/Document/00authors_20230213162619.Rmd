@@ -10,12 +10,17 @@ author:
     first: A
     middle: D
     family: Whitman
-  - name: Aaron B. Berger
+  - name: Aaron M. Berger
     code: 1
     first: A
     middle: D
     family: Whitman
-author_list: Cope, J.M., A.D. Whitman, A.B. Berger
+  - name: Leif R. Rasmuson
+    code: 1
+    first: A
+    middle: D
+    family: Whitman
+author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.R. Rasmuson
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
