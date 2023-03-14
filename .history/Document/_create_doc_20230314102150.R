@@ -5,7 +5,7 @@
   library(r4ss)
 
 # Specify the directory for the document
-setwd("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document")
+setwd("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document") #laptop
 
 setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document")
 setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/temp")

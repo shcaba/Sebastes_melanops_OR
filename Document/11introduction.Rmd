@@ -22,6 +22,10 @@ Like all members of the genus Sebastes, `r spp` have internal fertilization and 
 `r spp` begin recruiting to nearshore fisheries at 3-4 years of age, corresponding to a fork length of about 25-30 cm, and 50% of females attain maturity at about 6-8 years, corresponding to a fork length of about 38-42 cm.  Adult female `r spp` grow 3-5 cm larger than males, with a few females attaining fork lengths greater than 55 cm.
 
 ## Ecosystem Considerations
+The prominent position of black rockfish as both a major predator (adult stage) and prey (larvae to juvenile stages) in mostly nearshore areas suggest it to be a notable player in the nearshore ecosystem. The California Current is a highly variable and dynamic system, and it has been recognized for years that rockfishes are subject to large swings in recruitment that are tied to environmental conditions. It is believe to be one of the reasons rockfishes exhibit long lives and the ability to go years without significant recruitment, but can produce large recruitment events when conditions are favorable (a phenomenon known as the "storage effect").
+
+Black rockfish off central Oregon have recently been shown to exhibit changes in larval and juvenile growth rates that correlate with settlement with prey abundance and water temperature, to name just a few of the factors [@fennie_larval_2023]. Settlement rates exhibited a dome-shaped relationship, demonstrating a "window" of good growth conditions for successful settlement. 
+
 No formal ecosystem considerations have been made given the lack of data for such an undertaking. Differences in growth though time have been considered in the model specification in the Washington model. Though the mechanism is not specified, this could certainly be due to process error driven by environmental conditions.
 
 ## Historical and Current Fishery Information
