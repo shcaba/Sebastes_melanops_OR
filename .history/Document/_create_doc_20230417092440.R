@@ -11,13 +11,13 @@ setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document")
 setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/temp")
 
 # Create the needed items to generate the "right" template that would be based on the inputs here:
- sa4ss::draft(authors = c("Jason M. Cope", "Alison D. Whitman"),
-   			 species = "Black rockfish",
-   			 latin = "Sebastes melanops",
-   			 coast = "US West - Oregon",
-   			 type = c("sa"),
-   			 create_dir = FALSE,
-   			 edit = FALSE)
+ #sa4ss::draft(authors = c("Jason M. Cope", "Alison D. Whitman"),
+ #  			 species = "Black rockfish",
+ #  			 latin = "Sebastes melanops",
+ #  			 coast = "US West - Oregon",
+ #  			 type = c("sa"),
+ #  			 create_dir = FALSE,
+ #  			 edit = FALSE)
 
 # Create a model Rdata object
 # Create a model Rdata object
