@@ -1,6 +1,6 @@
 ---
 geometry: margin=1in
-month: "May"
+month: "June"
 year: "2023"
 preamble: |
 output:
@@ -94,11 +94,11 @@ _**These materials do not constitute a formal publication and are for informatio
 
 ## Stock{-}
 
-The assessments described in this document apply to the black rockfish (*Sebastes melanops*) stocks that reside in the waters from Point Conception (34\textdegree27' N latitude) in the south to the U.S. boundary with Canada (approximately 48\textdegree30' N latitude) through the year 2014.  Following the consensus recommendations from a preliminary stock assessment workshop in April 2015 (PFMC 2015), the stock assessment team (STAT) decided to prepare separate geographic stock assessments that are spatially stratified with boundaries at the CA/OR border (42\textdegree00' N latitude) and OR/WA border (46\textdegree16' N latitude).  
+The assessments described in this document apply to the black rockfish (*Sebastes melanops*) stocks that reside in the waters from Point Conception (34\textdegree27' N latitude) in the south to the U.S. boundary with Canada (approximately 48\textdegree30' N latitude) through the year 2022.  Following the consensus recommendations from a preliminary stock assessment workshop in April 2015 (PFMC 2015), the stock assessment team (STAT) decided to prepare separate geographic stock assessments that are spatially stratified with boundaries at the CA/OR border (42\textdegree00' N latitude) and OR/WA border (46\textdegree16' N latitude).  
 
 Black rockfish are also caught from the waters off British Columbia and Alaska, but there have not been any formal assessments of stock status for those areas.
 
-This assessment reports the status of Black Rockfish (_Scientific name_) off Oregon state using data through 2014. Black Rockfish are also found in California (their core range) and Washington waters of the U.S. West Coast, and those are treated in separate stock assessments given different mangement considerations and exploitation histories. There is substantial biogeographic separation in the populations off Oregon and Washington, thus justifying separation of those populations into different management units and stock assessments.
+This assessment reports the status of Black Rockfish (_Scientific name_) off Oregon state using data through 2022. Black Rockfish are also found in California (their core range) and Washington waters of the U.S. West Coast, and those are treated in separate stock assessments given different mangement considerations and exploitation histories. There is substantial biogeographic separation in the populations off Oregon and Washington, thus justifying separation of those populations into different management units and stock assessments.
 
 ## Removals{-}
 
@@ -124,11 +124,11 @@ Because of their nearshore distribution and low abundance compared to other rock
 The last stock assessments for black rockfish were conducted in 2007 for areas north and south of Cape Falcon (45\textdegree46' North latitude). The current assessments assume three areas instead of two, delineated by the state lines as was agreed upon at a pre-assessment and data workshop in March 2015. The prior assessments used Stock Synthesis 2, while the current assessments use Stock Synthesis 
 
 ```
-[1] "3.30.20.00"
+[1] "3.30.21.00"
 ```
 . The Washington base assessment includes a dockside and tag-based CPUE series, but does not include the abundance estimate time series from that same tagging study which was included in the last assessment due to too many violations in the assumptions of abundance estimation. The same two commercial and single recreational fleets are used as in the last assessment for Washington. The Oregon assessment has three commercial fleets and two recreational fleets, while using five surveys and an additional research study for biological compositions. California also has three commercial fleets and 1 recreational fleet with three surveys of abundance, all based on recreational fisheries. All area models include age data as conditional age at lengths. Length compositions are also included in all models.
 
-The stock assessment for Black Rockfish off Oregon was developed using the length- and age-structured model Stock Synthesis (version 3.30.16).  No previous stock assessment for Black Rockfish off Oregon has been conducted. Model structure included two fleets (commercial and recreational) and one fishery-based index of abundance. Life history parameters were sex-specific (i.e., a two-sex model) with natural mortality and growth parameters estimated, along with recruitment.  The model covers the years 1892 to 2014, with a 12 year forecast beginning in 2015.
+The stock assessment for Black Rockfish off Oregon was developed using the length- and age-structured model Stock Synthesis (version 3.30.16).  No previous stock assessment for Black Rockfish off Oregon has been conducted. Model structure included two fleets (commercial and recreational) and one fishery-based index of abundance. Life history parameters were sex-specific (i.e., a two-sex model) with natural mortality and growth parameters estimated, along with recruitment.  The model covers the years 1892 to 2022, with a 12 year forecast beginning in 2023.
 
 This assessment integrates data and information from multiple sources into one modeling framework. Specifically, the assessment uses landings data, length and conditional age-at-length composition data (using ageing error matrices to incorporate ageing imprecision) for each fishery, and one index of abundance based on the recreational fishery; fixed parameterizations of weight-at-length, maturity-at-length, and fecundity-at-length, the Beverton-Holt stock-recruitment steepness value and recruitment variability. Estimated values include initial population scale ($lnR_0$), natural mortality and growth for each sex, asymptotic selectivity and recruitment deviations. The base model was tuned to account for the weighting of the length and age data and index variances (which was estimated), as well as the specification of recruitment variance and recruitment bias adjustments.  Derived quantities include the time series of spawning biomass, age and size structure, and current and projected future stock status. 
 
@@ -138,7 +138,7 @@ Within model uncertainty is explicitly included in this assessment by parameter 
 
 Spawning stock outputs are all at or above limit reference points (Table ES-2. Only California shows declines significantly below this reference point at any point in the time series. California and Washington stocks show a declining population through most of the 20th Century, with stronger declines in the 1980s, and recoveries beginning in the mid-1990s. Oregon stocks follow this pattern, but with a decline in the most recent period. California (33%) is below the target biomass reference point with an increasing biomass trend (Figures ES-4 and ES-5).  The Oregon stock dropped after the quick ramp up of catches in the late 1970s and continued a steady decline until around year 2000, settling in at a stock status around 60% of initial conditions. The Washington stock, currently 43%, dropped below the target biomass by in the early 1980s, then risen above since the late 1990s and has fluctuated above that point through 2014 (Figures ES-8 and ES-9).
 
-Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2021 was 830 meggs (~95 percent asymptotic intervals: 807 to 852 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (1,376) meggs gives a relative stock status level of 60 percent (~95 percent asymptotic intervals: 60 to 61 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size. The largest of the estimated recruitment pulses since the mid 1990s (that are supported by each of the data sets) caused a sharp increase in spawning output through the mid 2010s, followed by another decline. The minimum relative stock size of 59 percent of unfished levels is estimated to have occurred in 2006. Currently the stock is estimated well above the management target of $SB_{40\%}$ in 2021 and is estimated to have remained above the target since 2000 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
+Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2021 was 895 meggs (~95 percent asymptotic intervals: 839 to 951 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (1,633) meggs gives a relative stock status level of 55 percent (~95 percent asymptotic intervals: 52 to 57 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size. The largest of the estimated recruitment pulses since the mid 1990s (that are supported by each of the data sets) caused a sharp increase in spawning output through the mid 2010s, followed by another decline. The minimum relative stock size of 25 percent of unfished levels is estimated to have occurred in 1999. Currently the stock is estimated well above the management target of $SB_{40\%}$ in 2021 and is estimated to have remained above the target since 2000 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
 
 \input{tex_tables/b_SSB_ES.tex}
 
@@ -172,7 +172,7 @@ Informative recruitment begins in the 1960s and peaks in the 1990s (Table \ref{t
 
 California and Washington models indicate that current fishing practices are near or above the SPR rate fishing intensity target, while the Oregon model is quite a bit above the target (table ES-4, compare to SPR=0.5; Figure ES-13 to Figure ES-18), though the steepness value (0.773) indicates a much lower value of SPR for sustainable removals. Fishing rates have been above the target in California in nearly all years since the 1980s, but have dropped considerably in recent years. Oregon fishing rates have been consistently high in recent years.  Washington shows a dramatic decline in fishing intensity since the late 1990s and has fluctuated mostly below the target since. 
 
-Trends in fishing intensity (1 - SPR) largely mirrored that of landings until the 1990s when recruitment pulses overcame the catches to lower overall fishing intensity (Figure \ref{fig:es-1-spr}). The maximum fishing intensity was 0.49 in 1992, above the target SPR-based harvest rate of 0.50 (1 - $\text{SPR}_{50\%}$). Current levels of 0.39 for 2020 are near the fishing limit. Fishing intensity over the past decade has ranged between 0.31 and 0.42 and the exploitation rate has been high (0.04 - 0.06, Table \ref{tab:exploitES}). Current estimates indicate that Black Rockfish spawning output is much greater than than the target biomass level ($\text{SB}_{40\%}$), though fishing intensity remains near target $F_{MSY}$ proxy harvest rate.
+Trends in fishing intensity (1 - SPR) largely mirrored that of landings until the 1990s when recruitment pulses overcame the catches to lower overall fishing intensity (Figure \ref{fig:es-1-spr}). The maximum fishing intensity was 0.7 in 1992, above the target SPR-based harvest rate of 0.50 (1 - $\text{SPR}_{50\%}$). Current levels of 0.42 for 2020 are near the fishing limit. Fishing intensity over the past decade has ranged between 0.4 and 0.56 and the exploitation rate has been high (0.04 - 0.08, Table \ref{tab:exploitES}). Current estimates indicate that Black Rockfish spawning output is much greater than than the target biomass level ($\text{SB}_{40\%}$), though fishing intensity remains near target $F_{MSY}$ proxy harvest rate.
 
 \input{tex_tables/d_SPR_ES.tex}
 
@@ -190,9 +190,9 @@ This stock assessment does not explicitly incorporate trophic interactions, habi
 
 Reference points were based on the rockfish FMSY proxy (SPR50%), target relative biomass (40%) and model-estimated selectivity for each fleet. California is below the target biomass reference point, but above the limit reference biomass (25%). Oregon is well above the target biomass.  Washington relative biomass is above the target biomass. California and Washington yield values are lower than the previous assessment for similar reference points due to lower overall natural mortality values (Table ES-5). The proxy MSY values of management quantities are the most conservative compared to the estimated MSY and MSY relative to 40% biomass for both California and Washington (Table ES-5). The equilibrium estimates of yield relative to biomass are provided in Figure ES-19 to Figure ES-21.
 
-The 2021 spawning biomass relative to unfished equilibrium spawning biomass is well above the management target of 40 percent of unfished spawning biomass. The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$. Figure \ref{fig:es-yield} shows the equilibrium curve based on a steepness value fixed at 0.77 with vertical dashed lines to indicate the estimate of fraction unfished at the start of 2015 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY).
+The 2021 spawning biomass relative to unfished equilibrium spawning biomass is well above the management target of 40 percent of unfished spawning biomass. The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$. Figure \ref{fig:es-yield} shows the equilibrium curve based on a steepness value fixed at 0.72 with vertical dashed lines to indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY).
 
-Reference points were calculated using the estimated selectivities and catch distributions among fleets in the most recent year of the model, 2014 (Table \ref{tab:e_ReferencePoints_ES}). Sustainable total yield, removals, using an $\text{SPR}_{50\%}$ is 514 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 633.7 meggs. Recent removals have been close to the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point and the population size has been relatively decreasing toward the target over the past few years.
+Reference points were calculated using the estimated selectivities and catch distributions among fleets in the most recent year of the model, 2022 (Table \ref{tab:e_ReferencePoints_ES}). Sustainable total yield, removals, using an $\text{SPR}_{50\%}$ is 455 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 728.5 meggs. Recent removals have been close to the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point and the population size has been relatively decreasing toward the target over the past few years.
 
 
 ![Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
@@ -211,31 +211,34 @@ Removals have been below the equivalent ABC-ACL since the prior assessment (Tabl
 
 Exploitation on Black Rockfish increased starting around 1960 and reached a high in the early 1990s. Since that time, catch has mostly fluctuated between 5 and 10 mt per year, with some years exceeding 10 mt, particularly in the last 4 years. The last ten years of the vermilion rockfish component acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) of the Minor Shelf Rockfish North Complex has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:ofl-es}). The Black Rockfish component OFL for this Complex has been exceeded by the Oregon removals in the most recent 4 years.
 
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
+#```{r, results = 'asis'}
+#yrs = hist = 2011:endyr
+#nfleets = 2
+#catch = dead = est.dead = input.catch =  0
+#for (i in 1:nfleets){
+#  name = paste0("retain(B):_",i)
+#  input.catch = model$timeseries[model$timeseries$Yr %in% yrs, name]
+#  catch = cbind(catch, input.catch)
 
-\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.83cm}>{\raggedright\arraybackslash}p{1.83cm}>{\raggedright\arraybackslash}p{1.83cm}>{\raggedright\arraybackslash}p{1.83cm}>{\raggedright\arraybackslash}p{1.83cm}}
-\caption{(\#tab:ofl-es)The OFL, ABC, ACL, landings, and the estimated total mortality in metric tons.}\\
-\toprule
-Year & OFL & ABC & ACL & Landings & Est. Total Mortality\\
-\midrule
-\endfirsthead
-\caption[]{(\#tab:ofl-es)The OFL, ABC, ACL, landings, and the estimated total mortality in metric tons. \textit{(continued)}}\\
-\toprule
-Year & OFL & ABC & ACL & Landings & Est. Total Mortality\\
-\midrule
-\endhead
+#  name = paste0("dead(B):_",i)
+#  est.dead = model$timeseries[model$timeseries$Yr %in% yrs, name]
+#  dead = cbind(dead, est.dead)
+#}
+#total.catch <- round(apply(catch, 1, sum),1)
+#total.dead  <- round(apply(dead, 1, sum), 1)
 
-\endfoot
-\bottomrule
-\endlastfoot
-2011 & 11.1 & 5.6 & 5.6 & 70.6 & 70.6\\
-2012 & 11.1 & 5.6 & 5.6 & 64.5 & 64.5\\
-2013 & 9.7 & 8.1 & 8.1 & 68.6 & 68.6\\
-2014 & 9.7 & 8.1 & 8.1 & 73.6 & 73.6\\*
-\end{longtable}
-\endgroup{}
-\endgroup{}
+#man = read.csv("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tables/#vermilion_man_for_doc.csv")
+#man = man[man$Year %in% yrs, ]
+#out = cbind(man,  total.catch, total.dead)
+
+#col_names = c("Year", "OFL", "ABC", "ACL", "Landings", "Est. Total Mortality")
+
+#table_format(x = out,
+#             caption = "The OFL, ABC, ACL, landings, and the estimated total mortality in metric tons.",
+#             label = "ofl-es",
+#             align = 'l',
+#             col_names = col_names)
+#```
 
 ## Unresolved problems and major uncertainties{-}
 
@@ -243,7 +246,7 @@ The most significant uncertainty for all models is the treatment and value of na
 
 ## Scientific uncertainty{-}
 
-The model-estimated uncertainty around the 2015 spawning biomass was $\sigma$ = 0.01 and the uncertainty around the OFL was $\sigma$ = 0.01. This is likely an underestimate of overall uncertainty because of the necessity to fix some parameters such as steepness, as well as a lack of explicit incorporation of model structural uncertainty.
+The model-estimated uncertainty around the 2023 spawning biomass was $\sigma$ = 0.03 and the uncertainty around the OFL was $\sigma$ = 0.01. This is likely an underestimate of overall uncertainty because of the necessity to fix some parameters such as steepness, as well as a lack of explicit incorporation of model structural uncertainty.
 
 ## Harvest Projections and Decision Table{-}
 
@@ -668,12 +671,25 @@ as well as variance associated with selecting a relatively small number (approxi
 
 ## Biological Data
 
-The major biological inputs to the models are age and growth parameters, natural mortality, weight-length, maturity and stock-recruitment parameters (Table 40 (OR), and Table 63 (WA)).
+The major biological inputs to the models are natural mortality, age and growth parameters, weight-length, maturity and stock-recruitment parameters (). THe following sections outline the treatment of each section.
 
 
 ### Natural Mortality
 
-Previous assessments of black rockfish used different rates of natural mortality for males versus females to account for the lack of older females in fishery samples (Figure 5 and Figure 6).  The assumed instantaneous rate of natural mortality (M) for males was 0.16 and was constant with age.  Females assumed the male natural mortality value up to age 10, after which natural mortality linearly increased to 0.24 (up to age 15), remaining constant for all subsequent ages. The lower of the two natural mortality rates corresponds to a longevity of only 27 years. Given that individuals over the age of 30 are not uncommon in the age samples being used in the assessment (Figure 3), this seems to be an overestimate of what M should be for black rockfish (Figure 5). Furthermore, the major increase in female natural mortality is invoked well before the theoretical age of asymptotic length, a theory which seems very unlikely given what is known about rockfish life history and growth. This decline in female sex ratio is also seen in other rockfishes (e.g., canary and yellowtail rockfish). The most recent canary rockfish assessment also invoked a similar ramp up to natural mortality to explain this discrepancy on the data (Figure 5).
+Natural mortality is a critical parameter that drives much of the outcome of stock assessments. This value is not directly measured for black rockfish, so it either needs to be estimated or fixed in the model. Prior treatments have either used fixed ramps from lower to higher female natural mortality values (0.16 to 0.24 for females (2007 assessment); 0.17 to 0.2 (2015 assessment)) to constant male natural mortality value (0.16 in 2007; 0.17 in 2015). Females rapidly disappear from the population after 20 years of age, whereas whereas males can still be found in their 30 and 40s, with the oldest individuals along the coast aged at 56 years [@love_2011]. Females are rarely found in their 30s and males in their 40s in Oregon.
+
+The reason for the lack of females has been debated for many years. The "hide them" (using age-based selectivity curves to hide older females) or "kill them" (using the above mentioned ramps of death to account for no older females in samples) was specifically considered since the last assessment among researchers from California to Alaska, and it was agreed that the "hide them" hypothesis the least feasible situation (see Rasmuson et al. [-@Rasmuson_noBOFFFs_2023] for a specific study that went looking for old females). It was also agreed a constant natural mortality rate should be used. 
+
+Determining reasonable natural mortality values is also challenging as females quickly disappear from the population after 20 years old, . Using the Hamel and Cope [-@hamel_Mprior_2022] longevity-based estimator of natural mortality as implemented in the natural mortality tool [-@cope_NMT_2022], the following M values correspond to the longevity estimates:
+
+     *0.108 at 50 years
+     *0.135 at 40 years
+     *0.180 at 30 years
+     *0.216 at 25 years
+     *0.270 at 20 years
+
+These provide reasonable bookends for likely natural mortality values for black rockfish. For females, estimates based on the von Bertalanffy growth function range from 0.27-0.32 and for males, 0.34 to 0.38. Those estimates are on the high side, and thus are not considered further. Exploratory runs first attempted to estimate natural mortality with a high bound of 0.25. This was a consistent attribute of unconstrained models wanting high natural mortality rates. For this reason, the constant natural 
+
 
 The pre-STAR approach in this assessment was to fix values of natural mortality at ages to be more in line with the proposed longevity of black rockfish (56 years old; [@love_2011]) and coupled with an age-based selectivity for females to account for the missing samples of that sex (see Section 2.3for details).  A variety of natural mortality estimates based on longevity values and von Bertalanffy values were explored (Table 3).  The estimators using the von Bertalanffy values were ultimately chosen because they incorporated both sex and area differences in natural mortality. This choice of dome-shaped age-based selectivity and fixed lower natural mortality causes the productivity of the population to drop greatly relative to assuming a logistic selectivity and a ramp in M, but also creates a very large amount of cryptic (i.e. unavailable) biomass (Figure 7) compared to the model with a ramp in M (Figure 8). Given such high relative cryptic biomass when invoking dome-shaped age-based selectivity, but discomfort with the M ramp scenario, it was decided during the STAR panel that estimating a sex-specific M was a defensible approach in lieu of data supporting either dome-shaped selectivity and high cryptic biomass or extreme natural mortality values using a ramp in M, and thus was adopted as the approach to M in the California and Washington base models. Sensitivities to the other proposed treatments of natural mortality were also provided.
 
@@ -707,12 +723,12 @@ Length-weight relationships (kg to fork lengths) were developed with state-speci
 
 The black rockfish maturity is assumed to be based on length, as assumed in past assessments. A notable difference in our approach in these assessments is the use of functional maturity instead of sexual maturity (the typical application). Functional maturity is a more stringent definition of maturity as compared to sexual maturity. Instead of just using the presence of yolk as a measure of sexual maturity, functional maturity takes into account both the presence of strict spawning individuals and the level of atresia or skipped spawning. Such an approach yields length at 50% maturity estimates larger than the standard sexual maturity application. Melissa Head of the Northwest Fisheries Science Center provided estimates of both functional and sexual maturity from black rockfish sampled in the months of July to January (deemed the best time for identifying mature individuals) off Oregon and Washington waters combined. The logistic fit to those the functional and sexual maturity values are found in Table 4. The functional maturity values were sampled from individuals from one year, which happened to be the year of the "warm blob". It is therefore unknown how this may have affected the estimate of functional maturity, particularly the levels of mass atresia in older individuals. Discussion in the STAR panel lead to the decision to assume all individuals above 45cm to be mature in the functional maturity data set in order to be conservative on the estimate of the effect of atresia on maturity estimation. The functional maturity values from this modified data set are used for all states, but sensitivities to the new sexual maturity estimate, as well as the respective area values from the previous assessments and the unmodified functional maturity data set are explored.
 
-Similarly, this assessment, like previous assessments, assumes that weight-specific fecundity is linearly related to female body weight. Values for the slope and intercept were taken from Dick [-@dick_modeling_2009] and are found in the parameterization tables for each state assessment model (Table 18 (CA); Table 40 (OR); Table 63 (WA)). 
+Similarly, this assessment, like previous assessments, assumes that weight-specific fecundity is linearly related to female body weight. Values for the slope and intercept were taken from Dick [-@dick_modeling_2009] and are found in the parameterization tables (Table 18 (CA); Table 40 (OR); Table 63 (WA)). 
 
 
 ### Stock-recruitment function and compensation
 
-The Beverton-Holt stock-recruit model [@beverton_holt_1957] has been the traditional recruitment function for rockfishes and is assumed for black rockfish.  Specifically, the re-parameterized Beverton-Holt that uses a steepness parameter defined as the proportion of average recruitment for an unfished population expected for a population at 20% of unfished spawning output (Mace and Doonan) was used in these assessments.  This is a notoriously difficult parameter to estimate, thus several attempts to derive a prior of steepness have been attempted [@myers_etal_1995; @dorn_advice_2002].  This prior is typically updated each cycle (following the method of Dorn 2002) and subject to a review by the Council's Science and Statistical Committee.  The prior for 2015 has an expected value of 0.773 and a standard deviation of 0.147 using a beta distribution. Attempts were made to estimate this value, but were not successful, so it is fixed and its influence is explored via a likelihood profile.
+The Beverton-Holt stock-recruit model [@beverton_holt_1957] has been the traditional recruitment function for rockfishes and is assumed for black rockfish.  Specifically, the re-parameterized Beverton-Holt that uses a steepness parameter defined as the proportion of average recruitment for an unfished population expected for a population at 20% of unfished spawning output (Mace and Doonan) was used in these assessments.  This is a notoriously difficult parameter to estimate, thus several attempts to derive a prior of steepness have been attempted [@myers_etal_1995; @dorn_advice_2002].  This prior is typically updated each cycle (following the method of Dorn 2002) and subject to a review by the Council's Science and Statistical Committee.  The prior for 2015 has an expected value of 0.72 and a standard deviation of 0.147 using a beta distribution. Attempts were made to estimate this value, but were not successful, so it is fixed and its influence is explored via a likelihood profile.
 
 
 ### Sex Ratio
@@ -874,7 +890,7 @@ The base assessment model for Oregon Black Rockfish was developed to balance par
 
 ### Model Convergence and Acceptability
 
-While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (\ensuremath{5.17428\times 10^{-6}}), inversion of the Hessian (passed), reasonable parameter values (passed), and acceptable fits to data (passed). 
+While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (\ensuremath{4.69204\times 10^{-4}}), inversion of the Hessian (passed), reasonable parameter values (passed), and acceptable fits to data (passed). 
 
 An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.001. This was repeated 100 times with 12 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter_001}). A better fit, lower negative log-likelihood model was not found in any of remaining 96 runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made. 
 
@@ -908,7 +924,7 @@ A total of sixteen primary parameters were estimated, along with sixty recruitme
 
 The natural mortality for females and males was estimated at  and  yr^-1^, respectively. These values are below the mean prior value, but not unreasonable given the corresponding longevities would be between 67 and 75 years old and the sampled maximum age of 68 came from a fished population.
 
-The estimates of sex-specific growth parameters showed some differences from the externally estimated starting values (Table \ref{tab:model-param} and Figure \ref{fig:len-age-ss}). While $L_{\infty}$ was similar to the external estimates, the model estimated $k$ for female and male fish were greater than the values estimated externally (0.218  for females and 0.308 yr^-1^ for males).  The majority of female and male Black Rockfish growth occurs at younger ages, reaching near maximum length by age 20-25, depending upon sex, with female Black Rockfish reaching larger maximum lengths (Figure \ref{fig:len-age-ss}). 
+The estimates of sex-specific growth parameters showed some differences from the externally estimated starting values (Table \ref{tab:model-param} and Figure \ref{fig:len-age-ss}). While $L_{\infty}$ was similar to the external estimates, the model estimated $k$ for female and male fish were greater than the values estimated externally (0.182  for females and 0.227 yr^-1^ for males).  The majority of female and male Black Rockfish growth occurs at younger ages, reaching near maximum length by age 20-25, depending upon sex, with female Black Rockfish reaching larger maximum lengths (Figure \ref{fig:len-age-ss}). 
 
 The estimated logistic selectivity curves for the commericial and recreational fishery look plausible (i.e., as a model convergence check for realism, the selectivity curves are not overtly outrageous) for each fishery and are very similar to each other (Figure \ref{fig:fleet_selectivity}). Length at 50% selectivity (commercial =  cm; recreational =  cm) was between the length at 50% (39.4 cm) and 95% maturity (48 cm). Future assessments could opt for parsimony and combine these two fisheries into one combined selectivity, though the model had no issue adding two more parameters given the available length data.
 
@@ -921,7 +937,7 @@ The Oregon base case model shows the indices trending upward in the last three y
 
 The predicted spawning output (in millions of eggs) is provided in Table \ref{tab:timeseries} and plotted in Figure \ref{fig:ssb}. Estimated spawning output shows a large decline starting in the 1970s, with a continued decline into the late 1990s. This tracks the time period of major removals, though removals have stayed somewhat elevated since. Strong recruitments since the 1990s have supported the elevated catches. The estimate of total biomass over time, which tracks that of spawning output, is shown in Figure \ref{fig:tot-bio}.
 
-Relative spawning output declined below the management target ($SB_{40\%}$) by the 1990s, but quickly rebounded to high relative spawning output, but has declined over the past 10 years (Figure \ref{fig:depl}). The relative stock status at the start of 2015 () is estimated to be well above the rockfish relative biomass target of 0.4. Uncertainty intervals are wide given the number of estimated parameters, and indicate the population never goes below the management target ($SB_{40\%}$). The strong recruitment events that are supported by all fishery-dependent data sources are responsible for the dramatic increase and elevated stock status. Numbers of age-0 individuals indcate those years of particularly strong recruitment (Figure \ref{fig:recruits}). 
+Relative spawning output declined below the management target ($SB_{40\%}$) by the 1990s, but quickly rebounded to high relative spawning output, but has declined over the past 10 years (Figure \ref{fig:depl}). The relative stock status at the start of 2023 (0.53) is estimated to be well above the rockfish relative biomass target of 0.4. Uncertainty intervals are wide given the number of estimated parameters, and indicate the population never goes below the management target ($SB_{40\%}$). The strong recruitment events that are supported by all fishery-dependent data sources are responsible for the dramatic increase and elevated stock status. Numbers of age-0 individuals indcate those years of particularly strong recruitment (Figure \ref{fig:recruits}). 
 
 
 WA:
@@ -988,21 +1004,26 @@ Results of the likelihood component sensitivity runs are found in Table 65. The 
 Results of the model specification sensitivity runs are found in Table 66. The largest sensitivities were found in the treatment of maturity, selectivity and natural mortality. The use of sexual maturity (scenarios 24-27) changed the terminal year scale and status of the stock significantly, making it much less reduced in status, though having a smaller influence on catch at SPR50% (Table 21). Natural mortality scenarios with lower M but age-based selectivity had the biggest effect in spawning output (Figure 225), whereas scenarios with ramping of M caused the biggest changes in (i.e., improving) stock status (Figure 226). Fixing M to low values but not compensating with dome-shaped, age-based selectivity caused the population to crash. Scenarios with ramps in M or M estimated, regardless of selectivity form for females, caused the biggest increases in catch at SPR50%. Recruitment deviations are relatively insensitive to the different natural mortality specifications (Figure 227). Most natural mortality scenarios bring the fishing intensity below the SPR harvest level (Figure 228). 
 
 
+### Likelihood Profiles
+Likelihood profiles were conducted for $ln(R_0)$, steepness ($h$), female and male natural mortality ($M$) varying together with a constant ratio matching the reference model (0.19/0.17, female and male values respectively), and the catchability coefficient assumption on the acoustic-visual survey. Likelihood profiles were conducted by fixing the featured parameter(s) at specific values across a range of values and estimating all remaining parameters. A likelihood profile offers insight into model sensitivity to changing model parameter values, while providing an additional way to describe uncertainty in the parameter by indentifying the range of parameters within 1.96 likelihood units of the reference model.
+
+
 ### Retrospective Analysis
 
-OR: Retrospective runs of for the last 5 years plus and additional retrospective back to 2006 (-8 years, the last year of data available in the previous assessment) were conducted. The Oregon model demonstrates little retrospective patterns in both spawning stock output (Figure 170) and relative spawning stock output (Figure 171). 
-
-WA:Retrospective runs of for the last 5 years plus and additional retrospective back to 2006 (-8 years, the last year of data available in the previous assessment) were conducted. The Washington model demonstrates little retrospective pattern in both spawning stock output (Figure 235) and relative spawning stock output (Figure 236). Both indicate that in general, as data is removed, the stock gains spawning output and the relative stock status increases.
+A ten-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 10 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a large shift away from a growing population once the acoustic-visual survey is removed from the population. The scale shifts downward and the population status show a declining population at or below the unfished level. This shows the weight of the treatment choice in the acoustic survey, as well as the more recent data that confirm a recent recruitment.
 
 
-### Likelihood Profiles
-
-OR:
-Profiles for natural mortality, steepness, initial recruitment (lnR0), and the ln(tag Q) are shown in Figure 162 to Figure 169. The data in the model strongly support high M values, though fixing the tag Q has removed the sensitivity of the derived quantities to this M values (Figure 162 and Figure 163). Fixing Q also makes all likelihood components support a larger M, whereas when tag Q is estimated, length compositions support higher M values and age composition support lower M values. Profiles over steepness show higher steepness values are most supported and have little influence on the derived quantities (Figure 164). All likelihood components but the abundance indices support higher steepness (Figure 165). The lnR0 parameter is very well defined (Figure 166) and supported consistently by all likelihood components (Figure 167). Higher ln(tag Q values) are most supported by the data, a value very different from the fixed value used in the base model (Figure 168). Derived quantities are very sensitive to the value of this parameter. The ln(tag Q) best supported is most influenced by the age data, with the length data supporting a lower ln(tag Q).
-
-WA:
-Likelihood profiles were conducted for sex-specific natural mortality (where males were a fixed offset from females), for population scale (initial recruitment (lnR0)) and stock productivity (steepness (h)). Natural mortality values of females between 0.15 and 0.18 were hard to differentiate in the likelihood value, and did not show much difference is stock scale or status (Figure 229). Overall, derived quantities were very sensitive to natural mortality. The likelihood components degraded most with lower and higher natural mortality values (Figure 230). Age and length likelihood components were opposed in their information on natural mortality. Initial recruitment was well informed, with stock status sensitive to the value of initial recruitment (Figure 231). Values of lnR0 greater than the base case estimate quickly rise to unfished status. Age and length likelihood components were sensitive to the value of lnR0 and opposed each other in the relationship to ln R0 (Figure 232). Regarding steepness, a freely estimated steepness would move towards the high bound (Figure 233). Values below 0.7 were not supported by the data. Derived quantities were fairly insensitive to the value of steepness. Most likelihood components behaved consistently to steepness values, though age compositions were most sensitive to high steepness values while all other components were sensitive to very low steepness values (Figure 234).
-
+\begin{longtable}[t]{llll}
+\caption{\label{tab:RetroMohnsrho}The magnitude of retrospective pattern (Mohn's rho; Mohn, 1999) given the removal of ten years of data for fishing intensity (\emph{F}), fraction unfished (Figure \ref{fig:RetroFractionunfished}),  recruitment, and spawning stock biomass (\emph{SSB}; Figure \ref{fig:RetroSsb}). Columns are a derivation of Mohn's rho (Hurtado-Ferro et al. 2015) used by the Alaska Fisheries Science Center (AFSC), as originally described in Mohn (1999), and a derivation of Mohn's rho (Woods Hole Mohn's rho; Legault 2009) used by the Northeast Fisheries Science Center (NEFSC).}\\
+\toprule
+Quantity & AFSC & Mohn & NEFSC\\
+\midrule
+\emph{F} & 1.733824 & 17.33824 & 4.591969\\
+Fraction unfished & -0.4494829 & -4.494829 & -0.4856366\\
+Recruitment & -0.5536441 & -5.536441 & -2.727355\\
+\emph{SSB} & -0.6081382 & -6.081382 & -3.459641\\
+\bottomrule
+\end{longtable}
 
 ### Unresolved Problems and Major Uncertainties
 
@@ -1017,9 +1038,9 @@ WA:
 Spawning output declined over a large extent of the time series, with an increasing and or more stable population prevailing since the late 1980s (Figure 221) Stock status is above the target reference point (40%) at 43% (36%-50% 95% asymptotic intervals; Figure 222). Unfished spawning output was measured at 1356 (1228-1483 95% asymptotic intervals; Table 67) and spawning output at the beginning of 2015 was estimated to be 582 (467-698 95% asymptotic intervals) There seems to be no time in which the stock was below the limit reference point and has only fluctuated above the target reference point. Recruitment has fluctuated regularly over the last 25 years (Figure 223 and Figure 224). Despite being above the target biomass, fishing intensity has been above the SPR50% rate in the last couple of years (Figure 237). The phase plot shows the interaction of fishing intensity and biomass targets (Figure 238). The equilibrium curve is shifted left, as expected from the high fixed steepness, showing a more productive stock than SPR50% would suggest (Figure 239). The target stock size based on the biomass target (SB40%) is 542 (millions of eggs), which gives a catch of 337 mt. Equilibrium yield at the proxy FMSY harvest rate corresponding to SPR50% is 311 mt (Table 67).
 
 From Vermilion:
-Reference points were calculated using the estimated fishery selectivity and removals in the most recent year of the model (2014, Table \ref{tab:referenceES}). Sustainable total yields  were 514.06 mt when using an $SPR_{50\%}$ reference harvest rate. The spawning output equivalent to 40 percent of the unfished spawning output ($SB_{40\%}$) was 633.66 meggs. 
+Reference points were calculated using the estimated fishery selectivity and removals in the most recent year of the model (2022, Table \ref{tab:referenceES}). Sustainable total yields  were 454.96 mt when using an $SPR_{50\%}$ reference harvest rate. The spawning output equivalent to 40 percent of the unfished spawning output ($SB_{40\%}$) was 728.48 meggs. 
 
-The 2015 spawning output relative to unfished equilibrium spawning output is above the Black Rockfish relative biomass target of 40 percent (Figure \ref{fig:depl}). The fishing intensity, $1-SPR$, of recent years was near or above the harvest rate limit ($SPR_{50\%}$) for most of the 1980s and 1990s. Recent years also show near target fishing levels (Table \ref{tab:timeseries} and Figure \ref{fig:1-spr}), highlighting how the sustainability of current fishing levels are very sensitive to incoming recruitment. Table \ref{tab:referenceES} shows the full suite of estimated reference points for the base model and Figure \ref{fig:yield} shows the equilibrium curve based on a steepness value fixed at 0.77.
+The 2023 spawning output relative to unfished equilibrium spawning output is above the Black Rockfish relative biomass target of 40 percent (Figure \ref{fig:depl}). The fishing intensity, $1-SPR$, of recent years was near or above the harvest rate limit ($SPR_{50\%}$) for most of the 1980s and 1990s. Recent years also show near target fishing levels (Table \ref{tab:timeseries} and Figure \ref{fig:1-spr}), highlighting how the sustainability of current fishing levels are very sensitive to incoming recruitment. Table \ref{tab:referenceES} shows the full suite of estimated reference points for the base model and Figure \ref{fig:yield} shows the equilibrium curve based on a steepness value fixed at 0.72.
 
 
 ## Unresolved Problems and Major Uncertainties
@@ -1033,7 +1054,7 @@ A ten year (2023-2032) projection of the reference model with removals in 2021 a
 
 ## Evaluation of Scientific Uncertainty
 
-The estimated uncertainty in the base model around the 2015 spawning output is $\sigma$ = 0.01 and the uncertainty in the base model around the 2015 OFL is $\sigma$ = 0.01. The estimated model uncertainty was less than the category 1 groundfish data moderate assessment default value of  $\sigma$ = 0.5. 
+The estimated uncertainty in the base model around the 2023 spawning output is $\sigma$ = 0.03 and the uncertainty in the base model around the 2023 OFL is $\sigma$ = 0.01. The estimated model uncertainty was less than the category 1 groundfish data moderate assessment default value of  $\sigma$ = 0.5. 
 
 
 ## Research and Data Needs
@@ -1098,6 +1119,37 @@ Here are all the mad props!  We thank...
 
 
 ![Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:deps_bridge_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png){width=100% height=100% alt="."}
+
+<!-- ====================================================================== -->
+<!-- ******************     Retrospectives    ***************************** --> 
+<!-- ====================================================================== -->
+
+
+![Change in the estimate of spawning output when the most recent 10 years of data area removed sequentially.\label{fig:retro-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+
+
+![Change in the estimate of fraction unfished when the most recent 10 years of data area removed sequentially.\label{fig:retro-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+<!-- ====================================================================== -->
+<!-- ******************    Reference Points    **************************** --> 
+<!-- ====================================================================== -->
+
+
+
+![Estimated 1 - relative spawning ratio (SPR) by year.\label{fig:1-spr}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
+
+\clearpage
+
+
+![Phase plot of the relative biomass (also referred to as fraction unfished) versus the SPR ratio where each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Lines through the final point show the 95 percent intervals based on the asymptotic uncertainty for each dimension. The shaded ellipse is a 95 percent region which accounts for the estimated correlations between the biomass ratio and SPR ratio.\label{fig:phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
+
+
+![Equilibrium yield curve for the reference model. Values are based on the 2020
+fishery selectivities and with steepness fixed at 0.72.\label{fig:yield}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
+
 
 <!--chapter:end:53figures.Rmd-->
 
