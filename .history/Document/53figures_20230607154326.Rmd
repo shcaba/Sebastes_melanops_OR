@@ -52,13 +52,6 @@ caption = "Jitter runs for the black rockfish reference model, with jitter run n
 label = 'jitter')
 ```
 
-```{r, results = 'asis'}
-add_figure(
-filein = file.path(modconv_fig_loc, "pairs_plot_fast.png"), 
-caption = "Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency",
-label = 'pairs_plot_fast')
-```
-
 
 <!-- ====================================================================== -->
 <!-- ******************     Retrospectives    ***************************** --> 

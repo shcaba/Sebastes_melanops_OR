@@ -890,11 +890,11 @@ The base assessment model for Oregon Black Rockfish was developed to balance par
 
 ### Model Convergence and Acceptability
 
-While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (\ensuremath{4.69204\times 10^{-4}}), inversion of the Hessian (passed), reasonable parameter values (passed), and acceptable fits to data (passed). 
+While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (\ensuremath{4.69204\times 10^{-4}}), inversion of the Hessian (passed), acceptable fits to data (passed), and reasonable parameter values (passed). 
 
-An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.001. This was repeated 100 times with 12 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter_001}). A better fit, lower negative log-likelihood model was not found in any of remaining 96 runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made. 
+Model efficiency was explored by doing a short run Bayesian analysis using the Random Walk Metropolis with 4 chains of 2000 draws, keeping all the draws and examining the fast mixing parameters. Those estimated parameters that do not move much from the initial values slow the model down and are recommended to be fixed at the starting value [@monnahan_overcoming_2019]. This resulted in the fixing of 3 selectivity parameters (Figure \ref{fig:pairs_plot_fast}).
 
-Models were considered converged if they meet low gradient requirements (<0.001) and produced asymptotic standard deviations. Additional explorations for a consistent likelihood minimum was performed using jittered (0.1) starting values. A total of 100 jittered runs were performed for each model. Across all jittered runs, the lowest likelihoods of each respective model matched the base case likelihood (Figure 99 (OR); Figure 195 (WA)).
+An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.001. This was repeated 100 times with 17 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter}). A better fit, lower negative log-likelihood model was not found in any of remaining 96 runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made. 
 
 
 ## Base Model Results
@@ -940,8 +940,6 @@ The predicted spawning output (in millions of eggs) is provided in Table \ref{ta
 Relative spawning output declined below the management target ($SB_{40\%}$) by the 1990s, but quickly rebounded to high relative spawning output, but has declined over the past 10 years (Figure \ref{fig:depl}). The relative stock status at the start of 2023 (0.53) is estimated to be well above the rockfish relative biomass target of 0.4. Uncertainty intervals are wide given the number of estimated parameters, and indicate the population never goes below the management target ($SB_{40\%}$). The strong recruitment events that are supported by all fishery-dependent data sources are responsible for the dramatic increase and elevated stock status. Numbers of age-0 individuals indcate those years of particularly strong recruitment (Figure \ref{fig:recruits}). 
 
 
-WA:
-The Washington base case model showed acceptable and dynamic fits to both indices (Figure 196 and Figure 197). The dockside CPUE was the most informative and best fit of the two series.  Fits to the length compositions are generally good (Figure 198 to Figure 210). The worst fits are found in data with low effective weight, such as the trawl samples. The Francis weighting shows a good match between expected and observed mean lengths over time for all fleets (Figure 207to Figure 210). Fits to the unweighted conditional age-at-length compositions shows generally good agreement between observed and expected ages at length (Figure 211 to Figure 216). Selectivity curves fits indicate the trawl fishery to be very different than other fleets (Figure 217). The trawl fishery effectively sampled a smaller portion of the adult population than the other fleets (Figure 219). Sex-specific growth was estimated in the base model (Figure 220). Natural mortality estimates were much larger than the initial prior value (Table 63). Numbers at age table and plots are given in the Supplementary tables (worksheets "WA #s at Age" and "WA #s at age plots").
 
 <!--chapter:end:33results.Rmd-->
 
@@ -1006,6 +1004,7 @@ Results of the model specification sensitivity runs are found in Table 66. The l
 
 ### Likelihood Profiles
 Likelihood profiles were conducted for $ln(R_0)$, steepness ($h$), female and male natural mortality ($M$) varying together with a constant ratio matching the reference model (0.19/0.17, female and male values respectively), and the catchability coefficient assumption on the acoustic-visual survey. Likelihood profiles were conducted by fixing the featured parameter(s) at specific values across a range of values and estimating all remaining parameters. A likelihood profile offers insight into model sensitivity to changing model parameter values, while providing an additional way to describe uncertainty in the parameter by indentifying the range of parameters within 1.96 likelihood units of the reference model.
+
 
 
 ### Retrospective Analysis
@@ -1119,6 +1118,17 @@ Here are all the mad props!  We thank...
 
 
 ![Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:deps_bridge_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png){width=100% height=100% alt="."}
+
+<!-- ====================================================================== -->
+<!-- ***********************  Model convergence and Jitters  ************************************ --> 
+<!-- ====================================================================== -->
+
+
+![Jitter runs for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/jitterplot.png){width=100% height=100% alt="."}
+
+
+![Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency.\label{fig:pairs_plot_fast}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/pairs_plot_fast.png){width=100% height=100% alt="."}
+
 
 <!-- ====================================================================== -->
 <!-- ******************     Retrospectives    ***************************** --> 
