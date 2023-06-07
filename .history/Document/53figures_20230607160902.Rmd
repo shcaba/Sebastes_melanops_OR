@@ -67,8 +67,8 @@ label = 'pairs_plot_fast')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit__multi-fleet_comparison.png"), 
-caption = "Pearson residuals for each fishing fleet and the MPA survey. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected)",
-label = 'lt-pearson-resids')
+caption = "Pearson residuals for the commercial (top panel) and recreational (bottom panel) fleet. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected)",
+label = 'com-rec-pearson')
 ```
 
 ```{r, results = 'asis'}
@@ -87,13 +87,13 @@ label = 'nontrawl-mean-len-fit')
 
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Ocean.png"), 
+filein = file.path(mod_loc, "plots", "comp_lendat_data_weighting_TA1.8_Non-Trawl_wdis.png"), 
 caption = "Mean length (cm) index from the recreational ocean boat fishery with 95 percent confidence intervals based on sample sizes and data weighting",
 label = 'ocean-mean-len-fit')
 ```
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Shore.png"), 
+filein = file.path(mod_loc, "plots", "comp_lendat_data_weighting_TA1.8_Non-Trawl_wdis.png"), 
 caption = "Mean length (cm) index from the recreational shore-based fishery with 95 percent confidence intervals based on sample sizes and data weighting",
 label = 'shore-mean-len-fit')
 ```

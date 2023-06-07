@@ -1112,8 +1112,8 @@ WASHINGTON: The most dramatic model specification in these models, in relation t
 
 The base assessment model for Oregon Black Rockfish was developed to balance parsimony and realism, and the goal was to estimate a spawning output trajectory and realtive stock status for the population of Black Rockfish in state and federal waters off Oregon. The model contains many assumptions to achieve parsimony and uses different data types and sources to estimate reality. A series of investigative model runs were done to achieve the final base model. These include considerations of model structure, data and parameter treatment, estimation phasing, and jittered starting values to achieve a converged and balanced model that provides sensible parameter estimates and derived quantities.
 
-\hypertarget{model-diagnostics}{%
-\subsection{Model Diagnostics}\label{model-diagnostics}}
+\hypertarget{reference-model-diagnostics-and-results}{%
+\subsection{Reference Model Diagnostics and Results}\label{reference-model-diagnostics-and-results}}
 
 \hypertarget{model-convergence-and-acceptability}{%
 \subsubsection{Model Convergence and Acceptability}\label{model-convergence-and-acceptability}}
@@ -1127,13 +1127,27 @@ An extra effort was given to ensure the model did not rest on a local likelihood
 \hypertarget{base-model-results}{%
 \subsection{Base Model Results}\label{base-model-results}}
 
+\hypertarget{fits-to-the-data}{%
+\paragraph{Fits to the Data}\label{fits-to-the-data}}
+
+\hypertarget{lengths}{%
+\subparagraph{Lengths}\label{lengths}}
+
+Fits to the length data are examined based on the Pearson residuals-at-length, the annual mean lengths, and aggregated length composition data for the commercial and recreational fleets. Fits to the annual length composition are shown in \protect\hyperlink{app_a}{Appendix A}.
+
+Pearson residuals of fits to the fishery and MPA survey length data are reasonably small with no distinct patterns (Figure \ref{fig:lt-pearson-resids}), though the shore-based fishery lengths, which are small samples, show a possible recruitment in 1985 that is not seen in the recruitment residuals.
+
+Model fits to the mean lengths, assuming Francis data-weighting, do not follow the dynamics in means lengths in the relatively small trawl fishery (Figure \ref{fig:trawl-mean-len-fit}). The mean lengths are bit fit in the larger and better sampled non-trawl (Figure \ref{fig:nontrawl-mean-len-fit}) and ocean boat (Figure \ref{fig:ocean-mean-len-fit}) fisheries. Note the poor fit to the MRFSS-era (pre-2003) mean lengths in the ocean boat fishery. Those length are consistently fit higher than the mean, but the samples are much lower than in the ORBS era sampling. A time block in selectivity was attempted when exploring potential model specifications, but the fits were not improved. The shore-based, also poorly sampled, are not fit well and miss what could be a potential recruitment in the mid-1980s (Figure \ref{fig:shore-mean-len-fit}). Fits to the mean length in the MPA length data are generally good (Figure \ref{fig:mpa-mean-len-fit}). All length weighting are near the value of 1 as is expected when using the Francis weighting method. One thing to note is the general lack of contrast in the data over the past two decades.
+
+Aggregate fits over year by fleet are shown in Figure \ref{fig:agg-len-fit}. The two main fisheries (non-trawl and ocean) and the MPA survey show good fits to the aggregated data. The trawl fishery, which requires the asymptotic size of the populations to be much higher than is expected given the age and growth data, is fit less well. This is instructive to the fact that the trawl fishery is catching only the largest individuals in the population, thus possibly over representing those length classes in the population, and indicating that the non-trawl and ocean fishery is missing some of those bigger fish (i.e., a dome-shaped selectivity). The shore-based fishery is also being fit poorly, but the fishery is so small it makes little difference to model performance.
+
 \hypertarget{parameter-estimates}{%
 \subsubsection{Parameter Estimates}\label{parameter-estimates}}
 
 The final base model incorporated aspects of both models proposed to the Mop-up STAR Panel. Below is a list of the more salient specifications (See also Section 2.4.1.2 for comparisons with the California and Washington models, of which the Oregon model shares many similar specifications when not listed below): * Female M fixed at 0.17, with a step at age 10 to 0.2. * Male M fixed at 0.17 for all ages. * Tag Q fixed at 0.25. * Selectivity for the trawl fishery was logistic and length-based, but allowed to be sex-specific. * Selectivity for the ocean-boat recreational fishery was estimated as age-based with dome-shaped parameters for females. * Conditional age-at-length was weighted using harmonic means. * Recruitment deviations were not estimated.
 
-\hypertarget{fits-to-the-data}{%
-\subsubsection{Fits to the Data}\label{fits-to-the-data}}
+\hypertarget{fits-to-the-data-1}{%
+\subsubsection{Fits to the Data}\label{fits-to-the-data-1}}
 
 The Oregon base case model shows the indices trending upward in the last three years, with the exception of the Commercial Logbook index. Fits to the indices were generally poor, with mostly straight-line fits to most of them (Figure 100 to Figure 104).
 
@@ -1538,6 +1552,48 @@ Wallace, Y. W., F. R. aand Cheng, and T. S. Tsou. 2007. {``Status of the Black R
 \centering
 \includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/pairs_plot_fast.png}
 \caption{Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency.\label{fig:pairs_plot_fast}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png}
+\caption{Pearson residuals for each fishing fleet and the MPA survey. Closed bubble are positive residuals (observed \textgreater{} expected) and open bubbles are negative residuals (observed \textless{} expected).\label{fig:lt-pearson-resids}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png}
+\caption{Mean length (cm) index from the trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:trawl-mean-len-fit}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Non-Trawl_wdis.png}
+\caption{Mean length (cm) index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:nontrawl-mean-len-fit}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Ocean.png}
+\caption{Mean length (cm) index from the recreational ocean boat fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:ocean-mean-len-fit}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Shore.png}
+\caption{Mean length (cm) index from the recreational shore-based fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:shore-mean-len-fit}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_MPA.png}
+\caption{Mean length (cm) index from the MPA survey with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:mpa-mean-len-fit}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png}
+\caption{Aggregated length (cm) compositions over all years.\label{fig:agg-len-fit}}
 \end{figure}
 
 \begin{figure}

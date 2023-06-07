@@ -68,7 +68,7 @@ label = 'pairs_plot_fast')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit__multi-fleet_comparison.png"), 
 caption = "Pearson residuals for each fishing fleet and the MPA survey. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected)",
-label = 'lt-pearson-resids')
+label = 'com-rec-pearson')
 ```
 
 ```{r, results = 'asis'}
