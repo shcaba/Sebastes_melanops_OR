@@ -1163,3 +1163,101 @@ fishery selectivities and with steepness fixed at 0.72.\label{fig:yield}](C:/Use
 
 <!--chapter:end:53figures.Rmd-->
 
+\clearpage
+
+# Appendix A: Detailed Fit to Length Composition Data {#app-a}
+
+
+![Length comps, whole catch, Trawl_wdis.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt1mkt0}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt1mkt0.png){width=100% height=100% alt="."}
+
+![Length comps, whole catch, Non-Trawl_wdis (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt2mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png){width=100% height=100% alt="."}
+
+![Length comps, whole catch, Non-Trawl_wdis (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_lenfit_flt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png){width=100% height=100% alt="."}
+
+![Length comps, whole catch, Ocean (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt3mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png){width=100% height=100% alt="."}
+
+![Length comps, whole catch, Ocean (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_lenfit_flt3mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png){width=100% height=100% alt="."}
+
+![Length comps, whole catch, Shore.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt4mkt0}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png){width=100% height=100% alt="."}
+
+![Length comps, whole catch, MPA.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt5mkt0}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png){width=100% height=100% alt="."}
+
+\clearpage
+
+# Appendix B: Fit to Conditional-Age-at-Length Composition Data {#app-b}
+
+
+![Pearson residuals, whole catch, Trawl_wdis (max=13.44) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png){width=100% height=100% alt="."}
+
+![Pearson residuals, whole catch, Trawl_wdis (max=13.44) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png){width=100% height=100% alt="."}
+
+![Pearson residuals, whole catch, Non-Trawl_wdis (max=12.48) (plot 1 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png){width=100% height=100% alt="."}
+
+![Pearson residuals, whole catch, Non-Trawl_wdis (max=12.48) (plot 2 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png){width=100% height=100% alt="."}
+
+![Pearson residuals, whole catch, Non-Trawl_wdis (max=12.48) (plot 3 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png){width=100% height=100% alt="."}
+
+![Pearson residuals, whole catch, Non-Trawl_wdis (max=12.48) (plot 4 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page4.png){width=100% height=100% alt="."}
+
+![Pearson residuals, whole catch, Non-Trawl_wdis (max=12.48) (plot 5 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page5}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page5.png){width=100% height=100% alt="."}
+
+\clearpage
+
+# Appendix C: Fit to Conditional-Age-at-Length Composition Data {#app-c}
+
+
+![Commerical conditional AAL plot (plot 1 of 8) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png){width=100% height=100% alt="."}
+
+![Commerical conditional AAL plot (plot 2 of 8).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png){width=100% height=100% alt="."}
+
+![Commerical conditional AAL plot (plot 3 of 8).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png){width=100% height=100% alt="."}
+
+![Commerical conditional AAL plot (plot 4 of 8).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page5}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png){width=100% height=100% alt="."}
+
+![Commerical conditional AAL plot (plot 5 of 8).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page6}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page6.png){width=100% height=100% alt="."}
+
+![Commerical conditional AAL plot (plot 6 of 8).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page7}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page7.png){width=100% height=100% alt="."}
+
+![Commerical conditional AAL plot (plot 7 of 8).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page8}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page8.png){width=100% height=100% alt="."}
+
+![Commerical conditional AAL plot (plot 8 of 8).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png){width=100% height=100% alt="."}
+
+![Recreational conditional AAL plot (plot 1 of 4) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png){width=100% height=100% alt="."}
+
+![Recreational conditional AAL plot (plot 2 of 4).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png){width=100% height=100% alt="."}
+
+![Recreational conditional AAL plot (plot 3 of 4).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page4.png){width=100% height=100% alt="."}
+
+\clearpage
+
+# Appendix D: Numbers at Age Plot {#app-d}
+
+## Females
+
+![Female vermilion rockfish mean age over time.\label{fig:num_age_females}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/numbers1_sex1_beg.png){width=100% height=100% alt="."}
+
+
+## Males
+
+![Male vermilion rockfish mean age over time.\label{fig:num_age_males}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/numbers1_sex2_beg.png){width=100% height=100% alt="."}
+
+\clearpage
+
+# Appendix E: Numbers at Length Plot {#app-e}
+
+## Females
+
+![Female vermilion rockfish mean length (cm) over time.\label{fig:num_lts_females}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/numbers6_len_sex1.png){width=100% height=100% alt="."}
+
+\clearpage
+
+
+## Males
+
+![Male vermilion rockfish mean length over time.\label{fig:num_lts_males}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/numbers6_len_sex2.png){width=100% height=100% alt="."}
+
+
+\clearpage
+
+<!--chapter:end:54appendix.Rmd-->
+
