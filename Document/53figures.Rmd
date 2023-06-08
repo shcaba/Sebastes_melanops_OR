@@ -112,6 +112,30 @@ caption = "Aggregated length (cm) compositions over all years",
 label = 'agg-len-fit')
 ```
 
+<!-- ====================================================================== -->
+<!-- ****************** Fit to the Age Data ******************************* --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeTrawl_wdis.png"), 
+caption = "Mean age from conditional age-at-length data for the commercial trawl fishery",
+label = 'trawl-mean-caal')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeNon-Trawl_wdis.png"), 
+caption = "Mean age observations from the conditional age-at-length data from the non-trawl commercial fishery",
+label = 'nontrawl-mean-caal')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeOcean.png"), 
+caption = "Mean age observations from the conditional age-at-length data from the ocean boat fishery",
+label = 'ocean-mean-caal')
+```
 
 
 <!-- ====================================================================== -->
