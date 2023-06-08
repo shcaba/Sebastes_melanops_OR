@@ -1308,31 +1308,45 @@ fishery selectivities and with steepness fixed at 0.72.\label{fig:yield}](C:/Use
 
 \clearpage
 
-# Appendix D: Numbers at Age Plot {#app-d}
-
-## Females
-
-![Female vermilion rockfish mean age over time.\label{fig:num_age_females}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex1_beg.png){width=100% height=100% alt="."}
+# Appendix D: Passive Fit to Marginal Age Composition Data {#app-d}
 
 
-## Males
+![Excluded age comps, whole catch, Trawl_wdis.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt1mkt0}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_gstagefit_flt1mkt0.png){width=100% height=100% alt="."}
 
-![Male vermilion rockfish mean age over time.\label{fig:num_age_males}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex2_beg.png){width=100% height=100% alt="."}
+![Excluded age comps, whole catch, Non-Trawl_wdis (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt2mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_gstagefit_flt2mkt0_page1.png){width=100% height=100% alt="."}
 
-\clearpage
+![Excluded age comps, whole catch, Non-Trawl_wdis (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_gstagefit_flt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_gstagefit_flt2mkt0_page2.png){width=100% height=100% alt="."}
 
-# Appendix E: Numbers at Length Plot {#app-e}
-
-## Females
-
-![Female vermilion rockfish mean length (cm) over time.\label{fig:num_lts_females}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex1.png){width=100% height=100% alt="."}
+![Excluded age comps, whole catch, Ocean.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt3mkt0}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_gstagefit_flt3mkt0.png){width=100% height=100% alt="."}
 
 \clearpage
 
 
+# Appendix E: Numbers at Age Plot {#app-e}
+
+## Females
+
+![Female black rockfish mean age over time.\label{fig:num_age_females}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex1_beg.png){width=100% height=100% alt="."}
+
+
 ## Males
 
-![Male vermilion rockfish mean length over time.\label{fig:num_lts_males}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex2.png){width=100% height=100% alt="."}
+![Male black rockfish mean age over time.\label{fig:num_age_males}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex2_beg.png){width=100% height=100% alt="."}
+
+\clearpage
+
+# Appendix F: Numbers at Length Plot {#app-f}
+
+## Females
+
+![Female black rockfish mean length (cm) over time.\label{fig:num_lts_females}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex1.png){width=100% height=100% alt="."}
+
+\clearpage
+
+
+## Males
+
+![Male black rockfish mean length over time.\label{fig:num_lts_males}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex2.png){width=100% height=100% alt="."}
 
 
 \clearpage

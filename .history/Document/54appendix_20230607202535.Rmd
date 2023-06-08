@@ -112,25 +112,21 @@ for (a in plot.vec){
 
 \clearpage
 
-# Appendix D: Passive Fit to Marginal Age Composition Data {#app-d}
+# Appendix D: Detailed Fit to Length Composition Data {#app-d}
 
 ```{r, results='asis'}
 plot_info = read.csv(file.path(mod_loc, "plots", "plotinfotable_for_doc.csv"))
-age_fit = plot_info[which(plot_info$category == "AgeComp"), ]
-plot.vec = grep("comp_gstagefit_flt", age_fit$label)
+len_fit = plot_info[which(plot_info$category == "LenComp"), ]
+plot.vec = grep("comp_lenfit_flt", len_fit$label)
 filein = file.path(mod_loc, "plots")
 
 for (a in plot.vec){
-	cap = age_fit$caption[a]
-	lab = age_fit$label[a]
-	add_figure(filein = file.path(filein, age_fit$file[a]), 
+	cap = len_fit$caption[a]
+	lab = len_fit$label[a]
+	add_figure(filein = file.path(filein, len_fit$file[a]), 
 			   caption = cap, 
 			   label = lab)
 }
-
-#add_figure(filein = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/#comp_gstagefit_flt1mkt0.png", 
-#			   caption = "test", 
-#			   label = 'comp_gstagefit_flt1mkt0')
 
 ```
 
@@ -143,7 +139,7 @@ for (a in plot.vec){
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers1_sex1_beg.png"), 
-caption = "Female black rockfish mean age over time",
+caption = "Female vermilion rockfish mean age over time",
 label = 'num_age_females')
 ```
 
@@ -152,7 +148,7 @@ label = 'num_age_females')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers1_sex2_beg.png"), 
-caption = "Male black rockfish mean age over time",
+caption = "Male vermilion rockfish mean age over time",
 label = 'num_age_males')
 ```
 
@@ -164,7 +160,7 @@ label = 'num_age_males')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers6_len_sex1.png"), 
-caption = "Female black rockfish mean length (cm) over time",
+caption = "Female vermilion rockfish mean length (cm) over time",
 label = 'num_lts_females')
 ```
 
@@ -175,7 +171,7 @@ label = 'num_lts_females')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers6_len_sex2.png"), 
-caption = "Male black rockfish mean length over time",
+caption = "Male vermilion rockfish mean length over time",
 label = 'num_lts_males')
 ```
 

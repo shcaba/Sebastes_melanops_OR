@@ -128,9 +128,9 @@ for (a in plot.vec){
 			   label = lab)
 }
 
-#add_figure(filein = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/#comp_gstagefit_flt1mkt0.png", 
-#			   caption = "test", 
-#			   label = 'comp_gstagefit_flt1mkt0')
+add_figure(filein = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_gstagefit_flt1mkt0.png", 
+			   caption = "test", 
+			   label = 'comp_gstagefit_flt1mkt0')
 
 ```
 

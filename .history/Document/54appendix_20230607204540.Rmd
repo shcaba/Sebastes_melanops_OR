@@ -112,7 +112,7 @@ for (a in plot.vec){
 
 \clearpage
 
-# Appendix D: Passive Fit to Marginal Age Composition Data {#app-d}
+# Appendix D: Passive Fit to Age Composition Data {#app-d}
 
 ```{r, results='asis'}
 plot_info = read.csv(file.path(mod_loc, "plots", "plotinfotable_for_doc.csv"))
@@ -127,10 +127,6 @@ for (a in plot.vec){
 			   caption = cap, 
 			   label = lab)
 }
-
-#add_figure(filein = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/#comp_gstagefit_flt1mkt0.png", 
-#			   caption = "test", 
-#			   label = 'comp_gstagefit_flt1mkt0')
 
 ```
 
