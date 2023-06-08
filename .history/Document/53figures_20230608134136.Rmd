@@ -1,0 +1,256 @@
+\clearpage
+# Figures
+
+<!-- ====================================================================== --> 
+<!-- ******************************* ES *********************************** --> 
+<!-- ====================================================================== --> 
+
+
+<!-- ====================================================================== --> 
+<!-- ******************* Intro section *************************** --> 
+<!-- ====================================================================== --> 
+
+<!-- ====================================================================== --> 
+<!-- ******************* Data Used in the Model *************************** --> 
+<!-- ====================================================================== --> 
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "data_plot.png"), 
+caption = "Summary of data sources used in the reference model",
+label = 'data-plot')
+```
+
+<!-- ====================================================================== --> 
+<!-- ******************* Bridge Model ************************************* --> 
+<!-- ====================================================================== --> 
+
+```{r, results = 'asis'}
+add_figure(
+  filein = file.path(bridge_fig_loc, "OR_SB_comp_plot.png"), 
+  caption = "Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
+  label = 'ssb_bridge_comps')
+
+``` 
+
+```{r, results = 'asis'}
+add_figure(
+  filein = file.path(bridge_fig_loc, "OR_Dep_comp_plot.png"), 
+  caption = "Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
+  label = 'deps_bridge_comps')
+
+``` 
+
+<!-- ====================================================================== -->
+<!-- ***********************  Model convergence and Jitters  ************************************ --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(modconv_fig_loc, "jitterplot.png"), 
+caption = "Jitter runs for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
+label = 'jitter')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(modconv_fig_loc, "pairs_plot_fast.png"), 
+caption = "Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency",
+label = 'pairs_plot_fast')
+```
+
+<!-- ====================================================================== -->
+<!-- ****************** Fit to the Length Data **************************** --> 
+<!-- ====================================================================== -->
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit__multi-fleet_comparison.png"), 
+caption = "Pearson residuals for each fishing fleet and the MPA survey. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected)",
+label = 'lt-pearson-resids')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png"), 
+caption = "Mean length (cm) index from the trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'trawl-mean-len-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Non-Trawl_wdis.png"), 
+caption = "Mean length (cm) index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'nontrawl-mean-len-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Ocean.png"), 
+caption = "Mean length (cm) index from the recreational ocean boat fishery with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'ocean-mean-len-fit')
+```
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Shore.png"), 
+caption = "Mean length (cm) index from the recreational shore-based fishery with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'shore-mean-len-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_MPA.png"), 
+caption = "Mean length (cm) index from the MPA survey with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'mpa-mean-len-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit__aggregated_across_time.png"), 
+caption = "Aggregated length (cm) compositions over all years",
+label = 'agg-len-fit')
+```
+
+<!-- ====================================================================== -->
+<!-- ****************** Fit to the Age Data ******************************* --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeTrawl_wdis.png"), 
+caption = "Mean age from conditional age-at-length data for the commercial trawl fishery",
+label = 'trawl-mean-caal')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeNon-Trawl_wdis.png"), 
+caption = "Mean age observations from the conditional age-at-length data from the non-trawl commercial fishery",
+label = 'nontrawl-mean-caal')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeOcean.png"), 
+caption = "Mean age observations from the conditional age-at-length data from the ocean boat fishery",
+label = 'ocean-mean-caal')
+```
+
+<!-- ====================================================================== -->
+<!-- ****************** Fit to the Index*********************************** --> 
+<!-- ====================================================================== -->
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_Non-Trawl_wdis.png"),
+caption = "Fit to the non-trawl commercial survey index of abundance",
+label = 'nontrawl-index-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_MRFSS.png"),
+caption = "Fit to the MRFSS recreational survey index of abundance",
+label = 'mrfss-index-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_Ocean.png"),
+caption = "Fit to the MRFSS recreational survey index of abundance",
+label = 'orbs-index-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_Tag.png"),
+caption = "Fit to the tagging survey index of abundance",
+label = 'tag-index-fit')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_MPA.png"),
+caption = "Fit to the MPA survey index of abundance",
+label = 'mpa-index-fit')
+```
+
+<!-- ====================================================================== -->
+<!-- ******************     Parameter estimates    ***************************** --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "bio1_sizeatage.png"), 
+caption = "Model estimated length-at-age in the beginning of the year. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve",
+label = 'len-age-ss')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png"), 
+caption = "Estimated time series of age-0 recruits (1000s)",
+label = 'recruits')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "recdevs2_withbars.png"), 
+caption = "Estimated time series of recruitment deviations",
+label = 'rec-devs')
+```
+
+
+<!-- ====================================================================== -->
+<!-- ******************     Retrospectives    ***************************** --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(retro_loc,  "compare2_spawnbio_uncertainty.png"), 
+caption = "Change in the estimate of spawning output when the most recent 10 years of data area removed sequentially",
+label = 'retro-ssb')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(retro_loc,  "compare4_Bratio_uncertainty.png"),
+caption = "Change in the estimate of fraction unfished when the most recent 10 years of data area removed sequentially",
+label = 'retro-depl')
+```
+
+\newpage
+
+
+<!-- ====================================================================== -->
+<!-- ******************    Reference Points    **************************** --> 
+<!-- ====================================================================== -->
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "SPR2_minusSPRseries.png"), 
+caption = "Estimated 1 - relative spawning ratio (SPR) by year",
+label = '1-spr')
+```
+
+\clearpage
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "SPR4_phase.png"), 
+caption = "Phase plot of the relative biomass (also referred to as fraction unfished) versus the SPR ratio where each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Lines through the final point show the 95 percent intervals based on the asymptotic uncertainty for each dimension. The shaded ellipse is a 95 percent region which accounts for the estimated correlations between the biomass ratio and SPR ratio",
+label = 'phase')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "yield2_yield_curve_with_refpoints.png"), 
+caption = "Equilibrium yield curve for the reference model. Values are based on the 2020
+fishery selectivities and with steepness fixed at 0.72",
+label = 'yield')
+```
+

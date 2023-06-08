@@ -1,4 +1,4 @@
-
+#### Characterizing uncertainty
 ### Sensitivity Analyses
 
 Several sensitivity runs were considered for the Oregon model. The first group of sensitivity runs (scenarios 1-6; Table 43; Supplemental table "OR Sensitivities- Like Comps") sequentially removes indices. The second group (scenarios 7-13; Table 43; Supplemental table "OR Sensitivities- Like Comps") sequentially removes length composition data. The third group (scenarios 14-19; Table 43; Supplemental table "OR Sensitivities- Like Comps") sequentially removes indices, size or age composition data. The last group (scenarios 19-33; Table 44; Supplemental table "OR Sensitivities- Model specs") covers a variety of issues: 
@@ -58,7 +58,8 @@ Results of the model specification sensitivity runs are found in Table 66. The l
 
 
 ### Likelihood Profiles
-Likelihood profiles were conducted for $ln(R_0)$, steepness ($h$), female and male natural mortality ($M$) varying together with a constant ratio matching the reference model (0.19/0.17, female and male values respectively), and the catchability coefficient assumption on the acoustic-visual survey. Likelihood profiles were conducted by fixing the featured parameter(s) at specific values across a range of values and estimating all remaining parameters. A likelihood profile offers insight into model sensitivity to changing model parameter values, while providing an additional way to describe uncertainty in the parameter by indentifying the range of parameters within 1.96 likelihood units of the reference model.
+Likelihood profiles were conducted for the catchability coefficient assumption on the acoustic-visual survey, steepness ($h$), and female and male natural mortality ($M$) varying together with a constant ratio matching the reference model (0.19/0.17, female and male values respectively). Likelihood profiles were conducted by fixing the featured parameter(s) at specific values across a range of values and estimating all remaining parameters. A likelihood profile offers insight into model sensitivity to changing model parameter values, while providing an additional way to describe uncertainty in the parameter by indentifying the range of parameters within 1.96 likelihood units of the reference model.
+
 
 
 
