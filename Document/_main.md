@@ -123,9 +123,7 @@ Within model uncertainty is explicitly included in this assessment by parameter 
 
 ## Stock biomass and dynamics{-}
 
-Spawning stock outputs are all at or above limit reference points (Table ES-2. Only California shows declines significantly below this reference point at any point in the time series. California and Washington stocks show a declining population through most of the 20th Century, with stronger declines in the 1980s, and recoveries beginning in the mid-1990s. Oregon stocks follow this pattern, but with a decline in the most recent period. California (33%) is below the target biomass reference point with an increasing biomass trend (Figures ES-4 and ES-5).  The Oregon stock dropped after the quick ramp up of catches in the late 1970s and continued a steady decline until around year 2000, settling in at a stock status around 60% of initial conditions. The Washington stock, currently 43%, dropped below the target biomass by in the early 1980s, then risen above since the late 1990s and has fluctuated above that point through 2014 (Figures ES-8 and ES-9).
-
-Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2021 was 895 meggs (~95 percent asymptotic intervals: 839 to 951 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (1,633) meggs gives a relative stock status level of 55 percent (~95 percent asymptotic intervals: 52 to 57 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size. The largest of the estimated recruitment pulses since the mid 1990s (that are supported by each of the data sets) caused a sharp increase in spawning output through the mid 2010s, followed by another decline. The minimum relative stock size of 25 percent of unfished levels is estimated to have occurred in 1999. Currently the stock is estimated well above the management target of $SB_{40\%}$ in 2021 and is estimated to have remained above the target since 2000 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
+Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was 900 meggs (~95 percent asymptotic intervals: 855 to 944 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (1,633) meggs gives a relative stock status level of 55 percent (~95 percent asymptotic intervals: 53 to 57 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size from 1993 to 2008, before steadily increasing back above target since that time. The largest of the estimated recruitment pulses occurred in 2008 and was followed by several above average recruitment years in the early 2010s, which contributed to the increase in spawning output through the mid to late 2010s. The minimum relative stock size of 25 percent of unfished levels is estimated to have occurred in 1999. Accordingly, the stock has not been below the minimum stock size threshold (i.e., never overfished based on median estimates). Currently the stock is estimated above the management target of $SB_{40\%}$ in 2023 and is estimated to have remained above the target since 2009 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
 
 \input{tex_tables/b_SSB_ES.tex}
 
@@ -139,21 +137,15 @@ Spawning output (in millions of eggs; meggs) instead of spawning biomass is used
 
 ## Recruitment{-}
 
-The California model shows a few extraordinarily high recruitment events that are supported by the length composition data, index data and on-the-water reports (Table ES-3; Figure ES-10).  Oregon recruitment is highly uncertain (Table ES-3; Figure ES11).  Washington recruitment is dynamic, but also shows the most informed recruitment time series, which is consistent with the extent of length and age compositions available to that assessment (Table ES-3; Figure ES12). Both California and Washington support elevated recruitment in the late 2000s.
-
-Informative recruitment begins in the 1960s and peaks in the 1990s (Table \ref{tab:recrES} and Figure \ref{fig:es-recruits}). Data were most informative from the the 1990s to the mid-2010s. Peaks years of recruitments are found in years 1993, 1994, 1998, 2005 and 2015 (Figure \ref{fig:es-rec-devs}). Overall, the Black Rockfish stock has not been reduced to levels that would provide considerable information on how recruitment compensation changes across spawning biomass levels (i.e., inform the steepness parameter).  Thus, all recruitment is based on a fixed assumption about steepness ($h$ = 0.72) and recruitment variability ($\sigma_R$ = 0.6).
+Recruitment is informed by the data from 1980 to 2017 (Table \ref{tab:recrES} and Figure \ref{fig:es-rec-ts}).  The highest recruitment years occurred in 1999, 2000, 2008, 2013, and 2016. The large 2008 and 2016 year classes, as well as several above average year classes in the early 2010s, contributed to the recent increase in Black Rockfish biomass. Recruitment is informed by composition data and six relative abundance indices.  The 2015 stock assessment did not estimate deviations from the stock-recruitment curve. While the Black Rockfish stock has been reduced to levels that theoretically would provide some information on how recruitment compensation changes across spawning biomass levels (i.e., inform the steepness parameter), the assessment model could not adequately estimate a reasonable steepness parameter.  Thus, recruitment is based on a fixed assumption about steepness ($h$ = 0.72) and recruitment variability ($\sigma_R$ = 0.6).
 
 \input{tex_tables/c_Recr_ES.tex}
 
 
 ![Estimated time series of age-0 recruits (1000s) for the base model with 95 percent intervals.\label{fig:es-recruits}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
 
-#```{r, results = 'asis'}
-#add_figure(
-#filein = file.path(mod_loc, "plots", "recdevs2_withbars.png"), 
-#caption = "Estimated time series of recruitment deviations",
-#label = 'es-rec-devs')
-#```
+
+![Estimated time series of recruitment deviations.\label{fig:es-rec-ts}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
 
 ## Exploitation status{-}
 
@@ -656,18 +648,20 @@ as well as variance associated with selecting a relatively small number (approxi
 
 <!--chapter:end:21s-wcgbts.Rmd-->
 
-## Biological Data
+## Biological Data and Parameters
 
-The major biological inputs to the models are natural mortality, age and growth parameters, weight-length, maturity and stock-recruitment parameters (). THe following sections outline the treatment of each section.
+The major biological inputs to the models are natural mortality, age and growth parameters, weight-length, maturity and stock-recruitment parameters. The following sections outline the treatment of each section.
 
 
 ### Natural Mortality
 
 Natural mortality is a critical parameter that drives much of the outcome of stock assessments. This value is not directly measured for black rockfish, so it either needs to be estimated or fixed in the model. Prior treatments have either used fixed ramps from lower to higher female natural mortality values (0.16 to 0.24 for females (2007 assessment); 0.17 to 0.2 (2015 assessment)) to constant male natural mortality value (0.16 in 2007; 0.17 in 2015). Females rapidly disappear from the population after 20 years of age, whereas whereas males can still be found in their 30 and 40s, with the oldest individuals along the coast aged at 56 years [@love_2011]. Females are rarely found in their 30s and males in their 40s in Oregon.
 
-The reason for the lack of females has been debated for many years. The "hide them" (using age-based selectivity curves to hide older females) or "kill them" (using the above mentioned ramps of death to account for no older females in samples) was specifically considered since the last assessment among researchers from California to Alaska, and it was agreed that the "hide them" hypothesis the least feasible situation (see Rasmuson et al. [-@Rasmuson_noBOFFFs_2023] for a specific study that went looking for old females). It was also agreed a constant natural mortality rate should be used. 
+The reason for the lack of females has been debated for many years. The "hide them" (using age-based selectivity curves to hide older females) or "kill them" (using the above mentioned ramps of death to account for no older females in samples) was specifically considered since the last assessment among researchers from California to Alaska, and it was agreed that the "hide them" hypothesis is the least feasible situation (see Rasmuson et al. [-@Rasmuson_noBOFFFs_2023] for a specific study that went looking for old females). It was also agreed a constant natural mortality rate should be used for this assessment. 
 
-Determining reasonable natural mortality values is also challenging as females quickly disappear from the population after 20 years old, . Using the Hamel and Cope [-@hamel_Mprior_2022] longevity-based estimator of natural mortality as implemented in the natural mortality tool [-@cope_NMT_2022], the following M values correspond to the longevity estimates:
+Determining reasonable natural mortality values is also challenging as the quick disappearance of females form the population after 20 years old challenges typical biological assumptions, especially since black rockfishes have been the focus species when developing the theory of big old fat fecund female contributions to spawning output [@bobko_maturity_2004; @hixon_boffffs_2014]. In a study confirming the advanced capacity for output of older females [@berkeley_maternal_2008] the oldest aged females in the study were under 20 years, so the enhanced reproductive capacity, despite the loss of females after 20 years of age, is still intact. 
+
+Using the Hamel and Cope [-@hamel_Mprior_2022] longevity-based estimator of natural mortality as implemented in the natural mortality tool [-@cope_NMT_2022], the following M values correspond to the longevity estimates:
 
      *0.108 at 50 years
      *0.135 at 40 years
@@ -675,10 +669,9 @@ Determining reasonable natural mortality values is also challenging as females q
      *0.216 at 25 years
      *0.270 at 20 years
 
-These provide reasonable bookends for likely natural mortality values for black rockfish. For females, estimates based on the von Bertalanffy growth function range from 0.27-0.32 and for males, 0.34 to 0.38. Those estimates are on the high side, and thus are not considered further. Exploratory runs first attempted to estimate natural mortality with a high bound of 0.25. This was a consistent attribute of unconstrained models wanting high natural mortality rates. For this reason, the constant natural 
+These provide reasonable bookends for likely natural mortality values for black rockfish. For females, estimates based on the von Bertalanffy growth function range from 0.27-0.32 and for males, 0.34 to 0.38. Those estimates are on the very high side, and thus are not considered further. 
 
-
-The pre-STAR approach in this assessment was to fix values of natural mortality at ages to be more in line with the proposed longevity of black rockfish (56 years old; [@love_2011]) and coupled with an age-based selectivity for females to account for the missing samples of that sex (see Section 2.3for details).  A variety of natural mortality estimates based on longevity values and von Bertalanffy values were explored (Table 3).  The estimators using the von Bertalanffy values were ultimately chosen because they incorporated both sex and area differences in natural mortality. This choice of dome-shaped age-based selectivity and fixed lower natural mortality causes the productivity of the population to drop greatly relative to assuming a logistic selectivity and a ramp in M, but also creates a very large amount of cryptic (i.e. unavailable) biomass (Figure 7) compared to the model with a ramp in M (Figure 8). Given such high relative cryptic biomass when invoking dome-shaped age-based selectivity, but discomfort with the M ramp scenario, it was decided during the STAR panel that estimating a sex-specific M was a defensible approach in lieu of data supporting either dome-shaped selectivity and high cryptic biomass or extreme natural mortality values using a ramp in M, and thus was adopted as the approach to M in the California and Washington base models. Sensitivities to the other proposed treatments of natural mortality were also provided.
+Exploratory runs first attempted to estimate natural mortality with a high bound of 0.25, but this bound was always achieved. This consistent attribute of unconstrained models wanting high natural mortality rates argued for the need to fix natural mortality, as was done in the 2015 assessment. For this reason, the constant natural mortality values of 0.19 for females (within the ramp of 0.17 and 0.2 used in that assessment) and 0.17 for males (same as the last assessment) were used. A likelihood profile across the above mentioned range of natural mortality values, but maintaining the above ratio of female to male natural mortality, is included to explore model sensitivity and demonstrate the models desire to push the upper bounds of realistic values. 
 
 
 ### Growth (Length-at-Age)
@@ -781,14 +774,14 @@ The Oregon model faced many challenges and ultimately was re-evaluated in a seco
 Most of the above recommendations were included in the 2015 assessment research recommendations. Additionally, stock structure for black rockfish was highlighted as a topic for further consideration.
 
 
-# Model description
+## Model description
 
 
-## Modelling Platform
-Stock Synthesis version 3.30.16 was used as the statistical catch-at-age modelling framework. This framework allows the integration of a variety of data types and model specifications. The SS-DL tool (https://github.com/shcaba/SS-DL-tool) was used for model exploration, likelihood profiling, and sensitivity analyses. The companion R package r4ss (version 1.38.0) along with R version 4.0.5 were used to investigate and plot model fits. 
+### Modelling Platform
+Stock Synthesis version 3.30.21 was used as the statistical catch-at-age modelling framework. This framework allows the integration of a variety of data types and model specifications. The SS-DL tool (https://github.com/shcaba/SS-DL-tool) was used for model exploration, likelihood profiling, and sensitivity analyses. The companion R package r4ss (version 1.38.0) along with R version 4.0.5 were used to investigate and plot model fits. 
 
 
-## Bridging the assessment model from Stock Synthesis 3.24 to 3.30 
+### Bridging the assessment model from Stock Synthesis 3.24 to 3.30 
 
 Since several years have passed from the last assessment model, the Stock Synthesis (SS) modelling framework has undergone many changes. While the specific changes in the model can be found in the model [change log](https://github.com/nmfs-stock-synthesis/stock-synthesis/blob/v3.30.19/Change_log_for_SS_3.30.xlsx?raw=true), here we simply update the model from the older 3.24V version to the newer 3.30.20 version. The point here is to present any differences in the model outputs when using the same information. This was first done by migrating the data and parameter specifications from the former files to the newer files. This migration was assisted using the [SS-DL tool](https://github.com/shcaba/SS-DL-tool). Once the old data was transferred to the SS 3.30.20 file, two versions of the model were run. 
 
@@ -941,17 +934,16 @@ Data treatments explored were as follows:
 - Data removal (fixed life history, no recruitment estimation) 
 	1. Fishery length data only (no catches)
   	2. Catch and lengths only
-  	3. Catch and lengths only with Francis weighting
   	4. Catch, lengths, and ages with Francis weighting
   	5. Catch, length, age, and indices with Francis weighting
   	6. Catch, length, age, and indices with Francis weighting and extra index variance
   	7. Catch, length, age, and indices with Francis weighting, estimate life history
+
 - Data weighting
   	8. Dirichlet data-weighting
   	9. McAllister-Ianelli data weighting
   	10. No data-weighting
-- Ageing error
-  	11. Using ageing error from CARE exchange
+- 
 - Length treatment
 	12. Use option sex = 3 to maintain sex ratio in commercial data  
 
