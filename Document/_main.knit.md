@@ -673,7 +673,6 @@ These provide reasonable bookends for likely natural mortality values for black 
 
 Exploratory runs first attempted to estimate natural mortality with a high bound of 0.25, but this bound was always achieved. This consistent attribute of unconstrained models wanting high natural mortality rates argued for the need to fix natural mortality, as was done in the 2015 assessment. For this reason, the constant natural mortality values of 0.19 for females (within the ramp of 0.17 and 0.2 used in that assessment) and 0.17 for males (same as the last assessment) were used. A likelihood profile across the above mentioned range of natural mortality values, but maintaining the above ratio of female to male natural mortality, is included to explore model sensitivity and demonstrate the models desire to push the upper bounds of realistic values. 
 
-
 ### Growth (Length-at-Age)
 
 #### Age validation
@@ -684,19 +683,45 @@ SIMS proved to be effective for producing detailed otolith δ18O chronologies wi
 
 
 #### Age and growth relationship
-Age and length data were available for all states across years, so an initial investigation of the growth parameters across areas was produced to look at spatial and temporal trends by sex. The standard von Bertalanffy growth function was used to fit the length and age data. Washington State had the most years of available composition data (Figure 2). In general, males seem to be consistently better sampled in all states (Figure 3). Patterns of growth between sexes are similar among areas, while trends in parameters estimates are apparent in California and Washington (Figure 25 and Figure 193).  Washington was the best temporally and numerically sampled area, with California having the fewest samples. Given the level of data, attempts were made to estimate growth parameters internal to the model. When that was not possible, the parameters were fixed to the external fits (Table 18 (CA); Table 40 (OR); Table 63 (WA)).
+
+The length-at-age was estimated for female and male Black Rockfish using data from collections sampling the commercial (trawl and non-trawl) and recreational fisheries off the coast of Oregon (Figure \ref{tab:len-age-data-sex} and Figure \ref{tab:len-age-sex-year}), wiht hall lengths in fork length and all ages in years. Figure \ref{fig:len-age-fit} shows the predicted von Bertalanffy growth function (VBGF) fits to the data. Females grow larger than males and sex-specific growth parameters were estimated at the following values:
+
+\begin{centering}
+
+Females $L_{\infty}$ = 48.82 cm; $k$ = 0.18; $t_0$ = -2.00
+
+Males $L_{\infty}$ = 44.88 cm; $k$ = 0.21; $t_0$ = -2.21
+
+\end{centering}
+
+\vspace{0.5cm}
+
+The coefficient of variation of length by age fluctuated around 0.06 to 0.1 for the most well sampled ages and was similar for each sex (Figure \ref{tab:cv-lt-age}). When estimated in the models, these same values would often be produced, but it was ultimately determined it is more parsimonious to fix to 0.1 for both sexes. 
+
+The estimated VBGF parameters provided initial values for the estimation of growth in the model, as all age and length data are included in the model. The $t_0$ value was fit to zero in the reference model in order to achieve more realistic $L_{\infty}$ and $k$ values. The resultant growth curves estimated by the model are presented in Figure \ref{fig:len-age-ss}. Sensitivity to fixing the growth parameters to the external values or estimating $t_0$ are explored through sensitivity analyses.
 
 
 ### Ageing Precision and Bias
 
-Ageing otoliths, while a common practice, rarely provides a prefect estimate of true age. This ageing error (both in bias and imprecision) can have large effects on stock assessment outputs and should be incorporated when using ages. Several multiple age read studies were available to develop ageing error vectors for use in interpreting conditional ages at length. For Washington, there were two data sets: 1) 280 triple reads from WDFW for the commercial fisheries and 2) 3240 double reads from WDFW for the recreational fishery. For Oregon, the Cooperative Ageing Project (CAP) provided a set of 302 multiple reads (five total readers), while ODFW provided 150 from five readers. California had one set of 318 double reads from the Cooperative Ageing Project (CAP).). Resultant forms for each chosen model are given in Figure 4.
+Counting ages from ageing structures in long-lived, temparate fishes is challenging. Ages derived from these structures can be hard to reproduce within and between readers (i.e., imprecision), and may not contain the true age (i.e., bias). Stock assessment outputs can be affected by bias and imprecision in ageing, thus it is important to quantify and integrate this source of variability when fitting age data in assessments. In Stock Synthesis, this is done by including ageing error matrices that include the mean age (row 1) and standard deviation in age (row 2). Ageing bias is implemented when the inputted mean age deviates from the expected middle age for any given age bin (e.g., 1.75 inputted versus 1.5 being the true age); ageing imprecision is given as the standard deviation for each age bin (row 2).
 
-The Punt et al. [-@punt_quantifying_2008] method and accompanying software was used to determine the underlying true age distribution and resultant imprecision, assuming at least one of the readers is unbiased. The first reader in all comparisons was assumed unbiased, but we considered several model configurations based on the functional form (unbiased, linear or curvilinear) of bias in the subsequent readers, and precisions of all readers (constant CV, curvilinear standard deviation, or curvilinear CV). Model selection was based on Akaike Information Criterion (AIC) corrected for small sample size (AICc), which converges to AIC when sample sizes are large. Both Washington data sets supported a linear bias in the other readers and constant CV of precision for all readers (Table 2). Oregon data sets agreed that linear bias and curvilinear precision was best supported (Table 2). The California data set supports curvilinear bias in the second reader with constant CV for both readers (Table 2). Resultant forms for each chosen model are given in Figure 4.
+The Oregon Department of Fish and Wildlife has a long history of ageing black rockfishes. Because of this long tenure, the main age reader has changed several times over the years. There are six distinct age readers, but the most current age reader has concluded a comparison among all of the other age readers. The most recent reader is considered the least biased. This assumption enables the construction of ageing error matrices relative to the most recent reader, thus resulting in 6 different ageing error matrices for each period:
+
+-up to 2000: Reader 1 vs Readers 5 & 6
+-2001: Reader 1 vs Reader 5
+-2002: Reader 1 vs Reader 4
+-2003 to 2009: Reader 1 vs Reader 3
+-2003 to 2016 (recreational only in 2016): Reader 1 vs Reader 2
+-2016 (commercial) to 2022: Reader 1 vs Reader 1
+
+
+Estimation of ageing error matrices used the approach of Punt et al. [-@punt_quantifying_2008] and release 1.1.0 of the R package \href{https://github.com/nwfsc-assess/nwfscAgeingError}{nwfscAgeingError} [@thorson_nwfscageingerror:_2012]. The ageing error matrix offers a way to calculate both bias and imprecision in age reads. Reader 1, the primary reader of the ages used in the stock assessment, is always considered unbiased, but may be imprecise. Several model configurations are available for exploration based on either the functional form (e.g., constant CV, curvilinear standard deviation, or curvilinear CV) of the bias in the second read or reader or in the precision of the readers. Model selection uses AIC corrected for small sample size (AICc), which converges to AIC when sample sizes are large. Bayesian Information Criterion (BIC) was also considered when selecting a final model. Table \ref{tab:ageing_error_mods} provides model selection results.
+
+Age bias plots are provided in Figure \ref{fig:Age1_1plots}. The calculated bias relationships from the best fit model are shown in Figure \ref{fig:age-error-bias} and show only small biases between readers. Figure \ref{fig:age-error-bias} show the imprecision estimates of the best fit models. In the cases where two models were similarly selected, the least extreme form (i.e., drastic drops or increases in imprecision) were chosen for the final matrix. Each ageing error matrix was then applied to the appropriate time and fleet combination.
 
 
 ### Length-Weight Relationship
 
-Length-weight relationships (kg to fork lengths) were developed with state-specific data. The California weight-length relationship was based on 8943 combined sex samples (Table 18). Oregon relationships were based on length and weight measurements from almost 4,000 individual black rockfish of combined sex and was the same as used in the previous assessment (Table 40). Washington relationships were sex-specific and based on 1551 female samples and 1284 males samples (Table 63), though both sexes had very similar relationships.
 
 
 ### Maturation and Fecundity
@@ -1096,6 +1121,51 @@ Here are all the mad props!  We thank...
 
 ![Summary of data sources used in the reference model.\label{fig:data-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png){width=100% height=100% alt="."}
 
+<!-- ====================================================================== -->
+<!-- *************************     Biology     **************************** --> 
+<!-- ====================================================================== -->
+
+
+![Observed length-at-age by data source and sex.\label{fig:len-age-data-sex}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Source_Sex.png){width=100% height=100% alt="."}
+
+
+![Observed length-at-age by sex and year. Total samples are indicated in parentheses.\label{fig:len-age-sex-year}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Sex_Year.png){width=100% height=100% alt="."}
+
+
+![External fits to the observed length-at-age by sex.\label{fig:len-age-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_VBGF_fit.png){width=100% height=100% alt="."}
+
+
+![Coefficient of variation of length by age by sex. Numbers indicate samples by age and colors indicate sex.\label{fig:cv-lt-age}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_CV_Sex_plot.png){width=100% height=100% alt="."}
+
+
+
+![Model estimated length-at-age. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve.\label{fig:len-age-ss}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio1_sizeatage.png){width=100% height=100% alt="."}
+
+
+\clearpage
+
+
+
+![Ageing bias plots by reader comparisons.\label{fig:age-bias_plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Age1_1plots.png){width=100% height=100% alt="."}
+
+
+![Estimated bias relationships for each considered matrix. Reader 1 is always considered unbiased. Reader 1a and 1b is an intra-reader comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-bias}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_Bias_plot.png){width=100% height=100% alt="."}
+
+
+![Ageing error matrix standard deviation (SD) values by comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-sd}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_SD_plot.png){width=100% height=100% alt="."}
+
+
+
+![Maturity as a function of length (cm).\label{fig:maturity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio6_maturity.png){width=100% height=100% alt="."}
+
+
+![Fecundity (kg) as a function of length (cm).\label{fig:fecundity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio9_fecundity_len.png){width=100% height=100% alt="."}
+
+
+
+\clearpage
+
+
 <!-- ====================================================================== --> 
 <!-- ******************* Bridge Model ************************************* --> 
 <!-- ====================================================================== --> 
@@ -1105,6 +1175,7 @@ Here are all the mad props!  We thank...
 
 
 ![Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:deps_bridge_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png){width=100% height=100% alt="."}
+\clearpage
 
 <!-- ====================================================================== -->
 <!-- ***********************  Model convergence and Jitters  ************************************ --> 
@@ -1115,6 +1186,7 @@ Here are all the mad props!  We thank...
 
 
 ![Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency.\label{fig:pairs_plot_fast}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/pairs_plot_fast.png){width=100% height=100% alt="."}
+\clearpage
 
 <!-- ====================================================================== -->
 <!-- ****************** Fit to the Length Data **************************** --> 
@@ -1149,7 +1221,9 @@ Here are all the mad props!  We thank...
 ![Mean age from conditional age-at-length data for the commercial trawl fishery.\label{fig:trawl-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl_wdis.png){width=100% height=100% alt="."}
 
 
+
 ![Mean age observations from the conditional age-at-length data from the non-trawl commercial fishery.\label{fig:nontrawl-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNon-Trawl_wdis.png){width=100% height=100% alt="."}
+
 
 
 ![Mean age observations from the conditional age-at-length data from the ocean boat fishery.\label{fig:ocean-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeOcean.png){width=100% height=100% alt="."}
