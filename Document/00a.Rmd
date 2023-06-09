@@ -55,15 +55,16 @@ base_name = "Reference model"
 
 
 bridge_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge"
-#stock_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/OR/write_up/figures/stock"
+
+stock_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/stock"
 
 bio_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots"
 
-index_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/OR/write_up/figures/index"
+index_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index"
 
-sensi_data_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/OR/write_up/figures/sensi_data"
+sensi_data_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data"
 
-sensi_modspex_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/OR/write_up/figures/sensi_modspex"
+sensi_modspex_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex"
 
 modconv_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge"
 
