@@ -77,8 +77,7 @@ The length(cm)-weight(kg) relationship for `r spp` was estimated outside the mod
 ### Maturation and Fecundity
 
 
-
-The `r spp` fecundity-at-length  relationship was provided by E.J. Dick (SWFSC) and based on the work from Dick [-@dick_modeling_2009]. The fecundity relationship was estimated equal to $Fec$=`r format(model$MGparmAdj$Eggs_scalar_Fem[1], scientific = TRUE)`$L$^`r round(model$MGparmAdj$Eggs_exp_len_Fem[1],2)`^ in millions of eggs where $L$ is length in cm. Fecundity-at-length is shown in Figure \ref{fig:fecundity}.
+Similarly, this assessment, like previous assessments, assumes that weight-specific fecundity is linearly related to female body weight. Values for the slope and intercept were taken from Dick [-@dick_modeling_2009] and are found in the parameterization tables (Table 18 (CA); Table 40 (OR); Table 63 (WA)). 
 
 
 ### Stock-recruitment function and compensation
