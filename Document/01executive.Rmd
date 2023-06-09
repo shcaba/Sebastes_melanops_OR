@@ -132,63 +132,29 @@ label = 'es-yield')
 
 ## Management performance{-}
 
-Removals have been below the equivalent ABC-ACL since the prior assessment (Table ES-6), but those specified ABCs from the 2007 assessments are higher than those coming from the current assessment models. Removals over the last few years have or may have exceeded the newly estimated ABC-ACL values in some years. The differences in the treatment of natural mortality between the previous and current assessments are the biggest reason for this discrepancy.
-
-Exploitation on `r spp` increased starting around 1960 and reached a high in the early 1990s. Since that time, catch has mostly fluctuated between 5 and 10 mt per year, with some years exceeding 10 mt, particularly in the last 4 years. The last ten years of the vermilion rockfish component acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) of the Minor Shelf Rockfish North Complex has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:ofl-es}). The `r spp` component OFL for this Complex has been exceeded by the Oregon removals in the most recent 4 years.
-
-#```{r, results = 'asis'}
-#yrs = hist = 2011:endyr
-#nfleets = 2
-#catch = dead = est.dead = input.catch =  0
-#for (i in 1:nfleets){
-#  name = paste0("retain(B):_",i)
-#  input.catch = model$timeseries[model$timeseries$Yr %in% yrs, name]
-#  catch = cbind(catch, input.catch)
-
-#  name = paste0("dead(B):_",i)
-#  est.dead = model$timeseries[model$timeseries$Yr %in% yrs, name]
-#  dead = cbind(dead, est.dead)
-#}
-#total.catch <- round(apply(catch, 1, sum),1)
-#total.dead  <- round(apply(dead, 1, sum), 1)
-
-#man = read.csv("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tables/#vermilion_man_for_doc.csv")
-#man = man[man$Year %in% yrs, ]
-#out = cbind(man,  total.catch, total.dead)
-
-#col_names = c("Year", "OFL", "ABC", "ACL", "Landings", "Est. Total Mortality")
-
-#table_format(x = out,
-#             caption = "The OFL, ABC, ACL, landings, and the estimated total mortality in metric tons.",
-#             label = "ofl-es",
-#             align = 'l',
-#             col_names = col_names)
-#```
+`r spp` removals have generally been below the equivalent ABC-ACL over the recent decade, with the exception of 2017 and 2022 when removals were slightly higher (Table \ref{tab:manageES}). Exploitation on `r spp` increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of `r spp` acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manageES}). Prior to 2017, management specifications were set for `r spp` in California and Oregon waters combined.  The `r spp` OFL has not been exceeded by Oregon removals over the past decade.
 
 ## Unresolved problems and major uncertainties{-}
 
-The most significant uncertainty for all models is the treatment and value of natural mortality and the form of fleet selectivity (e.g., length-based asymptotic vs. age-based dome-shaped selectivity). Data-driven selection between the extreme “kill” (using a ramping of M) or “hide” hypotheses are not currently resolvable. The current California and Washington base models instead use a form of the “kill” hypothesis by not implementing the age-based selectivity (“hide” hypothesis) and estimating female and male natural mortality, thus avoiding a fixing natural mortality as was necessary in the Oregon model. The Oregon model also contained a step in female natural mortality, a specification not used in the California or Washington models. Another important issue is the highly uncertain historical time-series of removals in all states, which needs further consideration. The development of fishery-dependent indices of abundance still requires further attention. Steepness, while fixed, is still highly uncertain for rockfishes and currently is mismatched to the MSY proxy. And while the steepness profile shows low sensitivity in several derived quantities, steepness strongly defines the yield capacity of stocks, and therefore could cause major uncertainty in the recommended management quantities. Stock structure and its relationship to the current political/management boundaries are also not fully understood, both within U.S. jurisdiction and between the U.S. and Canada. While this is a common challenge faced in most west coast stock assessments, further improvement on this topic will likely rely on black rockfish-specific data.
+The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which suggests a lower population size and status) versus the acoustic and tag surveys (which suggest high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the biological data, despite large sample sizes, is another barrier to interpreting the current conditions, though given models using only biological data, the signal seems clear that the population could be at a lower stock status.
 
 ## Scientific uncertainty{-}
 
-The model-estimated uncertainty around the `r endyr+1` spawning biomass was $\sigma$ = `r round(model$Pstar_sigma,2)` and the uncertainty around the OFL was $\sigma$ = `r round(model$OFL_sigm, 2)`. This is likely an underestimate of overall uncertainty because of the necessity to fix some parameters such as steepness, as well as a lack of explicit incorporation of model structural uncertainty.
+The model-estimated uncertainty around the `r endyr+1` spawning biomass was $\sigma$ = `r round(model$Pstar_sigma,2)` and the uncertainty around the OFL was $\sigma$ = `r round(model$OFL_sigm, 2)`. This is clearly an underestimate of overall uncertainty because of the necessity to fix some life history parameters such as natural mortality and steepness, as well as a lack of explicit incorporation of model structural uncertainty. The alternative states of nature used to bracket uncertainty in the decision table assist with encapsulating model sturcture uncertainty.
 
 ## Harvest Projections and Decision Table{-}
 
-Black rockfish assessments for California and Washington have a preliminary distinction as category 1 stock assessments, thus harvest projections and decision tables are based on using P*=0.45 and sigma = 0.36, resulting in a multiplier on the OFL of 0.956. The Oregon black rockfish assessment is a category 2 assessment, with a P*=0.45 and sigma = 0.72 with a multiplier of 0.913 applied to the OFL.  These multipliers are also combined with the rockfish MSY proxy of FSPR=50% MSY and the 40-10 harvest control rule to calculate OFLs, ABCs and ACLs. Projections for each state are provided in Table ES-7 to Table ES-9. 
+The following text will be modified, as appropriate, after the STAR panel and SSC meeting.
 
-Uncertainty in management quantities for the base model of each state was characterized by exploring various model specifications in a decision table. Initial exploration included natural mortality and steepness values, and uncertainty in historical trawl catches for the WA and CA models. OR explored the scale factor coming from the value of the tagging catchability (Q) parameter, as well as M values. For the CA and WA models, there was very little sensitivity to steepness and trawl catches, but natural mortality produced sensitive results of predicted population scale and status. Discussion with the STAR panel resulted in high and low states of nature +/- 0.03 from the base case natural mortality values for females and males. High and low catch streams (rows) were determined by the forecasts, as described above, for each state of nature. Thus the low catch stream is based on the forecast from the low state of nature. The OR model demonstrated little sensitivity to M, but high sensitivity to the tagging survey Q. High and low states of nature, respectively, were based on a fixed tag of Q = 0.125 and Q estimated by the model. Resultant decision tables are provided in Table ES-10 to Table ES-12.
+The `r spp` assessment is being considered as a category 2 assessment with a $P^*$ = 0.45, sigma = 0.72, and a time-varying buffer applied to the OFL.  These multipliers are also combined with the rockfish MSY proxy of FSPR=50% MSY and the 40-10 harvest control rule to calculate OFLs, ABCs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:project_ES}. 
 
-A ten year (2023-2032) projection of the reference model with removals in 2021 and 2022 provided by the Groundfish Management Team for each fleet under the category 1 (sigma=0.5) time-varying buffer using $P^*$ = 0.45 and 40-10 ABC control rule is provided in Table \ref{tab:project_ES}.
+Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations considered alternative specifications of natural mortality and population scale. Discussion with the STAR panel resulted in selecting a high state of nature based on a model that did not estimate recruitment deviations (i.e., recruitment was based solely on the stock-recruitment relationship). The low state of nature was based on a model that sought to estiamte catchability for the acoustic-visual survey. High and low catch streams (rows) were determined by the forecasts, as described above, for each state of nature. Thus the low catch stream is based on the forecast from the low state of nature. The resultant decision table is provided in Table \ref{tab:es-dec-tab}.
 
  \input{tex_tables/project_ES.tex}
 
-The decision table (Table \ref{tab:es-dec-tab}) was constructed using female and male natural mortality to define the low and high states of nature. The multi-parameter likelihood profile was used to find the low (Female M = 0.07092; Male M= 0.06525) and high (Female M = 0.08527; Male M = 0.07845) female and male natural mortality values that produce -log likeliehood values  +0.66 units from the reference -log likelihood value. These correspond to the 12.5% and 87.5% quantiles (standard quantiles used in west coast decision tables). The catch rows in the table were based on three proposed catch streams:
-  1. P* = 0.45, sigma = 0.5
-  2. P* = 0.40, sigma = 0.5
-  3. An equilibrium catch based on the $F_{MSY}$ proxy using SPR = 0.5.  
+Further details about selecting the decision table states of nature will be added here after the STAR panel.    
 
-Across all states of natures and catch streams, vermilion rockfish relative stock size never falls below the target relative stock size of 40%. Both P* approaches lower the stock status from the high relative stock size values, while the $F_{MSY}$ proxy does not. The mismatch in the corresponding steepness value ($h=0.6$) that matches MSY at SPR = 0.5 with the steepness value in the stock assessment ($h=0.72$) that correpsonds to an MSY SPR of 0.35 explains why this constant catch will maintain the stock at very high relative stock status levels. 
+Further details summarizing the results presented in the decision table will be added here after the STAR panel.   
 
 \clearpage
 
@@ -199,13 +165,12 @@ Across all states of natures and catch streams, vermilion rockfish relative stoc
 
 ## Research and data needs{-}
 
-Recommended avenues for research to help improve future black rockfish stock assessments:
+Recommended avenues for research to help improve future `r spp` stock assessments:
 
-1. Further investigation into the movement and behavior of older (> age 10) females to reconcile their absence in fisheries data. If the females are currently inaccessible to fishing gear, can we find where they are?
-2. Appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each.
-3. All states need improved historical catch reconstructions. The trawl fishery catches in particular require particular attention. Given the huge historical removals of that fleet in each state, the assessment is very sensitive to the assumed functional form of selectivity. A synoptic catch reconstruction is recommended, where states work together to resolve cross-state catch issues as well as standardize the approach to catch recommendations.
-4. Identifying stanzas or periods of uncertainty in the historical catch series will aid in the exploration of catch uncertainty in future assessment sensitivity runs. 
-5. The ODFW tagging study off Newport should be continued and expanded to other areas.  To provide better prior information on the spatial distribution of the black rockfish stock, further work should be conducted to map the extent of black rockfish habitat and the densities of black rockfish residing there.
-6. An independent nearshore survey should be supported in all states to avoid the reliance on fishery-based CPUE indices.
-7. Stock structure for black rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.
+1. The availability of a comprehensive nearshore research survey for `r spp` (as well as for other nearshore rockfish species) was instrumental in providing the stock assessment with an estiamte (and associated uncertainty) of population scale.  Given this importance, continue the acoustic-visual fisheries independent coastwide survey to develop a time series. Evaluate survey improvements and analytical refinements as suggested in the SSC methodolgoy review.  In particular, examine alternative spatial modeling approaches to better leverage the available information content toward reducing uncertainty in the absolute estimates of population size. 
+2. Improve understanding of broader ecosystem considerations within the context of `r spp` (and other nearshore species) management. Evaluate and develop linkages between `r spp` population dynamics and environmental, oceanographic, and climate variables.  In particular, develop multi-scale models (e.g., species distribution models) that can evaluate spatial patterns (e.g., multi-use areas or closures to fishing) and climate impacts (e.g., growth or distribution shifts) for vulnerable nearshore species. Utilize the growing body of information available for the California Current Large Marine Ecosystem, as examplified in the PFMC IEA report. 
+3. Continue work on the investigation into the movement, behavior or mortality of older (> age 10) females to further reconcile their absence in fisheries data. In particular, conduct genetics studies on fish observed off of the continental shelf (middle of the gyere and at sea mounts) to determine their association with the nearshore stocks. 
+4. Continue to build evidence for appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each.
+5. Design and conduct research studies to better understand the tradeoffs revealed in this assessment between `r spp` biology and population scale that seem be at odds. If discrepencies can not be uncovered, evalute management procedures that are as robust as can be to this tradeoff.
+6. Conduct early life history studies that provide a better understanding of the ecology and habitats of `r spp` from settlement to age-1.
 
