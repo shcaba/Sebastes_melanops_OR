@@ -57,12 +57,12 @@ Counting ages from ageing structures in long-lived, temparate fishes is challeng
 
 The Oregon Department of Fish and Wildlife has a long history of ageing black rockfishes. Because of this long tenure, the main age reader has changed several times over the years. There are six distinct age readers, but the most current age reader has concluded a comparison among all of the other age readers. The most recent reader is considered the least biased. This assumption enables the construction of ageing error matrices relative to the most recent reader, thus resulting in 6 different ageing error matrices for each period:
 
-- up to 2000: Reader 1 vs Readers 5 & 6
-- 2001: Reader 1 vs Reader 5
-- 2002: Reader 1 vs Reader 4
-- 2003 to 2009: Reader 1 vs Reader 3
-- 2003 to 2016 (recreational only in 2016): Reader 1 vs Reader 2
-- 2016 (commercial) to 2022: Reader 1 vs Reader 1
+-up to 2000: Reader 1 vs Readers 5 & 6
+-2001: Reader 1 vs Reader 5
+-2002: Reader 1 vs Reader 4
+-2003 to 2009: Reader 1 vs Reader 3
+-2003 to 2016 (recreational only in 2016): Reader 1 vs Reader 2
+-2016 (commercial) to 2022: Reader 1 vs Reader 1
 
 
 Estimation of ageing error matrices used the approach of Punt et al. [-@punt_quantifying_2008] and release 1.1.0 of the R package \href{https://github.com/nwfsc-assess/nwfscAgeingError}{nwfscAgeingError} [@thorson_nwfscageingerror:_2012]. The ageing error matrix offers a way to calculate both bias and imprecision in age reads. Reader 1, the primary reader of the ages used in the stock assessment, is always considered unbiased, but may be imprecise. Several model configurations are available for exploration based on either the functional form (e.g., constant CV, curvilinear standard deviation, or curvilinear CV) of the bias in the second read or reader or in the precision of the readers. Model selection uses AIC corrected for small sample size (AICc), which converges to AIC when sample sizes are large. Bayesian Information Criterion (BIC) was also considered when selecting a final model. Table \ref{tab:ageing_error_mods} provides model selection results.

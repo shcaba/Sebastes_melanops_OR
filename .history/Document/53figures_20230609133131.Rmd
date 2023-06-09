@@ -108,14 +108,6 @@ caption = "Sex-specific length (cm)-weight (kg) data for Oregon black rockfish s
 label = 'len-weight-data')
 ```
 
-```{r, results = 'asis'}
-add_figure(
-filein = file.path(bio_fig_loc, "LW_lines_States_Sex.png"), 
-caption = "Sex-specific length (cm)-weight (kg) estimated power function relationships. Washington state estimate relationships are also provided for comparison",
-label = 'len-weight-or-wa')
-```
-
-
 \clearpage
 
 
