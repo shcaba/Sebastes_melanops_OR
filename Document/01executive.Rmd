@@ -42,9 +42,7 @@ Within model uncertainty is explicitly included in this assessment by parameter 
 
 ## Stock biomass and dynamics{-}
 
-Spawning stock outputs are all at or above limit reference points (Table ES-2. Only California shows declines significantly below this reference point at any point in the time series. California and Washington stocks show a declining population through most of the 20th Century, with stronger declines in the 1980s, and recoveries beginning in the mid-1990s. Oregon stocks follow this pattern, but with a decline in the most recent period. California (33%) is below the target biomass reference point with an increasing biomass trend (Figures ES-4 and ES-5).  The Oregon stock dropped after the quick ramp up of catches in the late 1970s and continued a steady decline until around year 2000, settling in at a stock status around 60% of initial conditions. The Washington stock, currently 43%, dropped below the target biomass by in the early 1980s, then risen above since the late 1990s and has fluctuated above that point through 2014 (Figures ES-8 and ES-9).
-
-Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2021 was `r ssb_2021` meggs (~95 percent asymptotic intervals: `r ssb_2021_low` to `r ssb_2021_hi` meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (`r ssb0`) meggs gives a relative stock status level of `r round(100*depl_2021,0)` percent (~95 percent asymptotic intervals: `r round(100*depl_2021_low,0)` to `r round(100*depl_2021_hi,0)` percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size. The largest of the estimated recruitment pulses since the mid 1990s (that are supported by each of the data sets) caused a sharp increase in spawning output through the mid 2010s, followed by another decline. The minimum relative stock size of `r round(100*as.numeric(depl_min),0)` percent of unfished levels is estimated to have occurred in `r depl_min_yr`. Currently the stock is estimated well above the management target of $SB_{40\%}$ in 2021 and is estimated to have remained above the target since 2000 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
+Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was `r ssb_curr` meggs (~95 percent asymptotic intervals: `r ssb_curr_low` to `r ssb_curr_hi` meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (`r ssb0`) meggs gives a relative stock status level of `r round(100*depl_curr,0)` percent (~95 percent asymptotic intervals: `r round(100*depl_curr_low,0)` to `r round(100*depl_curr_hi,0)` percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size from 1993 to 2008, before steadily increasing back above target since that time. The largest of the estimated recruitment pulses occurred in 2008 and was followed by several above average recruitment years in the early 2010s, which contributed to the increase in spawning output through the mid to late 2010s. The minimum relative stock size of `r round(100*as.numeric(depl_min),0)` percent of unfished levels is estimated to have occurred in `r depl_min_yr`. Accordingly, the stock has not been below the minimum stock size threshold (i.e., never overfished based on median estimates). Currently the stock is estimated above the management target of $SB_{40\%}$ in 2023 and is estimated to have remained above the target since 2009 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
 
 \input{tex_tables/b_SSB_ES.tex}
 
@@ -67,9 +65,7 @@ label = 'es-depl')
 
 ## Recruitment{-}
 
-The California model shows a few extraordinarily high recruitment events that are supported by the length composition data, index data and on-the-water reports (Table ES-3; Figure ES-10).  Oregon recruitment is highly uncertain (Table ES-3; Figure ES11).  Washington recruitment is dynamic, but also shows the most informed recruitment time series, which is consistent with the extent of length and age compositions available to that assessment (Table ES-3; Figure ES12). Both California and Washington support elevated recruitment in the late 2000s.
-
-Informative recruitment begins in the 1960s and peaks in the 1990s (Table \ref{tab:recrES} and Figure \ref{fig:es-recruits}). Data were most informative from the the 1990s to the mid-2010s. Peaks years of recruitments are found in years 1993, 1994, 1998, 2005 and 2015 (Figure \ref{fig:es-rec-devs}). Overall, the `r spp` stock has not been reduced to levels that would provide considerable information on how recruitment compensation changes across spawning biomass levels (i.e., inform the steepness parameter).  Thus, all recruitment is based on a fixed assumption about steepness ($h$ = 0.72) and recruitment variability ($\sigma_R$ = 0.6).
+Recruitment is informed by the data from 1980 to 2017 (Table \ref{tab:recrES} and Figure \ref{fig:es-rec-ts}).  The highest recruitment years occurred in 1999, 2000, 2008, 2013, and 2016. The large 2008 and 2016 year classes, as well as several above average year classes in the early 2010s, contributed to the recent increase in `r spp` biomass. Recruitment is informed by composition data and six relative abundance indices.  The 2015 stock assessment did not estimate deviations from the stock-recruitment curve. While the `r spp` stock has been reduced to levels that theoretically would provide some information on how recruitment compensation changes across spawning biomass levels (i.e., inform the steepness parameter), the assessment model could not adequately estimate a reasonable steepness parameter.  Thus, recruitment is based on a fixed assumption about steepness ($h$ = 0.72) and recruitment variability ($\sigma_R$ = 0.6).
 
 \input{tex_tables/c_Recr_ES.tex}
 
@@ -80,12 +76,12 @@ caption = "Estimated time series of age-0 recruits (1000s) for the base model wi
 label = 'es-recruits')
 ```
 
-#```{r, results = 'asis'}
-#add_figure(
-#filein = file.path(mod_loc, "plots", "recdevs2_withbars.png"), 
-#caption = "Estimated time series of recruitment deviations",
-#label = 'es-rec-devs')
-#```
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png"), 
+caption = "Estimated time series of recruitment deviations",
+label = 'es-rec-ts')
+```
 
 ## Exploitation status{-}
 
