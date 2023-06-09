@@ -931,63 +931,63 @@ This current estimate shows a higher overall biomass (Figure \ref{fig:comp_ssb})
 
 <!--chapter:end:33results.Rmd-->
 
-#### Characterizing uncertainty
+## Characterizing uncertainty
 ### Sensitivity Analyses
+Sensitivity analyses were conducted to evaluate model sensitivity to alternative data treatment and model specifications.
 
-Several sensitivity runs were considered for the Oregon model. The first group of sensitivity runs (scenarios 1-6; Table 43; Supplemental table "OR Sensitivities- Like Comps") sequentially removes indices. The second group (scenarios 7-13; Table 43; Supplemental table "OR Sensitivities- Like Comps") sequentially removes length composition data. The third group (scenarios 14-19; Table 43; Supplemental table "OR Sensitivities- Like Comps") sequentially removes indices, size or age composition data. The last group (scenarios 19-33; Table 44; Supplemental table "OR Sensitivities- Model specs") covers a variety of issues: 
+#### Data treatment sensitivities
+Data treatments explored were as follows:
 
-1. Estimate M step
-2. M step (at age 10) fixed at 2007 values
-3. M ramp (at age 10) fixed at 2007 values
-4. M estimated, no step
-5. M using Then et al. 2015 VBGF calculation; age-based selectivity
-6. M based on Then et al. (2015) using amax = 56; age-based selectivity
-7. M based on Hamel (2015) using amax = 56; age-based selectivity
-8. Estimate female M with male offset set at -0.2
-9. Fix tag Q = 12.5%
-10. Estimate tag Q
-11. Data weighting: length using Francis method; no age weighting
-12. Data weighting: lengths and ages using harmonic mean
-13. No recruitment estimation
-14. No extra variance estimated on all indices 
-15. Recreational ocean fishery selectivity logistic
+- Data removal (fixed life history, no recruitment estimation) 
+	1. Fishery length data only (no catches)
+  	2. Catch and lengths only
+  	3. Catch and lengths only with Francis weighting
+  	4. Catch, lengths, and ages with Francis weighting
+  	5. Catch, length, age, and indices with Francis weighting
+  	6. Catch, length, age, and indices with Francis weighting and extra index variance
+  	7. Catch, length, age, and indices with Francis weighting, estimate life history
+- Data weighting
+  	8. Dirichlet data-weighting
+  	9. McAllister-Ianelli data weighting
+  	10. No data-weighting
+- Ageing error
+  	11. Using ageing error from CARE exchange
+- Length treatment
+	12. Use option sex = 3 to maintain sex ratio in commercial data  
 
-The model was generally insensitive to the removal of indices, except when the tag index was removed as well as the tag Q fixed value. The model was more sensitive to the removal of age compositions, particularly the recreational ocean fishery, resulting mostly in the changes of absolute spawning output. This general insensitivity is due to the fact that tag Q is fixed in the base model. Previous model exploration that did not fix tag Q showed sensitivity to both the length compositions, which favored higher M values, and age compositions, which favored lower M values.
+Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:data_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}.
 
-Results of the model specification sensitivity runs demonstrate a strong sensitivity to the scale parameter Q from the tagging data, though selectivity can also change results (Table 44; Figure 153 and Figure 154). The model is very rigid given the fixed value of tag Q. There is very little effect on stock status when changing the parameterization of M, selectivity, data weighting, or the estimation of recruitments (Figure 155 to Figure 158). Only the treatment of the tag Q parameter causes notable results. Because the Oregon model both kills individuals through elevated M values, but also hides the females via dome-shaped selectivity, the biomass unavailable to fishing mortality ("cryptic biomass") was considered for different values of tag Q. Despite very different assumptions of stock scale and status from the different Q parameters (Figure 153 and Figure 154), the cryptic biomass was comparable (Figure 159 to Figure 161). 
+Deterministic length-based (with or without catches) models with fixed life history values view the stock scale and status to be below that of the reference model, though above the limit reference point. Bringing in the age data, while still fixing life history and not estimating recruitment, significantly raises the stock scale to above the reference model, though the stock status is similar to the reference model. Introduction of the index made little difference to the relative stock status. Estimating the life history values, even without estimating recruitment, brought the scale back in line with the reference model. The other data treatments, including data weighting options, did very little to change the results from the reference model.
 
-Overall, the scale of the population (and thus the resultant OFL at the proxy FMSY value) is the most sensitive derived quantity. Lower natural mortality rates caused big changes in the spawning output. Such lower productivity also caused reduced OFLs. Estimating recruitment and assuming logistic selectivity for the recreational ocean fishery also caused changes in the population scale.
 
-WA:
-Several sensitivity runs were considered for the Washington model. The first group of sensitivity runs (scenarios 2-4; Table 65; Supplemental table "WA Sensitivities- Like Comps") sequentially removes indices. The second group (scenarios 5-9; Table 65; Supplemental table "WA Sensitivities- Like Comps") sequentially removes length composition data. The third group (scenarios 10-13; Table 65; Supplemental table "WA Sensitivities- Like Comps") sequentially removes age composition data. The last group (scenarios 14-36: Table 66; Supplemental table "WA Sensitivities- Model specs") covers a variety of issues
+#### Model specification sensitivities
+Model specifications looked at the estimation of indiviual and combinations of life history parameters, the estimation of recruitment, and the treatment of fecundity and selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
 
-1. Estimate growth deviations (1980-2014)
-2. Estimate growth blocks (1980-1999; 2000-2014)
-3. M ramp in females as in 2007 assessment.
-4. Estimate M ramp
-5. Fix M to Hamel approach value (0.0964)
-6. M from STAR presented base case (based on Then et al. 2015); age-based selectivity
-7. M based on Then et al. (2015) using amax = 56; age-based selectivity
-8. M based on Hamel (2015) using amax = 56; age-based selectivity
-9. Estimate M with dome-shaped, age-based selectivity
-10. Estimate M ramp with dome-shaped, age-based selectivity
-11. Sexual maturity used in the last assessment (2007)
-12. M ramp in females and sexual maturity in 2007
-13. Sexual maturity estimated from recent samples (2015)
-14. M ramp in females and sexual maturity in 2015
-15. Functional maturity using original data set
-16. Fecundity is linear with intercept = 0, slope =1.
-17. Fecundity from 2007 assessment
-18. No recruitment estimation
-19. Recruitment estimated all years; ?R tuned
-20. Use harmonic mean when tuning length compositions
-21. Use harmonic mean when tuning length and conditional age-at-length compositions
-22. No extra variance estimated on all indices 
-23. Recreational fleet length selectivity is dome-shaped 
+- Life history estimation
+	- Fix natural mortality ($M$)
+		1. Fix $M$ 
+		2. Fix $M$ and $CV_{old}$
+		3. Fix $M$, $t_0$ and $CV_{old}$
+		4. Fix $M$, $k$, $t_0$ and $CV_{old}$ 
+	- Fix growth parameters
+		5. Fix all growth parameters
+	 	6. Fix $L_{\infty}$, $k$, and $t_0$
+	 	7. Fix $k$, and $CV_{old}$
+	 	8. Fix $L_{\infty}$ and $CV_{old}$
+	 	9. Est $L_{\infty}$ for females only
+	 	10. Est $L_{\infty}$ for males only
+	 	11. 5 growth platoons instead of one
+	- Recruitment estimation and variability ($\sigma_R$). All years are estimated with bias correction applied.
+	 	12. No recruitment estimation
+	 	13. No recruitment esimation and fixed life history parameters
+	 	14. Estimate recruitment for all years in the model
+	 	15. $\sigma_R$ = 0.45
+	 	16. $\sigma_R$ = 0.75	
+- Miscellaneous
+	17. Fecundity proportional to weight
+	18. Estimate dome-shaped selectivity
+	19. Estimate dome-shaped selectivity after 2003 for recreational fishery
 
-Results of the likelihood component sensitivity runs are found in Table 65. The model was most sensitive to the exclusion of the dockside recreational index. It was also sensitive to the removal of all length and age data, and particularly to the recreational age data. 
-
-Results of the model specification sensitivity runs are found in Table 66. The largest sensitivities were found in the treatment of maturity, selectivity and natural mortality. The use of sexual maturity (scenarios 24-27) changed the terminal year scale and status of the stock significantly, making it much less reduced in status, though having a smaller influence on catch at SPR50% (Table 21). Natural mortality scenarios with lower M but age-based selectivity had the biggest effect in spawning output (Figure 225), whereas scenarios with ramping of M caused the biggest changes in (i.e., improving) stock status (Figure 226). Fixing M to low values but not compensating with dome-shaped, age-based selectivity caused the population to crash. Scenarios with ramps in M or M estimated, regardless of selectivity form for females, caused the biggest increases in catch at SPR50%. Recruitment deviations are relatively insensitive to the different natural mortality specifications (Figure 227). Most natural mortality scenarios bring the fishing intensity below the SPR harvest level (Figure 228). 
 
 
 ### Likelihood Profiles
@@ -1018,6 +1018,8 @@ Recruitment & -0.5536441 & -5.536441 & -2.727355\\
 \end{longtable}
 
 ### Unresolved Problems and Major Uncertainties
+
+The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which want a lower population size and status) versus the acoustic and tag surveys (which want high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the biological data, despite large sample sizes, is another barrier to interpreting the current conditions, though given models using only biological data, the signal seems clear that the population could be at a lower stock status. 
 
 <!--chapter:end:34diagnostics.Rmd-->
 
