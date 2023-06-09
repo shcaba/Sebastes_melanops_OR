@@ -286,6 +286,49 @@ caption = "Comparison of the time series of relative spawning output between the
 label = 'comp_depl')
 ```
 
+<!-- ============================================================================== -->
+<!-- ******************      Likelihood Profiles      ***************************** --> 
+<!-- ============================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc,"parameter_panel_LnQ_base_Acoustic_Visual(6).png"), 
+caption = "Acoustic-visual survey catchability likelihood profile (change in the negative log-likelihood across a range of $ln(R0)$ values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference",
+label = 'AVq-profile')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc, "piner_panel_LnQ_base_Acoustic_Visual(6).png"), 
+caption = "Acoustic-visual survey catchability likelihood profile for each of the likelihood components",
+label = 'AVq-profile-components')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc,"parameter_panel_SR_BH_steep.png"), 
+caption = "Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of $ln(R0)$ values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference",
+label = 'steepness-profile')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc, "piner_panel_SR_BH_steep.png"), 
+caption = "Beverton-Holt steepness parameter likelihood profile for each of the likelihood components",
+label = 'steepness-profile-components')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc, "M_fm_multilikelihood_profile.png"), 
+caption = "Female and male $M$ multi-parameter likelihood profile and derived quantities. Red lines in the top left figure indicate significantly similar values compared to the reference model. Broken and solid lines in the bottom right figure indicate target and limit referene points, respectively",
+label = 'M-multiprofile-combo')
+```
+
+
 
 <!-- ====================================================================== -->
 <!-- ******************     Retrospectives    ***************************** --> 
