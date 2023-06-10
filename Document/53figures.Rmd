@@ -173,6 +173,7 @@ label = 'pairs_plot_fast')
 ```
 \clearpage
 
+
 <!-- ====================================================================== -->
 <!-- ****************** Fit to the Length Data **************************** --> 
 <!-- ====================================================================== -->
@@ -188,14 +189,14 @@ label = 'lt-pearson-resids')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png"), 
-caption = "Mean length (cm) index from the trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting",
+caption = "Mean length (cm) index from the commercial trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting",
 label = 'trawl-mean-len-fit')
 ```
 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Non-Trawl_wdis.png"), 
-caption = "Mean length (cm) index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting",
+caption = "Mean length (cm) index from the commercial non-trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting",
 label = 'nontrawl-mean-len-fit')
 ```
 
