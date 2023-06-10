@@ -9,6 +9,9 @@
 \include{tex_tables/age-error-models2.tex}
 \include{tex_tables/age-error-models3.tex}
 
+\include{tex_tables/bio-fxn-maturity.tex}
+
+
 \newpage
 
 

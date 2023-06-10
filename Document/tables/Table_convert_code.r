@@ -30,30 +30,19 @@ t = table_format(x = out,
 kableExtra::save_kable(t,
 file = file.path(paste0(Dir.tables.tex,"ageing_error.tex")))
 
-
-out<-read.csv("C:/Users/Jason.Cope/Desktop/Vermilion stock assessments/VERMILION ROCKFISH ASSESSMENT OREGON/AGE data/Ageing error/Ageing error table for doc_COMM.csv")
+out<-read.csv(paste0(Dir.tables,"Bio_fnx_maturity.csv"))
 t = table_format(x = out,
-      label = 'age-error-models-comm',
+      caption = 'Ageing error models and resultant model selection (AICc) values for 9 models of bias and precision explored for each lab used in the vermilion rockfish assessments. Gray bars indicate the chosen model. Model codes: 0= unbiased; 1 = Constant CV; 2 = Curvilinear SD; 3= Curvilinear CV',
+      label = 'bio-fxn-maturity',
       longtable = TRUE,
       font_size = 9,
       digits = 2,
       landscape = TRUE,
-      col_names = c("","","","","","","","","","",""))
+      col_names = c("","",""))
 
 kableExtra::save_kable(t,
-file = file.path("C:\Users\Jason.Cope\Documents\Github\Sebastes_melanops_OR\Document\tables/ageing_error_Comm.tex"))
+file = file.path(paste0(Dir.tables.tex,"bio-fxn-maturity.tex")))
 
-out<-read.csv("C:/Users/Jason.Cope/Desktop/Vermilion stock assessments/VERMILION ROCKFISH ASSESSMENT OREGON/AGE data/Ageing error/Ageing error table for doc_CARE.csv")
-t = table_format(x = out,
-      label = 'age-error-models-CARE',
-      longtable = TRUE,
-      font_size = 9,
-      digits = 2,
-      landscape = TRUE,
-      col_names = c("","","","","","","","","","",""))
-
-kableExtra::save_kable(t,
-file = file.path("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA 2021/OR/write_up/tex_tables/ageing_error_CARE.tex"))
 
 
 out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tables/Likes_parms_devquants_table_data_scenarios.csv")
