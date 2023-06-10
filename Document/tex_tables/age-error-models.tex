@@ -1,53 +1,46 @@
 \begingroup\fontsize{9}{11}\selectfont
 
+\begin{landscape}\begingroup\fontsize{9}{11}\selectfont
+
 \begin{longtable}[t]{c>{\centering\arraybackslash}p{1cm}>{\centering\arraybackslash}p{1.5cm}>{\centering\arraybackslash}p{0.1cm}>{\centering\arraybackslash}p{1cm}>{\centering\arraybackslash}p{1.5cm}>{\centering\arraybackslash}p{0.1cm}>{\centering\arraybackslash}p{1cm}>{\centering\arraybackslash}p{1cm}>{\centering\arraybackslash}p{1cm}>{\centering\arraybackslash}p{1cm}}
-\caption{\label{tab:ageing_error_mods}Ageing error models and resultant model selection (AICc) values for 9 models of bias and precision explored for each lab used in the vermilion rockfish assessments. Bolded text indicates indicate the chosen model. Model codes: 0= unbiased; 1 = Constant CV; 2 = Curvilinear (SD for precision); 3= Curvilinear CV}\\
+\caption{\label{tab:age-error-models}Ageing error models and resultant model selection (AICc) values for 9 models of bias and precision explored for each age reader used in the black rockfish assessment. Bolded text indicates indicate the chosen model. Model codes: 0= unbiased; 1 = Constant CV; 2 = Curvilinear (SD for precision); 3= Curvilinear CV}\\
 \toprule
- & \multicolumn{2}{c}{\bfseries Reader 1} & & \multicolumn{2}{c}{\bfseries Reader 2 (to 4)} & & \multicolumn{4}{c}{\bfseries Model selection} \\
+ & \multicolumn{2}{c}{\bfseries Reader 1} & & \multicolumn{2}{c}{\bfseries Second Reader} & & \multicolumn{4}{c}{\bfseries Model selection} \\
 \midrule
 \endfirsthead
-\caption[]{Ageing error models and resultant model selection (AICc) values for 9 models of bias and precision explored for each lab used in the vermilion rockfish assessments. Bolded text indicates indicate the chosen model. Model codes: 0= unbiased; 1 = Constant CV; 2 = Curvilinear (SD for precision); 3= Curvilinear CV \textit{(continued)}}\\
+\caption[]{Ageing error models and resultant model selection (AICc) values for 9 models of bias and precision explored for each age reader used in the black rockfish assessment. Bolded text indicates indicate the chosen model. Model codes: 0= unbiased; 1 = Constant CV; 2 = Curvilinear (SD for precision); 3= Curvilinear CV \textit{(continued)}}\\
 \toprule
- & \multicolumn{2}{c}{\bfseries Reader 1} & & \multicolumn{2}{c}{\bfseries Reader 2 (to 4)} & & \multicolumn{4}{c}{\bfseries Model selection} \\
+ & \multicolumn{2}{c}{\bfseries Reader 1} & & \multicolumn{2}{c}{\bfseries Second Reader} & & \multicolumn{4}{c}{\bfseries Model selection} \\
 \midrule
 \endhead
 
 \endfoot
 \bottomrule
 \endlastfoot
+Primary reader vs Reader 1 &  &  &  &  &  &  &  &  &  \vphantom{3} & \\
+ Model & Bias & Precision & & Bias & Precision & & AICc & $\Delta$AICc & BIC & $\Delta$BIC\\
+1 & 0 & 1 &  & 0 & 1 &  & 18480 & 61 & 18616 & 50\\
+\textbf2 & \textbf0 & \textbf2 &  & \textbf0 & \textbf2 &  & \textbf18424 & \textbf5 & \textbf18565 & 0\\
+3 & 0 & 3 &  & 0 & 3 &  & 18485 & 66 & 18626 & 61\\
+4 & 0 & 1 &  & 1 & 1 &  & 18466 & 46 & 18610 & 44\\
+5 & 0 & 2 &  & 1 & 2 &  & 18428 & 9 & 18578 & 12\\
+\textbf6 & \textbf0 & \textbf3 &  & \textbf1 & \textbf3 &  & \textbf18419 & \textbf0 & \textbf18569 & \textbf4\\
+7 & 0 & 1 &  & 2 & 1 &  & 18463 & 44 & 18613 & 47\\
+8 & 0 & 2 &  & 2 & 2 &  & 18430 & 11 & 18586 & 21\\
+\textbf9 & \textbf0 & \textbf3 &  & \textbf2 & \textbf3 &  & \textbf18419 & \textbf0 & \textbf18575 & \textbf10\\*
+
+Primary reader vs Reader 2 &  &  &  &  &  &  &  &  &  \vphantom{3} & \\
 Model & Bias & Precision & & Bias & Precision & & AICc & $\Delta$AICc & BIC & $\Delta$BIC\\
-\bottomrule
-\textbf{ODFW Rec} &  &  &  &  &  &  &  &  &  & \\
-1 & 0 & 1 &  & 0 & 1 &  & 0 & 26 & 0 & 25\\
-2 & 0 & 2 &  & 0 & 2 &  & 0 & 4 & 0 & 4\\
-\textbf3 & \textbf0 & \textbf3 &  & \textbf0 & \textbf3 &  & \textbf0 & \textbf0 & \textbf0 & \textbf0\\
-4 & 0 & 1 &  & 1 & 1 &  & 0 & 16 & 0 & 16\\
-5 & 0 & 2 &  & 1 & 2 &  & 0 & 15 & 0 & 16\\
-6 & 0 & 3 &  & 1 & 3 &  & 0 & 15 & 0 & 16\\
-7 & 0 & 1 &  & 2 & 1 &  & 0 & 24 & 0 & 25\\
-8 & 0 & 2 &  & 2 & 2 &  & 0 & 24 & 0 & 26\\
-9 & 0 & 3 &  & 2 & 3 &  & 0 & 28 & 0 & 30\\*
-
-\textbf{ODFW Comm} &  &  &  &  &  &  &  &  &  & \\
-\textbf1 & \textbf0 & \textbf1 &  & \textbf0 & \textbf1 &  & \textbf0 & \textbf0 & \textbf0 & \textbf0\\
-2 & 0 & 2 &  & 0 & 2 &  & 0 & 4 & 0 & 6\\
-3 & 0 & 3 &  & 0 & 3 &  & 0 & 4 & 0 & 6\\
-4 & 0 & 1 &  & 1 & 1 &  & 0 & 0 & 0 & 3\\
-5 & 0 & 2 &  & 1 & 2 &  & 0 & 4 & 0 & 8\\
-6 & 0 & 3 &  & 1 & 3 &  & 0 & 8 & 0 & 12\\
-7 & 0 & 1 &  & 2 & 1 &  & 0 & 39 & 0 & 42\\
-8 & 0 & 2 &  & 2 & 2 &  & 0 & 10 & 0 & 14\\
-9 & 0 & 3 &  & 2 & 3 &  & 0 & 9 & 0 & 14\\*
-
-\textbf{CARE} &  &  &  &  &  &  &  &  &  & \\
-1 & 0 & 1 &  & 0 & 1 &  & 0 & 73 & 0 & 64\\
-2 & 0 & 2 &  & 0 & 2 &  & 0 & 61 & 0 & 54\\
-3 & 0 & 3 &  & 0 & 3 &  & 0 & 57 & 0 & 50\\
-\textbf4 & \textbf0 & \textbf1 &  & \textbf1 & \textbf1 &  & \textbf0 & \textbf0 & \textbf0 & \textbf0\\
-5 & 0 & 2 &  & 1 & 2 &  & 0 & 17 & 0 & 18\\
-6 & 0 & 3 &  & 1 & 3 &  & 0 & 7 & 0 & 8\\
-7 & 0 & 1 &  & 2 & 1 &  & 0 & 1 & 0 & 3\\
-8 & 0 & 2 &  & 2 & 2 &  & 0 & 13 & 0 & 16\\
-9 & 0 & 3 &  & 2 & 3 &  & 0 & 10 & 0 & 13\\*
+1 & 0 & 1 &  & 0 & 1 &  & 1189 & 34 & 1222 & 38\\
+2 & 0 & 2 &  & 0 & 2 &  & 1201 & 46 & 1234 & 49\\
+3 & 0 & 3 &  & 0 & 3 &  & 1195 & 40 & 1228 & 43\\
+4 & 0 & 1 &  & 1 & 1 &  & 1165 & 11 & 1197 & 13\\
+5 & 0 & 2 &  & 1 & 2 &  & 1179 & 25 & 1209 & 25\\
+6 & 0 & 3 &  & 1 & 3 &  & 1171 & 16 & 1201 & 16\\
+\textbf7 & \textbf0 & \textbf1 &  & \textbf2 & \textbf1 &  & \textbf1155 & \textbf0 & \textbf1185 & \textbf0\\
+8 & 0 & 2 &  & 2 & 2 &  & 1169 & 15 & 1196 & 12\\
+9 & 0 & 3 &  & 2 & 3 &  & 1179 & 24 & 1205 & 21\\*
 \end{longtable}
+\endgroup{}
+\end{landscape}
 \endgroup{}
