@@ -47,7 +47,7 @@ file = file.path(paste0(Dir.tables.tex,"bio-fxn-maturity.tex")))
 
 out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tables/Likes_parms_devquants_table_data_scenarios.csv")
 t = table_format(x = out,
-      caption = 'Likelihood, parameter and derivied quantities from data treatment sensitivities.',
+      caption = 'Likelihood, parameter and derived quantities from data treatment sensitivities.',
       label = 'data_sensis',
       longtable = TRUE,
       font_size = 9,

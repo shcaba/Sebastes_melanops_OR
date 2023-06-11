@@ -1221,6 +1221,17 @@ SizeSel P2 MRFSS(8) & -1.000 & -99 & - & - & None\\*
 \end{landscape}
 \endgroup{}
 
+\newpage
+
+<!-- ======================================================= -->
+<!-- ***********    Like Contributions  ******************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/likelihoods.tex}
+
+\include{tex_tables/e_ReferencePoints_ES.tex}
+
+\newpage
 
 <!--chapter:end:52tables.Rmd-->
 
