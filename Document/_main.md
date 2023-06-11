@@ -94,7 +94,7 @@ _**These materials do not constitute a formal publication and are for informatio
 
 ## Stock{-}
 
-This assessment reports the status of Black Rockfish (*Sebastes melanops*) off Oregon state using data through 2022. Black Rockfish are also found in California (their core range) and Washington waters of the U.S. West Coast, and those are treated in separate area-based stock assessments given different mangement considerations and exploitation histories as discussed at the preliminary stock assessment workshop in February 2023 [@PFMC_dataworkshop_2023]. There is substantial biogeographic separation in the populations off Oregon and Washington, thus justifying separation of those populations into different management units and stock assessments. Black Rockfish are also caught from the waters off British Columbia and Alaska, but there have not been any formal assessments of stock status for those areas. Genetic studies of stock structure indicate fish in Alaska are more differentiated than the along the contiguous west coast of the Unites States, and that genetic diversity varies in a nonsystematic way from California to Oregon [@Hessetal_2023].
+This assessment reports the status of Black Rockfish (*Sebastes melanops*) off Oregon state using data through 2022. Black Rockfish are also found in California (their core range) and Washington waters of the U.S. West Coast, and those are treated in separate area-based stock assessments given different mangement considerations and exploitation histories as discussed at the preliminary stock assessment workshop in February 2023 [@PFMC_dataworkshop_2023]. There is substantial biogeographic separation in the populations off Oregon and Washington, thus justifying separation of those populations into different management units and stock assessments. Black Rockfish are also caught from the waters off British Columbia and Alaska, but there have not been any formal assessments of stock status for those areas. Genetic studies of stock structure indicate fish in Alaska are more differentiated than the along the contiguous west coast of the Unites States, and that genetic diversity varies in a nonsystematic way from California to Oregon [@hess_comparative_2023].
 
 ## Removals{-}
 
@@ -751,7 +751,7 @@ Most of the above recommendations were included in the 2015 assessment research 
 
 
 ### Modelling Platform
-Stock Synthesis version 3.30.21 was used as the statistical catch-at-age modelling framework. This framework allows the integration of a variety of data types and model specifications. The SS-DL tool (https://github.com/shcaba/SS-DL-tool) was used for model exploration, likelihood profiling, and sensitivity analyses. The companion R package r4ss (version 1.38.0) along with R version 4.0.5 were used to investigate and plot model fits. 
+Stock Synthesis version 3.30.21 was used as the statistical catch-at-age modelling framework. This framework allows the integration of a variety of data types and model specifications. The SS-DL tool (https://github.com/shcaba/SS-DL-tool) was used for model exploration, likelihood profiling, and sensitivity analyses. The companion R package r4ss (version 1.38.0) along with R version 4.2.2 were used to investigate and plot model fits. 
 
 
 ### Bridging the assessment model from Stock Synthesis 3.24 to 3.30 
@@ -881,9 +881,9 @@ The two fishery independent surveys, the MPA (Figure \ref{fig:mpa-index-fit}) an
 
 ### Reference Model Outputs 
 
-#### Parameter Estimates
+#### Parameter Estimates and Derived Outputs
 
-A total of five population parameters, five survey variances and sixteen selectivity parameters were estimated, along with thirty-eight recruitment deviations. The reference model parameter estimates along with asymptotic standard errors are shown in Table \ref{tab:model-param} and the likelihood components are shown in Table \ref{tab:likes}. Estimates of derived reference points and approximate 95 percent asymptotic confidence intervals are provided in Table \ref{tab:referenceES}. 
+A total of five population parameters, five survey variances and sixteen selectivity parameters were estimated, along with thirty-eight recruitment deviations. The reference model parameter estimates along with asymptotic standard errors are shown in Table \ref{tab:model-param} and the likelihood components are shown in Table \ref{tab:likes}. Estimates of derived outputs and reference points and approximate 95 percent asymptotic confidence intervals are provided in Table \ref{tab:referenceES}. 
 
 The estimates of sex-specific growth parameters showed some differences from the externally estimated starting values (Table \ref{tab:model-param} and Figure \ref{fig:len-age-ss}). The estimated $L_{\infty}$ and $k$ for females and males were slightly greater than the values estimated externally.  The majority of female and male Black Rockfish growth occurs at younger ages, reaching near maximum length by age 20-25, depending upon sex, with female Black Rockfish reaching larger maximum lengths (Figure \ref{fig:len-age-ss}).
 
@@ -1229,9 +1229,24 @@ SizeSel P2 MRFSS(8) & -1.000 & -99 & - & - & None\\*
 
 \include{tex_tables/likelihoods.tex}
 
+
+<!-- ======================================================= -->
+<!-- ***********    Reference Point table  ******************** --> 
+<!-- ======================================================= -->
+
 \include{tex_tables/e_ReferencePoints_ES.tex}
 
 \newpage
+
+
+<!-- ======================================================= -->
+<!-- ***********       Time Series      ******************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/TimeSeries.tex}
+
+\newpage
+
 
 <!--chapter:end:52tables.Rmd-->
 
