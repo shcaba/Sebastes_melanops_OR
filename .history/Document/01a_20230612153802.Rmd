@@ -1,0 +1,26 @@
+```{r, results='asis'}
+add_figure(
+  filein = file.path("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/brf photos", "large_female_BLK.jpg"), 
+  caption = '',
+  width = 20,
+  height = 20,
+  label = 'black')
+
+``` 
+
+
+\vspace{500cm}
+
+<!--# Disclaimer{-}
+
+_**These materials do not constitute a formal publication and are for information only. They are in a pre-review, pre-decisional state and should not be formally cited or reproduced. They are to be considered provisional and do not represent any determination or policy of NOAA or the Department of Commerce.**_-->
+
+\pagebreak
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\renewcommand{\thetable}{\roman{table}}
+\renewcommand{\thefigure}{\roman{figure}}
+
+
+\setlength\parskip{0.5em plus 0.1em minus 0.2em}

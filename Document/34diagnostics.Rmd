@@ -37,22 +37,27 @@ Deterministic length-based (with or without catches) models with fixed life hist
 Model specifications looked at the estimation of indiviual and combinations of life history parameters, the estimation of recruitment, and the treatment of fecundity and selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
 
 - Life history estimation
+
 	- Natural mortality ($M$)
 		1. Use 2015 $M$ values 
-		2. Loenzen age varying $M$
+		2. Lorenzen age varying $M$
 		3. Estimate $M$
+
 	- Growth parameters
 	 	4. Fix all growth parameters to external values, estimate $M$
 		5. Fix all growth parameters to external values
 	 	6. Estimate $L_min$
 	 	7. Estimate $CV_{young}$ and $CV_{old}$
+
 	- Reproductive Biology
 	 	8. Use biological maturity ogive
 	 	9. Use functional maturity ogive
 	 	10. Fecundity proportional to weight
+
 	- Recruitment estimation
 	 	11. No recruitment estimation
 	 	12. Estimate recruitment for all years in the model
+
  Miscellaneous
 	13. Estimate logistic selectivity for all fleets
 	
