@@ -1176,48 +1176,59 @@ Data treatments explored were as follows:
 \begin{itemize}
 \tightlist
 \item
-  Data removal (fixed life history, no recruitment estimation)
+  Treatment of absolute abundance catchability (q)
 
   \begin{enumerate}
   \def\labelenumi{\arabic{enumi}.}
   \tightlist
   \item
-    Fishery length data only (no catches)
+    Acoustic visual survey q = 1, CV = 0.0001
   \item
-    Catch and lengths only
+    Acoustic visual survey q Estimated, CV = 0.0001
   \item
-    Catch, lengths, and ages with Francis weighting
+    Acoustic visual survey q = 1, CV = 0.45
   \item
-    Catch, length, age, and indices with Francis weighting
+    Acoustic visual survey q estimated, CV = 0.45
   \item
-    Catch, length, age, and indices with Francis weighting and extra index variance
+    Tag survey q = to 2015 value (0.25)
   \item
-    Catch, length, age, and indices with Francis weighting, estimate life history
+    Tag survey q = to 2015 value (0.25), but extra variance estimated
+  \end{enumerate}
+\item
+  Remove abundance index series
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{6}
+  \tightlist
+  \item
+    No Acoustic visual
+  \item
+    No tagging index
+  \item
+    No non-trawl index
+  \item
+    No ORBS index
+  \item
+    No MRFSS index
+  \item
+    No MPA index
+  \item
+    Add SMURFs index
   \end{enumerate}
 \item
   Data weighting
 
   \begin{enumerate}
   \def\labelenumi{\arabic{enumi}.}
-  \setcounter{enumi}{7}
+  \setcounter{enumi}{13}
   \tightlist
+  \item
+    No data-weighting
   \item
     Dirichlet data-weighting
   \item
     McAllister-Ianelli data weighting
-  \item
-    No data-weighting
-  \end{enumerate}
-\item
-\item
-  Length treatment
-
-  \begin{enumerate}
-  \def\labelenumi{\arabic{enumi}.}
-  \setcounter{enumi}{11}
-  \tightlist
-  \item
-    Use option sex = 3 to maintain sex ratio in commercial data
   \end{enumerate}
 \end{itemize}
 
@@ -1238,76 +1249,80 @@ Model specifications looked at the estimation of indiviual and combinations of l
   \begin{itemize}
   \tightlist
   \item
-    Fix natural mortality (\(M\))
+    Natural mortality (\(M\))
 
     \begin{enumerate}
     \def\labelenumi{\arabic{enumi}.}
     \tightlist
     \item
-      Fix \(M\)
+      Use 2015 \(M\) values
     \item
-      Fix \(M\) and \(CV_{old}\)
+      Loenzen age varying \(M\)
     \item
-      Fix \(M\), \(t_0\) and \(CV_{old}\)
-    \item
-      Fix \(M\), \(k\), \(t_0\) and \(CV_{old}\)
+      Estimate \(M\)
     \end{enumerate}
   \item
-    Fix growth parameters
+    Growth parameters
 
     \begin{enumerate}
     \def\labelenumi{\arabic{enumi}.}
-    \setcounter{enumi}{4}
+    \setcounter{enumi}{3}
     \tightlist
     \item
-      Fix all growth parameters
+      Fix all growth parameters to external values, estimate \(M\)
     \item
-      Fix \(L_{\infty}\), \(k\), and \(t_0\)
+      Fix all growth parameters to external values
     \item
-      Fix \(k\), and \(CV_{old}\)
+      Estimate \(L_min\)
     \item
-      Fix \(L_{\infty}\) and \(CV_{old}\)
-    \item
-      Est \(L_{\infty}\) for females only
-    \item
-      Est \(L_{\infty}\) for males only
-    \item
-      5 growth platoons instead of one
+      Estimate \(CV_{young}\) and \(CV_{old}\)
     \end{enumerate}
   \item
-    Recruitment estimation and variability (\(\sigma_R\)). All years are estimated with bias correction applied.
+    Reproductive Biology
 
     \begin{enumerate}
     \def\labelenumi{\arabic{enumi}.}
-    \setcounter{enumi}{11}
+    \setcounter{enumi}{7}
+    \tightlist
+    \item
+      Use biological maturity ogive
+    \item
+      Use functional maturity ogive
+    \item
+      Fecundity proportional to weight
+    \end{enumerate}
+  \item
+    Recruitment estimation
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \setcounter{enumi}{10}
     \tightlist
     \item
       No recruitment estimation
     \item
-      No recruitment esimation and fixed life history parameters
-    \item
-      Estimate recruitment for all years in the model
-    \item
-      \(\sigma_R\) = 0.45
-    \item
-      \(\sigma_R\) = 0.75\\
+      Estimate recruitment for all years in the model Miscellaneous
     \end{enumerate}
   \end{itemize}
-\item
-  Miscellaneous
 
   \begin{enumerate}
   \def\labelenumi{\arabic{enumi}.}
-  \setcounter{enumi}{16}
+  \setcounter{enumi}{12}
   \tightlist
   \item
-    Fecundity proportional to weight
-  \item
-    Estimate dome-shaped selectivity
-  \item
-    Estimate dome-shaped selectivity after 2003 for recreational fishery
+    Estimate logistic selectivity for all fleets
   \end{enumerate}
 \end{itemize}
+
+Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Tables \ref{tab:modspec_LH_sensis} and \ref{tab:modspec_RecMisc_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}.
+
+Fixing \(M\) to the higher prior mean value while estimating \(L_{\infty}\) raised both the beginning and ending stock scale and overall ending year relative stock status. Fixing growth but estimating \(M\) dropped stock scale, but preserved the stock status. Allowing either \(L_{\infty}\) or \(k\) to be estimated increased both stock scale and status. Fixing the life history parameters except for female \(L_{\infty}\) also raised stock scale and status, though estiamating males \(L_{\infty}\) made little difference to model results. Further investigation of the affects of life history values are provided in the likelihood profiles (next section).
+
+Fixing recruitment dropped the scale and status of the stock a little, fixing life history values again increased those derived outputs. Recruitment estimation (assuming \(\sigma_R\) = 0.6) was not sensitive to a range of \(\sigma_R\) values or estimation of all years of recruitment. While the truncated time series of recruitment can be considered parsimonious, the addition of estimating all recruitment years adds additional uncertainty to the stock status measure earlier in the time series.
+
+The remaining model specifications did little to change the reference model results. Estimating dome-shaped selectivity after 2003 for the recreational fishery (based on the possibility that fishing restriction in part of the year could possibly limit access to bigger individuals) does result in dome-shaped selectivity for the recreational fishery, it provides only a slighly better fit (based on AIC) to the data and does not change the scale or status of the stock. An even better fit to the data is achieved if 2001 (not coinciding with management changes), though again the derived quantities of scale and status do not change. The improved fits are not sufficient evidence that a selectivity block is needed, though whether and where blocks may be most appropriate is worth future consideration.
+
+Overall, there were no model specification sensitivity scenarios that caused the population to drop significantly below the reference model estimate of stock status, only above. When stock scale changed from the reference model, unfished and current stock size usually varied in the same direction, with current stock size changing more, leading to increases in the relative stocks status.
 
 \hypertarget{likelihood-profiles}{%
 \subsubsection{Likelihood Profiles}\label{likelihood-profiles}}

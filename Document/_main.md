@@ -896,21 +896,28 @@ Sensitivity analyses were conducted to evaluate model sensitivity to alternative
 #### Data treatment sensitivities
 Data treatments explored were as follows:
 
-- Data removal (fixed life history, no recruitment estimation) 
-	1. Fishery length data only (no catches)
-  	2. Catch and lengths only
-  	4. Catch, lengths, and ages with Francis weighting
-  	5. Catch, length, age, and indices with Francis weighting
-  	6. Catch, length, age, and indices with Francis weighting and extra index variance
-  	7. Catch, length, age, and indices with Francis weighting, estimate life history
+- Treatment of absolute abundance catchability (q) 
+	1. Acoustic visual survey q = 1, CV = 0.0001
+  	2. Acoustic visual survey q Estimated, CV = 0.0001
+  	3. Acoustic visual survey q = 1, CV = 0.45
+  	4. Acoustic visual survey q estimated, CV = 0.45
+  	5. Tag survey q = to 2015 value (0.25)
+  	6. Tag survey q = to 2015 value (0.25), but extra variance estimated
+
+- Remove abundance index series 
+	7. No Acoustic visual
+  	8. No tagging index
+  	9. No non-trawl index
+  	10. No ORBS index
+  	11. No MRFSS index
+  	12. No MPA index
+	13. Add SMURFs index 
 
 - Data weighting
-  	8. Dirichlet data-weighting
-  	9. McAllister-Ianelli data weighting
-  	10. No data-weighting
-- 
-- Length treatment
-	12. Use option sex = 3 to maintain sex ratio in commercial data  
+  	14. No data-weighting
+  	15. Dirichlet data-weighting
+  	16. McAllister-Ianelli data weighting
+
 
 Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:data_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}.
 
@@ -921,30 +928,34 @@ Deterministic length-based (with or without catches) models with fixed life hist
 Model specifications looked at the estimation of indiviual and combinations of life history parameters, the estimation of recruitment, and the treatment of fecundity and selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
 
 - Life history estimation
-	- Fix natural mortality ($M$)
-		1. Fix $M$ 
-		2. Fix $M$ and $CV_{old}$
-		3. Fix $M$, $t_0$ and $CV_{old}$
-		4. Fix $M$, $k$, $t_0$ and $CV_{old}$ 
-	- Fix growth parameters
-		5. Fix all growth parameters
-	 	6. Fix $L_{\infty}$, $k$, and $t_0$
-	 	7. Fix $k$, and $CV_{old}$
-	 	8. Fix $L_{\infty}$ and $CV_{old}$
-	 	9. Est $L_{\infty}$ for females only
-	 	10. Est $L_{\infty}$ for males only
-	 	11. 5 growth platoons instead of one
-	- Recruitment estimation and variability ($\sigma_R$). All years are estimated with bias correction applied.
-	 	12. No recruitment estimation
-	 	13. No recruitment esimation and fixed life history parameters
-	 	14. Estimate recruitment for all years in the model
-	 	15. $\sigma_R$ = 0.45
-	 	16. $\sigma_R$ = 0.75	
-- Miscellaneous
-	17. Fecundity proportional to weight
-	18. Estimate dome-shaped selectivity
-	19. Estimate dome-shaped selectivity after 2003 for recreational fishery
+	- Natural mortality ($M$)
+		1. Use 2015 $M$ values 
+		2. Loenzen age varying $M$
+		3. Estimate $M$
+	- Growth parameters
+	 	4. Fix all growth parameters to external values, estimate $M$
+		5. Fix all growth parameters to external values
+	 	6. Estimate $L_min$
+	 	7. Estimate $CV_{young}$ and $CV_{old}$
+	- Reproductive Biology
+	 	8. Use biological maturity ogive
+	 	9. Use functional maturity ogive
+	 	10. Fecundity proportional to weight
+	- Recruitment estimation
+	 	11. No recruitment estimation
+	 	12. Estimate recruitment for all years in the model
+ Miscellaneous
+	13. Estimate logistic selectivity for all fleets
+	
+Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Tables \ref{tab:modspec_LH_sensis} and \ref{tab:modspec_RecMisc_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}.
 
+Fixing $M$ to the higher prior mean value while estimating $L_{\infty}$ raised both the beginning and ending stock scale and overall ending year relative stock status. Fixing growth but estimating $M$ dropped stock scale, but preserved the stock status. Allowing either $L_{\infty}$ or $k$ to be estimated increased both stock scale and status. Fixing the life history parameters except for female $L_{\infty}$ also raised stock scale and status, though estiamating males $L_{\infty}$ made little difference to model results. Further investigation of the affects of life history values are provided in the likelihood profiles (next section).
+
+Fixing recruitment dropped the scale and status of the stock a little, fixing life history values again increased those derived outputs. Recruitment estimation (assuming $\sigma_R$ = 0.6) was not sensitive to a range of $\sigma_R$ values or estimation of all years of recruitment. While the truncated time series of recruitment can be considered parsimonious, the addition of estimating all recruitment years adds additional uncertainty to the stock status measure earlier in the time series.
+
+The remaining model specifications did little to change the reference model results. Estimating dome-shaped selectivity after 2003 for the recreational fishery (based on the possibility that fishing restriction in part of the year could possibly limit access to bigger individuals) does result in dome-shaped selectivity for the recreational fishery, it provides only a slighly better fit (based on AIC) to the data and does not change the scale or status of the stock. An even better fit to the data is achieved if 2001 (not coinciding with management changes), though again the derived quantities of scale and status do not change. The improved fits are not sufficient evidence that a selectivity block is needed, though whether and where blocks may be most appropriate is worth future consideration.
+
+Overall, there were no model specification sensitivity scenarios that caused the population to drop significantly below the reference model estimate of stock status, only above. When stock scale changed from the reference model, unfished and current stock size usually varied in the same direction, with current stock size changing more, leading to increases in the relative stocks status. 
 
 
 ### Likelihood Profiles
