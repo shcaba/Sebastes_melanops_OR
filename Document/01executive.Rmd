@@ -134,6 +134,9 @@ label = 'es-yield')
 
 `r spp` removals have generally been below the equivalent ABC-ACL over the recent decade, with the exception of 2017 and 2022 when removals were slightly higher (Table \ref{tab:manageES}). Exploitation on `r spp` increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of `r spp` acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manageES}). Prior to 2017, management specifications were set for `r spp` in California and Oregon waters combined.  The `r spp` OFL has not been exceeded by Oregon removals over the past decade.
 
+\input{tex_tables/f_Manage_ES.tex}
+
+
 ## Unresolved problems and major uncertainties{-}
 
 The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which suggests a lower population size and status) versus the acoustic and tag surveys (which suggest high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the biological data, despite large sample sizes, is another barrier to interpreting the current conditions, though given models using only biological data, the signal seems clear that the population could be at a lower stock status.
@@ -150,7 +153,7 @@ The `r spp` assessment is being considered as a category 2 assessment with a $P^
 
 Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations considered alternative specifications of natural mortality and population scale. Discussion with the STAR panel resulted in selecting a high state of nature based on a model that did not estimate recruitment deviations (i.e., recruitment was based solely on the stock-recruitment relationship). The low state of nature was based on a model that sought to estimate catchability for the acoustic-visual survey. High and low catch streams (rows) were determined by the forecasts, as described above, for each state of nature. Thus the low catch stream is based on the forecast from the low state of nature. The resultant decision table is provided in Table \ref{tab:es-dec-tab}.
 
- \input{tex_tables/project_ES.tex}
+ \input{tex_tables/g_Projections_ES.tex}
 
 Further details about selecting the decision table states of nature will be added here after the STAR panel.    
 
@@ -167,10 +170,11 @@ Further details summarizing the results presented in the decision table will be 
 
 Recommended avenues for research to help improve future `r spp` stock assessments:
 
-1. The availability of a comprehensive nearshore research survey for `r spp` (as well as for other nearshore rockfish species) was instrumental in providing the stock assessment with an estimate (and associated uncertainty) of population scale.  Given this importance, continue the acoustic-visual fisheries independent coastwide survey to develop a time series. Evaluate survey improvements and analytical refinements as suggested in the SSC methodology review.  Examine alternative spatial modeling approaches to better leverage the available information content toward reducing uncertainty in the absolute estimates of population size. 
+1. The availability of a comprehensive nearshore research survey for `r spp` (as well as for other nearshore rockfish species) was instrumental in providing the stock assessment with an estimate (and associated uncertainty) of population scale.  Given this importance, continue the acoustic-visual fisheries independent coastwide survey to develop a time series. Evaluate survey improvements and analytical refinements as suggested in the SSC methodology review from 2022.  Examine alternative spatial modeling approaches to better leverage the available information content toward reducing uncertainty in the absolute estimates of population size. 
 2. Improve understanding of broader ecosystem considerations within the context of `r spp` (and other nearshore species) management. Evaluate and develop linkages between `r spp` population dynamics and environmental, oceanographic, and climate variables.  In particular, develop multi-scale models (e.g., species distribution models) that can evaluate spatial patterns (e.g., multi-use areas or closures to fishing) and climate impacts (e.g., growth or distribution shifts) for vulnerable nearshore species. Utilize the growing body of ecosystem information available for the California Current Large Marine Ecosystem, as exemplified in the PFMC IEA report. 
 3. Continue work on the investigation into the movement, behavior or mortality of older (> age 10) females to further reconcile their absence in fisheries data. In particular, conduct genetics studies on fish observed off of the continental shelf (middle of the gyre and at sea mounts) to determine their association with the nearshore stocks. 
 4. Continue to build evidence for appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each.
 5. Design and conduct research studies to better understand the tradeoffs revealed in this assessment between `r spp` biology and population scale that seem be at odds. If discrepancies can not be uncovered, evaluate management procedures that are as robust as can be to this tradeoff.
-6. Conduct early life history studies that provide a better understanding of the ecology and habitats of `r spp` from settlement to age-1.
+6. Conduct early life history studies that provide a better understanding of the ecology and habitats of `r spp` from settlement to age-4. Further development of surveys aimed specifically at recruitment or settlement rates, such as Oregon State University's SMURF collections, for nearshore species that are not frequently encountered in offshore federal age-0 surveys would be helpful.
+7. All states need to continue to improve historic catch reconstructions. In particular, the historic trawl fishery catches (pre-1987) require attention. States should work together to resolve cross-boundary catch issues as well as standardize the approach to catch recommendations to the extent possible.
 
