@@ -1,13 +1,3 @@
-```{r, results='asis'}
-add_figure(
-  filein = file.path("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/brf photos", "large_female_BLK.jpg"), 
-  caption = '',
-  width = 20,
-  height = 20,
-  label = 'black')
-
-``` 
-
 
 \vspace{500cm}
 

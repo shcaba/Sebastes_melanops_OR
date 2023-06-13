@@ -68,10 +68,14 @@ bibliography:
 title: Status of Black Rockfish (_Sebastes melanops_) off Oregon and federal waters in 2023
 ---
 
+<center>
+
+
+![.\label{fig:black}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/brf photos/large_female_BLK.jpg){width=100% height=100% alt="."}
+<center>
+
+
 <!--chapter:end:00title.Rmd-->
-
-
-![.\label{fig:black}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/brf photos/large_female_BLK.jpg){width=20% height=20% alt="."}
 
 
 \vspace{500cm}
@@ -190,6 +194,9 @@ fishery selectivities and with steepness fixed at 0.72.\label{fig:es-yield}](C:/
 
 Black Rockfish removals have generally been below the equivalent ABC-ACL over the recent decade, with the exception of 2017 and 2022 when removals were slightly higher (Table \ref{tab:manageES}). Exploitation on Black Rockfish increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of Black Rockfish acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manageES}). Prior to 2017, management specifications were set for Black Rockfish in California and Oregon waters combined.  The Black Rockfish OFL has not been exceeded by Oregon removals over the past decade.
 
+\input{tex_tables/f_Manage_ES.tex}
+
+
 ## Unresolved problems and major uncertainties{-}
 
 The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which suggests a lower population size and status) versus the acoustic and tag surveys (which suggest high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the biological data, despite large sample sizes, is another barrier to interpreting the current conditions, though given models using only biological data, the signal seems clear that the population could be at a lower stock status.
@@ -206,7 +213,7 @@ The Black Rockfish assessment is being considered as a category 2 assessment wit
 
 Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations considered alternative specifications of natural mortality and population scale. Discussion with the STAR panel resulted in selecting a high state of nature based on a model that did not estimate recruitment deviations (i.e., recruitment was based solely on the stock-recruitment relationship). The low state of nature was based on a model that sought to estimate catchability for the acoustic-visual survey. High and low catch streams (rows) were determined by the forecasts, as described above, for each state of nature. Thus the low catch stream is based on the forecast from the low state of nature. The resultant decision table is provided in Table \ref{tab:es-dec-tab}.
 
- \input{tex_tables/project_ES.tex}
+ \input{tex_tables/g_Projections_ES.tex}
 
 Further details about selecting the decision table states of nature will be added here after the STAR panel.    
 
@@ -223,12 +230,13 @@ Further details summarizing the results presented in the decision table will be 
 
 Recommended avenues for research to help improve future Black Rockfish stock assessments:
 
-1. The availability of a comprehensive nearshore research survey for Black Rockfish (as well as for other nearshore rockfish species) was instrumental in providing the stock assessment with an estimate (and associated uncertainty) of population scale.  Given this importance, continue the acoustic-visual fisheries independent coastwide survey to develop a time series. Evaluate survey improvements and analytical refinements as suggested in the SSC methodology review.  Examine alternative spatial modeling approaches to better leverage the available information content toward reducing uncertainty in the absolute estimates of population size. 
+1. The availability of a comprehensive nearshore research survey for Black Rockfish (as well as for other nearshore rockfish species) was instrumental in providing the stock assessment with an estimate (and associated uncertainty) of population scale.  Given this importance, continue the acoustic-visual fisheries independent coastwide survey to develop a time series. Evaluate survey improvements and analytical refinements as suggested in the SSC methodology review from 2022.  Examine alternative spatial modeling approaches to better leverage the available information content toward reducing uncertainty in the absolute estimates of population size. 
 2. Improve understanding of broader ecosystem considerations within the context of Black Rockfish (and other nearshore species) management. Evaluate and develop linkages between Black Rockfish population dynamics and environmental, oceanographic, and climate variables.  In particular, develop multi-scale models (e.g., species distribution models) that can evaluate spatial patterns (e.g., multi-use areas or closures to fishing) and climate impacts (e.g., growth or distribution shifts) for vulnerable nearshore species. Utilize the growing body of ecosystem information available for the California Current Large Marine Ecosystem, as exemplified in the PFMC IEA report. 
 3. Continue work on the investigation into the movement, behavior or mortality of older (> age 10) females to further reconcile their absence in fisheries data. In particular, conduct genetics studies on fish observed off of the continental shelf (middle of the gyre and at sea mounts) to determine their association with the nearshore stocks. 
 4. Continue to build evidence for appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each.
 5. Design and conduct research studies to better understand the tradeoffs revealed in this assessment between Black Rockfish biology and population scale that seem be at odds. If discrepancies can not be uncovered, evaluate management procedures that are as robust as can be to this tradeoff.
-6. Conduct early life history studies that provide a better understanding of the ecology and habitats of Black Rockfish from settlement to age-1.
+6. Conduct early life history studies that provide a better understanding of the ecology and habitats of Black Rockfish from settlement to age-4. Further development of surveys aimed specifically at recruitment or settlement rates, such as Oregon State University's SMURF collections, for nearshore species that are not frequently encountered in offshore federal age-0 surveys would be helpful.
+7. All states need to continue to improve historic catch reconstructions. In particular, the historic trawl fishery catches (pre-1987) require attention. States should work together to resolve cross-boundary catch issues as well as standardize the approach to catch recommendations to the extent possible.
 
 
 <!--chapter:end:01executive.Rmd-->
@@ -451,21 +459,20 @@ The annual index values were derived as the product of two components: predicted
 
 #### ORBS Dockside CPUE for Oregon, 2001 to 2022 - Ali to update
 
-The ORBS data series for most years does not include full species composition information, and therefore the analysis of these data was restricted to the years 2001-2014, when species composition of the catch is available.  Further, in order to be certain that the characteristics of a trip were comparable, the analysis was restricted to charter boat trips (37,951 records).  The hourly effort associated with these trips can be confounded with travel time, so the travel time was subtracted from the hours fished.  Travel time for charter boats was calculated as 13 mph multiplied by twice the distance between the port of origin and the reef fished (Table 37).  The adjusted hours were multiplied by the number of anglers, and CPUE is expressed in terms of fish per angler-hour.
+Trip-level catch-per-unit-effort data from ORBS dockside sampling was obtained from ODFW. To mitigate the confounding of hourly effort associated with these trips with travel, the travel time was subtracted from the hours fished. Travel time was stratified by boat type (charter and private) and was calculated as boat type-specific speeds (13 mph for charter boat trips and 18 mph for private boat trips) multiplied by twice the distance between the port of origin and the reef that was fished. CPUE, expressed in terms of fish per angler-hour, was calculated by multiplying the number of anglers and the adjusted travel time. The database contains information on catch by species (number of retained fish), effort (angler hours), sample location (port where data were collected), date, bag limits and other relevant regulations, boat type (charter or private), and trip type (e.g., bottom associated fish). 
 
-The species associated with the charter trips were analyzed for inclusion in a Stephens and MacCall [-@stephens_multispecies_2004] logistic regression analysis; "rare species", those occurring in less than 1% of trips, were excluded from consideration as covariates in the analysis.  The regression was run and 21,999 trips predicted to have a likelihood of catching black rockfish above a threshold value of 0.36 were selected as the basis for an index developed in a delta-GLM analysis. Coefficients for predictive species in the analysis are provided in Figure 91.
+The unfiltered data set contained 414,587 trips. Multiple standardized filters are applied to ORBS trip-level data to remove outliers and data unsuitable for an index. These filters include trips with incorrect interview times, which impact calculation of effort, unreasonably long or short trips, and retaining only bottomfish target trips. Further filters were utilized for fishing closures (i.e. temporal or spatial closures) and catches exceeding bag limits, which would presumably impact catch rates. An alternative configuration of the dataset included a binary variable to identify trips that hit the bag limit to include as a covariate, rather than a filtering criterion, and did not filter out trips that had reached the daily bag limit. Trips from several ports with extremely small sample sizes (<1% of total trips) were also excluded and finally, trips that met criteria for irrational effort reporting (i.e., implausible values) or extreme catch rates were excluded as well. The final dataset included 96,707 trips. The previous assessment only included trips onboard charter vessels (@cope_assessments_2016), but this filter was not retained for this updated index. Instead, boat type was evaluated as a covariate. 
 
-To develop a standardized CPUE index from the ORBS series, the selected CPUE observations (aggregated catch over aggregated effort) were fitted with a gamma model with main effects for Year, Month, Port, MarBagLim, GF_OpenDepth and ReefFished, with no interactions.  
+Covariates evaluated included year, month, port, the open depths to fishing (all depths or inside 20/30/40fm), boat type and the daily bag limit for Black Rockfish.  A negative binomial model was fit to the trip-level data (catch with a log offset for adjusted angler hours). This full model was selected as the best fit model by AIC Table \@ref(tab:model_selection_ORBS). However, when fit using the sdmTMB R package (version 0.3.0), this model did not converge. Acceptable diagnostics were achieved by excluding the bag limit covariate. An additional sdmTMB model was fit that used the alternative configuration of the dataset, and included all of the full model covariates but replaced the bag limit covariate with the binary variable of whether the bag limit was reached on the trip.  While acceptable diagnostics were achieved with the alternative full model, there was little effect on the resultant index and for parsimony, the final model included all of the covariates of the original full model with the exception of the daily bag limit. 
 
-Model selection based on AIC was used to choose the model with the most support within error distributions (Table 36). AIC was not used to choose between error distributions for the positive catches. This was instead done using quantile-quantile plots (Figure 92 and Figure 93). The full model with lognormal distribution was chosen (Figure 93) and a bootstrap analysis (N=500) was used to estimate the standard errors and CVs of the year effects (Figure 94).
+#### On-Board Observer CPUE for Oregon, 2001 and 2003 to 2022
 
-#### On-Board Observer CPUE for Oregon, 2001 and 2003 to 2022 - Ali to update
+Drift-level catch-per-unit-effort data from ORBS at-sea charter observer sampling program was obtained from ODFW. The database contains information on catch by species (number of retained and released fish), effort (angler hours), sample depth, and bag limits and other relevant regulations.  
 
-The filtered dataset included 10,738 drifts, of which 6,410 (60%) drifts with positive encounters.  Only eight samples occurred in the 60-79 m depth range, and we therefore removed drifts from this depth range from the analysis.  ODFW does not sample in Wave 1 (January/February).
+The unfiltered data set contained 12,344 drifts. Multiple standardized filters are applied to the drift level data to remove outliers and data unsuitable for an index. These filters were co-developed with SWFSC staff (@monk_documentation_2013). These filters include drifts without data needed for CPUE information, long drifts (below 95th quantile), drifts in deeper waters (less than 64fm, 99th quantile), drifts that were targeting primarily mid-water species, and drifts outside of the legal fishing depth (with a five fm buffer). Additionally, drifts with recreational longleader gear were removed, as Black Rockfish is not a legal longleader species in Oregon, and years with less than 100 samples were also removed. This included 2020 and 2021, during which the COVID-19 pandemic dramatically limited the ability to sample onboard charter vessels. Finally, drifts onboard charters from Port Orford were removed due to small sample sizes. 
 
-The selected data contained categorical variables for Year (13 levels), Wave (4 levels), two Regions (north and south of Florence), and three depth bins (Depth: 0-19 m, 20-39 m, and 40-59 m).  Model selection via AIC selected a lognormal model with Year, Wave, Depth, Region, Depth:Region, and Year:Region, while a binomial with Year, Depth, Region, and Year:Region.  There was enough data to explore a difference in the CPUE trends between regions.  The region south of Florence comprised 72% of the area where black rockfish were encountered, with the remaining 28% north of Florence.  There is no discernable difference, except for 2001, in the indices between the regions (Figure 90).  The trends between the main effects model and the area-weighted mean model are very similar (Figure 90).
+Covariates evaluated included year, month (or two-month wave), port, the open depths to fishing (all depths or inside 20/30/40fm), a 10fm-binned depth of drift covariate.  A negative binomial model was fit to the drift-level data (catch with a log offset for adjusted angler hours). A model without the open fishing depths was selected as the best fit model by AIC Table \@ref(tab:model_selection_AtSea). However, when fit using the sdmTMB R package (version 0.3.0), the QQ plot indicated heavily skewed data and acceptable diagnostics were not achieved for any model explored. As a result, and given an alternative recreational ocean boat index with much larger sample sizes overall (ORBS), this index was not recommended for use in this assessment and subsequently not included in the reference model. 
 
-In the lognormal submodel, stepwise BIC retained the Year, Depth, Region and the Depth:Region interaction, but did not include any interactions with Year. In the binomial model, stepwise BIC retained Year and Depth. The final Year effects are shown in Table 35 and Figure 95.
 
 
 
@@ -822,15 +829,15 @@ This current estimate shows a higher overall biomass (Figure \ref{fig:comp_ssb})
 Sensitivity analyses were conducted to evaluate model sensitivity to alternative data treatment and model specifications.
 
 #### Data treatment sensitivities
-Data treatments explored were as follows:
+Data treatments explored included the treatment of catchability for the acoustic-visual survey and the tagging data, the removal of any one data source, and alternative approaches to data weighting. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
 
 - Treatment of absolute abundance catchability (q) 
 	1. Acoustic visual survey q = 1, CV = 0.0001
   	2. Acoustic visual survey q Estimated, CV = 0.0001
   	3. Acoustic visual survey q = 1, CV = 0.45
   	4. Acoustic visual survey q estimated, CV = 0.45
-  	5. Tag survey q = to 2015 value (0.25)
-  	6. Tag survey q = to 2015 value (0.25), but extra variance estimated
+  	5. Tag survey q = to 2015 value (0.25) with #2 above
+  	6. Tag survey q = to 2015 value (0.25), but extra variance estimated, with #2 above
 
 - Remove abundance index series 
 	7. No Acoustic visual
@@ -847,43 +854,51 @@ Data treatments explored were as follows:
   	16. McAllister-Ianelli data weighting
 
 
-Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:data_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}.
+Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:data_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}. 
 
-Deterministic length-based (with or without catches) models with fixed life history values view the stock scale and status to be below that of the reference model, though above the limit reference point. Bringing in the age data, while still fixing life history and not estimating recruitment, significantly raises the stock scale to above the reference model, though the stock status is similar to the reference model. Introduction of the index made little difference to the relative stock status. Estimating the life history values, even without estimating recruitment, brought the scale back in line with the reference model. The other data treatments, including data weighting options, did very little to change the results from the reference model.
+From a data standpoint, the model was the most sensitive to how information on absolute abundance, or population scale, from the acoustic-visual survey and the tagging data was treated in the model.  In particular, the parameterization of catchability (model estimated or fixed) and the level of error (input CVs and model estimated extra variance) associated with these two data sources provided considerably discrepencies in key management quantities (e.g., stock size and status; Figures \ref{fig:sensi-data-RE}, \ref{fig:sensi-data-ssb}, and \ref{fig:sensi-data-depl}). The model was comparatively robust to the removal of any given single data source, with the exception of the acoustic-visual survey, and the relative weighting of length and age composition data. The harmonic mean data weighting approach (based on the McAllister-Ianelli method) resulted in negligible change from the reference model that used the Francis weighting method.  The Dirichlet method only minimally adjusted the input sample sizes, nearly mimicking the sensitivity model where no weigting was conducted, which had the effect of increasing current estimates of stock size (20%) but no appreciably change in stock status. 
 
+Alternative treatment of the acoustic-visual survey data largely resulted in two alternative states of nature in terms of stock size and status (high and low) relative to the base model. Fixing catchability to 1.0 and reducing the input CV to near zero essentially forced the model to fit the 2021 acoustic-survey data point perfectly (high state of nature). However, when doing so the model estimated biological parameters (e.g., natural mortality and growth) that were extreme, nearing implausibility. Alternatively, estimating catchability, or similarly inputing the externally estimated CV of 0.45, resulted in a low state of nature where estimates of spawning output over recent years were below OFLs and stock status was in the precautionary zone. However, the interpretation of resulting acoustic-survey catchability was impractically high (3.0 or higher) given the comprehensive study design of the survey. Fixing the tagging catchability to the value assumed in the last assessment largely counteracts the change to the reference model after fixing the acoustic-visual catchability to 1.0 and reducing its input CV to near zero.  
 
 #### Model specification sensitivities
-Model specifications looked at the estimation of indiviual and combinations of life history parameters, the estimation of recruitment, and the treatment of fecundity and selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
+Model specifications looked at the estimation of indiviual and combinations of life history parameters, including the treatment of natural mortality, growth, maturity, fecundity and recruitment, and fishery selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
 
 - Life history estimation
+
 	- Natural mortality ($M$)
 		1. Use 2015 $M$ values 
 		2. Lorenzen age varying $M$
 		3. Estimate $M$
+
 	- Growth parameters
 	 	4. Fix all growth parameters to external values, estimate $M$
 		5. Fix all growth parameters to external values
 	 	6. Estimate $L_min$
 	 	7. Estimate $CV_{young}$ and $CV_{old}$
+
 	- Reproductive Biology
-	 	8. Use biological maturity ogive
-	 	9. Use functional maturity ogive
+	 	8. Use biological maturity ogive (logistic model)
+	 	9. Use functional maturity ogive (logistic model)
 	 	10. Fecundity proportional to weight
+
 	- Recruitment estimation
 	 	11. No recruitment estimation
 	 	12. Estimate recruitment for all years in the model
- Miscellaneous
-	13. Estimate logistic selectivity for all fleets
+
+ - Selectivity
+		13. Estimate logistic selectivity for all fleets
 	
-Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Tables \ref{tab:modspec_LH_sensis} and \ref{tab:modspec_RecMisc_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}.
+Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Tables \ref{tab:modspec_LH_sensis} and \ref{tab:modspec_RecMisc_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. In general, model specifications for natural mortality, selectivity, and growth caused the population to drop below the reference model estimate of stock size, while alternative reproductive biology models increased stock size.  Despite considerable differences in the historic trajectory of relative stock status across sensitivity models, there was considerably less variability in the estimate of current (2023) stock status (ranging from 0.49 to 0.65, where 0.55 is the reference model, with the exception of the estimate $L_min$ growth model that had convergence issues when estimating the length at minimum age). 
 
-Fixing $M$ to the higher prior mean value while estimating $L_{\infty}$ raised both the beginning and ending stock scale and overall ending year relative stock status. Fixing growth but estimating $M$ dropped stock scale, but preserved the stock status. Allowing either $L_{\infty}$ or $k$ to be estimated increased both stock scale and status. Fixing the life history parameters except for female $L_{\infty}$ also raised stock scale and status, though estiamating males $L_{\infty}$ made little difference to model results. Further investigation of the affects of life history values are provided in the likelihood profiles (next section).
+Estimating female and male $M$ led to a considerably higher mortality rate for females (0.25 compared to 0.19 used in the reference model) and slightly higher for males (0.18 compared to 0.17). This had the effect of lowering both the beginning and ending stock scale, but had only a marginal influence on current stock status. Similarly, fixing growth but estimating $M$ also dropped stock scale but preserved stock status relative to the sensitivity that only fixed the growth parameters to external estimates. Due to the similarity between $M$ in the reference model and what was used in the previous 2015 assessment, there was little change in overall management quantities associated with this sensitivty model.    
 
-Fixing recruitment dropped the scale and status of the stock a little, fixing life history values again increased those derived outputs. Recruitment estimation (assuming $\sigma_R$ = 0.6) was not sensitive to a range of $\sigma_R$ values or estimation of all years of recruitment. While the truncated time series of recruitment can be considered parsimonious, the addition of estimating all recruitment years adds additional uncertainty to the stock status measure earlier in the time series.
+Fixing growth parameters in the model to external-to-the-assessment estimates resulted in a considerable change in the stock trajectory, both in terms of stock size and status, yet end up in about the same place by 2023. For example, over the most recent 20 years, this sensitivty model estimates the stock declining from a nearly unfished state in the early 2000s. In contrast, the reference model (and nearly all other sensitivity model) estimate the stock has been increasing from a precautionary state in the early 2000s. Estimating the CV for growth of young and old fish had negligle impact on results. The model that estimated $L_min$ did not pass key model diagnostic tests (e.g., stability and convergence) so was not considered further. 
 
-The remaining model specifications did little to change the reference model results. Estimating dome-shaped selectivity after 2003 for the recreational fishery (based on the possibility that fishing restriction in part of the year could possibly limit access to bigger individuals) does result in dome-shaped selectivity for the recreational fishery, it provides only a slighly better fit (based on AIC) to the data and does not change the scale or status of the stock. An even better fit to the data is achieved if 2001 (not coinciding with management changes), though again the derived quantities of scale and status do not change. The improved fits are not sufficient evidence that a selectivity block is needed, though whether and where blocks may be most appropriate is worth future consideration.
+Using a logistic function to externally estimate maturity ogives, based on either biological or functional maturity measurements, increased scale and overall spawning output relative to the reference model.  This result was most prominent when biological maturity was used to describe the maturity schedule due to the appreciable reduction in the length at 50 percent maturity indicating that females mature at a younger age on average than when using functional maturity. The minor differences between using a logistic function (sensitivity) versus a spline (reference model) was due to the latter allowing for skip spawning of older, mature females. Assuming that fecundity is proportional to female body weight, instead of an exponential relationship with length as used in the reference model, resulted in an increase in beginning and ending scale but little different in overall stock status.
 
-Overall, there were no model specification sensitivity scenarios that caused the population to drop significantly below the reference model estimate of stock status, only above. When stock scale changed from the reference model, unfished and current stock size usually varied in the same direction, with current stock size changing more, leading to increases in the relative stocks status. 
+Recruitment estimation (assuming $\sigma_R$ = 0.6) was sensitive to the estimation of different ranges of years of recruitment deviations. While the truncated time series of recruitment used in the reference model can be considered parsimonious, the addition of estimating all recruitment years adds additional uncertainty to the stock status measure earlier in the time series. Estimating recruitment deviations for all years in the model dropped the scale of the population, altered the historic stock status trajectory, but had little effect on current stock status. Estimating the full time series of recruitments resulted in a significant negative trend in deviates early in the time period that was a concern. Removing the estimation of any recruitment deviates from the stock-recruitment curve resulted in reduced stock dynamics, where the decline in stock status from an unfished state was gradual and largely driven by the catch history.  
+
+Estimating all fleet selectivity patterns as logistic effectively removed the potential for cryptic biomass resulting from fleets not encountering and catching fish of older sizes or ages. This model resulted in an decrease in beginning and ending scale and reduced stock status since 1990 (even to the point where the stock would have been considered overfished from the 1990s to the early 2010s). The stock status discrepency is reduced the closer the model gets to the current year, where the fraction of unfished is estimated to be 53 percent in 2023 compared to the reference model of 55 percent. The fit to the logistic selectivity model is not as good in terms of residual patterns and overall likelihood (based on AIC).  
 
 
 ### Likelihood Profiles
@@ -899,20 +914,8 @@ The combined profile that varies female and male $M$ while maintaining the refer
 
 ### Retrospective Analysis
 
-A ten-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 10 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a large shift away from a growing population once the acoustic-visual survey is removed from the population. The scale shifts downward and the population status show a declining population at or below the unfished level. This shows the weight of the treatment choice in the acoustic survey, as well as the more recent data that confirm a recent recruitment.
+A ten-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 10 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a large shift away from a growing population once the acoustic-visual survey is removed from the population. The scale shifts downward and the population status show a declining population at or below the unfished level. This shows the weight of the treatment choice in the acoustic survey, as well as the more recent data that confirm a recent recruitment. The Mohn's rho evaluation of the degree of retrospective pattern in given in Table \ref{tab:RetroMohnsrho}.
 
-
-\begin{longtable}[t]{llll}
-\caption{\label{tab:RetroMohnsrho}The magnitude of retrospective pattern (Mohn's rho; Mohn, 1999) given the removal of ten years of data for fishing intensity (\emph{F}), fraction unfished (Figure \ref{fig:retro-depl}),  recruitment, and spawning stock biomass (\emph{SSB}; Figure \ref{fig:retro-ssb}). Columns are a derivation of Mohn's rho (Hurtado-Ferro et al. 2015) used by the Alaska Fisheries Science Center (AFSC), as originally described in Mohn (1999), and a derivation of Mohn's rho (Woods Hole Mohn's rho; Legault 2009) used by the Northeast Fisheries Science Center (NEFSC).}\\
-\toprule
-Quantity & AFSC & Mohn & NEFSC\\
-\midrule
-\emph{F} & 1.733824 & 17.33824 & 4.591969\\
-Fraction unfished & -0.4494829 & -4.494829 & -0.4856366\\
-Recruitment & -0.5536441 & -5.536441 & -2.727355\\
-\emph{SSB} & -0.6081382 & -6.081382 & -3.459641\\
-\bottomrule
-\end{longtable}
 
 ### Unresolved Problems and Major Uncertainties
 
@@ -1173,6 +1176,26 @@ SizeSel P2 MRFSS(8) & -1.000 & -99 & - & - & None\\*
 \include{tex_tables/TimeSeries.tex}
 
 \newpage
+
+
+<!-- ======================================================= -->
+<!-- ***********       Retrospectives      ***************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/RetroMohnsrho.tex}
+
+<!-- ======================================================= -->
+<!-- ****************  Reference Points  ******************* --> 
+<!-- ======================================================= -->
+
+
+#\include{tex_tables/project.tex}
+
+#\newpage
+
+#\include{tex_tables/decision_table.tex}
+
+#\clearpage
 
 
 <!--chapter:end:52tables.Rmd-->

@@ -1,0 +1,17 @@
+---
+title: Status of Black Rockfish (_Sebastes melanops_) off Oregon and federal waters in 2023
+---
+
+<center>
+
+```{r, results='asis'}
+add_figure(
+  filein = file.path("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/brf photos", "large_female_BLK.jpg"), 
+  caption = '',
+  width = 100,
+  height = 100,
+  label = 'black')
+
+``` 
+<center>
+

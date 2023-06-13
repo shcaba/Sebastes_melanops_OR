@@ -88,20 +88,8 @@ The combined profile that varies female and male $M$ while maintaining the refer
 
 ### Retrospective Analysis
 
-A ten-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 10 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a large shift away from a growing population once the acoustic-visual survey is removed from the population. The scale shifts downward and the population status show a declining population at or below the unfished level. This shows the weight of the treatment choice in the acoustic survey, as well as the more recent data that confirm a recent recruitment.
+A ten-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 10 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a large shift away from a growing population once the acoustic-visual survey is removed from the population. The scale shifts downward and the population status show a declining population at or below the unfished level. This shows the weight of the treatment choice in the acoustic survey, as well as the more recent data that confirm a recent recruitment. The Mohn's rho evaluation of the degree of retrospective pattern in given in Table \ref{tab:RetroMohnsrho}.
 
-
-\begin{longtable}[t]{llll}
-\caption{\label{tab:RetroMohnsrho}The magnitude of retrospective pattern (Mohn's rho; Mohn, 1999) given the removal of ten years of data for fishing intensity (\emph{F}), fraction unfished (Figure \ref{fig:retro-depl}),  recruitment, and spawning stock biomass (\emph{SSB}; Figure \ref{fig:retro-ssb}). Columns are a derivation of Mohn's rho (Hurtado-Ferro et al. 2015) used by the Alaska Fisheries Science Center (AFSC), as originally described in Mohn (1999), and a derivation of Mohn's rho (Woods Hole Mohn's rho; Legault 2009) used by the Northeast Fisheries Science Center (NEFSC).}\\
-\toprule
-Quantity & AFSC & Mohn & NEFSC\\
-\midrule
-\emph{F} & 1.733824 & 17.33824 & 4.591969\\
-Fraction unfished & -0.4494829 & -4.494829 & -0.4856366\\
-Recruitment & -0.5536441 & -5.536441 & -2.727355\\
-\emph{SSB} & -0.6081382 & -6.081382 & -3.459641\\
-\bottomrule
-\end{longtable}
 
 ### Unresolved Problems and Major Uncertainties
 
