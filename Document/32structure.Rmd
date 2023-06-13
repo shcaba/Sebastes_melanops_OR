@@ -1,7 +1,18 @@
 ## Model Structure and Assumptions
 
+### Exploratory model runs 
 
-### Model Changes from the Last Assessment (not required for an update assessment)
+Constructing integrated models (i.e., those fitting many data types) takes considerable model exploration using different configurations of the following treatments
+
+- Data types
+- Data weighting
+- Parameter treatments: which parameter can, cannot and do not need to be estimated
+- Phasing of parameter estimation 
+- Exploration of local vs global minima
+
+
+
+### Model Changes from the Last Assessment
 
 
 ### Modeling Platform and Structure
