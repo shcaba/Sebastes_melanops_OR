@@ -109,7 +109,7 @@ table_format(x = mod_params,
 
 \include{tex_tables/data_sensis.tex}
 
-\include{tex_tables/modspec_LH_sensis.tex}
+\include{tex_tables/modspec_sensis.tex}
 
 <!-- ======================================================= -->
 <!-- ***********       Retrospectives      ***************** --> 
