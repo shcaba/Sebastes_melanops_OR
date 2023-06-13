@@ -1199,6 +1199,14 @@ SizeSel P2 MRFSS(8) & -1.000 & -99 & - & - & None\\*
 
 
 <!-- ======================================================= -->
+<!-- ****************     Sensitivities      *************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/data_sensis.tex}
+
+\include{tex_tables/modspec_LH_sensis.tex}
+
+<!-- ======================================================= -->
 <!-- ***********       Retrospectives      ***************** --> 
 <!-- ======================================================= -->
 
@@ -1305,6 +1313,19 @@ SizeSel P2 MRFSS(8) & -1.000 & -99 & - & - & None\\*
 
 ![Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:deps_bridge_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png){width=100% height=100% alt="."}
 \clearpage
+
+
+<!-- ====================================================================== -->
+<!-- ***********************  Model Build  ************************************ --> 
+<!-- ====================================================================== -->
+
+
+![Spawning output (in millions of eggs) time series by data treatment compared to the reference model.\label{fig:sensi-data-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+
+
+![Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show.\label{fig:sensi-data-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+
+
 
 <!-- ====================================================================== -->
 <!-- ***********************  Model convergence and Jitters  ************************************ --> 
