@@ -2,7 +2,8 @@
 geometry: margin=1in
 month: "June"
 year: "2023"
-preamble: |
+preamble: 
+csl: canadian-journal-of-fisheries-and-aquatic-sciences.csl
 output:
   sa4ss::techreport_pdf:
     default
@@ -67,13 +68,6 @@ bibliography:
 ---
 title: Status of Black Rockfish (_Sebastes melanops_) off Oregon and federal waters in 2023
 ---
-
-<center>
-
-
-![.\label{fig:black}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/brf photos/large_female_BLK.jpg){width=100% height=100% alt="."}
-<center>
-
 
 <!--chapter:end:00title.Rmd-->
 
@@ -262,6 +256,9 @@ _**These materials do not constitute a formal publication and are for informatio
 <!--chapter:end:10a.Rmd-->
 
 # Introduction
+
+This assessment report describes the stock of Black Rockfish (*Sebastes melanops*) off the Oregon coast in U.S. waters, using data through 2022. The stocks of Black Rockfish in Washington, Oregon, and California waters are each modeled as separate stocks with the population estimates reported in stock-specific assessment reports (Figure \ref{fig:map}). This assessment does not account for populations located in other areas off the U.S. West Coast and assumes that these southern and northern populations do not contribute to nor take from the population being assessed here. 
+
 ## Basic Information
 Black Rockfish (*Sebastes melanops*) are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California [@love_rockfishes_2002].  
 
@@ -297,17 +294,15 @@ Recreational harvest of Black Rockfish has become the dominant source of removal
 Removal histories have been a significant axis of uncertainty in the past assessments of Black Rockfish. A major task for the 2007 assessments of Black Rockfish in was developing a plausible reconstruction of historical landings of Black Rockfish and exploring the consequences of those landings. A formal commercial catch reconstruction had been recently developed in Oregon [@karnowski_historical_2014] for the 2015 Black Rockfish assessment, but was subsequently modified to better estimate trawl landings in Oregon and Washington (@cope_assessments_2016). This current assessment also utilizes a recent recreational catch reconstruction (@whitman_oregon_2023). 
 
 ## Summary of Management History and Performance
-Prior to 2000 the Pacific Fishery Management Council (PFMC or Council) managed the federal fishery for Black Rockfish as part of the Sebastes complex, with no separate Acceptable Biological Catch (ABC) or Optimum Yield (OY) for Black Rockfish.  In 2000 the Council established an ABC of 1,200 mt for Black Rockfish caught north of Cape Mendocino (in the Eureka, Columbia, and Vancouver INPFC statistical areas), but left Black Rockfish south of Cape Mendocino as part of the "other rockfish" category.  For 2001 through 2003 the ABC for Black Rockfish caught north of Cape Mendocino was 1,115 mt annually, and Black Rockfish south of Cape Mendocino remained part of the "other rockfish" category and without a separate ABC or OY.
+Prior to 2000 the Pacific Fishery Management Council (PFMC or Council) managed the federal fishery for Black Rockfish as part of the Sebastes complex, with no separate Acceptable Biological Catch (ABC) or Optimum Yield (OY) for Black Rockfish.  Beginning in 2000, the Council established an ABC of 1,200 mt for Black Rockfish caught north of Cape Mendocino (in the Eureka, Columbia, and Vancouver INPFC statistical areas), but left Black Rockfish south of Cape Mendocino as part of the "other rockfish" category.  Oregon Black Rockfish continued to be managed as a part of a complex following the 2003 and 2007 assessments, as these assessments combined the Oregon portion of the stock with California (@ralston_status_2003; @sampson_status_2007). 
 
-Regulation of the Black Rockfish fisheries by the PFMC prior to 2004 was accomplished primarily by annual catch limits and trip limits for commercial fisheries. 
+The 2015 Black Rockfish assessment split the stock into three units for modeling, including California, Oregon and Washington. This was the first time the Oregon Black Rockfish stock was assessed in isolation (@cope_assessments_2016). Following the implementation of harvest specifications from this assessment, Oregon Black Rockfish were moved to be managed as a part of the Oregon Black/Blue/Deacon complex in 2017 and manangement of Black Rockfish within this complex has continued since. The ACLs/OYs have not been exceeded since this complex was created. 
 
-Ali needs to add more on the federal management side here... 
+In Oregon, Black Rockfish are allocated to both the commercial and recreational fisheries. The primary commercial fishery for Black Rockfish is the nearshore live-fish fishery, which is managed as a year-round fishery with annual state harvest caps and two-month trip limits. The commercial nearshore fishery first developed as an open access fishery in the early 1990s and transitioned to a State limited-entry permit system in 2004. The commercial nearshore fleet is composed of small vessels that target shallow nearshore rocky reefs using mostly hook and line jig or bottom longline fishing gear. 
 
-In Oregon, Black Rockfish are allocated to both the commercial and recreational fisheries. The primary commercial fishery for Black Rockfish is the nearshore live-fish fishery, which is managed as a year-round fishery with annual state harvest guidelines and two-month trip limits. The commercial nearshore fishery first developed as an open access fishery in the early 1990s and transitioned to a State limited-entry permit system in 2004. The commercial nearshore fleet is composed of small vessels, averaging 25 ft., that target shallow nearshore rocky reefs using mostly hook & line jig or bottom longline fishing gear. 
+As noted above, Black Rockfish is the predomiant species in the recreational fishery, which is managed using annual harvest guidelines, daily bag limits, and different types of spatial and temporal closures. Oregon had no recreational bag limits for marine fishes until 1976 when the state established a 25-fish limit.  In 1978 the state established a daily limit of 15 fish for each angler's combined bag of rockfish, cabezon and greenling, which stayed in effect until 1994 when the state established a 10-fish-per-angler daily bag limit specifically for Black Rockfish.  Over time, the bag limits for marine species, of which Black Rockfish is the primary species, have gradually declined from 10 in 2000 to four or five fish in recent years (2017 - 2022). The use of in-season spatial closures to regulate effort have become common as well. In-season adjustments to regulations can be made more restrictive or less restrictive, depending on circumstances and the prospects for early attainment of harvest caps. Seasonal depth restrictions (e.g., inside 30 fathoms April 1 to September 30) are one tool used regularly in recent years to control the fishery, driven largely by the need to avoid bycatch of the primary rebuilding species, canary rockfish and yelloweye rockfish.
 
-As noted above, Black Rockfish is the predomiant species in the recreational fishery, which is also managed using annual harvest guidelines, daily bag limits, and different types of spatial and temporal closures. Oregon had no recreational bag limits for marine fishes until 1976 when the state established a 25-fish limit.  In 1978 the state established a daily limit of 15 fish for each angler's combined bag of rockfish, cabezon and greenling, which stayed in effect until 1994 when the state established a 10-fish-per-angler daily bag limit specifically for Black Rockfish.  Over time, the bag limits for marine species, of which Black Rockfish is the primary species, have gradually declined from 10 in 2000 to 5 fish in recent years (2017 - 2022). The use of in-season spatial closures to regulate effort have become common as well. In-season adjustments to regulations can be made more restrictive or less restrictive, depending on circumstances and the prospects for early attainment of harvest caps. Seasonal depth restrictions (e.g., inside 30 fathoms April 1 to September 30) are one tool used regularly in recent years to control the fishery, driven largely by the need to avoid bycatch of the primary rebuilding species, canary rockfish and yelloweye rockfish.
-
-Some other important regulations include the following:
+Some recent important regulations or management events include the following:
 
 * 2000: Black Rockfish began to be managed by the Council as a minor nearshore species.  Commercial trip limits were significantly reduced, with specific restrictions applying to Black Rockfish. 
 * 2002: Oregon adopted an Interim Nearshore Fishery Management Plan in anticipation of increased pressure on nearshore stocks due to reduced fishing opportunities for groundfish in federal waters.  Regulations included fishing-sector specific caps on retained harvests, set approximately at the levels attained in 2000.
@@ -318,9 +313,9 @@ Some other important regulations include the following:
 * 2017: The recreational fishery in Oregon closed early. 
 
 ## Canadian and Alaska fisheries
-Black Rockfish is a "Non-Quota" species in the Department of Fisheries and Oceans Management Plan, and is not formally assessed in nearshore Canada waters [@dfo_fmp_2014].
+Black Rockfish is one of multiple Inshore Rockfish species on the West Coast of British Columbia. The most recent evaluation was completed by Yamanaka and Lacko (-@yamanaka_inshore_2001), which determined that there was insufficient information to recommend a Black Rockfish-specific catch quotas for the five management areas on the Pacific coast of British Columbia. Black Rockfish continues to be a "Non-Quota" species in the Department of Fisheries and Oceans Management Plan [@dfo_fmp_2014]. 
 
-Add Alaska assessment text here.
+Directed fisheries for Black Rockfish in Alaska are limited. In the Westward region (Kodiak area) of Alaska, an age-structured assessment for Black Rockfish is under development by the Alaska Department of Fish and Game, using an acoustic survey as a primary source of data. No assessments have been developed for Black Rockfish for the Southeast or Central regions in the Gulf of Alaska. 
 
 <!--chapter:end:11introduction.Rmd-->
 
@@ -758,9 +753,9 @@ Initial sample sizes for the commercial and recreational length and conditional 
 
 ### Model Changes from the Last Assessment
 
-Besides the additional of eight years of data and some changes in the estimation of some parameters, the biggest changes to the past assessment are:
+Besides the additional of eight years of data, changes to some historical data series, and some changes in the estimation of some parameters, the biggest changes to the past assessment are:
 
-- Additional of and fixing to the acoustic visual survey. This is different than the last model that fixed the stock scale to the tag survey catchability 
+- Addition of and fixing to the acoustic visual survey. This is different than the last model that fixed the stock scale to the tag survey catchability 
 - Estimation of recruitment
 - Female natural mortality is no longer a step, but a constant value
 - Length-based selectivity only (i.e., no age-based selectivity for females), and dome-shaped selectivity for the ocean boat fisheries (assumed logistic last time) 
@@ -1219,8 +1214,12 @@ SizeSel P2 MRFSS(8) & -1.000 & -99 & - & - & None\\*
 # Figures
 
 <!-- ====================================================================== --> 
-<!-- ******************************* ES *********************************** --> 
+<!-- ******************************* Map ********************************** --> 
 <!-- ====================================================================== --> 
+
+
+
+![Map of the management and assessment areas for black rockfish.\label{fig:map}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/stock/black_rockfish_map.png){width=100% height=100% alt="."}
 
 
 <!-- ====================================================================== --> 
