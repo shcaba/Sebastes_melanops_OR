@@ -1,4 +1,7 @@
 # Introduction
+
+This assessment report describes the stock of `r Spp` (*Sebastes melanops*) off the Oregon coast in U.S. waters, using data through 2022. The stocks of `r Spp` in Washington, Oregon, and California waters are each modeled as separate stocks with the population estimates reported in stock-specific assessment reports (Figure \ref{fig:map}). This assessment does not account for populations located in other areas off the U.S. West Coast and assumes that these southern and northern populations do not contribute to nor take from the population being assessed here. 
+
 ## Basic Information
 `r Spp` (*Sebastes melanops*) are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California [@love_rockfishes_2002].  
 
