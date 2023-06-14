@@ -8,8 +8,8 @@ The Oregon model is structured to track several fleets and include data from sev
 
 * Fleet 1: Commerical trawlfishery
 * Fleet 2: Commercial non-trawl fishery
-* Fleet 4: Recreational ocean boat fishery
-* Fleet 5: Recreational shore fishery
+* Fleet 3: Recreational ocean boat fishery
+* Fleet 4: Recreational shore fishery
 * Survey 1: Commercial non-trawl CPUE  
 * Survey 2: ORBS CPUE survey
 * Survey 3: MRFSS CPUE survey
