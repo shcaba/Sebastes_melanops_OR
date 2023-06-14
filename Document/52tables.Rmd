@@ -107,7 +107,9 @@ table_format(x = mod_params,
 <!-- ****************     Sensitivities      *************** --> 
 <!-- ======================================================= -->
 
-\include{tex_tables/data_sensis.tex}
+\include{tex_tables/data_sensis_q.tex}
+
+\include{tex_tables/data_sensis_other.tex}
 
 \include{tex_tables/modspec_sensis.tex}
 
