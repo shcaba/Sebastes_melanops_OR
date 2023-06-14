@@ -122,6 +122,8 @@
 \trAuthsBack{}. \trYear{}. \trTitle{}. \glsentrylong{pfmc}, Portland, Oregon. \pageref{LastPage}{}\,p.
 \end{hangparas}}
 
+\newcommand\includegraphicsifexists[2][width=\linewidth]{\IfFileExists{#2}{\includegraphics[#1]{#2}}{}}
+
 \begin{document}
 
 %%%%% Frontmatter %%%%%
@@ -138,6 +140,8 @@
 % \textnormal{\MakeTextUppercase{\trTitle{}}}
 \vspace{1.5cm}
 {\Large\textbf\newline{Status of Black Rockfish (\emph{Sebastes melanops}) off Oregon and federal waters in 2023}}
+
+\includegraphicsifexists[width=4in]{figure_title.png}
 \vfill
 by\\
 Jason M. Cope\textsuperscript{1}\\
