@@ -2,6 +2,21 @@
 # Tables
 
 <!-- ======================================================= -->
+<!-- ***************     Fishery Dep/Ind Data  ***************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/percent_pos_NSlog.tex}
+\include{tex_tables/model_selection_NSlog.tex}
+
+\include{tex_tables/percent_pos_ORBS.tex}
+\include{tex_tables/model_selection_ORBS.tex}
+
+\include{tex_tables/model_selection_AtSea.tex}
+
+\include{tex_tables/percent_pos_MRHnL.tex}
+\include{tex_tables/model_selection_MRHnL.tex}
+
+<!-- ======================================================= -->
 <!-- ***************     Biology   ************************* --> 
 <!-- ======================================================= -->
 
