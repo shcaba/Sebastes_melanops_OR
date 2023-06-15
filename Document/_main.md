@@ -315,7 +315,7 @@ Directed fisheries for Black Rockfish in Alaska are limited. In the Westward reg
 <!--chapter:end:11introduction.Rmd-->
 
 # Data and Model Inputs
-A description of each data source is provided below (Figure \ref{fig:data-plot}).
+A description of each data source is provided below (Figure \ref{fig:data-plot}), including removals (Figure \ref{fig:catch}), indices, and biological compositions.
 
 <!--chapter:end:20data.Rmd-->
 
@@ -352,7 +352,7 @@ Rogers [-@rogers_species_2003] developed catch reconstructions for removals by f
 
 ### Recreational Landings and Discards
 
-Recreational landings and discards by fleet are shown in Table \ref{tab:catch_history}. Comparisons of the catch in each recreational fishery for the current and previous assessments are in Figure ??.
+Recreational landings and discards by fleet are shown in Table \ref{tab:catch_history}. Comparisons of the catch in each recreational fishery for the current and previous assessments are in Figure \ref{fig:catch-bridge}.
 
 #### Historic Ocean Boat Landings and Discards (1973 - 2000)
 
@@ -1320,6 +1320,9 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Summary of data sources used in the reference model.\label{fig:data-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png){width=100% height=100% alt="."}
 
+
+![Landings by fleet used in the reference model where catches in metric tons by fleet are stacked.\label{fig:catch}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png){width=100% height=100% alt="."}
+
 <!-- ====================================================================== -->
 <!-- *************************     Biology     **************************** --> 
 <!-- ====================================================================== -->
@@ -1379,6 +1382,10 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 <!-- ====================================================================== --> 
 <!-- ******************* Bridge Model ************************************* --> 
 <!-- ====================================================================== --> 
+
+
+![Total (top panel), recreational (middle panel), and commercial (bottom panel) removal history used in this assessment compared to the previous (2015) assessment.\label{fig:catch-bridge}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/Assess_catch_compare.png){width=100% height=100% alt="."}
+\clearpage
 
 
 ![Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:ssb-bridge-comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_SB_comp_plot.png){width=100% height=100% alt="."}
