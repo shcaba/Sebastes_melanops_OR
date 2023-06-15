@@ -486,7 +486,7 @@ label = 'sensi-modspec-depl')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(likeprof_fig_loc,"parameter_panel_LnQ_base_Acoustic_Visual(6).png"), 
-caption = "Acoustic-visual survey catchability likelihood profile (change in the negative log-likelihood across a range of catchability values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference",
+caption = "Acoustic-visual survey catchability likelihood profile (change in the negative log-likelihood across a range of catchability values) and derived quantities.",
 label = 'AVq-profile')
 ```
 
@@ -501,7 +501,7 @@ label = 'AVq-profile-components')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(likeprof_fig_loc,"parameter_panel_SR_BH_steep.png"), 
-caption = "Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference",
+caption = "Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities.",
 label = 'steepness-profile')
 ```
 
