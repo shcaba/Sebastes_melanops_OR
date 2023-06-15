@@ -31,7 +31,7 @@ Rogers [-@rogers_species_2003] developed catch reconstructions for removals by f
 
 ### Recreational Landings and Discards
 
-Recreational landings and discards by fleet are shown in Table \ref{tab:catch_history}. Comparisons of the catch in each recreational fishery for the current and previous assessments are in Figure ??.
+Recreational landings and discards by fleet are shown in Table \ref{tab:catch_history}. Comparisons of the catch in each recreational fishery for the current and previous assessments are in Figure \ref{fig:catch-bridge}.
 
 #### Historic Ocean Boat Landings and Discards (1973 - 2000)
 
