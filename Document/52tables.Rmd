@@ -106,7 +106,11 @@ table_format(x = mod_params,
 <!-- ***********    Reference Point table  ******************** --> 
 <!-- ======================================================= -->
 
-\include{tex_tables/e_ReferencePoints_ES.tex}
+\include{tex_tables/ReferencePoints.tex}
+
+\newpage
+
+\include{tex_tables/Manage.tex}
 
 \newpage
 
