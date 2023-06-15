@@ -6,9 +6,15 @@
 <!-- ***************     Fishery Dep/Ind Data  ***************** --> 
 <!-- ======================================================= -->
 
+\include{tex_tables/catch_history.tex}
+
 \include{tex_tables/OR_Comm_Lt_samps.tex}
 
+\include{tex_tables/rec_length_samples.tex}
+
 \include{tex_tables/OR_Comm_Age_samps.tex}
+
+\include{tex_tables/rec_age_samples.tex}
 
 \include{tex_tables/percent_pos_NSlog.tex}
 
