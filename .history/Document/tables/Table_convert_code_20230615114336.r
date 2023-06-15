@@ -28,7 +28,7 @@ t = table_format(x = out,
       col_names = c("","","","","","","","",""))
 
 kableExtra::save_kable(t,
-file = file.path(paste0(Dir.tables.tex,"OR_Comm_Lt_samps.tex")))
+file = file.path("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tex_tables/OR_vermilion_catches.tex"))
 
 out<-read.csv(paste0(Dir.tables,"Ageing error table for doc.csv"))
 t = table_format(x = out,
