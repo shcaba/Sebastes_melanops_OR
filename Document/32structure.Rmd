@@ -17,6 +17,9 @@ The Oregon model is structured to track several fleets and include data from sev
 * Survey 5: Acoustic visual survey
 * Survey 6: Tagging abundance survey
 
+The specifications of the assessment are listed in Table \ref{tab:model-structure}.
+
+
 ## Model likelihood components
 
 There are five primary likelihood components for each assessment model:
