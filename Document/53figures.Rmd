@@ -77,7 +77,7 @@ label = 'len-age-ss')
 add_figure(
 filein = file.path(bio_fig_loc, "Age1_1plots.png"), 
 caption = "Ageing bias plots by reader comparisons",
-label = 'age-bias_plot')
+label = 'age1-plot')
 ```
 
 ```{r, results = 'asis'}
@@ -149,17 +149,19 @@ label = 'len-weight-or-wa')
 add_figure(
   filein = file.path(bridge_fig_loc, "OR_SB_comp_plot.png"), 
   caption = "Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
-  label = 'ssb_bridge_comps')
+  label = 'ssb-bridge-comps')
 
 ``` 
+
 
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(bridge_fig_loc, "OR_Dep_comp_plot.png"), 
   caption = "Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
-  label = 'deps_bridge_comps')
+  label = 'deps-bridge-comps')
 
 ``` 
+
 \clearpage
 
 
@@ -173,6 +175,7 @@ filein = file.path(mod_build_fig_loc, "Mod build stock status/compare4_Bratio_un
 caption = "Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show",
 label = 'modbuild-data-depl')
 ```
+
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
@@ -195,12 +198,14 @@ caption = "Jitter runs for the black rockfish reference model, with jitter run n
 label = 'jitter')
 ```
 
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(modconv_fig_loc, "pairs_plot_fast.png"), 
 caption = "Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency",
-label = 'pairs_plot_fast')
+label = 'pairs-plot-fast')
 ```
+
 \clearpage
 
 
@@ -216,12 +221,14 @@ caption = "Pearson residuals for each fishing fleet and the MPA survey. Closed b
 label = 'lt-pearson-resids')
 ```
 
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png"), 
 caption = "Mean length (cm) index from the commercial trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting",
 label = 'trawl-mean-len-fit')
 ```
+
 
 ```{r, results = 'asis'}
 add_figure(
@@ -230,12 +237,15 @@ caption = "Mean length (cm) index from the commercial non-trawl fishery with 95 
 label = 'nontrawl-mean-len-fit')
 ```
 
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Ocean.png"), 
 caption = "Mean length (cm) index from the recreational ocean boat fishery with 95 percent confidence intervals based on sample sizes and data weighting",
 label = 'ocean-mean-len-fit')
 ```
+
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Shore.png"), 
@@ -249,6 +259,7 @@ filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_MPA.png")
 caption = "Mean length (cm) index from the MPA survey with 95 percent confidence intervals based on sample sizes and data weighting",
 label = 'mpa-mean-len-fit')
 ```
+
 
 ```{r, results = 'asis'}
 add_figure(
@@ -296,6 +307,7 @@ caption = "Fit to the non-trawl commercial survey index of abundance",
 label = 'nontrawl-index-fit')
 ```
 
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "index2_cpuefit_MRFSS.png"),
@@ -303,12 +315,14 @@ caption = "Fit to the MRFSS recreational survey index of abundance",
 label = 'mrfss-index-fit')
 ```
 
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "index2_cpuefit_Ocean.png"),
 caption = "Fit to the MRFSS recreational survey index of abundance",
 label = 'orbs-index-fit')
 ```
+
 
 ```{r, results = 'asis'}
 add_figure(
@@ -347,6 +361,7 @@ caption = "Estimated time series of age-0 recruits (1000s)",
 label = 'recruits')
 ```
 
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "recdevs2_withbars.png"), 
@@ -362,6 +377,7 @@ caption = "Recruitment deviations variance by year. This plot tracks the informa
 label = 'rec-devs-sigmas')
 ```
 
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "SR_curve.png"), 
@@ -375,6 +391,8 @@ filein = file.path(mod_loc, "plots", "recruit_fit_bias_adjust.png"),
 caption = "Recruitment bias adjustment applied in the reference model",
 label = 'bias-adj')
 ```
+
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "recdevs3_varcheck.png"),
@@ -390,7 +408,7 @@ label = 'varcheck')
 add_figure(
 filein = file.path(mod_loc, "plots", "sel01_multiple_fleets_length1.png"),
 caption = "Length-based selectivity curves for each fleet and survey",
-label = 'fleet_selectivity')
+label = 'fleet-selectivity')
 ```
 
 <!-- ======================================================= -->  
@@ -404,6 +422,7 @@ filein = file.path(mod_loc, "plots", "ts7_Spawning_output_with_95_asymptotic_int
 caption = "Estimated time series of spawning output (in millions of eggs)",
 label = 'ssb')
 ```
+
 
 ```{r, results = 'asis'}
 add_figure(
@@ -419,18 +438,20 @@ caption = "Estimated time series of fraction of unfished spawning output",
 label = 'depl')
 ```
 
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(comp_ass_loc, "compare2_spawnbio_uncertainty.png"), 
 caption = "Comparison of the time series of spawning output between the 2015 and 2023 assessment results",
-label = 'comp_ssb')
+label = 'comp-ssb')
 ```
+
 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(comp_ass_loc, "compare4_Bratio_uncertainty.png"), 
 caption = "Comparison of the time series of relative spawning output between the 2015 and 2023 assessment results",
-label = 'comp_depl')
+label = 'comp-depl')
 ```
 
 <!-- ====================================================================== -->
@@ -444,12 +465,14 @@ caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data 
 label = 'sensi-data-RE')
 ```
 
+
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_data_fig_loc, "compare2_spawnbio_uncertainty.png"),
 caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model",
 label = 'sensi-data-ssb')
 ```
+
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
@@ -458,6 +481,7 @@ caption = "Relative spawning output time series by data treatment compared to th
 label = 'sensi-data-depl')
 ```
 
+
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "Sensi_logREplot_SB_Dep_F_MSY.png"),
@@ -465,12 +489,14 @@ caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model
 label = 'sensi-modspec-RE')
 ```
 
+
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "compare2_spawnbio_uncertainty.png"),
 caption = "Spawning output (in millions of eggs) time series by model specification scenario compared to the reference model. Missing scenarios mean the spawning output was too large to show",
 label = 'sensi-modspec-ssb')
 ```
+
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
@@ -489,6 +515,7 @@ filein = file.path(likeprof_fig_loc,"parameter_panel_LnQ_base_Acoustic_Visual(6)
 caption = "Acoustic-visual survey catchability likelihood profile (change in the negative log-likelihood across a range of catchability values) and derived quantities.",
 label = 'AVq-profile')
 ```
+
 
 ```{r, results = 'asis'}
 add_figure(
@@ -534,6 +561,7 @@ caption = "Change in the estimate of spawning output when the most recent 10 yea
 label = 'retro-ssb')
 ```
 
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(retro_loc,  "compare4_Bratio_uncertainty.png"),
@@ -564,6 +592,7 @@ filein = file.path(mod_loc, "plots", "SPR4_phase.png"),
 caption = "Phase plot of the relative biomass (also referred to as fraction unfished) versus the SPR ratio where each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Lines through the final point show the 95 percent intervals based on the asymptotic uncertainty for each dimension. The shaded ellipse is a 95 percent region which accounts for the estimated correlations between the biomass ratio and SPR ratio",
 label = 'phase')
 ```
+
 
 ```{r, results = 'asis'}
 add_figure(

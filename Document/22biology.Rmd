@@ -34,19 +34,19 @@ SIMS proved to be effective for producing detailed otolith δ18O chronologies wi
 
 #### Age and growth relationship
 
-The length-at-age was estimated for female and male `r spp` using data from collections sampling the commercial (trawl and non-trawl) and recreational fisheries off the coast of Oregon (Figure \ref{tab:len-age-data-sex} and Figure \ref{tab:len-age-sex-year}), with all lengths in fork length and all ages in years. Figure \ref{fig:len-age-fit} shows the predicted von Bertalanffy growth function (VBGF) fits to the data. Females grow larger than males and sex-specific growth parameters were estimated at the following values:
+The length-at-age was estimated for female and male `r spp` using data from collections sampling the commercial (trawl and non-trawl) and recreational fisheries off the coast of Oregon (Figure \ref{fig:len-age-data-sex} and Figure \ref{fig:len-age-sex-year}), with all lengths in fork length and all ages in years. Figure \ref{fig:len-age-fit} shows the predicted von Bertalanffy growth function (VBGF) fits to the data. Females grow larger than males and sex-specific growth parameters were estimated at the following values:
 
 \begin{centering}
 
-Females $L_{\infty}$ = 48.82 cm; $k$ = 0.18; $t_0$ = -2.00
+Females $L_{\infty}$ = 48.82 cm; $k$ = 0.18 per year; $t_0$ = -2.00
 
-Males $L_{\infty}$ = 44.88 cm; $k$ = 0.21; $t_0$ = -2.21
+Males $L_{\infty}$ = 44.88 cm; $k$ = 0.21 per year; $t_0$ = -2.21
 
 \end{centering}
 
 \vspace{0.5cm}
 
-The coefficient of variation of length by age fluctuated around 0.06 to 0.1 for the most well sampled ages and was similar for each sex (Figure \ref{tab:cv-lt-age}). When estimated in the models, these same values would often be produced, but it was ultimately determined it is more parsimonious to fix to 0.1 for both sexes. 
+The coefficient of variation of length by age fluctuated around 0.06 to 0.1 for the most well sampled ages and was similar for each sex (Figure \ref{fig:cv-lt-age}). When estimated in the models, these same values would often be produced, but it was ultimately determined it is more parsimonious to fix to 0.1 for both sexes. 
 
 The estimated VBGF parameters provided initial values for the estimation of growth in the model, as all age and length data are included in the model. The $t_0$ value was fit to zero in the reference model in order to achieve more realistic $L_{\infty}$ and $k$ values. The resultant growth curves estimated by the model are presented in Figure \ref{fig:len-age-ss}. Sensitivity to fixing the growth parameters to the external values or estimating $t_0$ are explored through sensitivity analyses.
 
@@ -65,9 +65,9 @@ The Oregon Department of Fish and Wildlife has a long history of ageing black ro
 - 2016 (commercial) to 2022: Reader 1 vs Reader 1
 
 
-Estimation of ageing error matrices used the approach of Punt et al. [-@punt_quantifying_2008] and release 1.1.0 of the R package \href{https://github.com/nwfsc-assess/nwfscAgeingError}{nwfscAgeingError} [@thorson_nwfscageingerror:_2012]. The ageing error matrix offers a way to calculate both bias and imprecision in age reads. Reader 1 is always considered unbiased, but may be imprecise. Bias relative to the primary reader is given for the second or additional readers. Several model configurations are available for exploration based on either the functional form (e.g., constant CV, curvilinear standard deviation, or curvilinear CV) of the bias in the second read or reader or in the precision of the readers. Model selection uses AIC corrected for small sample size (AICc), which converges to AIC when sample sizes are large. Bayesian Information Criterion (BIC) was also considered when selecting a final model. Table \ref{tab:age-error-models} through Table \ref{tab:age-error-models3} provide model selection results.
+Estimation of ageing error matrices used the approach of Punt et al. [-@punt_quantifying_2008] and release 1.1.0 of the R package \href{https://github.com/pfmc-assessment/nwfscAgeingError}{nwfscAgeingError} [@thorson_nwfscageingerror:_2012]. The ageing error matrix offers a way to calculate both bias and imprecision in age reads. Reader 1 is always considered unbiased, but may be imprecise. Bias relative to the primary reader is given for the second or additional readers. Several model configurations are available for exploration based on either the functional form (e.g., constant CV, curvilinear standard deviation, or curvilinear CV) of the bias in the second read or reader or in the precision of the readers. Model selection uses AIC corrected for small sample size (AICc), which converges to AIC when sample sizes are large. Bayesian Information Criterion (BIC) was also considered when selecting a final model. Table \ref{tab:age-error-models} through Table \ref{tab:age-error-models3} provide model selection results.
 
-Age bias plots are provided in Figure \ref{fig:Age1_1plots}. The calculated bias relationships from the best fit model are shown in Figure \ref{fig:age-error-sd} and show only small biases between readers. Figure \ref{fig:age-error-bias} shows the imprecision estimates of the best fit models. In the cases where two models were similarly selected, the least extreme form (i.e., drastic drops or increases in imprecision) were chosen for the final matrix. Each ageing error matrix was then applied to the appropriate time and fleet combination.
+Age bias plots are provided in Figure \ref{fig:age1-plot}. The calculated bias relationships from the best fit model are shown in Figure \ref{fig:age-error-sd} and show only small biases between readers. Figure \ref{fig:age-error-bias} shows the imprecision estimates of the best fit models. In the cases where two models were similarly selected, the least extreme form (i.e., drastic drops or increases in imprecision) were chosen for the final matrix. Each ageing error matrix was then applied to the appropriate time and fleet combination.
 
 
 ### Length-Weight Relationship

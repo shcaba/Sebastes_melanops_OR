@@ -132,7 +132,7 @@ label = 'es-yield')
 
 ## Management performance{-}
 
-`r spp` removals have generally been below the equivalent ABC-ACL over the recent decade, with the exception of 2017 and 2022 when removals were slightly higher (Table \ref{tab:f_Manage_ES}). Exploitation on `r spp` increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of `r spp` acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:f_Manage_ES}). Prior to 2017, management specifications were set for `r spp` in California and Oregon waters combined.  The `r spp` OFL has not been exceeded by Oregon removals over the past decade.
+`r spp` removals have generally been below the equivalent ABC-ACL over the recent decade, with the exception of 2017 and 2022 when removals were slightly higher (Table \ref{tab:manageES}). Exploitation on `r spp` increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of `r spp` acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manageES}). Prior to 2017, management specifications were set for `r spp` in California and Oregon waters combined.  The `r spp` OFL has not been exceeded by Oregon removals over the past decade.
 
 \input{tex_tables/f_Manage_ES.tex}
 
@@ -149,19 +149,17 @@ The model-estimated uncertainty around the `r endyr+1` spawning biomass was $\si
 
 The following text will be modified, as appropriate, after the STAR panel and SSC meeting.
 
-The `r spp` assessment is being considered as a category 2 assessment with a $P^*$ = 0.45, sigma = 0.72, and a time-varying buffer applied to the OFL.  These multipliers are also combined with the rockfish MSY proxy of FSPR=50% MSY and the 40-10 harvest control rule to calculate OFLs, ABCs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:project_ES}. 
+The `r spp` assessment is being considered as a category 2 assessment with a $P^*$ = 0.45, sigma = 0.72, and a time-varying buffer applied to the OFL.  These multipliers are also combined with the rockfish MSY proxy of FSPR=50% MSY and the 40-10 harvest control rule to calculate OFLs, ABCs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:projectionES}. 
 
- \input{tex_tables/g_Projections_ES.tex}
+\input{tex_tables/g_Projections_ES.tex}
  
- Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations considered alternative specifications of catchability for the acoustic-visual survey. The resultant decision table will be provided in Table \ref{tab:es-dec-tab}.
+Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations considered alternative specifications of catchability for the acoustic-visual survey. The resultant decision table will be provided in Table \ref{tab:es-dec-tab}.
 
 Further details about selecting the decision table states of nature will be added here after the STAR panel.    
 
-Further details summarizing the results presented in the decision table will be added here after the STAR panel.   
-
 \clearpage
 
- \input{tex_tables/decision_table_es.tex}
+\input{tex_tables/decision_table_es.tex}
 
 \clearpage
 
