@@ -1,0 +1,21 @@
+# One Page Summary{-}
+
+
+\begin{itemize}
+
+\item This assessment for `r spp` in Oregon waters incorporates a wide range of data sources: removals from two commercial and two recreational fleets; three fishery-dependent indices of abundance, three fishery-independent indices of abundance, length and conditional age-at-length composition data for several fisheries and surveys; information on weight-at-length, maturity-at-length, and fecundity-at-length; information on natural mortality and the steepness of the Beverton-Holt stock-recruitment relationship; and estimates of ageing error.
+
+\item The addition of a new coastwide acoustic-visual survey (conducted in 2021) was incorporated into the base model to provide direct information on overall population scale and to anchor related information on scale from earlier (2005-2013) tagging data.   
+
+\item `r spp` off the U.S. west coast appear to have complex sex-specific growth and mortality dynamics that are captured in this assessment through sex-specific parameterizations. In particular, observations of older females are lacking in the available data and is addressed by allowing for higher female natural mortality.
+
+\item The model was highly sensitive to model specifications for acoustic-visual (AV) survey catchability and recruitment. The base model fixed AV survey catchability at a reasonable value given the survey design and `r spp` biology. Reconciling the signal in the
+biological data (which suggests a lower population size and status) versus the AV and tag surveys (which suggest high stock sizes and status) is a major uncertainty.  
+
+\item The estimated spawning output at the beginning of 2023 was `r ssb_curr` million of eggs (meggs; ~95 percent asymptotic intervals: `r ssb_curr_low` to `r ssb_curr_hi` meggs), which when compared to unfished spawning output (`r ssb0` meggs) gives a relative stock status level of `r round(100*depl_curr,0)` percent (~95 percent asymptotic intervals: `r round(100*depl_curr_low,0)` to `r round(100*depl_curr_hi,0)` percent).  Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009.
+
+\item  Fishing intensity (1 - SPR) has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was `r format(model$derived_quants[model$derived_quants$Label == 'SSB_SPR', 'Value'], digits = 4, scientific = FALSE, big.mark = ',')` meggs. The `r spp` population in Oregon at the start of 2023 is estimated to be 1.38 times (above) the target biomass, and fishing intensity during 2022 is estimated to be 0.96 times (below) the fishing intensity target. Sustainable total yield, landings plus discards, using $\text{SPR}_{50\%}$ is estimated at `r format(model$derived_quants[model$derived_quants$Label == 'Dead_Catch_SPR', 'Value'], digits = 3, scientific = FALSE, big.mark = ',')` mt.   
+
+\end{itemize}
+
+\newpage
