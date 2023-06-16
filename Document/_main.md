@@ -378,7 +378,7 @@ As described above, recreational discard mortality for the ocean boat fleet was 
 
 ## Length and Age Composition Data
 
-Fish length measurements, from both the commercial and recreational fisheries, are one of the major sources of data for this assessment. Length composition data from the commercial and recreational fisheries in Oregon were included, as were age composition data from the commercial and recreational fisheries in Oregon. ODFW Port Biologists collect biological data and samples from commercial fisheries coastwide. These data are available from PacFIN (accessed JASON - ADD DATE HERE) and were processed using the PacFIN Utilities package (ADD CITATION OR OTHER INFORMATION). The vast majority of commercial biological data are gender-specific. 
+Fish length measurements, from both the commercial and recreational fisheries, are one of the major sources of data for this assessment. Length composition data from the commercial and recreational fisheries in Oregon were included, as were age composition data from the commercial and recreational fisheries in Oregon. ODFW Port Biologists collect biological data and samples from commercial fisheries coastwide. These data are available from PacFIN (23 March, 2023) and were processed using the PacFIN Utilities package (https://github.com/pfmc-assessments/PacFIN.Utilities). The vast majority of commercial biological data are gender-specific. 
 
 For the recreational fleets, prior to 2001, the length composition data are from the MRFSS, which was a federally funded program operating beginning in 1980 that collects information on the marine sport fisheries. The MRFSS program includes an intercept survey in which sport anglers are interviewed as they return from fishing trips, and where samplers can identify and measure the retained catches. The MRFSS sampling is intended to cover all forms of marine recreational fishing, including shore-based activities from beaches, jetties, and piers.  In contrast the ORBS program that operates only in Oregon interviews and samples anglers operating from boats. The MRFSS length data, which are housed in the RecFIN database, generally do not indicate the sex of individual fish that were measured. In 2001, MRFSS was discontinued and ORBS became the primary source of recreational marine biological data. Similarly, the length data collected by the ORBS program does not generally indicate gender. All recreational biological data are available on RecFIN (accessed March 25, 2023). 
 
@@ -388,9 +388,20 @@ The length data for the assessment model were tabulated into 2-cm length bins ra
 
 The length composition data indicate some general differences among the fleets, with the trawl fisheries producing the largest fish, the ocean boat recreational fishery and the non-trawl fisheries producing fish of intermediate length and the shore fleet producing the smallest fish. There is little evidence in any of the length composition data of distinct modes or successions of modes from one year to the next that might represent strong year-classes.
 
-#### Commercial - JASON - double check this section 
+#### Commercial 
 
-These data are from trawl and non-trawl fisheries from ports south of Astoria. The PacFIN dataset contains records for Oregon landings into Astoria; however, the majority of these samples are believed to have been landed in Washington waters and are used in the Washington model. Length composition data are reported in fork length. These data are expanded to reduce the effect of non-uniform sampling effort. The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value. The data were stratified by gender and fishery (Table ??).  The final sample sizes were stratified and summed by length bin (10 cm to 60 64 cm bins, 2 cm in width), and an effective sample size is computed from the number of trips and number of fish each stratum represents, according to the Stewart and Miller method for multinomial fishery data (Table \ref{tab:input_ss_length}) . A small number of unsexed fish were present in the data; as these did not represent a distinct length distribution, they were excluded from the model.
+These data are from trawl and non-trawl fisheries from ports south of Astoria. The PacFIN dataset contains records for Oregon landings into Astoria; however, the majority of these samples are believed to have been landed in Washington waters and are used in the Washington model. Length composition data are reported in fork length. These data are expanded to reduce the effect of non-uniform sampling effort. The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value. The data were stratified by gender and fishery (Table \ref{tab:OR_Comm_Lt_samps}).  The final sample sizes were stratified and summed by length bin (10 cm to 60 64 cm bins, 2 cm in width), and an input sample size is calculated based on a combination of trips and fish sampled (Table \ref{tab:input_ss_length}):
+
+\begin{centering}
+
+Input effN = $N_{\text{trips}} + 0.138 * N_{\text{fish}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is $<$ 44
+
+Input effN = $7.06 * N_{\text{trips}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is $\geq$ 44
+
+\end{centering}
+
+A small number of unsexed fish were present in the data; as these did not represent a distinct length distribution, they were excluded from the model.
+
 
 #### Recreational
 
@@ -981,7 +992,7 @@ Research and data needs identified in the last assessment are listed here follow
 
 \textit{Further investigation into the movement and behavior of older (> age 10) females to reconcile their absence in fisheries data. If the females are currently inaccessible to fishing gear, can we find where they are? This information is essential before another black rockfish assessment is undertaken.} Response: Work by ODFW, Rasmuson et al. [-@Rasmuson_noBOFFFs_2023], specifically looked at finding older female Black Rockfish. While this work was a step in the right direction, more hypothesis-drive work is needed to reconcile the fate of older females (thus this recommendation remains moving forward, see item 1 below). 
 
-\textit{Appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each. This is a larger question on how to empirically estimate $M% when direct measures are not available (which is usually the case).} Response: While natural mortality remains an unknown, this assessment does explore the estimation of $M$ using informed priors based on the Hamel and Cope [-@hamel_Mprior_2022] method. Research related to male and female $M$ remains a topic for further research (see item 3 below).
+\textit{Appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each. This is a larger question on how to empirically estimate $M$ when direct measures are not available (which is usually the case).} Response: While natural mortality remains an unknown, this assessment does explore the estimation of $M$ using informed priors based on the Hamel and Cope [-@hamel_Mprior_2022] method. Research related to male and female $M$ remains a topic for further research (see item 3 below).
 
 \textit{All states needed improved historical catch reconstructions. The trawl fishery catches in particular need particular attention. Given the huge historical removals of that fleet in each state, the assessment is very sensitive to the assumed functional form of selectivity. A synoptic catch reconstruction is recommended, where states work together to resolve cross-state catch issues as well as standardize the approach to catch recommendations.} Response: While work has been conducted to improve historical catch reconsturctions for various fleets (much of which went into the updated catch time-series used in this assessment), there still is more work to do (see item 4 below). 
 
@@ -1011,7 +1022,8 @@ Recommended avenues for research to help improve future Black Rockfish stock ass
 <!--chapter:end:40management.Rmd-->
 
 # Acknowledgments
-Here are all the mad props!  We thank...
+
+Thank you to Chantel Wetzel for reviewing and offering many great edits. 
 
 <!--chapter:end:41acknowledgments.Rmd-->
 
@@ -1339,6 +1351,16 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 \newpage
 
+
+![Q-Q plot for the commercial nearshore logbook index.\label{fig:qq_NSlog}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_NSlog.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Q-Q plot for the recreational ORBS index.\label{fig:qq_ORBS}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_ORBS.png){width=100% height=100% alt="."}
+
+\newpage
+
 ## Biology
 
 <!-- ====================================================================== -->
@@ -1423,6 +1445,11 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 
 ![The set of standardized indices (each index is scaled to have a mean observation of 1) used in the base model.\label{fig:sur-summ-all}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index9_standcpueall.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Q-Q plot for the marine reserves hook and line survey.\label{fig:qq_MRHnL}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_MRHnL.png){width=100% height=100% alt="."}
 
 \newpage
 
