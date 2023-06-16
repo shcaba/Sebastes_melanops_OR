@@ -87,7 +87,7 @@ Mean weights were used in the previous assessment (@cope_assessments_2016) but n
 
 ## Fishery-Dependent Abundance Indices
 
-Age and length composition data by themselves do not provide sufficient information to reliably determine trends in stock abundance and biomass.  Most assessments of U.S. West Coast groundfish stocks rely on estimates of stock biomass from research trawl surveys to provide information on biomass trends, but `r spp` are very infrequently caught in any of the bottom trawl surveys, which have a limited coverage of shallow nearshore waters (none of the surveys have ever been conducted in waters shallower than 55 m). Multiple fishery-dependent indices are available for these assessments that are based on commercial or recreational catch-per-unit-effort (CPUE; Table \ref{tab:survey_summary}). For the commerical non-trawl fleet, an index of abundance based on retained catch from logbook data from the coastwide live-fish fishery was updated. For the recreational ocean boat fleet, an index of abundance from MRFSS interview level data was developed for the previous assessment (@cope_assessments_2016), covering 1980 - 1989 and 1993 - 2000. A second index from ORBS dockside sampling was updated for this assessment (2001 - 2022). Finally, a third recreational ocean boat index based on the Oregon At-Sea charter observer program was updated for this assessment, but ultimately not used in the reference model. 
+Age and length composition data by themselves do not provide sufficient information to reliably determine trends in stock abundance and biomass.  Most assessments of U.S. West Coast groundfish stocks rely on estimates of stock biomass from research trawl surveys to provide information on biomass trends, but `r spp` are very infrequently caught in any of the bottom trawl surveys, which have a limited coverage of shallow nearshore waters (none of the surveys have ever been conducted in waters shallower than 55 m). Multiple fishery-dependent indices are available for these assessments that are based on commercial or recreational catch-per-unit-effort (CPUE; Table \ref{tab:survey_summary} and Figure \ref{fig:sur-summ-all}). For the commerical non-trawl fleet, an index of abundance based on retained catch from logbook data from the coastwide live-fish fishery was updated. For the recreational ocean boat fleet, an index of abundance from MRFSS interview level data was developed for the previous assessment (@cope_assessments_2016), covering 1980 - 1989 and 1993 - 2000. A second index from ORBS dockside sampling was updated for this assessment (2001 - 2022). Finally, a third recreational ocean boat index based on the Oregon At-Sea charter observer program was updated for this assessment, but ultimately not used in the reference model. 
 
 ### Commercial Index of Abundance - Nearshore Fishery Logbook CPUE
 
@@ -99,7 +99,7 @@ Covariates evaluated included year, month, port, depth, number of people onboard
 
 ### Oregon Recreational Indices of Abundance
 
-The three recreational fishery abundance indices available for the Oregon regional assessment are summarized in Table \ref{tab:survey_summary} and Figure ??.  The sections below describe the underlying data and derivations of the indices.
+The three recreational fishery abundance indices available for the Oregon regional assessment are summarized in Table \ref{tab:survey_summary} and Figure \ref{fig:sur-summ-all}.  The sections below describe the underlying data and derivations of the indices.
 
 #### MRFSS Dockside CPUE for Oregon, 1980 to 2000
 

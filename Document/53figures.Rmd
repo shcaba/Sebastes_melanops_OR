@@ -147,6 +147,17 @@ label = 'len-weight-or-wa')
 
 \clearpage
 
+<!-- ====================================================================== -->
+<!-- *************************     Indices     **************************** --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index9_standcpueall.png"), 
+caption = "The set of standardized indices (each index is scaled to have a mean observation of 1) used in the base model.",
+label = 'sur-summ-all')
+```
+
 
 <!-- ====================================================================== --> 
 <!-- ******************* Bridge Model ************************************* --> 

@@ -2,7 +2,7 @@
 
 ### Abundance Indices
 
-The three fishery-independent abundance indices available for the Oregon regional assessment are summarized in Table \ref{tab:survey_summary} and Figure ??.  The sections below describe the underlying data and derivations of the indices.
+The three fishery-independent abundance indices available for the Oregon regional assessment are summarized in Table \ref{tab:survey_summary} and Figure \ref{fig:sur-summ-all}.  The sections below describe the underlying data and derivations of the indices.
 
 #### Tagging Study Estimates of Abundance off Newport, OR, 2002 to 2014
 
