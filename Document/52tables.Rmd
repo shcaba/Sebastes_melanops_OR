@@ -12,6 +12,8 @@
 
 \include{tex_tables/rec_length_samples.tex}
 
+\include{tex_tables/input_ss_length.tex}
+
 \include{tex_tables/OR_Comm_Age_samps.tex}
 
 \include{tex_tables/rec_age_samples.tex}
