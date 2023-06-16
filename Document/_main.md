@@ -90,6 +90,82 @@ title: Status of Black Rockfish (_Sebastes melanops_) off Oregon and federal wat
 
 <!--chapter:end:01a.Rmd-->
 
+# One Page Summary{-}
+
+
+\begin{itemize}
+
+\item This assessment for Black Rockfish in Oregon waters incorporates a wide range of data sources: removals from two commercial and two recreational fleets; three fishery-dependent indices of abundance, three fishery-independent indices of abundance, length and conditional age-at-length composition data for several fisheries and surveys; information on weight-at-length, maturity-at-length, and fecundity-at-length; information on natural mortality and the steepness of the Beverton-Holt stock-recruitment relationship; and estimates of ageing error.
+
+\item The addition of a new coastwide acoustic-visual survey (conducted in 2021) was incorporated into the base model to provide direct information on overall population scale and to anchor related information on scale from earlier (2005-2013) tagging data.   
+
+\item Black Rockfish off the U.S. west coast appear to have complex sex-specific growth and mortality dynamics that are captured in this assessment through sex-specific parameterizations. In particular, observations of older females are lacking in the available data and is addressed by allowing for higher female natural mortality.
+
+\item The model was highly sensitive to model specifications for acoustic-visual (AV) survey catchability and recruitment. The base model fixed AV survey catchability at a reasonable value given the survey design and Black Rockfish biology. Reconciling the signal in the
+biological data (which suggests a lower population size and status) versus the AV and tag surveys (which suggest high stock sizes and status) is a major uncertainty.  
+
+\item The estimated spawning output at the beginning of 2023 was 900 million of eggs (meggs; ~95 percent asymptotic intervals: 855 to 944 meggs), which when compared to unfished spawning output (1,633 meggs) gives a relative stock status level of 55 percent (~95 percent asymptotic intervals: 53 to 57 percent).  Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009.
+
+\item  Fishing intensity (1 - SPR) has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 728.5 meggs. The Black Rockfish population in Oregon at the start of 2023 is estimated to be 1.38 times (above) the target biomass, and fishing intensity during 2022 is estimated to be 0.96 times (below) the fishing intensity target. Sustainable total yield, landings plus discards, using $\text{SPR}_{50\%}$ is estimated at 455 mt.   
+
+\end{itemize}
+
+\newpage
+
+<!--chapter:end:01b_onepage.Rmd-->
+
+# Acronyms Used in the Document{-}
+
+
+The following will include a list of common acronyms used in this document.  It will be fully populated prior to the final post-review draft.
+
+ABC – Acceptable Biological Catch
+AIC – Akaike Information Criterion
+CDFW – California Department of Fish and Wildlife
+CFIS – Commercial Fisheries Information System
+CI – Confidence interval
+CPFV – Commercial Passenger Fishing Vessel
+CPUE – Catch per unit of effort
+CV – Coefficient of variation
+EEZ – Exclusive Economic Zone
+ENSO – El Niño Southern Oscillation
+FMP – Groundfish Fishery Management Plan
+GLM – Generalized Linear Model
+MPA – Marine Protected Area
+MPD – Maximum of the posterior density function
+MRFSS - Marine Recreational Fisheries Statistics Survey
+MSY – Maximum Sustainable Yield
+mt – Metric tons
+NFMP – Nearshore Fishery Management Plan
+NMT – Natural Mortality Tool
+NWFSC – Northwest Fisheries Science Center
+ODFW – Oregon Department of Fish and Wildlife
+OFL – Overfishing Limit
+ORBS – Ocean Recreational Boat Survey
+ORS – Oregon sub-stock
+OY- Optimum Yield
+PacFIN - Pacific Fisheries Information Network
+PBR – Private Boat and Rental recreational mode
+PFEL – Pacific Fisheries Environmental Laboratory
+PFMC – Pacific Fishery Management Council
+PISCO - Partnership for Interdisciplinary Studies of Coastal Oceans
+PSMFC – Pacific States Marine Fisheries Commission
+RCA – Rockfish Conservation Area
+RecFIN – Recreational Fisheries Information Network
+SMURF - Standard Monitoring Units for the Recruitment of (temperate reef) Fishes
+SPR – Spawning Potential Ratio
+SS – Stock Synthesis
+STAR – Stock Assessment Review (panel)
+STAT – Stock Assessment Team
+TL – Total Length
+TOR – Terms of Reference
+WCGOP – West Coast Groundfish Observer Program
+
+
+\newpage
+
+<!--chapter:end:01c_acronyms.Rmd-->
+
 
 
 # Executive summary{-}
@@ -125,7 +201,7 @@ Within model uncertainty is explicitly included in this assessment by parameter 
 
 ## Stock biomass and dynamics{-}
 
-Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was 900 meggs (~95 percent asymptotic intervals: 855 to 944 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (1,633) meggs gives a relative stock status level of 55 percent (~95 percent asymptotic intervals: 53 to 57 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size from 1993 to 2008, before steadily increasing back above target since that time. The largest of the estimated recruitment pulses occurred in 2008 and was followed by several above average recruitment years in the early 2010s, which contributed to the increase in spawning output through the mid to late 2010s. The minimum relative stock size of 25 percent of unfished levels is estimated to have occurred in 1999. Accordingly, the stock has not been below the minimum stock size threshold (i.e., never overfished based on median estimates). Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
+Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was 900 meggs (~95 percent asymptotic intervals: 855 to 944 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (1,633 meggs) gives a relative stock status level of 55 percent (~95 percent asymptotic intervals: 53 to 57 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size from 1993 to 2008, before steadily increasing back above target since that time. The largest of the estimated recruitment pulses occurred in 2008 and was followed by several above average recruitment years in the early 2010s, which contributed to the increase in spawning output through the mid to late 2010s. The minimum relative stock size of 25 percent of unfished levels is estimated to have occurred in 1999. Accordingly, the stock has not been below the minimum stock size threshold (i.e., never overfished based on median estimates). Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
 
 \input{tex_tables/b_SSB_ES.tex}
 
@@ -229,7 +305,7 @@ Recommended avenues for research to help improve future Black Rockfish stock ass
 5. Stock structure for black rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.
 6. Continue acoustic-visual fisheries independent coastwide survey to develop a time series. Further refine the survey by addressing the recommendations of the SSC methodology review from 2022. Examine the potential of using spatial modeling to reduce the uncertainty in the population estimates from the acoustic-visual fisheries independent coastwide survey.
 7. Reconcile contradictory signal in the Black Rockfish biology versus the population scale.
-8. Better understand the ecology and habitats of Black Rockfish from settlement to age 1. Further development of surveys aimed specifically at recruitment or settlement rates of nearshore species, such as OSU’s SMURF collections, that are not frequently encountered in offshore federal age-0 surveys is needed. 
+8. Better understand the ecology and habitats of Black Rockfish from settlement to age 4. Further development of surveys aimed specifically at recruitment or settlement rates of nearshore species, such as OSU’s SMURF collections, that are not frequently encountered in offshore federal age-0 surveys is needed. 
 
 <!--chapter:end:01executive.Rmd-->
 
@@ -409,7 +485,7 @@ Recreational length samples were obtained from two primary sources: MRFSS and OR
 
 ### Age Compositions
 
-The fishery data for the assessment model consisted of otolith age-readings, mostly from the recreational fishery (ADD COMM AGE TABLE; Table \ref{tab:rec_age_samples}). Age composition data were a subset of the length data, 41,212 records in total. The age composition data for the assessment model were tabulated into 1-yr age bins from 1 to 40 years.  For the data tabulation provided in this document, the accumulator bins were extended to compress and simplify display of the data.
+The fishery data for the assessment model consisted of otolith age-readings, mostly from the recreational fishery (Table \ref{OR_Comm_Age_samps}; Table \ref{tab:rec_age_samples}). Age composition data were a subset of the length data, 41,212 records in total. The age composition data for the assessment model were tabulated into 1-yr age bins from 1 to 40 years.  For the data tabulation provided in this document, the accumulator bins were extended to compress and simplify display of the data.
 
 The age composition data generally do not show much evidence of distinct year-classes that can be easily tracked from one year to the next, which suggests that that there is not much recruitment variability from year-to-year or that age-reading error is sufficient to mask the appearance of strong year-classes. Age-at-length compositions were not expanded; the final sample sizes were set to 1 before tallying. The ages were modeled as conditional age-at-length.
 
@@ -505,7 +581,7 @@ The Marine Reserves program at ODFW monitors Oregon’s marine reserves. A stand
 
 The dataset contains information on catch by species (number of fish), effort (angler hours), reserve site, area of sampling, treatment (reserve or comparison area), and date of sampling. Additional information that are available include proportion of rock habitat at the cell-level, water temperature, and the average drift depth, though these data are not available for the entire dataset. Average depth (fm) was binned to 10-fm bins (0 – 50fm), and those shallower than 10fm were excluded to a small sample size. April – June was aggregated to a spring season and August - October to a fall season. Black Rockfish are commonly encountered in this survey (Table \ref{tab:percent_pos_MRHnL}. 
 
-Covariates evaluated included year, month (or season), site, treatment (reserve or comparison area), and depth bin. A negative binomial model was fit to the cell-day-level data (catch in numbers of Black Rockfish with a log offset for angler hours). Two full model series were considered, one with all the potential covariates with month and one with season. For the series with month, the full model was selected as the best fit model by AIC, but month was almost non-significant. For the series with season, the full model was again selected as the best fit by AIC (Table \ref{tab:model_selection_MRHnL}. When fit via MLE using the sdmTMB R package (version 0.3.0), acceptable diagnostics were achieved for both full models. However, the error around the point estimates was reduced with the season covariate and ultimately, this was the model selected to be used in the reference model. The Q-Q plot indicated an acceptable fit to the data (Figure \ref{fig:qq_MRHnL). Previous assessments for nearshore species have explored the use of this survey as a raw index of abundance (@taylor_status_2021, @wetzel_status_2021, @langseth_status_2021, @cope_assessing_2019) but to date, this index has not been a part of a reference model. Length compositions from this survey are also included.
+Covariates evaluated included year, month (or season), site, treatment (reserve or comparison area), and depth bin. A negative binomial model was fit to the cell-day-level data (catch in numbers of Black Rockfish with a log offset for angler hours). Two full model series were considered, one with all the potential covariates with month and one with season. For the series with month, the full model was selected as the best fit model by AIC, but month was almost non-significant. For the series with season, the full model was again selected as the best fit by AIC (Table \ref{tab:model_selection_MRHnL}. When fit via MLE using the sdmTMB R package (version 0.3.0), acceptable diagnostics were achieved for both full models. However, the error around the point estimates was reduced with the season covariate and ultimately, this was the model selected to be used in the reference model. The Q-Q plot indicated an acceptable fit to the data (Figure \ref{fig:qq_MRHnL). Previous assessments for nearshore species have explored the use of this survey as a raw index of abundance (@taylor_status_2021, @wetzel_status_2021, @langseth_status_2021, @cope_assessing_2019) but to date, this index has not been a part of a reference model. Length compositions from this survey are also included (Table \ref{tab:MPA_lengths} and Table \ref{input_ss_length}).
  
 
 
@@ -617,7 +693,9 @@ This stock assessment does not explicitly incorporate trophic interactions, habi
   
 ## Data Considered but Not Included
   
-  Special projects data for Black Rockfish were reviewed but ultimately, with the large number of commercial and recreational samples available under standard sampling protocols, these data were not used in the reference model. There were also multiple sources of fishery-independent information that ODFW has provided to assessments in recent years as ancillary data that were considered. These included ROV survey data, video lander survey data and the Marine Reserves longline survey data. ODFW ROV data were reviewed by an SSC methodology review in 2020 (see PFMC September 2020 briefing book; Agenda Item D.4 Attachment 1) and used to independently estimate population size for Quillback Rockfish in Oregon (@langseth_status_2021). Video lander data from multiple projects was recertly summarized by Marine Resources Program staff (@rasmuson_nine_2020). These data were used to develop density estimates and independent abudance estimates for the most recent assessments for both Quillback Rockfish (@langseth_status_2021) and Lingcod (@taylor_status_2021). These two datasets were not included, as they were not designed specifically to survey Black Rockfish and the ODFW Nearshore Acoustic-Visual survey was regarded as a stronger estimate of the scale of the Black Rockfish population scale without the major caveats that come with using the ROV or lander data. Finally, the Marine Reserves longline survey data collected in Oregon's marine reserves were available from 2015 - 2019. While Black Rockfish are encountered in this survey, samples sizes are lower than the Hook and Line survey and the gear type is not ideal for Black Rockfish. 
+Special projects data for Black Rockfish were reviewed but ultimately, with the large number of commercial and recreational samples available under standard sampling protocols, these data were not used in the reference model. There were also multiple sources of fishery-independent information that ODFW has provided to assessments in recent years as ancillary data that were considered. These included ROV survey data, video lander survey data and the Marine Reserves longline survey data. ODFW ROV data were reviewed by an SSC methodology review in 2020 (see PFMC September 2020 briefing book; Agenda Item D.4 Attachment 1) and used to independently estimate population size for Quillback Rockfish in Oregon (@langseth_status_2021). Video lander data from multiple projects was recertly summarized by Marine Resources Program staff (@rasmuson_nine_2020). These data were used to develop density estimates and independent abudance estimates for the most recent assessments for both Quillback Rockfish (@langseth_status_2021) and Lingcod (@taylor_status_2021). These two datasets were not included, as they were not designed specifically to survey Black Rockfish and the ODFW Nearshore Acoustic-Visual survey was regarded as a stronger estimate of the scale of the Black Rockfish population scale without the major caveats that come with using the ROV or lander data. Finally, the Marine Reserves longline survey data collected in Oregon's marine reserves were available from 2015 - 2019. While Black Rockfish are encountered in this survey, samples sizes are lower than the Hook and Line survey and the gear type is not ideal for Black Rockfish. 
+
+ODFW and Oregon State University have collaborated on juvenile fish montioring using SMRUF devices in Oregon's Otter Rock Marine Reserve from 2013 to the present. SMURFs are standardized sampling units that collect newly-settled juvenile fishes. These are monitored regularly during during the settlement season (May - September) and juveniles are collected for genetic identification and measured. An index of mean settlement rate of juvenile Black Rockfish was provided to this assessment. However, the intra-annual standard deviatations were extreme (Figure \ref{fig:index1_cpuedata_SMURF.png}, given the limited samples, and the use of these data as an index of recruitment was explored as a sensitivity. 
 
 <!--chapter:end:23enviro.Rmd-->
 
@@ -994,7 +1072,7 @@ Research and data needs identified in the last assessment (italics) are listed h
 
 \textit{Appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each. This is a larger question on how to empirically estimate $M$ when direct measures are not available, which is usually the case.} Response: While natural mortality remains an unknown, this assessment does explore the estimation of $M$ using informed priors based on the Hamel and Cope [-@hamel_Mprior_2022] method. Research related to male and female $M$ remains a topic for further research (see item 3 below).
 
-\textit{All states needed improved historical catch reconstructions. The trawl fishery catches in particular need particular attention. Given the huge historical removals of that fleet in each state, the assessment is very sensitive to the assumed functional form of selectivity. A synoptic catch reconstruction is recommended, where states work together to resolve cross-state catch issues as well as standardize the approach to catch recommendations.} Response: While work has been conducted to improve historical catch reconsturctions for various fleets (much of which went into the updated catch time-series used in this assessment), there still is more work to do (see item 4 below).
+\textit{All states needed improved historical catch reconstructions. The trawl fishery catches in particular need particular attention. Given the huge historical removals of that fleet in each state, the assessment is very sensitive to the assumed functional form of selectivity. A synoptic catch reconstruction is recommended, where states work together to resolve cross-state catch issues as well as standardize the approach to catch recommendations.} Response: While work has been conducted to improve historical catch reconstruction for various fleets (much of which went into the updated catch time-series used in this assessment), there still is more work to do (see item 4 below).
 
 \textit{Identifying stanzas or periods of uncertainty in the historical catch series will aid in the exploration of catch uncertainty in future assessment sensitivity runs.} Response: This has largely been addressed with recent historic catch reconstruction updates.
 
@@ -1002,11 +1080,11 @@ Research and data needs identified in the last assessment (italics) are listed h
 
 \textit{Interpreting the ODFW tagging study needs further work. The Brownie model is a closed-model estimate of abundance, an assumption that could have meaningful influence on the interpretation of the survey catchability. Given that catchability parameter is currently driving the Oregon, realistic values for it need further consideration.} Response: The coastwide acoustic-visual survey was used to pin the absolute estimate of abundance in 2021, thereby providing an anchor for the tagging data catchability.
 
-\textit{Age validation and verification is still needed, particularly in Oregon. A number of historical ages were excluded from the Oregon model due to concerns over differences among age readers. These age structures need to be re-read to recovery the information in those samples. Historical structures from trawl and recreational fisheries in particular should be re-aged by reliable readers and included in future assessments. Oregon ageing error was also quite different from the other two states, so further investigation on the inter-reader error and how to decrease it need reconsideration.} Response: Considerabe effort went into not only reading new Black Rockfish ages but also double reading historical age structures (see the section on Ageing Bias and Precision for specific details).
+\textit{Age validation and verification is still needed, particularly in Oregon. A number of historical ages were excluded from the Oregon model due to concerns over differences among age readers. These age structures need to be re-read to recovery the information in those samples. Historical structures from trawl and recreational fisheries in particular should be re-aged by reliable readers and included in future assessments. Oregon ageing error was also quite different from the other two states, so further investigation on the inter-reader error and how to decrease it need reconsideration.} Response: Considerable effort went into not only reading new Black Rockfish ages but also double reading historical age structures (see the section on Ageing Bias and Precision for specific details).
 
 \textit{An independent nearshore survey should be supported in all states to avoid the reliance on fishery-based CPUE indices.} Response: A coastwide acoustic-visual survey was conducted in Oregon waters during 2021.
 
-\textit{Stock structure for black rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, dispersal and movement, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.} Response: This recommendation still stands and is included in future researach recommendations (see item 5 below).
+\textit{Stock structure for black rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, dispersal and movement, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.} Response: This recommendation still stands and is included in future research recommendations (see item 5 below).
 
 Recommended avenues for research to help improve future Black Rockfish stock assessments include (but are not limited to):
 
@@ -1017,7 +1095,7 @@ Recommended avenues for research to help improve future Black Rockfish stock ass
 5. Stock structure for black rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.
 6. Continue acoustic-visual fisheries independent coastwide survey to develop a time series. Further refine the survey by addressing the recommendations of the SSC methodology review from 2022. Examine the potential of using spatial modeling to reduce the uncertainty in the population estimates from the acoustic-visual fisheries independent coastwide survey.
 7. Reconcile contradictory signal in the Black Rockfish biology versus the population scale.
-8. Better understand the ecology and habitats of Black Rockfish from settlement to age 1. Further development of surveys aimed specifically at recruitment or settlement rates of nearshore species, such as OSU’s SMURF collections, that are not frequently encountered in offshore federal age-0 surveys is needed. 
+8. Better understand the ecology and habitats of Black Rockfish from settlement to age 4. Further development of surveys aimed specifically at recruitment or settlement rates of nearshore species, such as OSU’s SMURF collections, that are not frequently encountered in offshore federal age-0 surveys is needed. 
 
 <!--chapter:end:40management.Rmd-->
 
@@ -1080,6 +1158,8 @@ Thank you to Chantel Wetzel for reviewing and offering many great edits.
 \include{tex_tables/percent_pos_MRHnL.tex}
 
 \include{tex_tables/model_selection_MRHnL.tex}
+
+\include{tex_tables/MPA_lengths.tex}
 
 <!-- ======================================================= -->
 <!-- ***************     Biology   ************************* --> 
@@ -1287,6 +1367,8 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 <!-- ****************     Sensitivities      *************** --> 
 <!-- ======================================================= -->
 
+\include{tex_tables/data_weight.tex}
+
 \include{tex_tables/data_sensis_q.tex}
 
 \include{tex_tables/data_sensis_other.tex}
@@ -1450,6 +1532,16 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 
 ![Q-Q plot for the marine reserves hook and line survey.\label{fig:qq_MRHnL}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_MRHnL.png){width=100% height=100% alt="."}
+
+\newpage
+
+<!-- ====================================================================== -->
+<!-- *************************     Enviro     **************************** --> 
+<!-- ====================================================================== -->
+
+
+
+![Index of recruitment from SMURF data collections. Error bars indicate 95% uncertainty interval around index values based on the model assumption of lognormal error.\label{fig:index1_cpuedata_SMURF}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/index1_cpuedata_SMURF.png){width=100% height=100% alt="."}
 
 \newpage
 
