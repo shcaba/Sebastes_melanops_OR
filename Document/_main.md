@@ -268,14 +268,14 @@ In Oregon, accounting for location of capture is problematic for historic commer
 ## Life History
 Adult Black Rockfish tend to occur in schools over rocky structure at depths less than 40 fathoms, and sometimes feed actively on or near the surface.  They feed on a wide variety of prey including zooplankton, krill, mysids, sand lance, and juvenile rockfish, and are subject to predation by Lingcod and marine mammals [@love_rockfishes_2002]. 
 
-Although tagging studies have documented some individuals moving long distances (several hundreds of miles), the vast majority of recaptured individuals were found close to the areas of initial capture and tagging [@culver_1987;@ayres_tag_1988;@wallace_tag_2010;@starr_green_2007].  Results from a 2004-05 study off Newport, OR of 42 Black Rockfish implanted with acoustic tags indicated that all but seven fish remained within range of a 3 x 5 km array of acoustic receivers during one full year of monitoring and had relatively small home ranges that did not vary seasonally [@parker_etal_2007].  Green and Starr [-@green_starr_2007] report similar findings from a study in Carmel Bay, CA of 23 acoustically tagged Black Rockfish. An extensive Washington state tagging study also supported low movements for most individuals, with some exceptional movements recorded [@wallace_tag_2010].
+Although tagging studies have documented some individuals moving long distances (several hundreds of miles), the vast majority of recaptured individuals were found close to the areas of initial capture and tagging [@culver_1987;@ayres_tag_1988;@wallace_tag_2010;@starr_green_2007].  Results from a 2004-05 study off Newport, OR of 42 Black Rockfish implanted with acoustic tags indicated that all but seven fish remained within range of a 3 x 5 km array of acoustic receivers during one full year of monitoring and had relatively small home ranges that did not vary seasonally [@parker_etal_2007].  Green and Starr [-@green_starr_2007] report similar findings from a study in Carmel Bay, CA of 23 acoustically tagged small Black Rockfish. An extensive Washington state tagging study also supported low movements for most individuals, with some exceptional movements recorded [@wallace_tag_2010].
 
 Like all members of the genus Sebastes, Black Rockfish have internal fertilization and bear live young approximately two months after insemination. Black Rockfish are quite fecund, with a six-year-old female annually producing about 300,000 embryos and a 16-year-old producing about 950,000 embryos [@bobko_berkeley_2004].  Recent studies have demonstrated that the relative number and quality of larvae increase with age in female Black Rockfish [@berkeley_etal_2004; @hixon_etal_1987]. Parturition of larvae occurs during winter [@wyllie_echeverria_1987] and larvae and small juveniles are pelagic for several months to a year [@boehlert_yoklavich_1983].  Settlement occurs in estuaries, tide-pools, and in the nearshore at depths less than 20 m [@stein_hassler_1989].  
 
 Black Rockfish begin recruiting to nearshore fisheries at 3-4 years of age, corresponding to a fork length of about 25-30 cm, and 50% of females attain maturity at about 6-8 years, corresponding to a fork length of about 38-42 cm.  Adult female Black Rockfish grow 3-5 cm larger than males, with a few females attaining fork lengths greater than 55 cm.
 
 ## Ecosystem Considerations
-The prominent position of Black Rockfish as both a major predator (adult stage) and prey (larvae to juvenile stages) in mostly nearshore areas suggest it to be a notable player in the nearshore ecosystem. The California Current is a highly variable and dynamic system, and it has been recognized for years that rockfishes are subject to large swings in recruitment that are tied to environmental conditions. It is believe to be one of the reasons rockfishes exhibit long lives and the ability to go years without significant recruitment, but can produce large recruitment events when conditions are favorable (a phenomenon known as the "storage effect").
+Black Rockfish acts as both a major predator (adult stage) and prey (larvae to juvenile stages) in mostly nearshore areas. The California Current is a highly variable and dynamic system, and it has been recognized for years that rockfishes are subject to large swings in recruitment that are tied to environmental conditions. It is believe to be one of the reasons rockfishes exhibit long lives and the ability to go years without significant recruitment, but can produce large recruitment events when conditions are favorable (a phenomenon known as the "storage effect").
 
 Black Rockfish off central Oregon have recently been shown to exhibit changes in larval and juvenile growth rates that correlate with prey abundance and water temperature, to name just a few of the factors [@fennie_larval_2023]. Settlement rates exhibited a dome-shaped relationship, demonstrating a "window" of good growth conditions for successful settlement. Black Rockfish mature at a relatively young age. This assessment uses a functional maturity relationship, updated from the previous assessment that used a biological maturity relationship. 
 
@@ -310,7 +310,7 @@ Some recent important regulations or management events include the following:
 ## Canadian and Alaska fisheries
 Black Rockfish is one of multiple Inshore Rockfish species on the West Coast of British Columbia. The most recent evaluation was completed by Yamanaka and Lacko (-@yamanaka_inshore_2001), which determined that there was insufficient information to recommend a Black Rockfish-specific catch quotas for the five management areas on the Pacific coast of British Columbia. Black Rockfish continues to be a "Non-Quota" species in the Department of Fisheries and Oceans Management Plan [@dfo_fmp_2014]. 
 
-Directed fisheries for Black Rockfish in Alaska are limited. In the Westward region (Kodiak area) of Alaska, an age-structured assessment for Black Rockfish is under development by the Alaska Department of Fish and Game, using an acoustic survey as a primary source of data. No assessments have been developed for Black Rockfish for the Southeast or Central regions in the Gulf of Alaska. 
+Directed fisheries for Black Rockfish in Alaska are limited. In the Westward region (Kodiak area) of Alaska, an acoustic visual survey has been the primary management tool used to determine population size. An age-structured assessment for Black Rockfish is under development by the Alaska Department of Fish and Game that will use the data from this acoustic visual survey as the primary data source. No assessments have been developed for Black Rockfish for the Southeast or Central regions in the Gulf of Alaska. 
 
 <!--chapter:end:11introduction.Rmd-->
 
@@ -390,11 +390,11 @@ The length composition data indicate some general differences among the fleets, 
 
 #### Commercial - JASON - double check this section 
 
-These data are from trawl and non-trawl fisheries from ports south of Astoria. The PacFIN dataset contains records for Oregon landings into Astoria; however, the majority of these samples are believed to have been landed in Washington waters and are used in the Washington model. Length composition data are reported in fork length. These data are expanded to reduce the effect of non-uniform sampling effort. The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value. The data were stratified by gender and fishery (Table ??).  The final sample sizes were stratified and summed by length bin (10 cm to 60 64 cm bins, 2 cm in width), and an effective sample size is computed from the number of trips and number of fish each stratum represents, according to the Stewart and Miller method for multinomial fishery data. A small number of unsexed fish were present in the data; as these did not represent a distinct length distribution, they were excluded from the model.
+These data are from trawl and non-trawl fisheries from ports south of Astoria. The PacFIN dataset contains records for Oregon landings into Astoria; however, the majority of these samples are believed to have been landed in Washington waters and are used in the Washington model. Length composition data are reported in fork length. These data are expanded to reduce the effect of non-uniform sampling effort. The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value. The data were stratified by gender and fishery (Table ??).  The final sample sizes were stratified and summed by length bin (10 cm to 60 64 cm bins, 2 cm in width), and an effective sample size is computed from the number of trips and number of fish each stratum represents, according to the Stewart and Miller method for multinomial fishery data (Table \ref{tab:input_ss_length}) . A small number of unsexed fish were present in the data; as these did not represent a distinct length distribution, they were excluded from the model.
 
 #### Recreational
 
-Recreational length samples were obtained from two primary sources: MRFSS and ORBS (available on RecFIN). ODFW special project sampling data were considered but given the high sample sizes available from standard sampling, these data were not utilized. From 1980 – 1989 and from 1993 – 2000, the MRFSS program collected samples from both ocean and inland (estuary) areas (n = 46,656).  ODFW provided MRFSS samples with the addition of a column that flagged length values imputed from weights to allow for selection of directly measured values (n = 32,130).  From 1980 – 1989, total lengths (mm) were collected by MRFSS, which were converted to fork length.  From 1993 – 2000, fork length (mm) was collected.  Length samples from 2001 – 2022 from the ORBS sampling program are available on RecFIN (n = 197,216).  All ORBS samples are by fork length (mm).  The vast majority (95.5%) of these samples are from ocean trips (n = 188,372). Table \ref{tab:rec_length_samples} details sample sizes by year and recreational fleet.  
+Recreational length samples were obtained from two primary sources: MRFSS and ORBS (available on RecFIN). ODFW special project sampling data were considered but given the high sample sizes available from standard sampling, these data were not utilized. From 1980 – 1989 and from 1993 – 2000, the MRFSS program collected samples from both ocean and inland (estuary) areas (n = 46,656).  ODFW provided MRFSS samples with the addition of a column that flagged length values imputed from weights to allow for selection of directly measured values (n = 32,130).  From 1980 – 1989, total lengths (mm) were collected by MRFSS, which were converted to fork length.  From 1993 – 2000, fork length (mm) was collected.  Length samples from 2001 – 2022 from the ORBS sampling program are available on RecFIN (n = 197,216).  All ORBS samples are by fork length (mm).  The vast majority (95.5%) of these samples are from ocean trips (n = 188,372). Table \ref{tab:rec_length_samples} details the number of length sizes by year and recreational fleet and Table \ref{tab:input_ss_length} shows the input sample sizes.  
 
 ### Age Compositions
 
@@ -408,7 +408,7 @@ Mean weights were used in the previous assessment (@cope_assessments_2016) but n
 
 ## Fishery-Dependent Abundance Indices
 
-Age and length composition data by themselves do not provide sufficient information to reliably determine trends in stock abundance and biomass.  Most assessments of U.S. West Coast groundfish stocks rely on estimates of stock biomass from research trawl surveys to provide information on biomass trends, but Black Rockfish are very infrequently caught in any of the bottom trawl surveys, which have a limited coverage of shallow nearshore waters (none of the surveys have ever been conducted in waters shallower than 55 m). Multiple fishery-dependent indices are available for these assessments that are based on commercial or recreational catch-per-unit-effort (CPUE). For the commerical non-trawl fleet, an index of abundance based on retained catch from logbook data from the coastwide live-fish fishery was updated. For the recreational ocean boat fleet, an index of abundance from MRFSS interview level data was developed for the previous assessment (@cope_assessments_2016), covering 1980 - 1989 and 1993 - 2000. A second index from ORBS dockside sampling was updated for this assessment (2001 - 2022). Finally, a third recreational ocean boat index based on the Oregon At-Sea charter observer program was updated for this assessment, but ultimately not used in the reference model. 
+Age and length composition data by themselves do not provide sufficient information to reliably determine trends in stock abundance and biomass.  Most assessments of U.S. West Coast groundfish stocks rely on estimates of stock biomass from research trawl surveys to provide information on biomass trends, but Black Rockfish are very infrequently caught in any of the bottom trawl surveys, which have a limited coverage of shallow nearshore waters (none of the surveys have ever been conducted in waters shallower than 55 m). Multiple fishery-dependent indices are available for these assessments that are based on commercial or recreational catch-per-unit-effort (CPUE; Table \ref{tab:survey_summary} and Figure \ref{fig:sur-summ-all}). For the commerical non-trawl fleet, an index of abundance based on retained catch from logbook data from the coastwide live-fish fishery was updated. For the recreational ocean boat fleet, an index of abundance from MRFSS interview level data was developed for the previous assessment (@cope_assessments_2016), covering 1980 - 1989 and 1993 - 2000. A second index from ORBS dockside sampling was updated for this assessment (2001 - 2022). Finally, a third recreational ocean boat index based on the Oregon At-Sea charter observer program was updated for this assessment, but ultimately not used in the reference model. 
 
 ### Commercial Index of Abundance - Nearshore Fishery Logbook CPUE
 
@@ -416,11 +416,11 @@ Only one abundance index is available from the Oregon commercial fisheries, one 
 
 Logbook information went through multiple data quality filters to attain the best possible consistent and representative data set through time to estimate a relative abundance trend. Individual observations of catch and effort were at the trip level, where multi-set trips were aggregated to the trip level. CPUE was calculated for each trip, where total catch was defined as the total of all reported retained catch (in pounds) and total effort was defined by hook-hours (number of hooks used multiplied by the number of hours fished). Previous iterations of this index utilized both released and retained fish; however, released fish were converted to weight by applying a median catch weight. This was deemed an unnecessary uncertainty for a Black Rockfish index, as few boats release substantial amounts of black rockfish. In general, data filters that were applied included eliminating records with missing or unrealistic values, including permitted trips using only hook and line jig gear from ports with appreciable data, and using only vessels that fished in at least three years over the logbook history. Vessel operators may have changed through time as the filter was tied to the vessel name only. Gear type was restricted to hook-and-line only (excluding longline gear) because this gear type accounts for the majority of trips for Black Rockfish (approximately 90.3% of unfiltered dataset). These filters are consistent with the most recent Black Rockfish assessment (@cope_assessments_2016) and, where applicable, other recent assessments that utilize the nearshore logbook index (@cope_assessing_2019; @taylor_status_2021). In the final, filtered dataset, Black Rockfish are present at a high frequency (Table \ref{tab:percent_pos_NSlog}.
 
-Covariates evaluated included year, month, port, depth, number of people onboard and the two-month Black Rockfish catch limit. A negative binomial model was fit to the trip-level data (catch with a log offset for hook hours). This full model was selected as the best fit model by AIC Table \ref{tab:model_selection_NSlog}. However, when fit via MLE using the sdmTMB R package (version 0.3.0), this model had unacceptably large standard errors for the fixed parameters. Acceptable diagnostics were achieved by excluding the two-month trip limit covariate. The final model included all of the covariates of the full model with the exception of the two-month trip limit. 
+Covariates evaluated included year, month, port, depth, number of people onboard and the two-month Black Rockfish catch limit. A negative binomial model was fit to the trip-level data (catch with a log offset for hook hours). This full model was selected as the best fit model by AIC Table \ref{tab:model_selection_NSlog}. However, when fit via MLE using the sdmTMB R package (version 0.3.0), this model had unacceptably large standard errors for the fixed parameters. Acceptable diagnostics were achieved by excluding the two-month trip limit covariate. The final model included all of the covariates of the full model with the exception of the two-month trip limit. The index of abundance and associated input standard errors are shown in Table \ref{tab:survey_summary}.
 
 ### Oregon Recreational Indices of Abundance
 
-The three recreational fishery abundance indices available for the Oregon regional assessment are summarized in Table ?? and Figure ??.  The sections below describe the underlying data and derivations of the indices.
+The three recreational fishery abundance indices available for the Oregon regional assessment are summarized in Table \ref{tab:survey_summary} and Figure \ref{fig:sur-summ-all}.  The sections below describe the underlying data and derivations of the indices.
 
 #### MRFSS Dockside CPUE for Oregon, 1980 to 2000
 
@@ -428,7 +428,7 @@ This index was included in the 2015 Black Rockfish assessment but not updated fo
 
 This cut-off value was chosen to balance the false-positives against the false-negatives and resulted in some trips that were estimated to be false positives, where Black Rockfish were caught, but should not have been, given the other species caught during those trips.  These probably represent trips that fished in multiple locations, and thus caught a mix of shallow- and deep-water species. The screening also resulted in the inclusion of trips (false negatives) that should have caught Black Rockfish (given the other species), but did not.  A total of 5,261 trips were selected for the CPUE analysis.
 
-The MRFSS dockside standardized CPUE index for Oregon (Figure ??) was developed from the selected subset of the catch and effort data using GLMs, with a binomial model to estimate the probability of catching at least one Black Rockfish and a gamma model to estimate the magnitude of the positive catches per angler-fishing-hour.  In all cases, the structural models had three main effects for the factors Year, Wave (bimonthly period) and Region (southern versus northern OR), and there were no interaction terms.  
+The MRFSS dockside standardized CPUE index for Oregon (Table \ref{tab:survey_summary}) was developed from the selected subset of the catch and effort data using GLMs, with a binomial model to estimate the probability of catching at least one Black Rockfish and a gamma model to estimate the magnitude of the positive catches per angler-fishing-hour.  In all cases, the structural models had three main effects for the factors Year, Wave (bimonthly period) and Region (southern versus northern OR), and there were no interaction terms.  
 
 The annual index values were derived as the product of two components: predicted values for the probability of catching a Black Rockfish during a trip, and predicted values for the number of Black Rockfish caught by an angler per hour of fishing, given that at least one Black Rockfish was caught. This CPUE index for Oregon has a high amount of inter-annual variation, particularly in the early part of the time-series. The index shows a fairly steady upward trend starting from 1987.
 
@@ -438,7 +438,7 @@ Trip-level catch-per-unit-effort data from ORBS dockside sampling was obtained f
 
 The unfiltered data set contained 414,587 trips. Multiple standardized filters are applied to ORBS trip-level data to remove outliers and data unsuitable for an index. These filters include trips with incorrect interview times, which impact calculation of effort, unreasonably long or short trips, and retaining only bottomfish target trips. Further filters were utilized for fishing closures (i.e. temporal or spatial closures) and catches exceeding bag limits, which would presumably impact catch rates. An alternative configuration of the dataset included a binary variable to identify trips that hit the bag limit to include as a covariate, rather than a filtering criterion, and did not filter out trips that had reached the daily bag limit. Trips from several ports with extremely small sample sizes (<1% of total trips) were also excluded and finally, trips that met criteria for irrational effort reporting (i.e., implausible values) or extreme catch rates were excluded as well. The final dataset included 96,707 trips. The previous assessment only included trips onboard charter vessels (@cope_assessments_2016), but this filter was not retained for this updated index. Instead, boat type was evaluated as a covariate. In the final, filtered dataset, Black Rockfish are present at a high frequency (Table \ref{tab:percent_pos_ORBS}.
 
-Covariates evaluated included year, month, port, the open depths to fishing (all depths or inside 20/30/40fm), boat type and the daily bag limit for Black Rockfish.  A negative binomial model was fit to the trip-level data (catch with a log offset for adjusted angler hours). This full model was selected as the best fit model by AIC Table \ref{tab:model_selection_ORBS}. However, when fit via MLE using the sdmTMB R package (version 0.3.0), this model did not converge. Acceptable diagnostics were achieved by excluding the bag limit covariate. An additional sdmTMB model was fit that used the alternative configuration of the dataset, and included all of the full model covariates but replaced the bag limit covariate with the binary variable of whether the bag limit was reached on the trip.  While acceptable diagnostics were achieved with the alternative full model, there was little effect on the resultant index and for parsimony, the final model included all of the covariates of the original full model with the exception of the daily bag limit. 
+Covariates evaluated included year, month, port, the open depths to fishing (all depths or inside 20/30/40fm), boat type and the daily bag limit for Black Rockfish.  A negative binomial model was fit to the trip-level data (catch with a log offset for adjusted angler hours). This full model was selected as the best fit model by AIC Table \ref{tab:model_selection_ORBS}. However, when fit via MLE using the sdmTMB R package (version 0.3.0), this model did not converge. Acceptable diagnostics were achieved by excluding the bag limit covariate. An additional sdmTMB model was fit that used the alternative configuration of the dataset, and included all of the full model covariates but replaced the bag limit covariate with the binary variable of whether the bag limit was reached on the trip.  While acceptable diagnostics were achieved with the alternative full model, there was little effect on the resultant index and for parsimony, the final model included all of the covariates of the original full model with the exception of the daily bag limit. The index of abundance and associated input standard errors are shown in Table \ref{tab:survey_summary}. 
 
 #### On-Board Observer CPUE for Oregon, 2001 and 2003 to 2022
 
@@ -456,6 +456,8 @@ Covariates evaluated included year, month (or two-month wave), port, the open de
 ## Fishery-Independent Data
 
 ### Abundance Indices
+
+The three fishery-independent abundance indices available for the Oregon regional assessment are summarized in Table \ref{tab:survey_summary} and Figure \ref{fig:sur-summ-all}.  The sections below describe the underlying data and derivations of the indices.
 
 #### Tagging Study Estimates of Abundance off Newport, OR, 2002 to 2014
 
@@ -755,7 +757,7 @@ Sensitivity scenarios and likelihood profiles (on the catchability of the acoust
 
 The reference model allowed for the estimation of additional variance on all surveys except the acoustic visual survey. This additional variance allows the model to balance model fit to that data while acknowledging that variances may be underestimated in the index standardization. A sensitivity was run with no extra variance estimated, as well as removal of the index data were explored.
 
-Initial sample sizes for the commercial and recreational length and conditional age-at-length compositions were based on the number of input effective samples sizes. The method of Francis [-@francis_data_2011, equation TA1.8] was then used to balance the length and conditional age-at-length composition data among other inputs and likelihood components. The Francis method treats mean length and age as indices, with effective sample size defining the variance around the mean. If the variability around the mean does not encompass model predictions, the data should be down-weighted until predictions fit within the intervals. This method accounts for correlation in the data (i.e., the multinomial distribution), but can be sensitive to years that are outliers, as the amount of down-weighting is applied to all years within a data source, and are not year-specific. Sensitivities were performed examining different data-weighting treatments: 1) the Dirichlet-Multinomial approach [@thorson_model-based_2017], 2) the McAllister-Ianelli Harmonic Mean approach [@mcallister_bayesian_1997], or 3) no data-weighting of lengths.
+Initial sample sizes for the commercial and recreational length and conditional age-at-length compositions were based on the number of input effective samples sizes. The method of Francis [-@francis_data_2011, equation TA1.8] was then used to balance the length and conditional age-at-length composition data among other inputs and likelihood components. The Francis method treats mean length and age as indices, with effective sample size defining the variance around the mean. If the variability around the mean does not encompass model predictions, the data should be down-weighted until predictions fit within the intervals. This method accounts for correlation in the data (i.e., the multinomial distribution), but can be sensitive to years that are outliers, as the amount of down-weighting is applied to all years within a data source, and are not year-specific. Sensitivities were performed examining different data-weighting treatments: 1) the Dirichlet-Multinomial approach [@thorson_model-based_2017], 2) the McAllister-Ianelli Harmonic Mean approach [@mcallister_bayesian_1997], or 3) no data-weighting of lengths. The weights applied to each length and age data set for the base model are shown in Table \ref{tab:data_wt}.
 
 
 ### Model Changes from the Last Assessment
@@ -857,7 +859,7 @@ Data treatments explored included the treatment of catchability for the acoustic
   	12. No MPA index
 	13. Add SMURFs index 
 
-- Data weighting
+- Data weighting (Table \ref{tab:data_wt})
   	14. No data-weighting
   	15. Dirichlet data-weighting
   	16. McAllister-Ianelli data weighting
@@ -1045,9 +1047,13 @@ Here are all the mad props!  We thank...
 
 \include{tex_tables/rec_length_samples.tex}
 
+\include{tex_tables/input_ss_length.tex}
+
 \include{tex_tables/OR_Comm_Age_samps.tex}
 
 \include{tex_tables/rec_age_samples.tex}
+
+\include{tex_tables/surv_summ.tex}
 
 \include{tex_tables/percent_pos_NSlog.tex}
 
@@ -1298,7 +1304,12 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 <!--chapter:end:52tables.Rmd-->
 
 \clearpage
+
+\floatplacement{figure}{H}
+
 # Figures
+
+## Data
 
 <!-- ====================================================================== --> 
 <!-- ******************************* Map ********************************** --> 
@@ -1308,6 +1319,7 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Map of the management and assessment areas for black rockfish.\label{fig:map}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/stock/black_rockfish_map.png){width=100% height=100% alt="."}
 
+\newpage
 
 <!-- ====================================================================== --> 
 <!-- ******************* Intro section *************************** --> 
@@ -1320,8 +1332,14 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Summary of data sources used in the reference model.\label{fig:data-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png){width=100% height=100% alt="."}
 
+\newpage
+
 
 ![Landings by fleet used in the reference model where catches in metric tons by fleet are stacked.\label{fig:catch}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png){width=100% height=100% alt="."}
+
+\newpage
+
+## Biology
 
 <!-- ====================================================================== -->
 <!-- *************************     Biology     **************************** --> 
@@ -1330,15 +1348,22 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Observed length-at-age by data source and sex.\label{fig:len-age-data-sex}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Source_Sex.png){width=100% height=100% alt="."}
 
+\newpage
+
 
 ![Observed length-at-age by sex and year. Total samples are indicated in parentheses.\label{fig:len-age-sex-year}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Sex_Year.png){width=100% height=100% alt="."}
+
+\newpage
 
 
 ![External fits to the observed length-at-age by sex.\label{fig:len-age-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_VBGF_fit.png){width=100% height=100% alt="."}
 
+\newpage
+
 
 ![Coefficient of variation of length by age by sex. Numbers indicate samples by age and colors indicate sex.\label{fig:cv-lt-age}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_CV_Sex_plot.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Model estimated length-at-age. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve.\label{fig:len-age-ss}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio1_sizeatage.png){width=100% height=100% alt="."}
@@ -1350,79 +1375,114 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Ageing bias plots by reader comparisons.\label{fig:age1-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Age1_1plots.png){width=100% height=100% alt="."}
 
+\newpage
+
 
 ![Estimated bias relationships for each considered matrix. Reader 1 is always considered unbiased. Reader 1a and 1b is an intra-reader comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-bias}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_Bias_plot.png){width=100% height=100% alt="."}
+
+\newpage
 
 
 ![Ageing error matrix standard deviation (SD) values by comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-sd}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_SD_plot.png){width=100% height=100% alt="."}
 
+\newpage
+
 
 ![Biological and functional maturity ogives. Biological maturity ogives are represented by the dashed lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light green). Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue).\label{fig:bio-fxn-mat-color}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig1_bio_and_func_color.png){width=100% height=100% alt="."}
+
+\newpage
 
 
 ![Functional maturity ogives and sample size. Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue) and sample size is denoted by the size of the bubbles).\label{fig:fxn-spline-mat-color}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig2_func_samplesize_color.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Maturity as a function of length (cm) used in the base model.\label{fig:maturity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio6_maturity.png){width=100% height=100% alt="."}
 
+\newpage
+
 
 ![Fecundity (kg) as a function of length (cm) used in the base model.\label{fig:fecundity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio9_fecundity_len.png){width=100% height=100% alt="."}
+
+\newpage
 
 
 ![Sex-specific length (cm)-weight (kg) data for Oregon black rockfish samples by source. MRFSS and ORBS are the ocean boat recreational fishery from early and late periods.\label{fig:len-weight-data}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_OR_State_Source_Sex.png){width=100% height=100% alt="."}
 
+\newpage
+
 
 ![Sex-specific length (cm)-weight (kg) estimated power function relationships. Washington state estimate relationships are also provided for comparison.\label{fig:len-weight-or-wa}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_lines_States_Sex.png){width=100% height=100% alt="."}
 
-
 \clearpage
 
+<!-- ====================================================================== -->
+<!-- *************************     Indices     **************************** --> 
+<!-- ====================================================================== -->
+
+
+![The set of standardized indices (each index is scaled to have a mean observation of 1) used in the base model.\label{fig:sur-summ-all}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index9_standcpueall.png){width=100% height=100% alt="."}
+
+\newpage
+
+## Model Results
 
 <!-- ====================================================================== --> 
 <!-- ******************* Bridge Model ************************************* --> 
 <!-- ====================================================================== --> 
 
+### Bridging
+
 
 ![Total (top panel), recreational (middle panel), and commercial (bottom panel) removal history used in this assessment compared to the previous (2015) assessment.\label{fig:catch-bridge}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/Assess_catch_compare.png){width=100% height=100% alt="."}
+
+\newpage
 
 
 ![Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:ssb-bridge-comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_SB_comp_plot.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:deps-bridge-comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png){width=100% height=100% alt="."}
 
 \clearpage
 
+### Model Development
 
 <!-- ====================================================================== -->
-<!-- ***********************  Model Build  ************************************ --> 
+<!-- ***********************  Model Build  ******************************** --> 
 <!-- ====================================================================== -->
 
 
 ![Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show.\label{fig:modbuild-data-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+
+\newpage
 
 
 
 ![Spawning output (in millions of eggs) time series by data treatment compared to the reference model.\label{fig:modbuild-data-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
 
-
+\newpage
 
 <!-- ====================================================================== -->
-<!-- ***********************  Model convergence and Jitters  ************************************ --> 
+<!-- ***********************  Model convergence and Jitters     *********** --> 
 <!-- ====================================================================== -->
 
 
 ![Jitter runs for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/jitterplot.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency.\label{fig:pairs-plot-fast}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/pairs_plot_fast.png){width=100% height=100% alt="."}
 
 \clearpage
 
+
+### Fit to Data
 
 <!-- ====================================================================== -->
 <!-- ****************** Fit to the Length Data **************************** --> 
@@ -1432,28 +1492,37 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Pearson residuals for each fishing fleet and the MPA survey. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).\label{fig:lt-pearson-resids}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Mean length (cm) index from the commercial trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:trawl-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Mean length (cm) index from the commercial non-trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:nontrawl-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Non-Trawl_wdis.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Mean length (cm) index from the recreational ocean boat fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:ocean-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Ocean.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Mean length (cm) index from the recreational shore-based fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:shore-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Shore.png){width=100% height=100% alt="."}
 
+\newpage
+
 
 ![Mean length (cm) index from the MPA survey with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:mpa-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_MPA.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Aggregated length (cm) compositions over all years.\label{fig:agg-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png){width=100% height=100% alt="."}
+
+\newpage
 
 <!-- ====================================================================== -->
 <!-- ****************** Fit to the Age Data ******************************* --> 
@@ -1462,13 +1531,17 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Mean age from conditional age-at-length data for the commercial trawl fishery.\label{fig:trawl-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl_wdis.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Mean age observations from the conditional age-at-length data from the non-trawl commercial fishery.\label{fig:nontrawl-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNon-Trawl_wdis.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Mean age observations from the conditional age-at-length data from the ocean boat fishery.\label{fig:ocean-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeOcean.png){width=100% height=100% alt="."}
+
+\newpage
 
 <!-- ====================================================================== -->
 <!-- ****************** Fit to the Index*********************************** --> 
@@ -1478,21 +1551,29 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Fit to the non-trawl commercial survey index of abundance.\label{fig:nontrawl-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Non-Trawl_wdis.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Fit to the MRFSS recreational survey index of abundance.\label{fig:mrfss-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MRFSS.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Fit to the MRFSS recreational survey index of abundance.\label{fig:orbs-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Ocean.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Fit to the tagging survey index of abundance.\label{fig:tag-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Tag.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Fit to the MPA survey index of abundance.\label{fig:mpa-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MPA.png){width=100% height=100% alt="."}
+
+\newpage
+
+### Estimated Biology
 
 <!-- ====================================================================== -->
 <!-- ******************     Life history parameters    ***************************** --> 
@@ -1501,6 +1582,10 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Model estimated length-at-age in the beginning of the year. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve.\label{fig:len-age-ss}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio1_sizeatage.png){width=100% height=100% alt="."}
 
+\newpage
+
+### Estimated Recruitment
+
 <!-- ====================================================================== -->
 <!-- ******************     Recruitment    ***************************** --> 
 <!-- ====================================================================== -->
@@ -1508,24 +1593,34 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Estimated time series of age-0 recruits (1000s).\label{fig:recruits}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Estimated time series of recruitment deviations.\label{fig:rec-devs}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs2_withbars.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Recruitment deviations variance by year. This plot tracks the information content contained in each recruitment deviation. Values below the red line (assumed recruitment variability) indicates years with more informed recruitment deviations.\label{fig:rec-devs-sigmas}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Stock-recruit curve. Point colors indicate year, with warmer colors indicating earlier years and cooler colors in showing later years.\label{fig:bh-curve}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SR_curve.png){width=100% height=100% alt="."}
 
+\newpage
+
 
 ![Recruitment bias adjustment applied in the reference model.\label{fig:bias-adj}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recruit_fit_bias_adjust.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Recruitment deviations variance check. Low standard deviations indicate years with informative deviations .\label{fig:varcheck}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png){width=100% height=100% alt="."}
+
+\newpage
+
+### Selectivity
 
 <!-- ====================================================================== -->
 <!-- ******************     Selectivity    ***************************** --> 
@@ -1533,6 +1628,10 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 
 ![Length-based selectivity curves for each fleet and survey.\label{fig:fleet-selectivity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png){width=100% height=100% alt="."}
+
+\newpage
+
+### Time Series
 
 <!-- ======================================================= -->  
 <!-- ****************** Time Series ************************ --> 
@@ -1542,20 +1641,31 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Estimated time series of spawning output (in millions of eggs).\label{fig:ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Estimated time series of total biomass (mt).\label{fig:tot-bio}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png){width=100% height=100% alt="."}
 
+\newpage
+
 
 ![Estimated time series of fraction of unfished spawning output.\label{fig:depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png){width=100% height=100% alt="."}
 
+\newpage
+
+### Comparison to Previous Assessments
 
 
 ![Comparison of the time series of spawning output between the 2015 and 2023 assessment results.\label{fig:comp-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Comparison of the time series of relative spawning output between the 2015 and 2023 assessment results.\label{fig:comp-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+
+\newpage
+
+### Sensitivities
 
 <!-- ====================================================================== -->
 <!-- ******************       Sensitivity     ***************************** --> 
@@ -1564,25 +1674,34 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model.\label{fig:sensi-data-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_MSY.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Spawning output (in millions of eggs) time series by data treatment compared to the reference model.\label{fig:sensi-data-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show.\label{fig:sensi-data-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model.\label{fig:sensi-modspec-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_MSY.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Spawning output (in millions of eggs) time series by model specification scenario compared to the reference model. Missing scenarios mean the spawning output was too large to show.\label{fig:sensi-modspec-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Relative spawning output time series by model specification scenario compared to the reference model.\label{fig:sensi-modspec-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+
+\newpage
+
+### Likelihood Profiles
 
 <!-- ============================================================================== -->
 <!-- ******************      Likelihood Profiles      ***************************** --> 
@@ -1591,23 +1710,30 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Acoustic-visual survey catchability likelihood profile (change in the negative log-likelihood across a range of catchability values) and derived quantities.\label{fig:AVq-profile}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_LnQ_base_Acoustic_Visual(6).png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Acoustic-visual survey catchability likelihood profile for each of the likelihood components.\label{fig:AVq-profile-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_LnQ_base_Acoustic_Visual(6).png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities.\label{fig:steepness-profile}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Beverton-Holt steepness parameter likelihood profile for each of the likelihood components.\label{fig:steepness-profile-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_BH_steep.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Female and male $M$ multi-parameter likelihood profile and derived quantities. Red lines in the top left figure indicate significantly similar values compared to the reference model. Broken and solid lines in the bottom right figure indicate target and limit referene points, respectively.\label{fig:M-multiprofile-combo}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/M_fm_multilikelihood_profile.png){width=100% height=100% alt="."}
 
+\newpage
 
+
+### Retrospectives
 
 <!-- ====================================================================== -->
 <!-- ******************     Retrospectives    ***************************** --> 
@@ -1616,12 +1742,15 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Change in the estimate of spawning output when the most recent 10 years of data area removed sequentially.\label{fig:retro-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Change in the estimate of fraction unfished when the most recent 10 years of data area removed sequentially.\label{fig:retro-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 \newpage
 
+
+### Reference Points and Forecasts
 
 <!-- ====================================================================== -->
 <!-- ******************    Reference Points    **************************** --> 
@@ -1636,11 +1765,13 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Phase plot of the relative biomass (also referred to as fraction unfished) versus the SPR ratio where each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Lines through the final point show the 95 percent intervals based on the asymptotic uncertainty for each dimension. The shaded ellipse is a 95 percent region which accounts for the estimated correlations between the biomass ratio and SPR ratio.\label{fig:phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
 
+\newpage
 
 
 ![Equilibrium yield curve for the reference model. Values are based on the 2020
 fishery selectivities and with steepness fixed at 0.72.\label{fig:yield}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
 
+\newpage
 
 <!--chapter:end:53figures.Rmd-->
 
