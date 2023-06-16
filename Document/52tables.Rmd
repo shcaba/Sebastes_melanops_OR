@@ -144,6 +144,8 @@ table_format(x = mod_params,
 <!-- ****************     Sensitivities      *************** --> 
 <!-- ======================================================= -->
 
+\include{tex_tables/data_weight.tex}
+
 \include{tex_tables/data_sensis_q.tex}
 
 \include{tex_tables/data_sensis_other.tex}
