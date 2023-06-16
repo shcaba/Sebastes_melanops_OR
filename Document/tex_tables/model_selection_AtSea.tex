@@ -3,52 +3,52 @@
 \begin{landscape}\begingroup\fontsize{9}{11}\selectfont
 
 \begin{longtable}[t]{c>{\centering\arraybackslash}p{1.1cm}>{\centering\arraybackslash}p{1.1cm}>{\centering\arraybackslash}p{1.1cm}>{\centering\arraybackslash}p{1.1cm}>{\centering\arraybackslash}p{1.1cm}>{\centering\arraybackslash}p{1.1cm}>{\centering\arraybackslash}p{1.1cm}>{\centering\arraybackslash}p{1.1cm}>{\centering\arraybackslash}p{1.1cm}}
-\caption{\label{tab:model_selection_AtSea}Model selection for the Oregon onboard charter observer survey}\\
+\caption{\label{tab:model_selection_AtSea}Model construction (variables included) and selection for the Oregon onboard charter observer survey.}\\
 \toprule
-Depth (binned) & Open Depths & Month & Port & Year & Effort Offset & DF & Log-Likelihood & AICc & Delta AICc\\
+Depth (binned) & Open Depths & Month & Port & Year & Effort Offset & DF & Neg. Log-Likelihood & AICc & Delta AICc\\
 \midrule
 \endfirsthead
-\caption[]{Model selection for the Oregon onboard charter observer survey \textit{(continued)}}\\
+\caption[]{Model construction (variables included) and selection for the Oregon onboard charter observer survey \textit{(continued)}}\\
 \toprule
-Depth (binned) & Open Depths & Month & Port & Year & Effort Offset & DF & Log-Likelihood & AICc & Delta AICc\\
+Depth (binned) & Open Depths & Month & Port & Year & Effort Offset & DF & Neg. Log-Likelihood & AICc & Delta AICc\\
 \midrule
 \endhead
 
 \endfoot
 \bottomrule
 \endlastfoot
-Included & Included & Included & Included & Included & Included & 40 & -23266.1 & 46612.5 & 0.0\\
-Included & NA & Included & Included & Included & Included & 37 & -23269.3 & 46612.8 & 0.4\\
-NA & NA & Included & Included & Included & Included & 32 & -23289.1 & 46642.5 & 30.0\\
-NA & Included & Included & Included & Included & Included & 35 & -23286.1 & 46642.5 & 30.1\\
-Included & Included & NA & Included & Included & Included & 33 & -23299.0 & 46664.3 & 51.8\\
-Included & NA & NA & Included & Included & Included & 30 & -23306.2 & 46672.7 & 60.2\\
-NA & Included & NA & Included & Included & Included & 28 & -23315.8 & 46687.7 & 75.3\\
-NA & NA & NA & Included & Included & Included & 25 & -23321.9 & 46694.0 & 81.5\\
-Included & Included & Included & Included & NA & Included & 23 & -23422.7 & 46891.6 & 279.1\\
-NA & Included & Included & Included & NA & Included & 18 & -23439.3 & 46914.6 & 302.1\\
-Included & Included & NA & Included & NA & Included & 16 & -23451.7 & 46935.5 & 323.1\\
-NA & Included & NA & Included & NA & Included & 11 & -23466.4 & 46954.8 & 342.3\\
-Included & NA & Included & Included & NA & Included & 20 & -23458.9 & 46957.9 & 345.4\\
-NA & NA & Included & Included & NA & Included & 15 & -23479.3 & 46988.6 & 376.1\\
-Included & NA & NA & Included & NA & Included & 13 & -23493.3 & 47012.7 & 400.2\\
-NA & Included & Included & NA & Included & Included & 29 & -23489.0 & 47036.2 & 423.7\\
-NA & NA & NA & Included & NA & Included & 8 & -23510.2 & 47036.3 & 423.9\\
-Included & Included & Included & NA & Included & Included & 34 & -23484.3 & 47036.9 & 424.4\\
-NA & NA & Included & NA & Included & Included & 26 & -23492.8 & 47037.8 & 425.3\\
-Included & NA & Included & NA & Included & Included & 31 & -23487.9 & 47037.9 & 425.4\\
-NA & Included & NA & NA & Included & Included & 22 & -23510.1 & 47064.3 & 451.8\\
-NA & NA & NA & NA & Included & Included & 19 & -23513.1 & 47064.3 & 451.8\\
-Included & NA & NA & NA & Included & Included & 24 & -23508.5 & 47065.1 & 452.6\\
-Included & Included & NA & NA & Included & Included & 27 & -23505.9 & 47066.0 & 453.5\\
-Included & Included & Included & NA & NA & Included & 17 & -23636.7 & 47307.4 & 694.9\\
-NA & Included & Included & NA & NA & Included & 12 & -23644.8 & 47313.6 & 701.2\\
-Included & Included & NA & NA & NA & Included & 10 & -23661.4 & 47342.9 & 730.4\\
-NA & Included & NA & NA & NA & Included & 5 & -23669.0 & 47348.1 & 735.6\\
-Included & NA & Included & NA & NA & Included & 14 & -23681.4 & 47390.8 & 778.3\\
-NA & NA & Included & NA & NA & Included & 9 & -23689.5 & 47396.9 & 784.5\\
-Included & NA & NA & NA & NA & Included & 7 & -23703.2 & 47420.5 & 808.0\\
-NA & NA & NA & NA & NA & Included & 2 & -23710.7 & 47425.5 & 813.0\\*
+yes & yes & yes & yes & yes & yes & 40 & 23266.1 & 46612.5 & 0.0\\
+yes & no & yes & yes & yes & yes & 37 & 23269.3 & 46612.8 & 0.4\\
+no & no & yes & yes & yes & yes & 32 & 23289.1 & 46642.5 & 30.0\\
+no & yes & yes & yes & yes & yes & 35 & 23286.1 & 46642.5 & 30.1\\
+yes & yes & no & yes & yes & yes & 33 & 23299.0 & 46664.3 & 51.8\\
+yes & no & no & yes & yes & yes & 30 & 23306.2 & 46672.7 & 60.2\\
+no & yes & no & yes & yes & yes & 28 & 23315.8 & 46687.7 & 75.3\\
+no & no & no & yes & yes & yes & 25 & 23321.9 & 46694.0 & 81.5\\
+yes & yes & yes & yes & no & yes & 23 & 23422.7 & 46891.6 & 279.1\\
+no & yes & yes & yes & no & yes & 18 & 23439.3 & 46914.6 & 302.1\\
+yes & yes & no & yes & no & yes & 16 & 23451.7 & 46935.5 & 323.1\\
+no & yes & no & yes & no & yes & 11 & 23466.4 & 46954.8 & 342.3\\
+yes & no & yes & yes & no & yes & 20 & 23458.9 & 46957.9 & 345.4\\
+no & no & yes & yes & no & yes & 15 & 23479.3 & 46988.6 & 376.1\\
+yes & no & no & yes & no & yes & 13 & 23493.3 & 47012.7 & 400.2\\
+no & yes & yes & no & yes & yes & 29 & 23489.0 & 47036.2 & 423.7\\
+no & no & no & yes & no & yes & 8 & 23510.2 & 47036.3 & 423.9\\
+yes & yes & yes & no & yes & yes & 34 & 23484.3 & 47036.9 & 424.4\\
+no & no & yes & no & yes & yes & 26 & 23492.8 & 47037.8 & 425.3\\
+yes & no & yes & no & yes & yes & 31 & 23487.9 & 47037.9 & 425.4\\
+no & yes & no & no & yes & yes & 22 & 23510.1 & 47064.3 & 451.8\\
+no & no & no & no & yes & yes & 19 & 23513.1 & 47064.3 & 451.8\\
+yes & no & no & no & yes & yes & 24 & 23508.5 & 47065.1 & 452.6\\
+yes & yes & no & no & yes & yes & 27 & 23505.9 & 47066.0 & 453.5\\
+yes & yes & yes & no & no & yes & 17 & 23636.7 & 47307.4 & 694.9\\
+no & yes & yes & no & no & yes & 12 & 23644.8 & 47313.6 & 701.2\\
+yes & yes & no & no & no & yes & 10 & 23661.4 & 47342.9 & 730.4\\
+no & yes & no & no & no & yes & 5 & 23669.0 & 47348.1 & 735.6\\
+yes & no & yes & no & no & yes & 14 & 23681.4 & 47390.8 & 778.3\\
+no & no & yes & no & no & yes & 9 & 23689.5 & 47396.9 & 784.5\\
+yes & no & no & no & no & yes & 7 & 23703.2 & 47420.5 & 808.0\\
+no & no & no & no & no & yes & 2 & 23710.7 & 47425.5 & 813.0\\*
 \end{longtable}
 \endgroup{}
 \end{landscape}
