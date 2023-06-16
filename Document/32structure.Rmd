@@ -2,7 +2,7 @@
 
 ## Model Structure, Evaluation, and Specification
 
-### Fleet and survey designations
+### Fleet and Survey Designations
 
 The Oregon model is structured to track several fleets and include data from several surveys:
 
@@ -20,7 +20,7 @@ The Oregon model is structured to track several fleets and include data from sev
 The specifications of the assessment are listed in Table \ref{tab:model-structure}.
 
 
-## Model likelihood components
+## Model Likelihood Components
 
 There are five primary likelihood components for each assessment model:
 
@@ -30,7 +30,7 @@ There are five primary likelihood components for each assessment model:
 4. Penalties on recruitment deviations (specified differently for each model).
 5. Prior distribution penalties
 
-## Reference model exploration, key assumptions and specification
+## Reference Model Exploration, Key Assumptions and Specification
 
 The base assessment model for Oregon `r spp` was developed to balance parsimony and realism, and the goal was to estimate a spawning output trajectory and relative stock status for the population of `r spp` in state and federal waters off Oregon. The model contains many assumptions to achieve parsimony and uses different data types and sources to estimate reality. A series of investigative model runs were done to achieve the final base model. Constructing integrated models (i.e., those fitting many data types) takes considerable model exploration using different configurations of the following treatments:
 
