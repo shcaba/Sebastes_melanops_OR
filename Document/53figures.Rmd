@@ -220,6 +220,20 @@ label = 'qq_MRHnL')
 
 \newpage
 
+<!-- ====================================================================== -->
+<!-- *************************     Enviro     **************************** --> 
+<!-- ====================================================================== -->
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "index1_cpuedata_SMURF.png"), 
+caption = "Index of recruitment from SMURF data collections. Error bars indicate 95% uncertainty interval around index values based on the model assumption of lognormal error.",
+label = 'index1_cpuedata_SMURF')
+```
+
+\newpage
+
 ## Model Results
 
 <!-- ====================================================================== --> 
