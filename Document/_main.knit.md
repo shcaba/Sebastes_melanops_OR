@@ -119,47 +119,47 @@ biological data (which suggests a lower population size and status) versus the A
 
 The following will include a list of common acronyms used in this document.  It will be fully populated prior to the final post-review draft.
 
-ABC – Acceptable Biological Catch
-AIC – Akaike Information Criterion
-CDFW – California Department of Fish and Wildlife
-CFIS – Commercial Fisheries Information System
-CI – Confidence interval
-CPFV – Commercial Passenger Fishing Vessel
-CPUE – Catch per unit of effort
-CV – Coefficient of variation
-EEZ – Exclusive Economic Zone
-ENSO – El Niño Southern Oscillation
-FMP – Groundfish Fishery Management Plan
-GLM – Generalized Linear Model
-MPA – Marine Protected Area
-MPD – Maximum of the posterior density function
-MRFSS - Marine Recreational Fisheries Statistics Survey
-MSY – Maximum Sustainable Yield
-mt – Metric tons
-NFMP – Nearshore Fishery Management Plan
-NMT – Natural Mortality Tool
-NWFSC – Northwest Fisheries Science Center
-ODFW – Oregon Department of Fish and Wildlife
-OFL – Overfishing Limit
-ORBS – Ocean Recreational Boat Survey
-ORS – Oregon sub-stock
-OY- Optimum Yield
-PacFIN - Pacific Fisheries Information Network
-PBR – Private Boat and Rental recreational mode
-PFEL – Pacific Fisheries Environmental Laboratory
-PFMC – Pacific Fishery Management Council
-PISCO - Partnership for Interdisciplinary Studies of Coastal Oceans
-PSMFC – Pacific States Marine Fisheries Commission
-RCA – Rockfish Conservation Area
-RecFIN – Recreational Fisheries Information Network
-SMURF - Standard Monitoring Units for the Recruitment of (temperate reef) Fishes
-SPR – Spawning Potential Ratio
-SS – Stock Synthesis
-STAR – Stock Assessment Review (panel)
-STAT – Stock Assessment Team
-TL – Total Length
-TOR – Terms of Reference
-WCGOP – West Coast Groundfish Observer Program
+ABC – Acceptable Biological Catch  
+AIC – Akaike Information Criterion  
+CDFW – California Department of Fish and Wildlife  
+CFIS – Commercial Fisheries Information System  
+CI – Confidence interval  
+CPFV – Commercial Passenger Fishing Vessel  
+CPUE – Catch per unit of effort  
+CV – Coefficient of variation  
+EEZ – Exclusive Economic Zone  
+ENSO – El Niño Southern Oscillation  
+FMP – Groundfish Fishery Management Plan  
+GLM – Generalized Linear Model  
+MPA – Marine Protected Area  
+MPD – Maximum of the posterior density function  
+MRFSS - Marine Recreational Fisheries Statistics Survey  
+MSY – Maximum Sustainable Yield  
+mt – Metric tons  
+NFMP – Nearshore Fishery Management Plan  
+NMT – Natural Mortality Tool  
+NWFSC – Northwest Fisheries Science Center  
+ODFW – Oregon Department of Fish and Wildlife  
+OFL – Overfishing Limit  
+ORBS – Ocean Recreational Boat Survey  
+ORS – Oregon sub-stock  
+OY- Optimum Yield  
+PacFIN - Pacific Fisheries Information Network  
+PBR – Private Boat and Rental recreational mode  
+PFEL – Pacific Fisheries Environmental Laboratory  
+PFMC – Pacific Fishery Management Council  
+PISCO - Partnership for Interdisciplinary Studies of Coastal Oceans  
+PSMFC – Pacific States Marine Fisheries Commission  
+RCA – Rockfish Conservation Area  
+RecFIN – Recreational Fisheries Information Network  
+SMURF - Standard Monitoring Units for the Recruitment of (temperate reef) Fishes  
+SPR – Spawning Potential Ratio  
+SS – Stock Synthesis  
+STAR – Stock Assessment Review (panel)  
+STAT – Stock Assessment Team  
+TL – Total Length  
+TOR – Terms of Reference  
+WCGOP – West Coast Groundfish Observer Program  
 
 
 \newpage
@@ -466,7 +466,7 @@ The length composition data indicate some general differences among the fleets, 
 
 #### Commercial 
 
-These data are from trawl and non-trawl fisheries from ports south of Astoria. The PacFIN dataset contains records for Oregon landings into Astoria; however, the majority of these samples are believed to have been landed in Washington waters and are used in the Washington model. Length composition data are reported in fork length. These data are expanded to reduce the effect of non-uniform sampling effort. The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value. The data were stratified by gender and fishery (Table \ref{tab:OR_Comm_Lt_samps}).  The final sample sizes were stratified and summed by length bin (10 cm to 60 64 cm bins, 2 cm in width), and an input sample size is calculated based on a combination of trips and fish sampled (Table \ref{tab:input_ss_length}):
+These data are from trawl and non-trawl fisheries from ports south of Astoria. The PacFIN dataset contains records for Oregon landings into Astoria; however, the majority of these samples are believed to have been landed in Washington waters and are used in the Washington model. Length composition data are reported in fork length. These data are expanded to reduce the effect of non-uniform sampling effort. The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level. The final sample size is the product of the two expansion factors, and have a minimum value of 1, and are capped at their 90th percentile value. The data were stratified by gender and fishery (Table \ref{tab:OR_Comm_Lt_samps}).  The final sample sizes were stratified and summed by length bin (10 cm to 60 64 cm bins, 2 cm in width), and an input sample size is calculated based on a combination of trips and fish sampled (Table \ref{tab:input_ss_length}):
 
 \begin{centering}
 
@@ -749,7 +749,7 @@ The Oregon model faced many challenges and ultimately was re-evaluated in a seco
 * A fishery-independent nearshore survey was recommended
 
 
-Most of the above recommendations were included in the 2015 assessment research recommendations. Additionally, stock structure for black rockfish was highlighted as a topic for further consideration.
+Most of the above recommendations were included in the 2015 assessment research recommendations. Specific responses to those can be found in the 4.6 Research and Data Needs section. Additionally, stock structure for black rockfish was highlighted as a topic for further consideration.
 
 
 ## Model description
