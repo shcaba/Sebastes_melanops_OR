@@ -88,7 +88,7 @@ Recreational length samples were obtained from two primary sources: MRFSS and OR
 
 ### Age Compositions
 
-The fishery data for the assessment model consisted of otolith age-readings, mostly from the recreational fishery (ADD COMM AGE TABLE; Table \ref{tab:rec_age_samples}). Age composition data were a subset of the length data, 41,212 records in total. The age composition data for the assessment model were tabulated into 1-yr age bins from 1 to 40 years.  For the data tabulation provided in this document, the accumulator bins were extended to compress and simplify display of the data.
+The fishery data for the assessment model consisted of otolith age-readings, mostly from the recreational fishery (Table \ref{OR_Comm_Age_samps}; Table \ref{tab:rec_age_samples}). Age composition data were a subset of the length data, 41,212 records in total. The age composition data for the assessment model were tabulated into 1-yr age bins from 1 to 40 years.  For the data tabulation provided in this document, the accumulator bins were extended to compress and simplify display of the data.
 
 The age composition data generally do not show much evidence of distinct year-classes that can be easily tracked from one year to the next, which suggests that that there is not much recruitment variability from year-to-year or that age-reading error is sufficient to mask the appearance of strong year-classes. Age-at-length compositions were not expanded; the final sample sizes were set to 1 before tallying. The ages were modeled as conditional age-at-length.
 
