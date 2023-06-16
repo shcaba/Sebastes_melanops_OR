@@ -46,6 +46,24 @@ label = 'catch')
 
 \newpage
 
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "qq_NSlog.png"), 
+caption = "Q-Q plot for the commercial nearshore logbook index.",
+label = 'qq_NSlog')
+```
+
+\newpage
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "qq_ORBS.png"), 
+caption = "Q-Q plot for the recreational ORBS index.",
+label = 'qq_ORBS')
+```
+
+\newpage
+
 ## Biology
 
 <!-- ====================================================================== -->
@@ -189,6 +207,15 @@ add_figure(
 filein = file.path(mod_loc, "plots", "index9_standcpueall.png"), 
 caption = "The set of standardized indices (each index is scaled to have a mean observation of 1) used in the base model.",
 label = 'sur-summ-all')
+```
+
+\newpage
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "qq_MRHnL.png"), 
+caption = "Q-Q plot for the marine reserves hook and line survey.",
+label = 'qq_MRHnL')
 ```
 
 \newpage
