@@ -191,7 +191,7 @@ Overall, removals of Black Rockfish remained relatively low (less than 100 mt) u
 
 \clearpage
 
-## Data and assessment{-}
+## Data and Assessment{-}
 
 The first Black Rockfish stock assessment along the west coast of the United States that included the majority of Oregon waters was completed in 1993, covering the area south of Cape Falcon, Oregon to north of Point Piedros Blancos, California [@sampson_status_2007]. Subsequent assesements that included Oregon waters were done in 2003 and 2007. In 2015, the last assessment prior to the current one was completed that included Oregon waters only as one of three (also Washington and California) seperate assessment areas delineated by state lines [@cope_assessments_2016]. Similarly, this assessment treats Oregon waters as a single assessment area. The previous two assessments used Stock Synthesis software, as does this one (version 3.30.21.00).
 
@@ -199,7 +199,7 @@ This assessment integrates data and information from multiple sources into one m
 
 Within model uncertainty is explicitly included in this assessment by parameter estimation uncertainty, while among model uncertainty is explored through sensitivity analyses addressing alternative input assumptions such as data treatment and weighting, and model specification sensitivity to the treatment of life history parameters, selectivity, recruitment, and survey catchability. A reference model was selected that best fit the observed data while concomitantly balancing the desire to capture the central tendency across those sources of uncertainty, ensure model realism and tractability, and promote robustness to potential model misspecification.
 
-## Stock biomass and dynamics{-}
+## Stock Biomass and Dynamics{-}
 
 Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was 900 meggs (~95 percent asymptotic intervals: 855 to 944 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (1,633 meggs) gives a relative stock status level of 55 percent (~95 percent asymptotic intervals: 53 to 57 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size from 1993 to 2008, before steadily increasing back above target since that time. The largest of the estimated recruitment pulses occurred in 2008 and was followed by several above average recruitment years in the early 2010s, which contributed to the increase in spawning output through the mid to late 2010s. The minimum relative stock size of 25 percent of unfished levels is estimated to have occurred in 1999. Accordingly, the stock has not been below the minimum stock size threshold (i.e., never overfished based on median estimates). Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
 
@@ -225,7 +225,7 @@ Recruitment is informed by the data and estimated from 1980 to 2017, before and 
 
 ![Estimated time series of recruitment deviations.\label{fig:es-recdev}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs2_withbars.png){width=100% height=100% alt="."}
 
-## Exploitation status{-}
+## Exploitation Status{-}
 
 Fishing intensity, as measured by the SPR rate (1 - SPR), has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. Fishing was at or above the target rate from 1989 to 2005 and has been slightly below it over the past 5 years (Table \ref{tab:exploitES} and Figures \ref{fig:es-1-spr} and \ref{fig:es-phase}). The steepness value of 0.72 indicates that a lower value of SPR (or equivalently a higher fishing intensity than $\text{SPR}_{50\%}$) would be consistent with the biomass-based target of ($\text{SO}_{40\%}$) for sustainable removals. Trends in fishing intensity largely mirrored that of landings until the 1990s, after which recruitment pulses countered the catches somewhat to lower overall fishing intensity (Figure \ref{fig:es-1-spr}). The maximum fishing intensity was 0.7 in 1992, which is well above the target SPR-based harvest rate of 0.50. The current level of 0.42 for 2022 is below that target. Fishing intensity over the past decade has ranged between 0.4 and 0.56 and the exploitation rate (range of 0.04 - 0.08, Table \ref{tab:exploitES}) has come down since the time series high of 0.12 in 1992. Current estimates indicate that Black Rockfish spawning output is greater than than the target biomass level ($\text{SO}_{40\%}$), though fishing intensity remains near the target $F_{MSY}$ proxy harvest rate of 1 - $\text{SPR}_{50\%}$ (Figure \ref{fig:es-phase}).
 
@@ -237,11 +237,11 @@ Fishing intensity, as measured by the SPR rate (1 - SPR), has fluctuated around 
 \clearpage
 
 
-## Ecosystem considerations{-}
+## Ecosystem Considerations{-}
 
 This stock assessment does not explicitly incorporate trophic interactions, habitat factors or environmental factors into the assessment model. More predation, diet and habitat work, and mechanistic linkages to environmental conditions would be needed to incorporate these elements into the stock assessment and should remain a priority. McClure et al. [-@mcclure_vulnerability_2023] report the climate vulnerability for several west coast groundfishes, including Black Rockfish. Black Rockfish demonstrated both high biological sensitivity and high climate exposure risk, to give it an overall high vulnerability score to climate change. This result should also be considered with the fact that, like many rockfishes, periods of low productivity is not unusual to Black Rockfish and their extended longevity (though admittedly this seems shorter than previously believed and should be reconsidered) has historically allowed them to wait for advantageous productivity periods. Additional stressors such as fishing and climate change that possibly truncate longevity could bring significant challenges to population sustainability.
 
-## Reference points{-}
+## Reference Points{-}
 
 Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative biomass (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:referenceES}). The Black Rockfish population in Oregon at the start of 2023 is estimated to be 1.38 times (above) the target biomass, and fishing intensity during 2022 is estimated to be 0.96 times (below) the fishing intensity target (Figure \ref{fig:es-phase}).  The yield values are lower than the previous assessment for similar reference points due to updated life history estimates. The proxy MSY values of management quantities are the most conservative compared to the estimated MSY and MSY relative to 40% biomass. Sustainable total yield, removals, using the proxy $\text{SPR}_{50\%}$ is 455 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 728.5 meggs. 
 
@@ -260,18 +260,18 @@ fishery selectivities and with steepness fixed at 0.72.\label{fig:es-yield}](C:/
 
 \clearpage
 
-## Management performance{-}
+## Management Performance{-}
 
 Black Rockfish removals have generally been below the equivalent ABC-ACL over the recent decade, with the exception of 2017 and 2022 when removals were slightly higher (Table \ref{tab:manageES}). Exploitation on Black Rockfish increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of Black Rockfish acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manageES}). Prior to 2017, management specifications were set for Black Rockfish in California and Oregon waters combined.  The Black Rockfish OFL has not been exceeded by Oregon removals over the past decade.
 
 \input{tex_tables/f_Manage_ES.tex}
 
 
-## Unresolved problems and major uncertainties{-}
+## Unresolved Problems and Major Uncertainties{-}
 
 The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which suggests a lower population size and status) versus the acoustic and tag surveys (which suggest high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the biological data, despite large sample sizes, is another barrier to interpreting the current conditions, though given models using only biological data, the signal seems clear that the population could be at a lower stock status.
 
-## Scientific uncertainty{-}
+## Scientific Uncertainty{-}
 
 The model-estimated uncertainty around the 2023 spawning biomass was $\sigma$ = 0.03 and the uncertainty around the OFL was $\sigma$ = 0.01. This is clearly an underestimate of overall uncertainty because of the necessity to fix some life history parameters such as natural mortality and steepness, as well as a lack of explicit incorporation of model structural uncertainty. The alternative states of nature used to bracket uncertainty in the decision table assist with encapsulating model structure uncertainty.
 
@@ -294,7 +294,7 @@ Further details about selecting the decision table states of nature will be adde
 \clearpage
 
 
-## Research and data needs{-}
+## Research and Data Needs{-}
 
 Recommended avenues for research to help improve future Black Rockfish stock assessments:
 
@@ -485,7 +485,7 @@ Recreational length samples were obtained from two primary sources: MRFSS and OR
 
 ### Age Compositions
 
-The fishery data for the assessment model consisted of otolith age-readings, mostly from the recreational fishery (Table \ref{OR_Comm_Age_samps}; Table \ref{tab:rec_age_samples}). Age composition data were a subset of the length data, 41,212 records in total. The age composition data for the assessment model were tabulated into 1-yr age bins from 1 to 40 years.  For the data tabulation provided in this document, the accumulator bins were extended to compress and simplify display of the data.
+The fishery data for the assessment model consisted of otolith age-readings, mostly from the recreational fishery (Table \ref{tab:OR_Comm_Age_samps}; Table \ref{tab:rec_age_samples}). Age composition data were a subset of the length data, 41,212 records in total. The age composition data for the assessment model were tabulated into 1-yr age bins from 1 to 40 years.  For the data tabulation provided in this document, the accumulator bins were extended to compress and simplify display of the data.
 
 The age composition data generally do not show much evidence of distinct year-classes that can be easily tracked from one year to the next, which suggests that that there is not much recruitment variability from year-to-year or that age-reading error is sufficient to mask the appearance of strong year-classes. Age-at-length compositions were not expanded; the final sample sizes were set to 1 before tallying. The ages were modeled as conditional age-at-length.
 
@@ -503,7 +503,7 @@ Only one abundance index is available from the Oregon commercial fisheries, one 
 
 Logbook information went through multiple data quality filters to attain the best possible consistent and representative data set through time to estimate a relative abundance trend. Individual observations of catch and effort were at the trip level, where multi-set trips were aggregated to the trip level. CPUE was calculated for each trip, where total catch was defined as the total of all reported retained catch (in pounds) and total effort was defined by hook-hours (number of hooks used multiplied by the number of hours fished). Previous iterations of this index utilized both released and retained fish; however, released fish were converted to weight by applying a median catch weight. This was deemed an unnecessary uncertainty for a Black Rockfish index, as few boats release substantial amounts of black rockfish. In general, data filters that were applied included eliminating records with missing or unrealistic values, including permitted trips using only hook and line jig gear from ports with appreciable data, and using only vessels that fished in at least three years over the logbook history. Vessel operators may have changed through time as the filter was tied to the vessel name only. Gear type was restricted to hook-and-line only (excluding longline gear) because this gear type accounts for the majority of trips for Black Rockfish (approximately 90.3% of unfiltered dataset). These filters are consistent with the most recent Black Rockfish assessment (@cope_assessments_2016) and, where applicable, other recent assessments that utilize the nearshore logbook index (@cope_assessing_2019; @taylor_status_2021). In the final, filtered dataset, Black Rockfish are present at a high frequency (Table \ref{tab:percent_pos_NSlog}.
 
-Covariates evaluated included year, month, port, depth, number of people onboard and the two-month Black Rockfish catch limit. A negative binomial model was fit to the trip-level data (catch with a log offset for hook hours). This full model was selected as the best fit model by AIC Table \ref{tab:model_selection_NSlog}. However, when fit via MLE using the sdmTMB R package (version 0.3.0), this model had unacceptably large standard errors for the fixed parameters. Acceptable diagnostics were achieved by excluding the two-month trip limit covariate. The final model included all of the covariates of the full model with the exception of the two-month trip limit. The Q-Q plot indicated an acceptable fit to the data (Figure \ref{fig:qq_NSlog). The index of abundance and associated input standard errors are shown in Table \ref{tab:survey_summary}.
+Covariates evaluated included year, month, port, depth, number of people onboard and the two-month Black Rockfish catch limit. A negative binomial model was fit to the trip-level data (catch with a log offset for hook hours). This full model was selected as the best fit model by AIC Table \ref{tab:model_selection_NSlog}. However, when fit via MLE using the sdmTMB R package (version 0.3.0), this model had unacceptably large standard errors for the fixed parameters. Acceptable diagnostics were achieved by excluding the two-month trip limit covariate. The final model included all of the covariates of the full model with the exception of the two-month trip limit. The Q-Q plot indicated an acceptable fit to the data (Figure \ref{fig:qq_NSlog}). The index of abundance and associated input standard errors are shown in Table \ref{tab:survey_summary}.
 
 ### Oregon Recreational Indices of Abundance
 
@@ -525,7 +525,7 @@ Trip-level catch-per-unit-effort data from ORBS dockside sampling was obtained f
 
 The unfiltered data set contained 414,587 trips. Multiple standardized filters are applied to ORBS trip-level data to remove outliers and data unsuitable for an index. These filters include trips with incorrect interview times, which impact calculation of effort, unreasonably long or short trips, and retaining only bottomfish target trips. Further filters were utilized for fishing closures (i.e. temporal or spatial closures) and catches exceeding bag limits, which would presumably impact catch rates. An alternative configuration of the dataset included a binary variable to identify trips that hit the bag limit to include as a covariate, rather than a filtering criterion, and did not filter out trips that had reached the daily bag limit. Trips from several ports with extremely small sample sizes (<1% of total trips) were also excluded and finally, trips that met criteria for irrational effort reporting (i.e., implausible values) or extreme catch rates were excluded as well. The final dataset included 96,707 trips. The previous assessment only included trips onboard charter vessels (@cope_assessments_2016), but this filter was not retained for this updated index. Instead, boat type was evaluated as a covariate. In the final, filtered dataset, Black Rockfish are present at a high frequency (Table \ref{tab:percent_pos_ORBS}.
 
-Covariates evaluated included year, month, port, the open depths to fishing (all depths or inside 20/30/40fm), boat type and the daily bag limit for Black Rockfish.  A negative binomial model was fit to the trip-level data (catch with a log offset for adjusted angler hours). This full model was selected as the best fit model by AIC Table \ref{tab:model_selection_ORBS}. However, when fit via MLE using the sdmTMB R package (version 0.3.0), this model did not converge. Acceptable diagnostics were achieved by excluding the bag limit covariate. An additional sdmTMB model was fit that used the alternative configuration of the dataset, and included all of the full model covariates but replaced the bag limit covariate with the binary variable of whether the bag limit was reached on the trip.  While acceptable diagnostics were achieved with the alternative full model, there was little effect on the resultant index and for parsimony, the final model included all of the covariates of the original full model with the exception of the daily bag limit. The Q-Q plot indicated an acceptable fit to the data (Figure \ref{fig:qq_ORBS). The index of abundance and associated input standard errors are shown in Table \ref{tab:survey_summary}. 
+Covariates evaluated included year, month, port, the open depths to fishing (all depths or inside 20/30/40fm), boat type and the daily bag limit for Black Rockfish.  A negative binomial model was fit to the trip-level data (catch with a log offset for adjusted angler hours). This full model was selected as the best fit model by AIC Table \ref{tab:model_selection_ORBS}. However, when fit via MLE using the sdmTMB R package (version 0.3.0), this model did not converge. Acceptable diagnostics were achieved by excluding the bag limit covariate. An additional sdmTMB model was fit that used the alternative configuration of the dataset, and included all of the full model covariates but replaced the bag limit covariate with the binary variable of whether the bag limit was reached on the trip.  While acceptable diagnostics were achieved with the alternative full model, there was little effect on the resultant index and for parsimony, the final model included all of the covariates of the original full model with the exception of the daily bag limit. The Q-Q plot indicated an acceptable fit to the data (Figure \ref{fig:qq_ORBS}). The index of abundance and associated input standard errors are shown in Table \ref{tab:survey_summary}. 
 
 #### On-Board Observer CPUE for Oregon, 2001 and 2003 to 2022
 
@@ -579,9 +579,9 @@ A simple design-based population abundance estimate was generated by averaging t
 
 The Marine Reserves program at ODFW monitors Oregon’s marine reserves. A standardized hook and line survey, modeled after the California marine reserves survey, collects drift-level catch and biological data in both the marine reserves and nearby comparison areas. There are four marine reserve sites (Redfish Rocks, Cape Perpetua, Cascade Head, and Cape Falcon) that span Oregon’s coastline where the hook and line survey is a suitable tool for monitoring. These comparison areas are pre-selected areas with similar bathymetry and habitat characteristics as the reserve but are open to fishing. Each reserve has as least one comparison area, but several have more than one that are monitored regularly along with the reserve. A 500-meter square grid overlaid on the area defines the sampling units or cells. Cells are randomly selected within a marine reserve or comparison area for each sampling event.  Three replicate drifts are executed in each cell. The specific location of the drifts within the cell is selected by the captain. Data are aggregated to the cell-day level and subsequently aggregated to counts of fish per cell-day as the metric for CPUE. Sampling occurs in the spring and late summer/fall seasons. Over time, cells without appropriate habitat for the focus species, mainly groundfish, have been removed from the selection procedures, and those presented in this dataset include only those that are currently “active”.  The number of cells sampled in a day can vary slightly and range from three to five. Sampling was not conducted in 2020 or 2021 due to the COVID-19 pandemic and this survey’s reliance on paid volunteers. 
 
-The dataset contains information on catch by species (number of fish), effort (angler hours), reserve site, area of sampling, treatment (reserve or comparison area), and date of sampling. Additional information that are available include proportion of rock habitat at the cell-level, water temperature, and the average drift depth, though these data are not available for the entire dataset. Average depth (fm) was binned to 10-fm bins (0 – 50fm), and those shallower than 10fm were excluded to a small sample size. April – June was aggregated to a spring season and August - October to a fall season. Black Rockfish are commonly encountered in this survey (Table \ref{tab:percent_pos_MRHnL}. 
+The dataset contains information on catch by species (number of fish), effort (angler hours), reserve site, area of sampling, treatment (reserve or comparison area), and date of sampling. Additional information that are available include proportion of rock habitat at the cell-level, water temperature, and the average drift depth, though these data are not available for the entire dataset. Average depth (fm) was binned to 10-fm bins (0 – 50fm), and those shallower than 10fm were excluded to a small sample size. April – June was aggregated to a spring season and August - October to a fall season. Black Rockfish are commonly encountered in this survey (Table \ref{tab:percent_pos_MRHnL}). 
 
-Covariates evaluated included year, month (or season), site, treatment (reserve or comparison area), and depth bin. A negative binomial model was fit to the cell-day-level data (catch in numbers of Black Rockfish with a log offset for angler hours). Two full model series were considered, one with all the potential covariates with month and one with season. For the series with month, the full model was selected as the best fit model by AIC, but month was almost non-significant. For the series with season, the full model was again selected as the best fit by AIC (Table \ref{tab:model_selection_MRHnL}. When fit via MLE using the sdmTMB R package (version 0.3.0), acceptable diagnostics were achieved for both full models. However, the error around the point estimates was reduced with the season covariate and ultimately, this was the model selected to be used in the reference model. The Q-Q plot indicated an acceptable fit to the data (Figure \ref{fig:qq_MRHnL). Previous assessments for nearshore species have explored the use of this survey as a raw index of abundance (@taylor_status_2021, @wetzel_status_2021, @langseth_status_2021, @cope_assessing_2019) but to date, this index has not been a part of a reference model. Length compositions from this survey are also included (Table \ref{tab:MPA_lengths} and Table \ref{input_ss_length}).
+Covariates evaluated included year, month (or season), site, treatment (reserve or comparison area), and depth bin. A negative binomial model was fit to the cell-day-level data (catch in numbers of Black Rockfish with a log offset for angler hours). Two full model series were considered, one with all the potential covariates with month and one with season. For the series with month, the full model was selected as the best fit model by AIC, but month was almost non-significant. For the series with season, the full model was again selected as the best fit by AIC (Table \ref{tab:model_selection_MRHnL}. When fit via MLE using the sdmTMB R package (version 0.3.0), acceptable diagnostics were achieved for both full models. However, the error around the point estimates was reduced with the season covariate and ultimately, this was the model selected to be used in the reference model. The Q-Q plot indicated an acceptable fit to the data (Figure \ref{fig:qq_MRHnL}). Previous assessments for nearshore species have explored the use of this survey as a raw index of abundance (@taylor_status_2021, @wetzel_status_2021, @langseth_status_2021, @cope_assessing_2019) but to date, this index has not been a part of a reference model. Length compositions from this survey are also included (Table \ref{tab:MPA lengths} and Table \ref{tab:input_ss_length}).
  
 
 
@@ -676,7 +676,7 @@ A flexible spline model can capture skipped spawning in the maturity ogive by al
 The Black Rockfish fecundity-at-length  relationship was provided by E.J. Dick (SWFSC) and based on the work from Dick [-@dick_modeling_2009]. The fecundity relationship was estimated equal to $Fec$=1.41e-08$L$^4.68^ in millions of eggs where $L$ is length in cm. Fecundity-at-length is shown in Figure \ref{fig:fecundity}.
 
 
-### Stock-recruitment function and compensation
+### Stock-Recruitment Function and Compensation
 
 The Beverton-Holt stock-recruit model [@beverton_holt_1957] has been the traditional recruitment function for rockfishes and is assumed for black rockfish.  Specifically, the re-parameterized Beverton-Holt that uses a steepness parameter defined as the proportion of average recruitment for an unfished population expected for a population at 20% of unfished spawning output (Mace and Doonan) was used in these assessments.  This is a notoriously difficult parameter to estimate, thus several attempts to derive a prior of steepness have been attempted [@myers_etal_1995; @dorn_advice_2002]. The Thorson-Dorn rockfish prior (developed for use West Coast rockfish assessments) was reviewed and endorsed by the Scientific and Statistical Committee (SSC) in 2017, and is the primary source of information on steepness for west coast rockfishes. The prior ($h$; beta distribution with $\mu$=0.72 and $\sigma$=0.15) is used in this assessment, but attempts to estimate steepness were not successful, so it is fixed and its influence is explored via a likelihood profile.
 
@@ -695,7 +695,7 @@ This stock assessment does not explicitly incorporate trophic interactions, habi
   
 Special projects data for Black Rockfish were reviewed but ultimately, with the large number of commercial and recreational samples available under standard sampling protocols, these data were not used in the reference model. There were also multiple sources of fishery-independent information that ODFW has provided to assessments in recent years as ancillary data that were considered. These included ROV survey data, video lander survey data and the Marine Reserves longline survey data. ODFW ROV data were reviewed by an SSC methodology review in 2020 (see PFMC September 2020 briefing book; Agenda Item D.4 Attachment 1) and used to independently estimate population size for Quillback Rockfish in Oregon (@langseth_status_2021). Video lander data from multiple projects was recertly summarized by Marine Resources Program staff (@rasmuson_nine_2020). These data were used to develop density estimates and independent abudance estimates for the most recent assessments for both Quillback Rockfish (@langseth_status_2021) and Lingcod (@taylor_status_2021). These two datasets were not included, as they were not designed specifically to survey Black Rockfish and the ODFW Nearshore Acoustic-Visual survey was regarded as a stronger estimate of the scale of the Black Rockfish population scale without the major caveats that come with using the ROV or lander data. Finally, the Marine Reserves longline survey data collected in Oregon's marine reserves were available from 2015 - 2019. While Black Rockfish are encountered in this survey, samples sizes are lower than the Hook and Line survey and the gear type is not ideal for Black Rockfish. 
 
-ODFW and Oregon State University have collaborated on juvenile fish montioring using SMRUF devices in Oregon's Otter Rock Marine Reserve from 2013 to the present. SMURFs are standardized sampling units that collect newly-settled juvenile fishes. These are monitored regularly during during the settlement season (May - September) and juveniles are collected for genetic identification and measured. An index of mean settlement rate of juvenile Black Rockfish was provided to this assessment. However, the intra-annual standard deviatations were extreme (Figure \ref{fig:index1_cpuedata_SMURF.png}, given the limited samples, and the use of these data as an index of recruitment was explored as a sensitivity. 
+ODFW and Oregon State University have collaborated on juvenile fish montioring using SMRUF devices in Oregon's Otter Rock Marine Reserve from 2013 to the present. SMURFs are standardized sampling units that collect newly-settled juvenile fishes. These are monitored regularly during during the settlement season (May - September) and juveniles are collected for genetic identification and measured. An index of mean settlement rate of juvenile Black Rockfish was provided to this assessment. However, the intra-annual standard deviatations were extreme (Figure \ref{fig:index1_cpuedata_SMURF}, given the limited samples, and the use of these data as an index of recruitment was explored as a sensitivity. 
 
 <!--chapter:end:23enviro.Rmd-->
 
@@ -752,14 +752,14 @@ The Oregon model faced many challenges and ultimately was re-evaluated in a seco
 Most of the above recommendations were included in the 2015 assessment research recommendations. Specific responses to those can be found in the 4.6 Research and Data Needs section. Additionally, stock structure for black rockfish was highlighted as a topic for further consideration.
 
 
-## Model description
+## Model Description
 
 
 ### Modelling Platform
 Stock Synthesis version 3.30.21 was used as the statistical catch-at-age modelling framework. This framework allows the integration of a variety of data types and model specifications. The SS-DL tool (https://github.com/shcaba/SS-DL-tool) was used for model exploration, likelihood profiling, and sensitivity analyses. The companion R package r4ss (version 1.38.0) along with R version 4.2.2 were used to investigate and plot model fits. 
 
 
-### Bridging the assessment model from Stock Synthesis 3.24 to 3.30 
+### Bridging the Assessment Model from Stock Synthesis 3.24 to 3.30 
 
 Since several years have passed from the last assessment model, the Stock Synthesis (SS) modelling framework has undergone many changes. While the specific changes in the model can be found in the model [change log](https://github.com/nmfs-stock-synthesis/stock-synthesis/blob/v3.30.19/Change_log_for_SS_3.30.xlsx?raw=true), here we simply update the model from the older 3.24V version to the newer 3.30.20 version. The point here is to present any differences in the model outputs when using the same information. This was first done by migrating the data and parameter specifications from the former files to the newer files. This migration was assisted using the [SS-DL tool](https://github.com/shcaba/SS-DL-tool). Once the old data was transferred to the SS 3.30.20 file, two versions of the model were run. 
 
@@ -778,7 +778,7 @@ Results are similar between models when all parameters are fixed from the 2015 m
 
 ## Model Structure, Evaluation, and Specification
 
-### Fleet and survey designations
+### Fleet and Survey Designations
 
 The Oregon model is structured to track several fleets and include data from several surveys:
 
@@ -796,7 +796,7 @@ The Oregon model is structured to track several fleets and include data from sev
 The specifications of the assessment are listed in Table \ref{tab:model-structure}.
 
 
-## Model likelihood components
+## Model Likelihood Components
 
 There are five primary likelihood components for each assessment model:
 
@@ -806,7 +806,7 @@ There are five primary likelihood components for each assessment model:
 4. Penalties on recruitment deviations (specified differently for each model).
 5. Prior distribution penalties
 
-## Reference model exploration, key assumptions and specification
+## Reference Model Exploration, Key Assumptions and Specification
 
 The base assessment model for Oregon Black Rockfish was developed to balance parsimony and realism, and the goal was to estimate a spawning output trajectory and relative stock status for the population of Black Rockfish in state and federal waters off Oregon. The model contains many assumptions to achieve parsimony and uses different data types and sources to estimate reality. A series of investigative model runs were done to achieve the final base model. Constructing integrated models (i.e., those fitting many data types) takes considerable model exploration using different configurations of the following treatments:
 
