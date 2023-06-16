@@ -119,14 +119,14 @@ label = 'fxn-spline-mat-color')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "bio6_maturity.png"), 
-caption = "Maturity as a function of length (cm)",
+caption = "Maturity as a function of length (cm) used in the base model",
 label = 'maturity')
 ```
 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "bio9_fecundity_len.png"), 
-caption = "Fecundity (kg) as a function of length (cm)",
+caption = "Fecundity (kg) as a function of length (cm) used in the base model",
 label = 'fecundity')
 ```
 
@@ -159,7 +159,6 @@ add_figure(
   label = 'catch-bridge')
 
 ``` 
-\clearpage
 
 ```{r, results = 'asis'}
 add_figure(
