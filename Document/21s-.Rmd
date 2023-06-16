@@ -2,6 +2,8 @@
 
 ### Abundance Indices
 
+The three fishery-independent abundance indices available for the Oregon regional assessment are summarized in Table \ref{tab:survey_summary} and Figure ??.  The sections below describe the underlying data and derivations of the indices.
+
 #### Tagging Study Estimates of Abundance off Newport, OR, 2002 to 2014
 
 Details of the tagging study are available in Krutzikowsky et al. [-@Krutzikowksy_etal_2019] and the implementation in the last stock assessment in Cope et al. [-@cope_assessments_2016]. Briefly, in a study that started in 2002 and concluded in 2014, the ODFW used Passive Integrated Transponder (PIT) tags to mark 2,500 to 4,000 black rockfish annually off Newport, OR.  Marked fish were recovered from recreational fishery landings, with sampling focused on the charter vessel fleet.  Approximately 80% of the annual landings were sampled for marked fish, resulting in the recovery of 3,263 marked fish to date.  

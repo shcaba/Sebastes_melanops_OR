@@ -16,6 +16,8 @@
 
 \include{tex_tables/rec_age_samples.tex}
 
+\include{tex_tables/surv_summ.tex}
+
 \include{tex_tables/percent_pos_NSlog.tex}
 
 \include{tex_tables/model_selection_NSlog.tex}
