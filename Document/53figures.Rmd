@@ -1,5 +1,10 @@
 \clearpage
+
+\floatplacement{figure}{H}
+
 # Figures
+
+## Data
 
 <!-- ====================================================================== --> 
 <!-- ******************************* Map ********************************** --> 
@@ -13,6 +18,7 @@ caption = "Map of the management and assessment areas for black rockfish.",
 label = 'map')
 ```
 
+\newpage
 
 <!-- ====================================================================== --> 
 <!-- ******************* Intro section *************************** --> 
@@ -29,12 +35,18 @@ caption = "Summary of data sources used in the reference model",
 label = 'data-plot')
 ```
 
+\newpage
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "catch2 landings stacked.png"), 
 caption = "Landings by fleet used in the reference model where catches in metric tons by fleet are stacked",
 label = 'catch')
 ```
+
+\newpage
+
+## Biology
 
 <!-- ====================================================================== -->
 <!-- *************************     Biology     **************************** --> 
@@ -47,12 +59,16 @@ caption = "Observed length-at-age by data source and sex",
 label = 'len-age-data-sex')
 ```	
 
+\newpage
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(bio_fig_loc, "OR_AG_Sex_Year.png"), 
 caption = "Observed length-at-age by sex and year. Total samples are indicated in parentheses",
 label = 'len-age-sex-year')
 ```	
+
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -61,6 +77,8 @@ caption = "External fits to the observed length-at-age by sex",
 label = 'len-age-fit')
 ```	
 
+\newpage
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(bio_fig_loc, "OR_CV_Sex_plot.png"), 
@@ -68,6 +86,7 @@ caption = "Coefficient of variation of length by age by sex. Numbers indicate sa
 label = 'cv-lt-age')
 ```	
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -87,12 +106,16 @@ caption = "Ageing bias plots by reader comparisons",
 label = 'age1-plot')
 ```
 
+\newpage
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(bio_fig_loc, "OR_Reader_Bias_plot.png"), 
 caption = "Estimated bias relationships for each considered matrix. Reader 1 is always considered unbiased. Reader 1a and 1b is an intra-reader comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix",
 label = 'age-error-bias')
 ```
+
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -101,12 +124,16 @@ caption = "Ageing error matrix standard deviation (SD) values by comparison. B r
 label = 'age-error-sd')
 ```
 
+\newpage
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(bio_fig_loc, "Fig1_bio_and_func_color.png"), 
 caption = "Biological and functional maturity ogives. Biological maturity ogives are represented by the dashed lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light green). Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue)",
 label = 'bio-fxn-mat-color')
 ```
+
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -115,6 +142,7 @@ caption = "Functional maturity ogives and sample size. Functional maturity ogive
 label = 'fxn-spline-mat-color')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -123,12 +151,16 @@ caption = "Maturity as a function of length (cm) used in the base model",
 label = 'maturity')
 ```
 
+\newpage
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "bio9_fecundity_len.png"), 
 caption = "Fecundity (kg) as a function of length (cm) used in the base model",
 label = 'fecundity')
 ```
+
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -137,13 +169,14 @@ caption = "Sex-specific length (cm)-weight (kg) data for Oregon black rockfish s
 label = 'len-weight-data')
 ```
 
+\newpage
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(bio_fig_loc, "LW_lines_States_Sex.png"), 
 caption = "Sex-specific length (cm)-weight (kg) estimated power function relationships. Washington state estimate relationships are also provided for comparison",
 label = 'len-weight-or-wa')
 ```
-
 
 \clearpage
 
@@ -158,10 +191,15 @@ caption = "The set of standardized indices (each index is scaled to have a mean 
 label = 'sur-summ-all')
 ```
 
+\newpage
+
+## Model Results
 
 <!-- ====================================================================== --> 
 <!-- ******************* Bridge Model ************************************* --> 
 <!-- ====================================================================== --> 
+
+### Bridging
 
 ```{r, results = 'asis'}
 add_figure(
@@ -171,6 +209,8 @@ add_figure(
 
 ``` 
 
+\newpage
+
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(bridge_fig_loc, "OR_SB_comp_plot.png"), 
@@ -179,6 +219,7 @@ add_figure(
 
 ``` 
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -190,9 +231,10 @@ add_figure(
 
 \clearpage
 
+### Model Development
 
 <!-- ====================================================================== -->
-<!-- ***********************  Model Build  ************************************ --> 
+<!-- ***********************  Model Build  ******************************** --> 
 <!-- ====================================================================== -->
 
 ```{r, echo=FALSE, results='asis'}
@@ -201,6 +243,8 @@ filein = file.path(mod_build_fig_loc, "Mod build stock status/compare4_Bratio_un
 caption = "Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show",
 label = 'modbuild-data-depl')
 ```
+
+\newpage
 
 
 ```{r, echo=FALSE, results='asis'}
@@ -211,10 +255,10 @@ label = 'modbuild-data-ssb')
 ```
 
 
-
+\newpage
 
 <!-- ====================================================================== -->
-<!-- ***********************  Model convergence and Jitters  ************************************ --> 
+<!-- ***********************  Model convergence and Jitters     *********** --> 
 <!-- ====================================================================== -->
 
 ```{r, results = 'asis'}
@@ -224,6 +268,7 @@ caption = "Jitter runs for the black rockfish reference model, with jitter run n
 label = 'jitter')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -234,6 +279,8 @@ label = 'pairs-plot-fast')
 
 \clearpage
 
+
+### Fit to Data
 
 <!-- ====================================================================== -->
 <!-- ****************** Fit to the Length Data **************************** --> 
@@ -247,6 +294,7 @@ caption = "Pearson residuals for each fishing fleet and the MPA survey. Closed b
 label = 'lt-pearson-resids')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -255,6 +303,7 @@ caption = "Mean length (cm) index from the commercial trawl fishery with 95 perc
 label = 'trawl-mean-len-fit')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -263,6 +312,7 @@ caption = "Mean length (cm) index from the commercial non-trawl fishery with 95 
 label = 'nontrawl-mean-len-fit')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -271,6 +321,7 @@ caption = "Mean length (cm) index from the recreational ocean boat fishery with 
 label = 'ocean-mean-len-fit')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -279,6 +330,8 @@ caption = "Mean length (cm) index from the recreational shore-based fishery with
 label = 'shore-mean-len-fit')
 ```
 
+\newpage
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_MPA.png"), 
@@ -286,6 +339,7 @@ caption = "Mean length (cm) index from the MPA survey with 95 percent confidence
 label = 'mpa-mean-len-fit')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -293,6 +347,8 @@ filein = file.path(mod_loc, "plots", "comp_lenfit__aggregated_across_time.png"),
 caption = "Aggregated length (cm) compositions over all years",
 label = 'agg-len-fit')
 ```
+
+\newpage
 
 <!-- ====================================================================== -->
 <!-- ****************** Fit to the Age Data ******************************* --> 
@@ -305,6 +361,7 @@ caption = "Mean age from conditional age-at-length data for the commercial trawl
 label = 'trawl-mean-caal')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -313,6 +370,7 @@ caption = "Mean age observations from the conditional age-at-length data from th
 label = 'nontrawl-mean-caal')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -320,6 +378,8 @@ filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condA
 caption = "Mean age observations from the conditional age-at-length data from the ocean boat fishery",
 label = 'ocean-mean-caal')
 ```
+
+\newpage
 
 <!-- ====================================================================== -->
 <!-- ****************** Fit to the Index*********************************** --> 
@@ -333,6 +393,7 @@ caption = "Fit to the non-trawl commercial survey index of abundance",
 label = 'nontrawl-index-fit')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -341,6 +402,7 @@ caption = "Fit to the MRFSS recreational survey index of abundance",
 label = 'mrfss-index-fit')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -349,6 +411,7 @@ caption = "Fit to the MRFSS recreational survey index of abundance",
 label = 'orbs-index-fit')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -357,6 +420,7 @@ caption = "Fit to the tagging survey index of abundance",
 label = 'tag-index-fit')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -364,6 +428,10 @@ filein = file.path(mod_loc, "plots", "index2_cpuefit_MPA.png"),
 caption = "Fit to the MPA survey index of abundance",
 label = 'mpa-index-fit')
 ```
+
+\newpage
+
+### Estimated Biology
 
 <!-- ====================================================================== -->
 <!-- ******************     Life history parameters    ***************************** --> 
@@ -376,6 +444,10 @@ caption = "Model estimated length-at-age in the beginning of the year. Shaded ar
 label = 'len-age-ss')
 ```
 
+\newpage
+
+### Estimated Recruitment
+
 <!-- ====================================================================== -->
 <!-- ******************     Recruitment    ***************************** --> 
 <!-- ====================================================================== -->
@@ -387,6 +459,7 @@ caption = "Estimated time series of age-0 recruits (1000s)",
 label = 'recruits')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -395,6 +468,7 @@ caption = "Estimated time series of recruitment deviations",
 label = 'rec-devs')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -403,6 +477,7 @@ caption = "Recruitment deviations variance by year. This plot tracks the informa
 label = 'rec-devs-sigmas')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -411,6 +486,8 @@ caption = "Stock-recruit curve. Point colors indicate year, with warmer colors i
 label = 'bh-curve')
 ```
 
+\newpage
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "recruit_fit_bias_adjust.png"),
@@ -418,6 +495,7 @@ caption = "Recruitment bias adjustment applied in the reference model",
 label = 'bias-adj')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -425,6 +503,10 @@ filein = file.path(mod_loc, "plots", "recdevs3_varcheck.png"),
 caption = "Recruitment deviations variance check. Low standard deviations indicate years with informative deviations ",
 label = 'varcheck')
 ```
+
+\newpage
+
+### Selectivity
 
 <!-- ====================================================================== -->
 <!-- ******************     Selectivity    ***************************** --> 
@@ -436,6 +518,10 @@ filein = file.path(mod_loc, "plots", "sel01_multiple_fleets_length1.png"),
 caption = "Length-based selectivity curves for each fleet and survey",
 label = 'fleet-selectivity')
 ```
+
+\newpage
+
+### Time Series
 
 <!-- ======================================================= -->  
 <!-- ****************** Time Series ************************ --> 
@@ -449,6 +535,7 @@ caption = "Estimated time series of spawning output (in millions of eggs)",
 label = 'ssb')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -457,6 +544,8 @@ caption = "Estimated time series of total biomass (mt)",
 label = 'tot-bio')
 ```
 
+\newpage
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "ts9_Relative_spawning_output_intervals.png"), 
@@ -464,6 +553,9 @@ caption = "Estimated time series of fraction of unfished spawning output",
 label = 'depl')
 ```
 
+\newpage
+
+### Comparison to Previous Assessments
 
 ```{r, results = 'asis'}
 add_figure(
@@ -472,6 +564,7 @@ caption = "Comparison of the time series of spawning output between the 2015 and
 label = 'comp-ssb')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -479,6 +572,10 @@ filein = file.path(comp_ass_loc, "compare4_Bratio_uncertainty.png"),
 caption = "Comparison of the time series of relative spawning output between the 2015 and 2023 assessment results",
 label = 'comp-depl')
 ```
+
+\newpage
+
+### Sensitivities
 
 <!-- ====================================================================== -->
 <!-- ******************       Sensitivity     ***************************** --> 
@@ -491,6 +588,7 @@ caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data 
 label = 'sensi-data-RE')
 ```
 
+\newpage
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
@@ -499,6 +597,7 @@ caption = "Spawning output (in millions of eggs) time series by data treatment c
 label = 'sensi-data-ssb')
 ```
 
+\newpage
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
@@ -507,6 +606,7 @@ caption = "Relative spawning output time series by data treatment compared to th
 label = 'sensi-data-depl')
 ```
 
+\newpage
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
@@ -515,6 +615,7 @@ caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model
 label = 'sensi-modspec-RE')
 ```
 
+\newpage
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
@@ -523,6 +624,7 @@ caption = "Spawning output (in millions of eggs) time series by model specificat
 label = 'sensi-modspec-ssb')
 ```
 
+\newpage
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
@@ -530,6 +632,10 @@ filein = file.path(sensi_modspex_fig_loc, "compare4_Bratio_uncertainty.png"),
 caption = "Relative spawning output time series by model specification scenario compared to the reference model",
 label = 'sensi-modspec-depl')
 ```
+
+\newpage
+
+### Likelihood Profiles
 
 <!-- ============================================================================== -->
 <!-- ******************      Likelihood Profiles      ***************************** --> 
@@ -542,6 +648,7 @@ caption = "Acoustic-visual survey catchability likelihood profile (change in the
 label = 'AVq-profile')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -550,6 +657,7 @@ caption = "Acoustic-visual survey catchability likelihood profile for each of th
 label = 'AVq-profile-components')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -558,6 +666,7 @@ caption = "Beverton-Holt steepness parameter likelihood profile (change in the n
 label = 'steepness-profile')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -566,6 +675,7 @@ caption = "Beverton-Holt steepness parameter likelihood profile for each of the 
 label = 'steepness-profile-components')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -574,7 +684,10 @@ caption = "Female and male $M$ multi-parameter likelihood profile and derived qu
 label = 'M-multiprofile-combo')
 ```
 
+\newpage
 
+
+### Retrospectives
 
 <!-- ====================================================================== -->
 <!-- ******************     Retrospectives    ***************************** --> 
@@ -587,6 +700,7 @@ caption = "Change in the estimate of spawning output when the most recent 10 yea
 label = 'retro-ssb')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -597,6 +711,8 @@ label = 'retro-depl')
 
 \newpage
 
+
+### Reference Points and Forecasts
 
 <!-- ====================================================================== -->
 <!-- ******************    Reference Points    **************************** --> 
@@ -619,6 +735,7 @@ caption = "Phase plot of the relative biomass (also referred to as fraction unfi
 label = 'phase')
 ```
 
+\newpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -628,3 +745,4 @@ fishery selectivities and with steepness fixed at 0.72",
 label = 'yield')
 ```
 
+\newpage
