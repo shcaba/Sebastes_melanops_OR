@@ -1573,16 +1573,6 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 \newpage
 
-### Estimated Biology
-
-<!-- ====================================================================== -->
-<!-- ******************     Life history parameters    ***************************** --> 
-<!-- ====================================================================== -->
-
-
-![Model estimated length-at-age in the beginning of the year. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve.\label{fig:len-age-ss}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio1_sizeatage.png){width=100% height=100% alt="."}
-
-\newpage
 
 ### Estimated Recruitment
 
