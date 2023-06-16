@@ -22,7 +22,7 @@ Data treatments explored included the treatment of catchability for the acoustic
   	12. No MPA index
 	13. Add SMURFs index 
 
-- Data weighting
+- Data weighting (Table \ref{tab:data_wt})
   	14. No data-weighting
   	15. Dirichlet data-weighting
   	16. McAllister-Ianelli data weighting
