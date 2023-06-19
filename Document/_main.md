@@ -1052,6 +1052,8 @@ The Black Rockfish assessment is being considered as a category 2 assessment wit
 
 Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations considered alternative specifications of catchability for the acoustic-visual survey. The resultant decision table will be provided in Table \ref{tab:dec-tab}.
 
+Given the desire for states of nature to represent uncertainty in both scale and relative stock status, the treatment of the acoustic visual survey q, either being estimated by the model or being fixed to a value of 1, are reasonable alternative model structure hypotheses that collectively give a wide range of uncertainty in the current status and trend of Black Rockfish in Oregon. Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl} present spwaning output and relative stock status, respectively, of the three states of nature.
+
 Further details about selecting the decision table states of nature will be added here after the STAR panel.    
 
 Further details summarizing the results presented in the decision table will be added here after the STAR panel.
@@ -1091,7 +1093,7 @@ Recommended avenues for research to help improve future Black Rockfish stock ass
 1. Continue work on the investigation into the movement, and behavior or mortality of older (> age 10) females to further reconcile their absence in fisheries data. 
 2. Conduct population genetics studies on fish observed off of the continental shelf (middle of the gyre and at sea mounts) to determine their association with the nearshore stocks.
 3. Continue to build evidence for appropriate natural mortality values for females and males. 
-4. Improved historical catch reconstructions. Specifically, the historic trawl fishery catches (pre-1987) in particular require particular attention. Given the huge historical removals of that fleet in each state, the assessment is very sensitive to the assumed functional form of selectivity. A synoptic catch reconstruction is recommended, where states work together to resolve cross-boundarystate catch issues as well as standardize the approach to catch recommendations to the extent possible.
+4. Improved historical catch reconstructions. Specifically, the historic trawl fishery catches (pre-1987) in particular require particular attention. Given the huge historical removals of that fleet in each state, the assessment is very sensitive to the assumed functional form of selectivity. A synoptic catch reconstruction is recommended, where states work together to resolve cross-boundary state catch issues as well as standardize the approach to catch recommendations to the extent possible.
 5. Stock structure for black rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.
 6. Continue acoustic-visual fisheries independent coastwide survey to develop a time series. Further refine the survey by addressing the recommendations of the SSC methodology review from 2022. Examine the potential of using spatial modeling to reduce the uncertainty in the population estimates from the acoustic-visual fisheries independent coastwide survey.
 7. Reconcile contradictory signal in the Black Rockfish biology versus the population scale.
@@ -1879,6 +1881,14 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 ![Equilibrium yield curve for the reference model. Values are based on the 2020
 fishery selectivities and with steepness fixed at 0.72.\label{fig:yield}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Time series of spawning output (with 95% uncertainty envelops) for three states of nature, based on the treatment of the acoustic visual survey catchability, of Oregon black rockfish.\label{fig:stateofnature_SO}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+
+
+![Time series of relative stock status (with 95% uncertainty envelops) for three states of nature, based on the treatment of the acoustic visual survey catchability, of Oregon black rockfish.\label{fig:stateofnature_depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 \newpage
 

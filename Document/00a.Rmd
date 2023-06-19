@@ -85,6 +85,8 @@ likeprof_fig_loc = file.path(user_dir, "Sebastes_melanops_OR/Document/figures/li
 
 retro_loc = file.path(user_dir, "Sebastes_melanops_OR/Document/figures/retro")
 
+manage_loc = file.path(user_dir, "Sebastes_melanops_OR/Document/figures/management")
+
 source("derived_quants.R")
 
 ```
