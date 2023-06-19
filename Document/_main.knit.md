@@ -1052,7 +1052,7 @@ The Black Rockfish assessment is being considered as a category 2 assessment wit
 
 Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations considered alternative specifications of catchability for the acoustic-visual survey. The resultant decision table will be provided in Table \ref{tab:dec-tab}.
 
-Given the desire for states of nature to represent uncertainty in both scale and relative stock status, the treatment of the acoustic visual survey q, either being estimated by the model or being fixed to a value of 1, are reasonable alternative model structure hypotheses that collectively give a wide range of uncertainty in the current status and trend of Black Rockfish in Oregon. Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl} present spwaning output and relative stock status, respectively, of the three states of nature.
+Given the desire for states of nature to represent uncertainty in both scale and relative stock status, the treatment of the acoustic visual survey q, either being estimated by the model or being fixed to a value of 1, are reasonable alternative model structure hypotheses that collectively give a wide range of uncertainty in the current status and trend of Black Rockfish in Oregon. Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl} present spawning output and relative stock status, respectively, of the three states of nature.
 
 Further details about selecting the decision table states of nature will be added here after the STAR panel.    
 
