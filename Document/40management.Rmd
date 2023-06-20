@@ -38,6 +38,9 @@ Further details summarizing the results presented in the decision table will be 
 
 The model-estimated uncertainty around the `r endyr+1` spawning output was $\sigma$ = `r round(model$Pstar_sigma,2)` and the uncertainty around the OFL was $\sigma$ = `r round(model$OFL_sigm, 2)`. This is clearly an underestimate of overall uncertainty because of the necessity to fix some life history parameters such as natural mortality and steepness, as well as a lack of explicit incorporation of model structural uncertainty. The alternative states of nature used to bracket uncertainty in the decision table assist with encapsulating model structure uncertainty. 
 
+## Regional Management Considerations
+
+This stock assessment is specifically for `r spp` in state and federal waters off Oregon.  As such, no specific regional management considerations and associated documentation is anticipated to be required. Seperate stock assessments conducted in 2023 for `r spp` off of California and Washington can be found on the Pacific Fishery Management Council [website](https://www.pcouncil.org/stock-assessments-star-reports-stat-reports-rebuilding-analyses-terms-of-reference/groundfish-stock-assessment-documents/).
 
 ## Research and Data Needs
 
