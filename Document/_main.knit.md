@@ -66,7 +66,7 @@ bibliography:
 <!--chapter:end:00bibliography.Rmd-->
 
 ---
-title: Status of Black Rockfish (_Sebastes melanops_) off Oregon and federal waters in 2023
+title: Status of Black Rockfish (_Sebastes melanops_) in 2023 in state and federal waters off Oregon
 ---
 
 <!--chapter:end:00title.Rmd-->
@@ -104,7 +104,7 @@ title: Status of Black Rockfish (_Sebastes melanops_) off Oregon and federal wat
 \item The model was highly sensitive to model specifications for acoustic-visual (AV) survey catchability and recruitment. The base model fixed AV survey catchability at a reasonable value given the survey design and Black Rockfish biology. Reconciling the signal in the
 biological data (which suggests a lower population size and status) versus the AV and tag surveys (which suggest high stock sizes and status) is a major uncertainty.  
 
-\item The estimated spawning output at the beginning of 2023 was 900 million of eggs (meggs; ~95 percent asymptotic intervals: 855 to 944 meggs), which when compared to unfished spawning output (1,633 meggs) gives a relative stock status level of 55 percent (~95 percent asymptotic intervals: 53 to 57 percent).  Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009.
+\item The estimated spawning output at the beginning of 2023 was 900 million of eggs (meggs; ~95 percent asymptotic intervals: 855 to 944 meggs), which when compared to unfished spawning output (1,633 meggs) gives a relative stock status level of 55 percent (approximate 95 percent asymptotic intervals: 53 to 57 percent).  Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009.
 
 \item  Fishing intensity (1 - SPR) has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 728.5 meggs. The Black Rockfish population in Oregon at the start of 2023 is estimated to be 1.38 times (above) the target biomass, and fishing intensity during 2022 is estimated to be 0.96 times (below) the fishing intensity target. Sustainable total yield, landings plus discards, using $\text{SPR}_{50\%}$ is estimated at 455 mt.   
 
@@ -180,7 +180,7 @@ Black Rockfish are caught by a wide variety of gear types in Oregon and in recen
 
 Historical catch reconstructions for Oregon show that catch of Black Rockfish was limited until the development of trawl fisheries around World War II in the 1940s. Trawl landings were consistent through the 1970s and landings from other gear types were minimal (Figure \ref{fig:es-catch}). There has been almost no trawl-caught landings of Black Rockfish in recent years (Table \ref{tab:removalsES}). Modern-era, detailed catch estimates are available from Pacific Fishery Information Network (PacFIN) database for commercial landings (1987 - 2022) and from the Recreational Fishery Information Network (RecFIN) (2001 - 2022). Historical recreational catch estimates were provided by ODFW (1979 - 2000). Generally, the historical catch series were derived by applying available estimates or assumed values for the proportion of Black Rockfish landings in reported landings of rockfish.  Observer data, which are available since the early 2000s, indicate low levels of discarding of Black Rockfish, generally less than 2% of total catch. While Black Rockfish are unlikely to have ever comprised a large percentage of overall rockfish landings due to their low abundance compared to other rockfish species, it seems plausible that they have been more than a trivial component due to their nearshore distribution for many years.  Black Rockfish were one of only four rockfish species mentioned by scientific name in reports of rockfish landings in Oregon during the 1940s.
 
-Overall, removals of Black Rockfish remained relatively low (less than 100 mt) until the mid to late 1970s when landings quickly quadrupled with the expansion of the recreational fishery. Since the 1980s, removals have consistently fluctuated between 300 and 600 mt (no major trend), comprising mostly of removals from the ocean boat recreational fleet and the non-trawl commercial fleet (Figure \ref{fig:es-catch}).  
+Overall, removals of Black Rockfish remained relatively low (generally less than 100 mt) until the mid to late 1970s when landings quickly increased (approximately eight-fold, on average) with the expansion of the recreational fishery. Since the 1980s, removals have consistently fluctuated between 300 and 600 mt (no major trend), comprising mostly of removals from the ocean boat recreational fleet and the non-trawl commercial fleet (Figure \ref{fig:es-catch}).  
 
 
 \input{tex_tables/a_Catches_ES.tex}
@@ -195,7 +195,7 @@ Overall, removals of Black Rockfish remained relatively low (less than 100 mt) u
 
 The first Black Rockfish stock assessment along the west coast of the United States that included the majority of Oregon waters was completed in 1993, covering the area south of Cape Falcon, Oregon to north of Point Piedros Blancos, California [@sampson_status_2007]. Subsequent assesements that included Oregon waters were done in 2003 and 2007. In 2015, the last assessment prior to the current one was completed that included Oregon waters only as one of three (also Washington and California) seperate assessment areas delineated by state lines [@cope_assessments_2016]. Similarly, this assessment treats Oregon waters as a single assessment area. The previous two assessments used Stock Synthesis software, as does this one (version 3.30.21.00).
 
-This assessment integrates data and information from multiple sources into one modeling framework. The stock assessment model for Black Rockfish is informed by catch data from two commercial fleets and two recreational fleets, six abundance indices, five sets of length composition data, and three sets of conditional age-at-length compositions. It also uses multiple ageing error matrices to incorporate ageing imprecision and applies fixed parameterizations of weight-at-length, maturity-at-length, fecundity-at-length, the Beverton-Holt stock-recruitment steepness value, and recruitment variability. Life history parameters were sex-specific (i.e., a two-sex model) with natural mortality fixed at external estimates and growth and recruitment parameters estimated.  Additional parameters that were estimated include initial population scale ($lnR_0$), selectivity for each fishery and survey, and extra survey variance. The base model was tuned to account for the weighting of the length and age data and index variances (which was estimated), as well as the specification of the recruitment bias adjustments.  Derived quantities include, among other things, the time series of spawning biomass, age and size structure, and current and projected future stock status. The model covers the years 1892 to 2022, with a 12 year forecast beginning in 2023.
+This assessment integrates data and information from multiple sources into one modeling framework. The stock assessment model for Black Rockfish is informed by catch data from two commercial fleets and two recreational fleets, six abundance indices, five sets of length composition data, and three sets of conditional age-at-length compositions. It also uses multiple ageing error matrices to incorporate ageing imprecision and applies fixed parameterizations of weight-at-length, maturity-at-length, fecundity-at-length, the Beverton-Holt stock-recruitment steepness value, and recruitment variability. Life history parameters were sex-specific (i.e., a two-sex model) with natural mortality fixed at external estimates and growth and recruitment parameters estimated.  Additional parameters that were estimated include initial population scale ($lnR_0$), selectivity for each fishery and survey, and extra survey variance. The base model was tuned to account for the weighting of the length and age data and index variances (which was estimated), as well as the specification of the recruitment bias adjustments.  Derived quantities include, among other things, the time series of spawning output, age and size structure, and current and projected future stock status. The model covers the years 1892 to 2022, with a 12 year forecast beginning in 2023.
 
 Within model uncertainty is explicitly included in this assessment by parameter estimation uncertainty, while among model uncertainty is explored through sensitivity analyses addressing alternative input assumptions such as data treatment and weighting, and model specification sensitivity to the treatment of life history parameters, selectivity, recruitment, and survey catchability. A reference model was selected that best fit the observed data while concomitantly balancing the desire to capture the central tendency across those sources of uncertainty, ensure model realism and tractability, and promote robustness to potential model misspecification.
 
@@ -215,7 +215,7 @@ Spawning output (in millions of eggs; meggs) instead of spawning biomass is used
 
 ## Recruitment{-}
 
-Recruitment is informed by the data and estimated from 1980 to 2017, before and after which it is assumed taken from the stock-recruit relationship (Table \ref{tab:recrES} and Figure \ref{fig:es-recruits}).  The highest recruitment years occurred in 1999, 2000, 2008, 2013, and 2016. The large 2008 and 2016 year classes, as well as several above average year classes in the early 2010s, contributed to the recent increase in Black Rockfish biomass. Recruitment is informed by composition data and six relative abundance indices.  The 2015 stock assessment did not estimate deviations from the stock-recruitment curve. While the Black Rockfish stock has been reduced to levels that theoretically would provide some information on how recruitment compensation changes across spawning biomass levels (i.e., inform the steepness parameter), the assessment model could not adequately estimate a reasonable steepness parameter.  Thus, recruitment is based on a fixed assumption about steepness ($h$ = 0.72) and recruitment variability ($\sigma_R$ = 0.6).
+Recruitment is informed by the data and estimated from 1980 to 2017, before and after which it is assumed taken from the stock-recruit relationship (Table \ref{tab:recrES} and Figure \ref{fig:es-recruits}).  The highest recruitment years occurred in 1999, 2000, 2008, 2013, and 2016. The large 2008 and 2016 year classes, as well as several above average year classes in the early 2010s, contributed to the recent increase in Black Rockfish biomass. Recruitment is informed by composition data and six relative abundance indices.  The 2015 stock assessment did not estimate deviations from the stock-recruitment curve. While the Black Rockfish stock has been reduced to levels that theoretically would provide some information on how recruitment compensation changes across spawning output levels (i.e., inform the steepness parameter), the assessment model could not adequately estimate a reasonable steepness parameter.  Thus, recruitment is based on a fixed assumption about steepness ($h$ = 0.72) and recruitment variability ($\sigma_R$ = 0.6).
 
 \input{tex_tables/c_Recr_ES.tex}
 
@@ -227,12 +227,15 @@ Recruitment is informed by the data and estimated from 1980 to 2017, before and 
 
 ## Exploitation Status{-}
 
-Fishing intensity, as measured by the SPR rate (1 - SPR), has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. Fishing was at or above the target rate from 1989 to 2005 and has been slightly below it over the past 5 years (Table \ref{tab:exploitES} and Figures \ref{fig:es-1-spr} and \ref{fig:es-phase}). The steepness value of 0.72 indicates that a lower value of SPR (or equivalently a higher fishing intensity than $\text{SPR}_{50\%}$) would be consistent with the biomass-based target of ($\text{SO}_{40\%}$) for sustainable removals. Trends in fishing intensity largely mirrored that of landings until the 1990s, after which recruitment pulses countered the catches somewhat to lower overall fishing intensity (Figure \ref{fig:es-1-spr}). The maximum fishing intensity was 0.7 in 1992, which is well above the target SPR-based harvest rate of 0.50. The current level of 0.42 for 2022 is below that target. Fishing intensity over the past decade has ranged between 0.4 and 0.56 and the exploitation rate (range of 0.04 - 0.08, Table \ref{tab:exploitES}) has come down since the time series high of 0.12 in 1992. Current estimates indicate that Black Rockfish spawning output is greater than than the target biomass level ($\text{SO}_{40\%}$), though fishing intensity remains near the target $F_{MSY}$ proxy harvest rate of 1 - $\text{SPR}_{50\%}$ (Figure \ref{fig:es-phase}).
+Fishing intensity, as measured by the SPR rate (1 - SPR), has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. Fishing was at or above the target rate from 1989 to 2005 and has been slightly below it over the past 5 years (Table \ref{tab:exploitES} and Figures \ref{fig:es-1-spr} and \ref{fig:es-phase}). The steepness value of 0.72 indicates that a lower value of SPR (or equivalently a higher fishing intensity than $\text{SPR}_{50\%}$) would be consistent with the spawning output-based target of ($\text{SO}_{40\%}$) for sustainable removals. Trends in fishing intensity largely mirrored that of landings until the 1990s, after which recruitment pulses countered the catches somewhat to lower overall fishing intensity (Figure \ref{fig:es-1-spr}). The maximum fishing intensity (1 - SPR) was 0.7 in 1992, which is well above the target of 0.50. The current level of 0.42 for 2022 is below that target. Fishing intensity over the past decade has ranged between 0.4 and 0.56 and the exploitation rate (range of 0.04 - 0.08, Table \ref{tab:exploitES}) has come down since the time series high of 0.12 in 1992. Current estimates indicate that Black Rockfish spawning output is greater than than the target biomass level ($\text{SO}_{40\%}$), though fishing intensity remains near the target $F_{MSY}$ proxy harvest rate of 1 - $\text{SPR}_{50\%}$ (Figure \ref{fig:es-phase}).
 
 \input{tex_tables/d_SPR_ES.tex}
 
 
 ![Estimated 1 - relative spawning ratio (SPR) by year for the base model. The management target is plotted as a red horizontal line and values above this reflect harvest in excess of the proxy harvest rate.\label{fig:es-1-spr}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
+
+
+![Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -243,14 +246,12 @@ This stock assessment does not explicitly incorporate trophic interactions, habi
 
 ## Reference Points{-}
 
-Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative biomass (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:referenceES}). The Black Rockfish population in Oregon at the start of 2023 is estimated to be 1.38 times (above) the target biomass, and fishing intensity during 2022 is estimated to be 0.96 times (below) the fishing intensity target (Figure \ref{fig:es-phase}).  The yield values are lower than the previous assessment for similar reference points due to updated life history estimates. The proxy MSY values of management quantities are the most conservative compared to the estimated MSY and MSY relative to 40% biomass. Sustainable total yield, removals, using the proxy $\text{SPR}_{50\%}$ is 455 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 728.5 meggs. 
+Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative spawning output (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:referenceES}). The yield values are lower than the previous assessment for similar reference points due to updated life history estimates. The proxy FMSY values of management quantities, based on exploitation rates that achieve $\text{SPR}_{50\%}$ and $\text{SO}_{40\%}$, are more conservative (lower) than the exploitation rate at estimated MSY. Sustainable total yield using the proxy $\text{SPR}_{50\%}$ is 455 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) was 653.1 meggs. 
 
 Recent removals have been close to the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point, though the population size has continued to increase over recent years due to several above average recruitments. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:es-yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
 
-The 2023 spawning biomass relative to unfished equilibrium spawning biomass, based on the 2022 fishing year, is above (55 percent) the management target of 40 percent of unfished spawning output. The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$.
-
-
-![Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
+The 2023 spawning output relative to unfished equilibrium spawning output is above (55 percent) the management target of 40 percent of unfished spawning output (i.e., 1.38 times above the target spawning output; Figure \ref{fig:es-phase}). The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$. Fishing intensity during the most recent year (2022) is estimated to be slightly below the fishing intensity target (0.96 times $\text{SPR}_{50\%}$; Figure \ref{fig:es-phase}).
+ 
 
 
 ![Equilibrium yield curve for the base case model. Values are based on (the time invariant)
@@ -262,7 +263,7 @@ fishery selectivities and with steepness fixed at 0.72.\label{fig:es-yield}](C:/
 
 ## Management Performance{-}
 
-Black Rockfish removals have generally been below the equivalent ABC-ACL over the recent decade, with the exception of 2017 and 2022 when removals were slightly higher (Table \ref{tab:manageES}). Exploitation on Black Rockfish increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of Black Rockfish acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manageES}). Prior to 2017, management specifications were set for Black Rockfish in California and Oregon waters combined.  The Black Rockfish OFL has not been exceeded by Oregon removals over the past decade.
+Black Rockfish removals have generally been below the equivalent ABC-ACL over the recent decade, with the exception of 2017 and 2022 when removals were slightly higher (Table \ref{tab:manageES}). Exploitation on Black Rockfish increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of Black Rockfish acceptable biological catch (ABC) and annual catch limit (ACL) have been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manageES}). Prior to 2017, management specifications were set for Black Rockfish in California and Oregon waters combined.  The Black Rockfish OFL has not been exceeded by Oregon removals over the past decade. The ACL and ABC were exceeded in 2017 and 2022 by a small margin, but were more than offset by underages in intervening years.
 
 \input{tex_tables/f_Manage_ES.tex}
 
@@ -273,7 +274,7 @@ The biggest uncertainty and unresolved conflict is trying to reconcile the signa
 
 ## Scientific Uncertainty{-}
 
-The model-estimated uncertainty around the 2023 spawning biomass was $\sigma$ = 0.03 and the uncertainty around the OFL was $\sigma$ = 0.01. This is clearly an underestimate of overall uncertainty because of the necessity to fix some life history parameters such as natural mortality and steepness, as well as a lack of explicit incorporation of model structural uncertainty. The alternative states of nature used to bracket uncertainty in the decision table assist with encapsulating model structure uncertainty.
+The model-estimated uncertainty around the 2023 spawning output was $\sigma$ = 0.03 and the uncertainty around the OFL was $\sigma$ = 0.01. This is clearly an underestimate of overall uncertainty because of the necessity to fix some life history parameters such as natural mortality and steepness, as well as a lack of explicit incorporation of model structural uncertainty. The alternative states of nature used to bracket uncertainty in the decision table assist with encapsulating model structure uncertainty.
 
 ## Harvest Projections and Decision Table{-}
 
@@ -367,7 +368,7 @@ Removal histories have been a significant axis of uncertainty in the past assess
 ## Summary of Management History and Performance
 Prior to 2000 the Pacific Fishery Management Council (PFMC or Council) managed the federal fishery for Black Rockfish as part of the *Sebastes* complex, with no separate Acceptable Biological Catch (ABC) or Optimum Yield (OY) for Black Rockfish.  Beginning in 2000, the Council established an ABC of 1,200 mt for Black Rockfish caught north of Cape Mendocino (in the Eureka, Columbia, and Vancouver INPFC statistical areas), but left Black Rockfish south of Cape Mendocino as part of the "other rockfish" category.  Oregon Black Rockfish continued to be managed as a part of a complex following the 2003 and 2007 assessments, as these assessments combined the Oregon portion of the stock with California [@ralston_status_2003; @sampson_status_2007]. 
 
-The 2015 Black Rockfish assessment split the stock into three units for modeling, including California, Oregon and Washington. This was the first time the Oregon Black Rockfish stock was assessed in isolation [@cope_assessments_2016]. Following the implementation of harvest specifications from this assessment, Oregon Black Rockfish were moved in 2017 for the purpose of management to the Oregon Black/Blue/Deacon complex, and manangement of Black Rockfish within this complex has continued since that time. The ACLs/OYs have not been exceeded since this complex was created (Table \ref{tab:manage}). 
+The 2015 Black Rockfish assessment split the stock into three units for modeling, including California, Oregon and Washington. This was the first time the Oregon Black Rockfish stock was assessed in isolation [@cope_assessments_2016]. Following the implementation of harvest specifications from this assessment, Oregon Black Rockfish were moved in 2017 for the purpose of management to the Oregon Black/Blue/Deacon complex, and manangement of Black Rockfish within this complex has continued since that time. The OFLs have not been exceeded since this complex was created. However, the Oregon-specific ACLs were exceeded in 2017 and in 2022 (Table \ref{tab:manage}). 
 
 In Oregon, Black Rockfish are allocated to both the commercial and recreational fisheries. The primary commercial fishery for Black Rockfish is the nearshore live-fish fishery, which is managed as a year-round fishery with annual state harvest caps and two-month trip limits. The commercial nearshore fishery first developed as an open access fishery in the early 1990s and transitioned to a State limited-entry permit system in 2004. The commercial nearshore fleet is composed of small vessels that target shallow nearshore rocky reefs using mostly hook and line jig or bottom longline fishing gear. 
 
@@ -383,7 +384,7 @@ Some recent important regulations or management events include the following:
 * 2007: Black/Blue rockfish harvest cap was attained early and the nearshore commercial fishery closed for remainder of year. 
 * 2017: The recreational fishery in Oregon closed early. 
 
-## Canadian and Alaska fisheries
+## Canadian and Alaska Fisheries
 Black Rockfish is one of multiple Inshore Rockfish species on the West Coast of British Columbia. The most recent evaluation was completed by Yamanaka and Lacko (-@yamanaka_inshore_2001), which determined that there was insufficient information to recommend a Black Rockfish-specific catch quotas for the five management areas on the Pacific coast of British Columbia. Black Rockfish continues to be a "Non-Quota" species in the Department of Fisheries and Oceans Management Plan [@dfo_fmp_2014]. 
 
 Directed fisheries for Black Rockfish in Alaska are limited. In the Westward region (Kodiak area) of Alaska, an acoustic visual survey has been the primary management tool used to determine population size. An age-structured assessment for Black Rockfish is under development by the Alaska Department of Fish and Game that will use the data from this acoustic visual survey as the primary data source. No assessments have been developed for Black Rockfish for the Southeast or Central regions in the Gulf of Alaska. 
@@ -438,7 +439,7 @@ Prior to 2001, ORBS monitored marine species in both multi-species categories, s
 
 Category-level estimates were expanded to account for gaps in sampling coverage in two separate pathways. First, estimates from five major ports were expanded to include unsampled winter months in years lacking complete coverage.  Expansions were based on available year-round sampling data and excluded years where regulations may have impacted the temporal distribution of catch.  Second, all other minor port estimates were expanded to include seasonal estimates in years lacking any sampling based on the amount of minor port catch as compared to all major port estimates.  A subset of landings were sampled by ORBS for species compositions within these categories. Once category-level landings were comprehensive in space and time, species compositions were applied for the three multi-species categories, including rockfish, flatfish and miscellaneous fish. Borrowing rules for species compositions were specific to the category and determined based on a series of regression tree analyses that detailed the importance of each domain (year, month, port and fishing mode) to variability in compositions.  
 
-Ocean boat estimates from 1979 – 2000 in numbers of fish of Black Rockfish from the above described methods were converted to biomass using biological samples from MRFSS.  MRFSS biological data are available from 1980 – 1989 and 1993 – 2000. An annual average weight was applied to the total annual number of fish to obtain an annual biomass estimate of the landings. Several years missing biological data (1979, 1990 – 1992) were filled in using neighboring years or interpolation. MRFSS biological data were filtered for direct measured samples only. These landings in biomass were provided by ODFW and do not include an estimate of discarded fish. Landings during this time period average 309.9 mt and are of similar magnitude to the previous assessment (@cope_assessments_2016). Landings from 1973 to 1978 were initiated at zero in 1973 and ramped up to the initial biomass estimate from 1979. Bag limits in the recreational fishery during this time period (prior to 2001) are generally liberal and ODFW staff recommended that no additional mortality of discarded fish be included from 1973 - 2000. 
+Ocean boat estimates from 1979 – 2000 in numbers of fish of Black Rockfish from the above described methods were converted to biomass using biological samples from MRFSS.  MRFSS biological data are available from 1980 – 1989 and 1993 – 2000. An annual average weight was applied to the total annual number of fish to obtain an annual biomass estimate of the landings. Several years missing biological data (1979, 1990 – 1992) were filled in using neighboring years or interpolation. MRFSS biological data were filtered for direct measured samples only. These landings in biomass were provided by ODFW and do not include an estimate of discarded fish. Landings during this time period average 309.9 mt and are of similar magnitude to the previous assessment (@cope_assessments_2016). Landings from 1973 to 1978 were initiated at zero in 1973 and ramped up to the initial biomass estimate from 1979. There are little to no data on recreational effort during the 1960s and early 1970s, but ancedotal evidence suggests the development of the ocean boat fishery was quite rapid duirng this time period (pers. comm., A. Whitman, ODFW). Bag limits in the recreational fishery during this time period (prior to 2001) are generally liberal and ODFW staff recommended that no additional mortality of discarded fish be included from 1973 - 2000. 
 
 #### Modern Ocean Boat Landings and Discards (2001 - 2022) 
 
@@ -489,7 +490,7 @@ The fishery data for the assessment model consisted of otolith age-readings, mos
 
 The age composition data generally do not show much evidence of distinct year-classes that can be easily tracked from one year to the next, which suggests that that there is not much recruitment variability from year-to-year or that age-reading error is sufficient to mask the appearance of strong year-classes. Age-at-length compositions were not expanded; the final sample sizes were set to 1 before tallying. The ages were modeled as conditional age-at-length.
 
-## Mean weights
+## Mean Weights
 
 Mean weights were used in the previous assessment (@cope_assessments_2016) but not developed for this assessment. 
 
@@ -774,8 +775,6 @@ Results are similar between models when all parameters are fixed from the 2015 m
 
 <!--chapter:end:31summary.Rmd-->
 
-## Model Structure and Assumptions
-
 ## Model Structure, Evaluation, and Specification
 
 ### Fleet and Survey Designations
@@ -1027,16 +1026,16 @@ The biggest uncertainty and unresolved conflict is trying to reconcile the signa
 
 ## Reference Points
 
-Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative biomass (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:ReferencePoints}). The Black Rockfish population in Oregon at the start of 2023 is estimated to be 1.38 times (above) the target biomass, and fishing intensity during 2022 is estimated to be 0.96 times (below) the fishing intensity target (Figure \ref{fig:phase}).  The yield values are lower than the previous assessment for similar reference points due to updated life history estimates. The proxy MSY values of management quantities are the most conservative compared to the estimated MSY and MSY relative to 40% biomass. Sustainable total yield, removals, using the proxy $\text{SPR}_{50\%}$ is 455 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 728.5 meggs. 
+Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative biomass (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:ReferencePoints}). The yield values are lower than the previous assessment for similar reference points due to updated life history estimates. The proxy FMSY values of management quantities, based on exploitation rates that achieve $\text{SPR}_{50\%}$ and $\text{SO}_{40\%}$, are more conservative (lower) than the exploitation rate at estimated MSY. Sustainable total yield using the proxy $\text{SPR}_{50\%}$ is 455 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 653.1 meggs. 
 
 Recent removals have been close to the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point, though the population size has continued to increase over recent years due to several above average recruitments. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
 
-The 2023 spawning biomass relative to unfished equilibrium spawning biomass, based on the 2022 fishing year, is above (55 percent) the management target of 40 percent of unfished spawning output. The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$.
+The 2023 spawning output relative to unfished equilibrium spawning output is above (55 percent) the management target of 40 percent of unfished spawning output (i.e., 1.38 times above the target spawning output; Figure \ref{fig:es-phase}). The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$. Fishing intensity during the most recent year (2022) is estimated to be slightly below the fishing intensity target (0.96 times $\text{SPR}_{50\%}$; Figure \ref{fig:es-phase}).
 
 
 ## Management performance
 
-Black Rockfish removals have generally been below the equivalent ABC-ACL over the recent decade, with the exception of 2017 and 2022 when removals were slightly higher (Table \ref{tab:manage}). Exploitation on Black Rockfish increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of Black Rockfish acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manage}). Prior to 2017, management specifications were set for Black Rockfish in California and Oregon waters combined.  The Black Rockfish OFL has not been exceeded by Oregon removals over the past decade.
+Black Rockfish removals have generally been below the equivalent ABC-ACL over the recent decade, with the exception of 2017 and 2022 when removals were slightly higher (Table \ref{tab:manage}). Exploitation on Black Rockfish increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of Black Rockfish acceptable biological catch (ABC) and annual catch limit (ACL) have been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manage}). Prior to 2017, management specifications were set for Black Rockfish in California and Oregon waters combined.  The Black Rockfish OFL has not been exceeded by Oregon removals over the past decade. The ACL and ABC were exceeded in 2017 and 2022 by a small margin, but were more than offset by underages in intervening years.
 
 
 ## Unresolved Problems and Major Uncertainties
@@ -1061,8 +1060,11 @@ Further details summarizing the results presented in the decision table will be 
 
 ## Evaluation of Scientific Uncertainty
 
-The model-estimated uncertainty around the 2023 spawning biomass was $\sigma$ = 0.03 and the uncertainty around the OFL was $\sigma$ = 0.01. This is clearly an underestimate of overall uncertainty because of the necessity to fix some life history parameters such as natural mortality and steepness, as well as a lack of explicit incorporation of model structural uncertainty. The alternative states of nature used to bracket uncertainty in the decision table assist with encapsulating model structure uncertainty. 
+The model-estimated uncertainty around the 2023 spawning output was $\sigma$ = 0.03 and the uncertainty around the OFL was $\sigma$ = 0.01. This is clearly an underestimate of overall uncertainty because of the necessity to fix some life history parameters such as natural mortality and steepness, as well as a lack of explicit incorporation of model structural uncertainty. The alternative states of nature used to bracket uncertainty in the decision table assist with encapsulating model structure uncertainty. 
 
+## Regional Management Considerations
+
+This stock assessment is specifically for Black Rockfish in state and federal waters off Oregon.  As such, no specific regional management considerations and associated documentation is anticipated to be required. Seperate stock assessments conducted in 2023 for Black Rockfish off of California and Washington can be found on the Pacific Fishery Management Council [website](https://www.pcouncil.org/stock-assessments-star-reports-stat-reports-rebuilding-analyses-terms-of-reference/groundfish-stock-assessment-documents/).
 
 ## Research and Data Needs
 
@@ -1103,7 +1105,7 @@ Recommended avenues for research to help improve future Black Rockfish stock ass
 
 # Acknowledgments
 
-Thank you to Chantel Wetzel for reviewing and offering many great edits. 
+The STAT would like to thank Mark Terwilliger at ODFW for sharing his aging expertise and his work to further refine aging error in this assessment. The STAT would also like to acknowledge the work of the Fish Research team at ODFW for their responsiveness to the SSC methodology review of the AV survey and their feedback throughout the development of this assessment. Thank you to Chantel Wetzel for reviewing and offering many great edits. Owen Hamel, John Buddrick and Marlene Bellman also reviewed a pre-STAR draft. The STAT would also like to thank the STAR panel members for their comments and review. 
 
 <!--chapter:end:41acknowledgments.Rmd-->
 
@@ -1187,148 +1189,147 @@ Thank you to Chantel Wetzel for reviewing and offering many great edits.
 
 \begin{landscape}\begingroup\fontsize{9}{11}\selectfont
 
-\begin{longtable}[t]{>{\raggedright\arraybackslash}p{6cm}lllll>{\raggedright\arraybackslash}p{4cm}}
-\caption{(\#tab:model-param)List of parameters used in the base model, including estimated values and standard deviations (SD), bounds (minimum and maximum), estimation phase (negative values not estimated), status (indicates if parameters are near bounds), and prior type information (mean and SD).}\\
+\begin{longtable}[t]{>{\raggedright\arraybackslash}p{7.5cm}lllll>{\raggedright\arraybackslash}p{3.5cm}}
+\caption{(\#tab:params)List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).}\\
 \toprule
-Parameter & Value & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
+Parameter & Value & SD & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \midrule
 \endfirsthead
-\caption[]{(\#tab:model-param)List of parameters used in the base model, including estimated values and standard deviations (SD), bounds (minimum and maximum), estimation phase (negative values not estimated), status (indicates if parameters are near bounds), and prior type information (mean and SD). \textit{(continued)}}\\
+\caption[]{(\#tab:params)List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD). \textit{(continued)}}\\
 \toprule
-Parameter & Value & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
+Parameter & Value & SD & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \midrule
 \endhead
 
 \endfoot
 \bottomrule
 \endlastfoot
-NatM uniform Fem GP 1 & 0.19 & -5 & - & - & Log Norm (-1.89, 0.075)\\
-L at Amin Fem GP 1 & 0 & -5 & - & - & None\\
-L at Amax Fem GP 1 & 50.846 & 3 & OK & 0.263657 & Normal (48.82, 0.3)\\
-VonBert K Fem GP 1 & 0.182 & 3 & OK & 0.00186914 & None\\
-CV young Fem GP 1 & 0.1 & -5 & - & - & None\\
-CV old Fem GP 1 & 0.1 & -5 & - & - & None\\
-Wtlen 1 Fem GP 1 & 2.55e-05 & -99 & - & - & None\\
-Wtlen 2 Fem GP 1 & 2.895 & -99 & - & - & None\\
-Mat50\% Fem GP 1 & 40.36 & -99 & - & - & None\\
-Mat slope Fem GP 1 & -0.38 & -99 & - & - & None\\
-Eggs scalar Fem GP 1 & 1.41e-08 & -3 & - & - & None\\
-Eggs exp len Fem GP 1 & 4.685 & -3 & - & - & None\\
-NatM uniform Mal GP 1 & 0.17 & -5 & - & - & Log Norm (-1.89, 0.2)\\
-L at Amin Mal GP 1 & 0 & -3 & - & - & None\\
-L at Amax Mal GP 1 & 44.876 & 3 & OK & 0.26159 & None\\
-VonBert K Mal GP 1 & 0.224 & 3 & OK & 0.00297517 & None\\
-CV young Mal GP 1 & 0.1 & -5 & - & - & None\\
-CV old Mal GP 1 & 0.1 & -5 & - & - & None\\
-Wtlen 1 Mal GP 1 & 2.56e-05 & -99 & - & - & None\\
-Wtlen 2 Mal GP 1 & 2.894 & -99 & - & - & None\\
-CohortGrowDev & 1 & -1 & - & - & None\\
-FracFemale GP 1 & 0.5 & -99 & - & - & None\\
-SR LN(R0) & 8.245 & 1 & OK & 0.0173786 & None\\
-SR BH steep & 0.72 & -1 & - & - & Log Norm (0.72, 0.24)\\
-SR sigmaR & 0.6 & -6 & - & - & None\\
-SR regime & 0 & -99 & - & - & None\\
-SR autocorr & 0 & -99 & - & - & None\\
-Main RecrDev 1980 & -1.08 & 3 & act & 0.392268 & dev (NA, NA)\\
-Main RecrDev 1981 & -0.863 & 3 & act & 0.37042 & dev (NA, NA)\\
-Main RecrDev 1982 & -0.317 & 3 & act & 0.27984 & dev (NA, NA)\\
-Main RecrDev 1983 & -0.441 & 3 & act & 0.277759 & dev (NA, NA)\\
-Main RecrDev 1984 & -0.277 & 3 & act & 0.218195 & dev (NA, NA)\\
-Main RecrDev 1985 & -0.147 & 3 & act & 0.180332 & dev (NA, NA)\\
-Main RecrDev 1986 & -0.333 & 3 & act & 0.176129 & dev (NA, NA)\\
-Main RecrDev 1987 & -0.372 & 3 & act & 0.158349 & dev (NA, NA)\\
-Main RecrDev 1988 & -0.297 & 3 & act & 0.132277 & dev (NA, NA)\\
-Main RecrDev 1989 & -0.014 & 3 & act & 0.0972235 & dev (NA, NA)\\
-Main RecrDev 1990 & -0.059 & 3 & act & 0.0850273 & dev (NA, NA)\\
-Main RecrDev 1991 & 0.078 & 3 & act & 0.0700834 & dev (NA, NA)\\
-Main RecrDev 1992 & 0.008 & 3 & act & 0.064519 & dev (NA, NA)\\
-Main RecrDev 1993 & 0.023 & 3 & act & 0.0599154 & dev (NA, NA)\\
-Main RecrDev 1994 & 0.344 & 3 & act & 0.0531871 & dev (NA, NA)\\
-Main RecrDev 1995 & 0.304 & 3 & act & 0.0566414 & dev (NA, NA)\\
-Main RecrDev 1996 & 0.024 & 3 & act & 0.0733322 & dev (NA, NA)\\
-Main RecrDev 1997 & -0.023 & 3 & act & 0.0923232 & dev (NA, NA)\\
-Main RecrDev 1998 & -0.299 & 3 & act & 0.144421 & dev (NA, NA)\\
-Main RecrDev 1999 & 0.631 & 3 & act & 0.0984838 & dev (NA, NA)\\
-Main RecrDev 2000 & 0.732 & 3 & act & 0.113712 & dev (NA, NA)\\
-Main RecrDev 2001 & 0.309 & 3 & act & 0.177524 & dev (NA, NA)\\
-Main RecrDev 2002 & -0.447 & 3 & act & 0.332529 & dev (NA, NA)\\
-Main RecrDev 2003 & 0.542 & 3 & act & 0.126095 & dev (NA, NA)\\
-Main RecrDev 2004 & -1.015 & 3 & act & 0.422157 & dev (NA, NA)\\
-Main RecrDev 2005 & 0.542 & 3 & act & 0.108269 & dev (NA, NA)\\
-Main RecrDev 2006 & 0.042 & 3 & act & 0.171393 & dev (NA, NA)\\
-Main RecrDev 2007 & -0.278 & 3 & act & 0.219061 & dev (NA, NA)\\
-Main RecrDev 2008 & 0.981 & 3 & act & 0.0702548 & dev (NA, NA)\\
-Main RecrDev 2009 & -0.362 & 3 & act & 0.194985 & dev (NA, NA)\\
-Main RecrDev 2010 & 0.498 & 3 & act & 0.0817707 & dev (NA, NA)\\
-Main RecrDev 2011 & 0.42 & 3 & act & 0.0810448 & dev (NA, NA)\\
-Main RecrDev 2012 & 0.212 & 3 & act & 0.090591 & dev (NA, NA)\\
-Main RecrDev 2013 & 0.564 & 3 & act & 0.0719959 & dev (NA, NA)\\
-Main RecrDev 2014 & 0.481 & 3 & act & 0.0802748 & dev (NA, NA)\\
-Main RecrDev 2015 & -0.243 & 3 & act & 0.13553 & dev (NA, NA)\\
-Main RecrDev 2016 & 0.77 & 3 & act & 0.0927345 & dev (NA, NA)\\
-Main RecrDev 2017 & -0.637 & 3 & act & 0.247401 & dev (NA, NA)\\
-Late RecrDev 2018 & 0 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2019 & 0 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2020 & 0 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2021 & 0 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2022 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2023 & 0 & - & - & - & dev (NA, NA)\\
-InitF seas 1 flt 1Trawl wdis & 0 & -1 & - & - & None\\
-InitF seas 1 flt 2Non-Trawl wdis & 0 & -1 & - & - & None\\
-InitF seas 1 flt 3Ocean & 0 & -1 & - & - & None\\
-InitF seas 1 flt 4Shore & 0 & -1 & - & - & None\\
-LnQ base Non-Trawl wdis(2) & -5.817 & -1 & - & - & None\\
-Q extraSD Non-Trawl wdis(2) & 0.028 & 3 & LO & 0.0147028 & None\\
-LnQ base Ocean(3) & -9.234 & -1 & - & - & None\\
-Q extraSD Ocean(3) & 0.284 & 3 & OK & 0.0516932 & None\\
-LnQ base MPA(5) & -7.391 & -1 & - & - & None\\
-Q extraSD MPA(5) & 0.167 & 3 & OK & 0.0841336 & None\\
-LnQ base Acoustic Visual(6) & 0.6 & -5 & - & - & None\\
-Q extraSD Acoustic Visual(6) & 0 & -3 & - & - & None\\
-LnQ base Tag(7) & -1.177 & -1 & - & - & None\\
-Q extraSD Tag(7) & 0.158 & 3 & OK & 0.0464933 & None\\
-LnQ base MRFSS(8) & -7.691 & -1 & - & - & None\\
-Q extraSD MRFSS(8) & 0.397 & 3 & OK & 0.0927459 & None\\
-Size DblN peak Trawl wdis(1) & 52.532 & 4 & OK & 0.584074 & None\\
-Size DblN top logit Trawl wdis(1) & 0.77 & -4 & - & - & None\\
-Size DblN ascend se Trawl wdis(1) & 3.585 & -4 & - & - & None\\
-Size DblN descend se Trawl wdis(1) & -9.21 & -4 & - & - & None\\
-Size DblN start logit Trawl wdis(1) & -10 & -2 & - & - & None\\
-Size DblN end logit Trawl wdis(1) & 11.513 & -4 & - & - & None\\
-Size DblN peak Non-Trawl wdis(2) & 42.629 & 4 & OK & 0.130805 & None\\
-Size DblN top logit Non-Trawl wdis(2) & -12 & -4 & - & - & None\\
-Size DblN ascend se Non-Trawl wdis(2) & 4 & -4 & - & - & None\\
-Size DblN descend se Non-Trawl wdis(2) & 2.16 & 4 & OK & 0.191113 & None\\
-Size DblN start logit Non-Trawl wdis(2) & -15 & -2 & - & - & None\\
-Size DblN end logit Non-Trawl wdis(2) & -1.579 & 4 & OK & 0.21853 & None\\
-Size DblN peak Ocean(3) & 41.838 & 4 & OK & 0.122527 & None\\
-Size DblN top logit Ocean(3) & -12 & -4 & - & - & None\\
-Size DblN ascend se Ocean(3) & 4 & -4 & - & - & None\\
-Size DblN descend se Ocean(3) & 2.69 & 4 & OK & 0.219738 & None\\
-Size DblN start logit Ocean(3) & -15 & -2 & - & - & None\\
-Size DblN end logit Ocean(3) & -0.98 & 4 & OK & 0.231653 & None\\
-Size DblN peak Shore(4) & 22.075 & 4 & OK & 1.58355 & None\\
-Size DblN top logit Shore(4) & 4 & -4 & - & - & None\\
-Size DblN ascend se Shore(4) & 3 & -4 & - & - & None\\
-Size DblN descend se Shore(4) & 0 & -4 & - & - & None\\
-Size DblN start logit Shore(4) & -15 & -2 & - & - & None\\
-Size DblN end logit Shore(4) & 4.342 & -4 & - & - & None\\
-Size DblN peak MPA(5) & 43.333 & 4 & OK & 0.52157 & None\\
-Size DblN top logit MPA(5) & -12 & -4 & - & - & None\\
-Size DblN ascend se MPA(5) & 4 & -4 & - & - & None\\
-Size DblN descend se MPA(5) & 1.228 & 4 & OK & 1.35908 & None\\
-Size DblN start logit MPA(5) & -15 & -2 & - & - & None\\
-Size DblN end logit MPA(5) & -1.282 & 4 & OK & 0.63341 & None\\
-Size DblN peak Acoustic Visual(6) & 25 & -4 & - & - & None\\
-Size DblN top logit Acoustic Visual(6) & 3.269 & -4 & - & - & None\\
-Size DblN ascend se Acoustic Visual(6) & 3.585 & -4 & - & - & None\\
-Size DblN descend se Acoustic Visual(6) & -9.21 & -4 & - & - & None\\
-Size DblN start logit Acoustic Visual(6) & -15 & -2 & - & - & None\\
-Size DblN end logit Acoustic Visual(6) & 11.513 & -4 & - & - & None\\
-Size inflection Tag(7) & 32 & -3 & - & - & None\\
-Size 95\%width Tag(7) & 0 & -4 & - & - & None\\
-SizeSel P1 MRFSS(8) & -1 & -99 & - & - & None\\
-SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
+NatM uniform Fem GP 1 & 0.19 & NA & -5 & (0.05, 0.25) & NA & Log Norm (-1.89, 0.075)\\
+L at Amin Fem GP 1 & 0 & NA & -5 & (-50, 100) & NA & None\\
+L at Amax Fem GP 1 & 50.846 & 0.264 & 3 & (1, 500) & OK & Normal (48.82, 0.3)\\
+VonBert K Fem GP 1 & 0.182 & 0.002 & 3 & (0.001, 2) & OK & None\\
+CV young Fem GP 1 & 0.1 & NA & -5 & (0.001, 5) & NA & None\\
+CV old Fem GP 1 & 0.1 & NA & -5 & (0.001, 5) & NA & None\\
+Wtlen 1 Fem GP 1 & 2.54537e-05 & NA & -99 & (0, 3) & NA & None\\
+Wtlen 2 Fem GP 1 & 2.895 & NA & -99 & (2, 4) & NA & None\\
+Mat50\% Fem GP 1 & 40.36 & NA & -99 & (1e-04, 1000) & NA & None\\
+Mat slope Fem GP 1 & -0.38 & NA & -99 & (-2, 4) & NA & None\\
+Eggs scalar Fem GP 1 & 1.41e-08 & NA & -3 & (0, 3) & NA & None\\
+Eggs exp len Fem GP 1 & 4.685 & NA & -3 & (0, 10) & NA & None\\
+NatM uniform Mal GP 1 & 0.17 & NA & -5 & (0.05, 0.25) & NA & Log Norm (-1.89, 0.2)\\
+L at Amin Mal GP 1 & 0 & NA & -3 & (-50, 100) & NA & None\\
+L at Amax Mal GP 1 & 44.876 & 0.262 & 3 & (1, 500) & OK & None\\
+VonBert K Mal GP 1 & 0.224 & 0.003 & 3 & (0.001, 2) & OK & None\\
+CV young Mal GP 1 & 0.1 & NA & -5 & (0.001, 5) & NA & None\\
+CV old Mal GP 1 & 0.1 & NA & -5 & (0.001, 5) & NA & None\\
+Wtlen 1 Mal GP 1 & 2.56318e-05 & NA & -99 & (0, 3) & NA & None\\
+Wtlen 2 Mal GP 1 & 2.894 & NA & -99 & (2, 4) & NA & None\\
+CohortGrowDev & 1 & NA & -1 & (0.1, 10) & NA & None\\
+FracFemale GP 1 & 0.5 & NA & -99 & (0.01, 0.99) & NA & None\\
+SR LN(R0) & 8.245 & 0.017 & 1 & (1e-04, 15) & OK & None\\
+SR BH steep & 0.72 & NA & -1 & (0.2, 1) & NA & Log Norm (0.72, 0.24)\\
+SR sigmaR & 0.6 & NA & -6 & (0, 2) & NA & None\\
+SR regime & 0 & NA & -99 & (-5, 5) & NA & None\\
+SR autocorr & 0 & NA & -99 & (0, 2) & NA & None\\
+Main RecrDev 1980 & -1.08 & 0.392 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1981 & -0.863 & 0.370 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1982 & -0.317 & 0.280 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1983 & -0.441 & 0.278 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1984 & -0.277 & 0.218 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1985 & -0.147 & 0.180 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1986 & -0.333 & 0.176 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1987 & -0.372 & 0.158 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1988 & -0.297 & 0.132 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1989 & -0.014 & 0.097 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1990 & -0.059 & 0.085 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1991 & 0.078 & 0.070 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1992 & 0.008 & 0.065 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1993 & 0.023 & 0.060 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1994 & 0.344 & 0.053 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1995 & 0.304 & 0.057 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1996 & 0.024 & 0.073 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1997 & -0.023 & 0.092 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1998 & -0.299 & 0.144 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1999 & 0.631 & 0.098 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2000 & 0.732 & 0.114 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2001 & 0.309 & 0.178 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2002 & -0.447 & 0.333 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2003 & 0.542 & 0.126 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2004 & -1.015 & 0.422 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2005 & 0.542 & 0.108 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2006 & 0.042 & 0.171 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2007 & -0.278 & 0.219 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2008 & 0.981 & 0.070 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2009 & -0.362 & 0.195 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2010 & 0.498 & 0.082 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2011 & 0.42 & 0.081 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2012 & 0.212 & 0.091 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2013 & 0.564 & 0.072 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2014 & 0.481 & 0.080 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2015 & -0.243 & 0.136 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2016 & 0.77 & 0.093 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2017 & -0.637 & 0.247 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Late RecrDev 2018 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
+Late RecrDev 2019 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
+Late RecrDev 2020 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
+Late RecrDev 2021 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
+Late RecrDev 2022 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
+InitF seas 1 flt 1Trawl wdis & 0 & NA & -1 & (0, 1000) & NA & None\\
+InitF seas 1 flt 2Non-Trawl wdis & 0 & NA & -1 & (0, 1000) & NA & None\\
+InitF seas 1 flt 3Ocean & 0 & NA & -1 & (0, 1000) & NA & None\\
+InitF seas 1 flt 4Shore & 0 & NA & -1 & (0, 1000) & NA & None\\
+LnQ base Non-Trawl wdis(2) & -5.817 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD Non-Trawl wdis(2) & 0.028 & 0.015 & 3 & (0, 5) & LO & None\\
+LnQ base Ocean(3) & -9.234 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD Ocean(3) & 0.284 & 0.052 & 3 & (0, 5) & OK & None\\
+LnQ base MPA(5) & -7.391 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD MPA(5) & 0.167 & 0.084 & 3 & (0, 5) & OK & None\\
+LnQ base Acoustic Visual(6) & 0.6 & NA & -5 & (-15, 2) & NA & None\\
+Q extraSD Acoustic Visual(6) & 0 & NA & -3 & (0, 5) & NA & None\\
+LnQ base Tag(7) & -1.177 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD Tag(7) & 0.158 & 0.046 & 3 & (0, 5) & OK & None\\
+LnQ base MRFSS(8) & -7.691 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD MRFSS(8) & 0.397 & 0.093 & 3 & (0, 5) & OK & None\\
+Size DblN peak Trawl wdis(1) & 52.532 & 0.584 & 4 & (16, 70) & OK & None\\
+Size DblN top logit Trawl wdis(1) & 0.77 & NA & -4 & (-15, 15) & NA & None\\
+Size DblN ascend se Trawl wdis(1) & 3.585 & NA & -4 & (-4, 12) & NA & None\\
+Size DblN descend se Trawl wdis(1) & -9.21 & NA & -4 & (-15, 15) & NA & None\\
+Size DblN start logit Trawl wdis(1) & -10 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit Trawl wdis(1) & 11.513 & NA & -4 & (-15, 20) & NA & None\\
+Size DblN peak Non-Trawl wdis(2) & 42.629 & 0.131 & 4 & (16, 63) & OK & None\\
+Size DblN top logit Non-Trawl wdis(2) & -12 & NA & -4 & (-15, 15) & NA & None\\
+Size DblN ascend se Non-Trawl wdis(2) & 4 & NA & -4 & (-4, 12) & NA & None\\
+Size DblN descend se Non-Trawl wdis(2) & 2.16 & 0.191 & 4 & (-15, 15) & OK & None\\
+Size DblN start logit Non-Trawl wdis(2) & -15 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit Non-Trawl wdis(2) & -1.579 & 0.219 & 4 & (-15, 20) & OK & None\\
+Size DblN peak Ocean(3) & 41.838 & 0.123 & 4 & (16, 63) & OK & None\\
+Size DblN top logit Ocean(3) & -12 & NA & -4 & (-15, 15) & NA & None\\
+Size DblN ascend se Ocean(3) & 4 & NA & -4 & (-4, 12) & NA & None\\
+Size DblN descend se Ocean(3) & 2.69 & 0.220 & 4 & (-15, 15) & OK & None\\
+Size DblN start logit Ocean(3) & -15 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit Ocean(3) & -0.98 & 0.232 & 4 & (-15, 20) & OK & None\\
+Size DblN peak Shore(4) & 22.075 & 1.584 & 4 & (10, 55) & OK & None\\
+Size DblN top logit Shore(4) & 4 & NA & -4 & (-15, 15) & NA & None\\
+Size DblN ascend se Shore(4) & 3 & NA & -4 & (-4, 12) & NA & None\\
+Size DblN descend se Shore(4) & 0 & NA & -4 & (-15, 15) & NA & None\\
+Size DblN start logit Shore(4) & -15 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit Shore(4) & 4.342 & NA & -4 & (-15, 20) & NA & None\\
+Size DblN peak MPA(5) & 43.333 & 0.522 & 4 & (16, 63) & OK & None\\
+Size DblN top logit MPA(5) & -12 & NA & -4 & (-15, 15) & NA & None\\
+Size DblN ascend se MPA(5) & 4 & NA & -4 & (-4, 12) & NA & None\\
+Size DblN descend se MPA(5) & 1.228 & 1.359 & 4 & (-15, 15) & OK & None\\
+Size DblN start logit MPA(5) & -15 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit MPA(5) & -1.282 & 0.633 & 4 & (-15, 20) & OK & None\\
+Size DblN peak Acoustic Visual(6) & 25 & NA & -4 & (10, 55) & NA & None\\
+Size DblN top logit Acoustic Visual(6) & 3.269 & NA & -4 & (-15, 15) & NA & None\\
+Size DblN ascend se Acoustic Visual(6) & 3.585 & NA & -4 & (-4, 12) & NA & None\\
+Size DblN descend se Acoustic Visual(6) & -9.21 & NA & -4 & (-15, 15) & NA & None\\
+Size DblN start logit Acoustic Visual(6) & -15 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit Acoustic Visual(6) & 11.513 & NA & -4 & (-15, 20) & NA & None\\
+Size inflection Tag(7) & 32 & NA & -3 & (1, 60) & NA & None\\
+Size 95\%width Tag(7) & 0 & NA & -4 & (0, 15) & NA & None\\
+SizeSel P1 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\
+SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 \end{longtable}
 \endgroup{}
 \end{landscape}
@@ -1543,7 +1544,7 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 
 
 
-![Index of recruitment from SMURF data collections. Error bars indicate 95% uncertainty interval around index values based on the model assumption of lognormal error.\label{fig:index1_cpuedata_SMURF}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/index1_cpuedata_SMURF.png){width=100% height=100% alt="."}
+![Index of recruitment from SMURF data collections. Error bars indicate 95% uncertainty interval around index values based on the model assumption of lognormal error. This index was not included in the reference model, but was evaluated as a sensitivity.\label{fig:index1_cpuedata_SMURF}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/index1_cpuedata_SMURF.png){width=100% height=100% alt="."}
 
 \newpage
 
@@ -1680,7 +1681,7 @@ SizeSel P2 MRFSS(8) & -1 & -99 & - & - & None\\*
 \newpage
 
 
-![Fit to the MRFSS recreational survey index of abundance.\label{fig:orbs-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Ocean.png){width=100% height=100% alt="."}
+![Fit to the ORBS recreational survey index of abundance.\label{fig:orbs-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Ocean.png){width=100% height=100% alt="."}
 
 \newpage
 

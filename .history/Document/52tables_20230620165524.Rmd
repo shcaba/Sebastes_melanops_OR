@@ -1,0 +1,177 @@
+\clearpage
+
+# Tables
+
+<!-- ======================================================= -->
+<!-- ***************     Fishery Dep/Ind Data  ***************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/catch_history.tex}
+
+\include{tex_tables/OR_Comm_Lt_samps.tex}
+
+\include{tex_tables/rec_length_samples.tex}
+
+\include{tex_tables/input_ss_length.tex}
+
+\include{tex_tables/OR_Comm_Age_samps.tex}
+
+\include{tex_tables/rec_age_samples.tex}
+
+\include{tex_tables/surv_summ.tex}
+
+\include{tex_tables/percent_pos_NSlog.tex}
+
+\include{tex_tables/model_selection_NSlog.tex}
+
+\include{tex_tables/percent_pos_ORBS.tex}
+
+\include{tex_tables/model_selection_ORBS.tex}
+
+\include{tex_tables/model_selection_AtSea.tex}
+
+\include{tex_tables/percent_pos_MRHnL.tex}
+
+\include{tex_tables/model_selection_MRHnL.tex}
+
+\include{tex_tables/MPA_lengths.tex}
+
+<!-- ======================================================= -->
+<!-- ***************     Biology   ************************* --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/age-error-models.tex}
+\include{tex_tables/age-error-models2.tex}
+\include{tex_tables/age-error-models3.tex}
+
+\include{tex_tables/bio-fxn-maturity.tex}
+
+
+\newpage
+
+
+<!-- ======================================================= -->
+<!-- ***********   Model Parameters     ******************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/model_structure.tex}
+
+```{r, results = 'asis'}
+
+mod_params = model$parameters[, 
+                                (names(model$parameters) %in%
+                                c("Num","Label","Value","Phase","Min",
+                                  "Max","Status","Parm_StDev",
+                                  "Pr_type","Prior","Pr_SD"))] 
+
+
+sci_note <- which(mod_params$Label %in% c("Wtlen_1_Fem_GP_1", "Wtlen_1_Mal_GP_1", "Eggs_scalar_Fem_GP_1"))
+
+mod_params[-sci_note,'Value'] = round(as.numeric(mod_params[-sci_note,'Value']), 3)  
+
+# Combine bounds into one column
+mod_params$Min = paste('(', mod_params$Min, ', ', mod_params$Max, ')', sep='')
+# Combine prior info to one column
+mod_params$PR_type = ifelse(mod_params$Pr_type == 'No_prior' , 'None', paste(mod_params$Pr_type,' (', mod_params$Prior,  ', ', mod_params$Pr_SD, ')', sep = ''))
+# Set long value to scientific notation
+mod_params[mod_params$Label == "Wtlen_1_Fem_GP_1",3] = format(mod_params[mod_params$Label == "Wtlen_1_Fem_GP_1",3], scientific = TRUE)
+mod_params[mod_params$Label == "Wtlen_1_Mal_GP_1",3] = format(as.numeric(mod_params[mod_params$Label == "Wtlen_1_Mal_GP_1",3]), scientific = TRUE)
+mod_params[mod_params$Label == "Eggs_scalar_Fem_GP_1",3] = format(as.numeric(mod_params[mod_params$Label == "Eggs_scalar_Fem_GP_1",3]), scientific = TRUE)
+mod_params[mod_params$Label == "L_at_Amax_Mal_GP_1",3] = round(as.numeric(mod_params[mod_params$Label == "L_at_Amax_Mal_GP_1",3]), 4)
+mod_params[mod_params$Label == "VonBert_K_Mal_GP_1",3] = round(as.numeric(mod_params[mod_params$Label == "VonBert_K_Mal_GP_1",3]), 3)
+mod_params[mod_params$Label == "CV_old_Mal_GP_1",3] = round(as.numeric(mod_params[mod_params$Label == "CV_old_Mal_GP_1",3]), 3)
+#mod_params[,'Value'] = round(as.numeric(mod_params[,'Value']),3)  
+remove <- which(grepl("ForeRecr", mod_params$Label ))
+mod_params <- mod_params[-remove, ]
+mod_params[,'Parm_StDev'] = round(as.numeric(mod_params[,'Parm_StDev']), 3) 
+# Remove the max, prior and prior sd columns
+drops = c('Max', 'Prior', 'Pr_type', 'Pr_SD', 'Num')
+mod_params = mod_params[, !(names(mod_params) %in% drops)]
+rownames(mod_params) = c()
+mod_params[,"Label"] = gsub("\\_", " ", mod_params[,"Label"])
+mod_params[,"PR_type"] = gsub("\\_", " ", mod_params[,"PR_type"])
+mod_params=mod_params[,c(1,2,6,3,4,5,7)]
+# Add column names
+col_names = c('Parameter',
+                         'Value',
+                         'SD',
+                         'Phase',
+                         'Bounds',
+                         'Status',
+                         'Prior (Exp.Val, SD)')
+table_format(x = mod_params,
+             caption = "List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).",
+             label = "params",
+             align = 'l',
+             col_names = col_names,
+             longtable = TRUE,
+             font_size = 9,
+             digits = 3,
+             landscape = TRUE,
+             custom_width = TRUE,
+             col_to_adjust = c(1,7), 
+             width = c("7.5cm", "3.5cm"))                         
+```
+
+\newpage
+
+<!-- ======================================================= -->
+<!-- ***********    Like Contributions  ******************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/likelihoods.tex}
+
+
+<!-- ======================================================= -->
+<!-- ***********    Reference Point table  ******************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/ReferencePoints.tex}
+
+\newpage
+
+\include{tex_tables/Manage.tex}
+
+\newpage
+
+
+<!-- ======================================================= -->
+<!-- ***********       Time Series      ******************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/TimeSeries.tex}
+
+\newpage
+
+
+<!-- ======================================================= -->
+<!-- ****************     Sensitivities      *************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/data_weight.tex}
+
+\include{tex_tables/data_sensis_q.tex}
+
+\include{tex_tables/data_sensis_other.tex}
+
+\include{tex_tables/modspec_sensis.tex}
+
+<!-- ======================================================= -->
+<!-- ***********       Retrospectives      ***************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/RetroMohnsrho.tex}
+
+<!-- ======================================================= -->
+<!-- ****************  Reference Points  ******************* --> 
+<!-- ======================================================= -->
+
+
+\include{tex_tables/project.tex}
+
+\newpage
+
+\include{tex_tables/decision_table.tex}
+
+\clearpage
+
