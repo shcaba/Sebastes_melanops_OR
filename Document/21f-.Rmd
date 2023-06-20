@@ -92,7 +92,7 @@ The fishery data for the assessment model consisted of otolith age-readings, mos
 
 The age composition data generally do not show much evidence of distinct year-classes that can be easily tracked from one year to the next, which suggests that that there is not much recruitment variability from year-to-year or that age-reading error is sufficient to mask the appearance of strong year-classes. Age-at-length compositions were not expanded; the final sample sizes were set to 1 before tallying. The ages were modeled as conditional age-at-length.
 
-## Mean weights
+## Mean Weights
 
 Mean weights were used in the previous assessment (@cope_assessments_2016) but not developed for this assessment. 
 
