@@ -169,12 +169,12 @@ Further details about selecting the decision table states of nature will be adde
 
 ## Research and Data Needs{-}
 
-Recommended avenues for research to help improve future `r spp` stock assessments:
+Recommended avenues for research to help improve future `r spp` stock assessments (in no particular order):
 
 1. Continue work on the investigation into the movement, and behavior or mortality of older (> age 10) females to further reconcile their absence in fisheries data. 
 2. Conduct population genetics studies on fish observed off of the continental shelf (middle of the gyre and at sea mounts) to determine their association with the nearshore stocks.
 3. Continue to build evidence for appropriate natural mortality values for females and males. 
-4. Improved historical catch reconstructions. Specifically, the historic trawl fishery catches (pre-1987) in particular require particular attention. Given the huge historical removals of that fleet in each state, the assessment is very sensitive to the assumed functional form of selectivity. A synoptic catch reconstruction is recommended, where states work together to resolve cross-boundarystate catch issues as well as standardize the approach to catch recommendations to the extent possible.
+4. Improved historical catch reconstructions. Specifically, the historic trawl fishery catches (pre-1987) in particular require particular attention. A synoptic catch reconstruction is recommended, where states work together to resolve cross-boundarystate catch issues as well as standardize the approach to catch recommendations to the extent possible.
 5. Stock structure for black rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.
 6. Continue acoustic-visual fisheries independent coastwide survey to develop a time series. Further refine the survey by addressing the recommendations of the SSC methodology review from 2022. Examine the potential of using spatial modeling to reduce the uncertainty in the population estimates from the acoustic-visual fisheries independent coastwide survey.
 7. Reconcile contradictory signal in the Black Rockfish biology versus the population scale.
