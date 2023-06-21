@@ -41,7 +41,7 @@ The base assessment model for Oregon `r spp` was developed to balance parsimony 
 The different biological data with and without the catch time series were first included to obtain an understanding of the signal of stock status coming from the data (Figure \ref{fig:modbuild-data-depl}). Both the lengths and ages, with and without the removal time series, demonstrated a signal for a highly depleted stock. Stock scale was comparable once removal history was included, and showed lower estimates of scale. This departure from the ultimate reference model highlights the major uncertainty in the treatment of the biological data in when characterizing model uncertainty. Further sensitivities to the inclusion or exclusion of different indices of abundance are provided in the model sensitivity section.
 
 Numerous exploratory models that included all data types and a variety of model specifications were subsequently explored and too numerous to fully report. In summary, the estimation of which life history parameters to estimate and fix was liberally explored.
-The following is a list of things that were explored, typically in combination with one another
+The following is a list of things that were explored, typically in combination with one another:
 
 - Estimate or fix $M$
 - Estimate or fix any of the three growth parameter for each sex
