@@ -127,6 +127,8 @@ fishery selectivities and with steepness fixed at 0.72",
 label = 'es-yield')
 ```
 
+\clearpage
+
 \input{tex_tables/e_ReferencePoints_ES.tex}
 
 \clearpage
