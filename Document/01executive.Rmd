@@ -169,7 +169,7 @@ Further details about selecting the decision table states of nature will be adde
 
 ## Research and Data Needs{-}
 
-Recommended avenues for research to help improve future `r spp` stock assessments (in no particular order):
+Recommended avenues for research to help improve future `r spp` stock assessments are listed below (in no particular order). Resposnes to research and data needs identified in the last assessment can be found in Section 4.7. 
 
 1. Continue work on the investigation into the movement, and behavior or mortality of older (> age 10) females to further reconcile their absence in fisheries data. 
 2. Conduct population genetics studies on fish observed off of the continental shelf (middle of the gyre and at sea mounts) to determine their association with the nearshore stocks.
