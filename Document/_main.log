@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.2)  22 JUN 2023 11:30
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.2)  22 JUN 2023 12:23
  restricted system commands enabled.
 **_main.tex
 (./_main.tex
@@ -1503,14 +1503,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1063--1065
 
 [32]
 
-LaTeX Warning: Reference `tab:model-param' on page 33 undefined on input line 1117.
+LaTeX Warning: Reference `tab:model-params' on page 33 undefined on input line 1117.
 
 [33] [34] [35] [36]
 
-LaTeX Warning: Reference `tab:model-param' on page 37 undefined on input line 1203.
+LaTeX Warning: Reference `tab:model-params' on page 37 undefined on input line 1203.
 
 
-LaTeX Warning: Reference `tab:model-param' on page 37 undefined on input line 1205.
+LaTeX Warning: Reference `tab:model-params' on page 37 undefined on input line 1205.
 
 [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]
 Underfull \hbox (badness 10000) in paragraph at lines 1538--1540
@@ -4121,7 +4121,7 @@ Here is how much of LuaTeX's memory you used:
    9 hlist, 2 vlist, 3 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 4 glyph, 51 attribute, 85 glue_spec, 27 attribute_list, 6 write, 1 close, 13 pdf_action nodes
    avail lists: 1:6,2:17166,3:4301,4:131,5:590,6:2132,7:30672,8:214,9:13720,10:19,11:739,12:1
  70314 multiletter control sequences out of 65536+600000
- 84 fonts using 17724551 bytes
+ 84 fonts using 17724851 bytes
  115i,12n,128p,2284b,837s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'app_d'
