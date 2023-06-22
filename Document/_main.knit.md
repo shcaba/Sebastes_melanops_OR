@@ -1010,7 +1010,7 @@ The profile on the assumption of the acoustic-visual survey catchability demonst
 
 The steepness profile showed little information content for this parameter (Figure \ref{fig:steepness-profile}) as the best fit value went towards the bound of 1. Changing steepness mostly changed the estimate of initial stock size, with a higher initial stock size needed to make up for the lower recruitment compensation. Overall, the relative stock size changed little across a large range of steepness values. The biological compositions pushed the steepness to the highest value, whereas the index data indicated a mixed signal for the lowest and highest steepness values (Figure \ref{fig:steepness-profile-components}).
  
-The combined profile that varies female and male $M$ while maintaining the reference model offset demonstrated what had be seen in the model development, that when freely estimated, the model wants natural mortality values to be unreasonably high (Figure \ref{fig:M-multiprofile-combo}). All likelihood components confirm the drive for higher $M$ values for both sexes (Figure \ref{fig:M_Piner_plots}). Given the highly constrained model specification (i.e., a fix q on a survey), the range of reasonable natural mortality values adjust the scale of the population in order to match the value fixed in 2021. Similar to the steepness profile, the lower natural mortality values lead to lower productivity, and thus the need for a higher initial biomass, which changes quicker than the current, more pinned down, current biomass value. While the scale does change substantially, the current relative stock status is fairly stable and always above the target level.
+The combined profile that varies female and male $M$ while maintaining the reference model offset demonstrated what had be seen in the model development, that when freely estimated, the model wants natural mortality values to be unreasonably high (Figure \ref{fig:M-multiprofile-combo}). All likelihood components confirm the drive for higher $M$ values for both sexes (Figures \ref{fig:M-multiprofile-like-components} to \ref{fig:M-multiprofile-survey-components}). Given the highly constrained model specification (i.e., a fix q on a survey), the range of reasonable natural mortality values adjust the scale of the population in order to match the value fixed in 2021. Similar to the steepness profile, the lower natural mortality values lead to lower productivity, and thus the need for a higher initial biomass, which changes quicker than the current, more pinned down, current biomass value. While the scale does change substantially, the current relative stock status is fairly stable and always above the target level.
 
 
 ### Retrospective Analysis
@@ -1847,7 +1847,22 @@ SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 \newpage
 
 
-![Likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-like-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/M_Piner_plots.png){width=100% height=100% alt="."}
+![Likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-like-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/Piner_like_comps.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Length likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-length-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_Lt.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Age likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-age-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_age.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Survey likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-survey-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_survey.png){width=100% height=100% alt="."}
 
 \newpage
 

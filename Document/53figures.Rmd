@@ -715,9 +715,36 @@ label = 'M-multiprofile-combo')
 
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(likeprof_fig_loc, "M_Piner_plots.png"), 
+filein = file.path(likeprof_fig_loc, "Piner_like_comps.png"), 
 caption = "Likelihood component values for the female and male $M$ multi-parameter likelihood profile",
 label = 'M-multiprofile-like-components')
+```
+
+\newpage
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc, "LC_Lt.png"), 
+caption = "Length likelihood component values for the female and male $M$ multi-parameter likelihood profile",
+label = 'M-multiprofile-length-components')
+```
+
+\newpage
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc, "LC_age.png"), 
+caption = "Age likelihood component values for the female and male $M$ multi-parameter likelihood profile",
+label = 'M-multiprofile-age-components')
+```
+
+\newpage
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc, "LC_survey.png"), 
+caption = "Survey likelihood component values for the female and male $M$ multi-parameter likelihood profile",
+label = 'M-multiprofile-survey-components')
 ```
 
 \newpage
