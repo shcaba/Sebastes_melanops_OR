@@ -389,7 +389,8 @@ Some recent important regulations or management events include the following:
 ## Canadian and Alaska Fisheries
 Black Rockfish is one of multiple Inshore Rockfish species on the West Coast of British Columbia. The most recent evaluation was completed by Yamanaka and Lacko [-@yamanaka_inshore_2001], which determined that there was insufficient information to recommend a Black Rockfish-specific catch quotas for the five management areas on the Pacific coast of British Columbia. Black Rockfish continues to be a "Non-Quota" species in the Department of Fisheries and Oceans Management Plan [@dfo_fmp_2014]. 
 
-Directed fisheries for Black Rockfish in Alaska are limited. In the Westward region (Kodiak area) of Alaska, an acoustic visual survey has been the primary management tool used to determine population size. An age-structured assessment for Black Rockfish is under development by the Alaska Department of Fish and Game that will use the data from this acoustic visual survey as the primary data source. No assessments have been developed for Black Rockfish for the Southeast or Central regions in the Gulf of Alaska. 
+Directed fisheries for Black Rockfish in Alaska are limited. In the Westward region (Kodiak area) of Alaska, an acoustic visual survey has been the primary management tool used to determine population size. An age-structured assessment for Black Rockfish is under development by the Alaska Department of Fish and Game that will use the data from this acoustic visual survey as the primary data source. ssessments are also under development for Black Rockfish for the Southeast or Central regions in the Gulf of Alaska. 
+
 
 <!--chapter:end:11introduction.Rmd-->
 
