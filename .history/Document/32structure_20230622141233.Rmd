@@ -4,7 +4,7 @@
 
 The Oregon model is structured to track several fleets and include data from several surveys:
 
-* Fleet 1: Commercial trawlfishery
+* Fleet 1: Commerical trawlfishery
 * Fleet 2: Commercial non-trawl fishery
 * Fleet 3: Recreational ocean boat fishery
 * Fleet 4: Recreational shore fishery
