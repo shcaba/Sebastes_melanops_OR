@@ -31,7 +31,7 @@ label = 'map')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "data_plot.png"), 
-caption = "Summary of data sources used in the reference model",
+caption = "Summary of data sources used in the reference model.  Trawl_wdis: Trawl fishery with discards, Non-Trawl_wdis: Non Trawl Commercial Fishery with discards",
 label = 'data-plot')
 ```
 
@@ -40,7 +40,7 @@ label = 'data-plot')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "catch2 landings stacked.png"), 
-caption = "Landings by fleet used in the reference model where catches in metric tons by fleet are stacked",
+caption = "Landings by fleet used in the reference model where catches in metric tons by fleet are stacked. Trawl_wdis: Trawl fishery with discards, Non-Trawl_wdis: Non Trawl Commercial Fishery with discards",
 label = 'catch')
 ```
 
