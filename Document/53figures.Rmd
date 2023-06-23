@@ -281,7 +281,7 @@ add_figure(
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(mod_build_fig_loc, "Mod build stock status/compare4_Bratio_uncertainty.png"),
-caption = "Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show",
+caption = "Relative spawning output time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history",
 label = 'modbuild-data-depl')
 ```
 
@@ -291,7 +291,7 @@ label = 'modbuild-data-depl')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(mod_build_fig_loc, "Mod build stock scale/compare2_spawnbio_uncertainty.png"),
-caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model",
+caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history",
 label = 'modbuild-data-ssb')
 ```
 
@@ -611,7 +611,7 @@ label = 'comp-depl')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_data_fig_loc, "Sensi_logREplot_SB_Dep_F_MSY.png"),
-caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model",
+caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-data-RE')
 ```
 
@@ -620,7 +620,7 @@ label = 'sensi-data-RE')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_data_fig_loc, "compare2_spawnbio_uncertainty.png"),
-caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model",
+caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-data-ssb')
 ```
 
@@ -629,7 +629,7 @@ label = 'sensi-data-ssb')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_data_fig_loc, "compare4_Bratio_uncertainty.png"),
-caption = "Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show",
+caption = "Relative spawning output time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-data-depl')
 ```
 
@@ -638,7 +638,7 @@ label = 'sensi-data-depl')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "Sensi_logREplot_SB_Dep_F_MSY.png"),
-caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model",
+caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-modspec-RE')
 ```
 
@@ -647,7 +647,7 @@ label = 'sensi-modspec-RE')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "compare2_spawnbio_uncertainty.png"),
-caption = "Spawning output (in millions of eggs) time series by model specification scenario compared to the reference model. Missing scenarios mean the spawning output was too large to show",
+caption = "Spawning output (in millions of eggs) time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-modspec-ssb')
 ```
 
@@ -656,7 +656,7 @@ label = 'sensi-modspec-ssb')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "compare4_Bratio_uncertainty.png"),
-caption = "Relative spawning output time series by model specification scenario compared to the reference model",
+caption = "Relative spawning output time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-modspec-depl')
 ```
 
