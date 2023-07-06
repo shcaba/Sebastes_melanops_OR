@@ -18,9 +18,9 @@ author:
   - name: Leif R. Rasmuson
     code: 2
     first: L
-    middle: R
+    middle: K
     family: Rasmuson
-author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.R. Rasmuson
+author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.K. Rasmuson
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
