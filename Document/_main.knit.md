@@ -1,6 +1,6 @@
 ---
 geometry: margin=1in
-month: "June"
+month: "July"
 year: "2023"
 preamble: 
 csl: canadian-journal-of-fisheries-and-aquatic-sciences.csl
@@ -34,12 +34,17 @@ author:
     first: A
     middle: D
     family: Whitman
-  - name: Leif R. Rasmuson
+  - name: Leif K. Rasmuson
     code: 2
     first: L
     middle: R
     family: Rasmuson
-author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.R. Rasmuson
+  - name: Claire Rosemond
+    code: 3
+    first: C
+    middle: 
+    family: Rosemond
+author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.R. Rasmuson, c. Rosemond
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
@@ -48,12 +53,15 @@ affiliation:
   - code: 2
     address: Oregon Department of Fish and Wildlife, 2040 Southeast Marine Science
       Drive, Newport, Oregon 97365
+  - code: 3
+    address: Department of Fisheries, Wildlife, and Conservation Sciences, 104 Nash Hall, Oregon State University, Corvallis, OR 97331
 address:
   - ^1^Northwest Fisheries Science Center, U.S. Department of Commerce, National Oceanic
     and Atmospheric Administration, National Marine Fisheries Service, 2725 Montlake
     Boulevard East, Seattle, Washington 98112
   - ^2^Oregon Department of Fish and Wildlife, 2040 Southeast Marine Science Drive,
     Newport, Oregon 97365
+  - ^3^Department of Fisheries, Wildlife, and Conservation Sciences, 104 Nash Hall, Oregon State University, Corvallis, OR 97331
 ---
 
 <!--chapter:end:00authors.Rmd-->
