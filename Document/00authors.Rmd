@@ -18,14 +18,18 @@ author:
   - name: Leif K. Rasmuson
     code: 2
     first: L
-    middle: R
+    middle: K
     family: Rasmuson
+<<<<<<< HEAD
   - name: Claire Rosemond
     code: 3
     first: C
     middle: 
     family: Rosemond
 author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.R. Rasmuson, c. Rosemond
+=======
+author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.K. Rasmuson
+>>>>>>> a1b93bccaef27ab9e148139ed9e3f6da534945ba
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
@@ -42,5 +46,9 @@ address:
     Boulevard East, Seattle, Washington 98112
   - ^2^Oregon Department of Fish and Wildlife, 2040 Southeast Marine Science Drive,
     Newport, Oregon 97365
+<<<<<<< HEAD
   - ^3^Department of Fisheries, Wildlife, and Conservation Sciences, 104 Nash Hall, Oregon State University, Corvallis, OR 97331
 ---
+=======
+---
+>>>>>>> a1b93bccaef27ab9e148139ed9e3f6da534945ba
