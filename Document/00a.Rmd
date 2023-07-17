@@ -44,7 +44,7 @@ if(file.exists("00mod.Rdata")){
   print("Model output not being read. Please run the read_model() function.")
 }
 
-user <- Sys.getenv("USERNAME")
+
 if( grepl("Chantel", user) ){
   user_dir <- "C:/Assessments/2023/black_rockfish/"
 } else {
@@ -53,6 +53,7 @@ if( grepl("Chantel", user) ){
 }
 
 base_name = "Reference model"
+user <- Sys.getenv("USERNAME")
  mod_loc = file.path(user_dir,
    "Sebastes_melanops_OR/Document/models",
    base_name)
