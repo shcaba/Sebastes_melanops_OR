@@ -37,7 +37,7 @@ author:
   - name: Leif K. Rasmuson
     code: 2
     first: L
-    middle: R
+    middle: K
     family: Rasmuson
   - name: Claire Rosemond
     code: 3
@@ -63,6 +63,8 @@ address:
     Newport, Oregon 97365
   - ^3^Department of Fisheries, Wildlife, and Conservation Sciences, 104 Nash Hall, Oregon State University, Corvallis, OR 97331
 ---
+=======
+---
 
 <!--chapter:end:00authors.Rmd-->
 
@@ -79,12 +81,11 @@ title: Status of Black Rockfish (_Sebastes melanops_) in 2023 in state and feder
 
 <!--chapter:end:00title.Rmd-->
 
-
 \vspace{500cm}
 
 # Disclaimer{-}
 
-**These materials do not constitute a formal publication and are for information only. They are in a pre-review, pre-decisional state and should not be formally cited or reproduced. They are to be considered provisional and do not represent any determination or policy of NOAA or the Department of Commerce.**
+_**These materials do not constitute a formal publication and are for information only. They are in a pre-review, pre-decisional state and should not be formally cited or reproduced. They are to be considered provisional and do not represent any determination or policy of NOAA or the Department of Commerce.**_
 
 \pagebreak
 \pagenumbering{roman}
