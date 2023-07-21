@@ -113,9 +113,9 @@ _**These materials do not constitute a formal publication and are for informatio
 \item The model was highly sensitive to model specifications for acoustic-visual (AV) survey catchability and recruitment. The base model fixed AV survey catchability at a reasonable value given the survey design and Black Rockfish biology. Reconciling the signal in the
 biological data (which suggests a lower population size and status) versus the AV and tag surveys (which suggest high stock sizes and status) is a major uncertainty.  
 
-\item The estimated spawning output at the beginning of 2023 was 600 million of eggs (meggs; ~95 percent asymptotic intervals: 468 to 732 meggs), which when compared to unfished spawning output (1,449 meggs) gives a relative stock status level of 41 percent (approximate 95 percent asymptotic intervals: 35 to 48 percent).  Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009.
+\item The estimated spawning output at the beginning of 2023 was 617 million of eggs (meggs; ~95 percent asymptotic intervals: 483 to 752 meggs), which when compared to unfished spawning output (1,445 meggs) gives a relative stock status level of 43 percent (approximate 95 percent asymptotic intervals: 36 to 50 percent).  Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009.
 
-\item  Fishing intensity (1 - SPR) has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 646.4 meggs. The Black Rockfish population in Oregon at the start of 2023 is estimated to be 1.38 times (above) the target biomass, and fishing intensity during 2022 is estimated to be 0.96 times (below) the fishing intensity target. Sustainable total yield, landings plus discards, using $\text{SPR}_{50\%}$ is estimated at 407 mt.   
+\item  Fishing intensity (1 - SPR) has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 644.7 meggs. The Black Rockfish population in Oregon at the start of 2023 is estimated to be 1.38 times (above) the target biomass, and fishing intensity during 2022 is estimated to be 0.96 times (below) the fishing intensity target. Sustainable total yield, landings plus discards, using $\text{SPR}_{50\%}$ is estimated at 407 mt.   
 
 \end{itemize}
 
@@ -210,7 +210,7 @@ Within model uncertainty is explicitly included in this assessment by parameter 
 
 ## Stock Biomass and Dynamics{-}
 
-Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was 600 meggs (~95 percent asymptotic intervals: 468 to 732 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (1,449 meggs) gives a relative stock status level of 41 percent (~95 percent asymptotic intervals: 35 to 48 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size from 1993 to 2008, before steadily increasing back above target since that time. The largest of the estimated recruitment pulses occurred in 2008 and was followed by several above average recruitment years in the early 2010s, which contributed to the increase in spawning output through the mid to late 2010s. The minimum relative stock size of 27 percent of unfished levels is estimated to have occurred in 1999. Accordingly, the stock has not been below the minimum stock size threshold (i.e., never overfished based on median estimates). Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
+Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was 617 meggs (~95 percent asymptotic intervals: 483 to 752 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (1,445 meggs) gives a relative stock status level of 43 percent (~95 percent asymptotic intervals: 36 to 50 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size from 1993 to 2008, before steadily increasing back above target since that time. The largest of the estimated recruitment pulses occurred in 2008 and was followed by several above average recruitment years in the early 2010s, which contributed to the increase in spawning output through the mid to late 2010s. The minimum relative stock size of 28 percent of unfished levels is estimated to have occurred in 1998. Accordingly, the stock has not been below the minimum stock size threshold (i.e., never overfished based on median estimates). Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
 
 \input{tex_tables/b_SSB_ES.tex}
 
@@ -236,7 +236,7 @@ Recruitment is informed by the data and estimated from 1980 to 2017, before and 
 
 ## Exploitation Status{-}
 
-Fishing intensity, as measured by the SPR rate (1 - SPR), has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. Fishing was at or above the target rate from 1989 to 2005 and has been slightly below it over the past 5 years (Table \ref{tab:exploitES} and Figures \ref{fig:es-1-spr} and \ref{fig:es-phase}). The steepness value of 0.72 indicates that a lower value of SPR (or equivalently a higher fishing intensity than $\text{SPR}_{50\%}$) would be consistent with the spawning output-based target of ($\text{SO}_{40\%}$) for sustainable removals. Trends in fishing intensity largely mirrored that of landings until the 1990s, after which recruitment pulses countered the catches somewhat to lower overall fishing intensity (Figure \ref{fig:es-1-spr}). The maximum fishing intensity (1 - SPR) was 0.72 in 1992, which is well above the target of 0.50. The current level of 0.52 for 2022 is below that target. Fishing intensity over the past decade has ranged between 0.48 and 0.63 and the exploitation rate (range of 0.06 - 0.1, Table \ref{tab:exploitES}) has come down since the time series high of 0.12 in 1992. Current estimates indicate that Black Rockfish spawning output is greater than than the target biomass level ($\text{SO}_{40\%}$), though fishing intensity remains near the target $F_{MSY}$ proxy harvest rate of 1 - $\text{SPR}_{50\%}$ (Figure \ref{fig:es-phase}).
+Fishing intensity, as measured by the SPR rate (1 - SPR), has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. Fishing was at or above the target rate from 1989 to 2005 and has been slightly below it over the past 5 years (Table \ref{tab:exploitES} and Figures \ref{fig:es-1-spr} and \ref{fig:es-phase}). The steepness value of 0.72 indicates that a lower value of SPR (or equivalently a higher fishing intensity than $\text{SPR}_{50\%}$) would be consistent with the spawning output-based target of ($\text{SO}_{40\%}$) for sustainable removals. Trends in fishing intensity largely mirrored that of landings until the 1990s, after which recruitment pulses countered the catches somewhat to lower overall fishing intensity (Figure \ref{fig:es-1-spr}). The maximum fishing intensity (1 - SPR) was 0.72 in 1992, which is well above the target of 0.50. The current level of 0.52 for 2022 is below that target. Fishing intensity over the past decade has ranged between 0.47 and 0.62 and the exploitation rate (range of 0.05 - 0.09, Table \ref{tab:exploitES}) has come down since the time series high of 0.12 in 1992. Current estimates indicate that Black Rockfish spawning output is greater than than the target biomass level ($\text{SO}_{40\%}$), though fishing intensity remains near the target $F_{MSY}$ proxy harvest rate of 1 - $\text{SPR}_{50\%}$ (Figure \ref{fig:es-phase}).
 
 \input{tex_tables/d_SPR_ES.tex}
 
@@ -255,7 +255,7 @@ This stock assessment does not explicitly incorporate trophic interactions, habi
 
 ## Reference Points{-}
 
-Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative spawning output (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:referenceES}). The yield values are lower than the previous assessment for similar reference points due to updated life history estimates. The proxy FMSY values of management quantities, based on exploitation rates that achieve $\text{SPR}_{50\%}$ and $\text{SO}_{40\%}$, are more conservative (lower) than the exploitation rate at estimated MSY. Sustainable total yield using the proxy $\text{SPR}_{50\%}$ is 407 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) was 579.5 meggs. 
+Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative spawning output (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:referenceES}). The yield values are lower than the previous assessment for similar reference points due to updated life history estimates. The proxy FMSY values of management quantities, based on exploitation rates that achieve $\text{SPR}_{50\%}$ and $\text{SO}_{40\%}$, are more conservative (lower) than the exploitation rate at estimated MSY. Sustainable total yield using the proxy $\text{SPR}_{50\%}$ is 407 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) was 578 meggs. 
 
 Recent removals have been close to the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point, though the population size has continued to increase over recent years due to several above average recruitments. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:es-yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
 
@@ -820,13 +820,13 @@ There are five primary likelihood components for each assessment model:
 
 The base assessment model for Oregon Black Rockfish was developed to balance parsimony and realism, and the goal was to estimate a spawning output trajectory and relative stock status for the population of Black Rockfish in state and federal waters off Oregon. The model contains many assumptions to achieve parsimony and uses different data types and sources to estimate reality. A series of investigative model runs were done to achieve the final base model. Constructing integrated models (i.e., those fitting many data types) takes considerable model exploration using different configurations of the following treatments:
 
-- Data types
+- Data types and treatments
 - Parameter treatments: which parameter can, cannot and do not need to be estimated
 - Phasing of parameter estimation 
 - Data weighting
 - Exploration of local vs global minima (see model convergence section below)
 
-The different biological data with and without the catch time series were first included to obtain an understanding of the signal of stock status coming from the data (Figure \ref{fig:modbuild-data-depl}). Both the lengths and ages, with and without the removal time series, demonstrated a signal for a highly depleted stock. Stock scale was comparable once removal history was included, and showed lower estimates of scale. This departure from the ultimate reference model highlights the major uncertainty in the treatment of the biological data in when characterizing model uncertainty. Further sensitivities to the inclusion or exclusion of different indices of abundance are provided in the model sensitivity section.
+The different biological data with and without the catch time series were first included to obtain an understanding of the signal of stock status coming from the data (Figure \ref{fig:modbuild-data-depl}). Both the lengths and ages, with and without the removal time series, demonstrated a signal for a highly depleted stock when no recruitment deviations were estimated. When recruitment deviations were estimated, models included ages indicated an increasing stock, as opposed to the lengths that maintained a depressed stock status. The underlying mean size and age data clearly show a relatively steady mean length through time, whereas the ages show an decreasing then increasing mean age indicative of a growing population (see reference model plots for these patterns). Stock scale was comparable once removal history was included. The differences in derived model outputs highlight major uncertainty in the treatment of the biological data when characterizing model uncertainty. Further sensitivities to the inclusion or exclusion of different indices of abundance are detailed in the model sensitivity section.
 
 Numerous exploratory models that included all data types and a variety of model specifications were subsequently explored and too numerous to fully report. In summary, the estimation of which life history parameters to estimate and fix was liberally explored.
 The following is a list of things that were explored, typically in combination with one another:
@@ -840,13 +840,107 @@ The following is a list of things that were explored, typically in combination w
 - Estimate or fix selectivity parameters
 - Logistic or dome-shaped selectivity
 
-After much consideration, it was determined that some parameters were inestimable ($M$,$L_min$ for both sexes), some did not move much for initial values and could be fixed (e.g., CV at length values, some selectivity parameters), and others could be estimated (e.g., $L_{\infty}$, $k$, $lnR_0$). Estimation of $L_min$ or fixing it to the externally estimated values consistently gave very high estimates of $L_{\infty}$ for both sexes, thus the $L_min$ value for both females and males was fixed so $t_0$ = 0, as this gave the most realistic $L_{\infty}$ values. No priors were used on any of the estimated parameters except female $L_{\infty}$ which used a normal prior and a standard deviation taken from the external fit to the growth curve (0.17). Length at maturity, fecundity-weight, and length-weight relationship, steepness ($h$) and recruitment variance were all fixed. 
-
 Examination of the catches in the trawl fishery indicated much larger fish being caught versus those caught in the commercial non-trawl and recreational ocean boat fisheries (both of which have very similar mean lengths and aggregate catch compositions) in the same years.  Dome-shaped selectivity was therefore allowed in those fisheries as well as the shore-based fleet (which catches much smaller individuals) and the MPA survey. The ORBS and MRFSS surveys were assumed to have the same selectivity as the recreational boat fishery fleet. While constant selectivity was assumed across all fleets, it was also noted that the earlier time series (prior to 2003) of the recreational boat fleet, as sampled by the MRFSS program, had consistently smaller mean lengths than the ORBS sampled years. The MRFSS years also had smaller samples with more uncertainty. Time varying selectivity was explored in the two periods to see if this improved the fit to the data, but no perceivable improvement was made and the resultant difference was very small in the derived model outputs, so a constant selectivity was assumed for the whole time period.
 
-The full list of estimate and fixed parameters are found in Table \ref{tab:model-params}. 
+After much consideration of exploratory model runs, it was determined that some parameters were inestimable ($M$,$L_min$ for both sexes), some did not move much for initial values and could be fixed (e.g., CV at length values, some selectivity parameters), and others could be estimated (e.g., $L_{\infty}$, $k$, $lnR_0$). Estimation of $L_min$ lead to very large gradients for all other parameters (though not unrealistic estimates of those parameters), and fixing it to the externally estimated values consistently gave very high estimates of $L_{\infty}$ for both sexes, thus the $L_min$ value for both females and males was fixed so $t_0$ = 0, as this gave the most realistic $L_{\infty}$ values. No priors were used on any of the estimated parameters except female $L_{\infty}$ which used a normal prior and a standard deviation taken from the external fit to the growth curve (0.17). Length at maturity, fecundity-weight, and length-weight relationship, steepness ($h$) and recruitment variance were all fixed. 
 
-The biggest uncertainty revealed in the model exploration was conflict in the signal of the biological data and that in the acoustic visual survey catchability. If the inherent uncertainty in the survey (CV = 0.45) was used, additional variance estimated on a lower CV, or the catchability was estimated, the acoustic visual survey was essentially ignored (catchability was between 3 and 4, saying the survey overestimates abundance by 3 to 4 times), the scale and stock status dropped significantly. If the acoustic survey catchability, reviewed and deemed informative of overall black rockfish biomass in Oregon [@Rasmuson_etal_SSC_2022], was assumed to be equal to 1, the biomass and stock status was much higher. Given there are serious issues with assuming either of the previous hypotheses are acceptable, the STAT determined a realistic upper bound (based on a calculated catchability from the uncertainty in the acoustic visual survey) for catchability of 1.822 (or $ln(q)$ of 0.6). This served as fixed value of catchability (which also required a small CV of 0.0001 on that index) to build the final reference model around.  
+The biggest uncertainty revealed in the model exploration was conflict in the signal of the biological data and that in the acoustic visual survey catchability. If the inherent uncertainty in the survey (CV = 0.45) was used, additional variance estimated on a lower CV, or the catchability was estimated, the acoustic visual survey was essentially ignored (catchability was between 3 and 4, saying the survey overestimates abundance by 3 to 4 times), the scale and stock status dropped significantly. If the acoustic survey catchability, reviewed and deemed informative of overall black rockfish biomass in Oregon [@Rasmuson_etal_SSC_2022], was assumed to be equal to 1, the biomass and stock status was much higher. Given there are serious issues with assuming either of the previous hypotheses are acceptable, the STAT determined a realistic upper bound (based on a calculated catchability from the uncertainty in the acoustic visual survey) for catchability of 1.822 (or $ln(q)$ of 0.6). This served as fixed value of catchability (which also required a small CV of 0.0001 on that index) to build the reference model presented to the STAR panel. The proposed higher and lower states of nature, respectively, then assumed either the acoustic visual catchability was known with a value of 1 with little error and the tag and acoustic visual surveys were essentially ignored, with the length data being the main source of stock status information in the population.
+
+### pre-STAR Panel explorations and development of the final reference model
+
+The pre-STAR Panel draft assessment outlined a variety of sensitivities and likelihood profiles to characterize the uncertainty in the proposed reference model given the internal estimate of uncertainty (a standard deviation of 0.01) was unreliably low. As these pertain to the final development of the reference model, they are included in their entirety. 
+
+#### Data treatment sensitivities
+Data treatments explored included the treatment of catchability for the acoustic-visual survey and the tagging data, the removal of any one data source, and alternative approaches to data weighting. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
+
+- Treatment of absolute abundance catchability (q) 
+	1. Acoustic visual survey q = 1, CV = 0.0001
+  	2. Acoustic visual survey q Estimated, CV = 0.0001
+  	3. Acoustic visual survey q = 1, CV = 0.45
+  	4. Acoustic visual survey q estimated, CV = 0.45
+  	5. Tag survey q = to 2015 value (0.25) with #2 above
+  	6. Tag survey q = to 2015 value (0.25), but extra variance estimated, with #2 above
+
+- Remove abundance index series 
+	7. No Acoustic visual
+  	8. No tagging index
+  	9. No non-trawl index
+  	10. No ORBS index
+  	11. No MRFSS index
+  	12. No MPA index
+	13. Add SMURFs index 
+
+- Data weighting (Table \ref{tab:data_wt})
+  	14. No data-weighting
+  	15. Dirichlet data-weighting
+  	16. McAllister-Ianelli data weighting
+
+17. 2015 Catch history
+
+Likelihood values and estimates of key parameters and derived quantities from each data treatment sensitivity are available in Tables \ref{tab:data_sensis_q} and \ref{tab:data_sensis_other}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}. 
+
+From a data standpoint, these sensitivities indicate the model was most sensitive to how information on absolute abundance, or population scale, from the acoustic-visual survey and the tagging data was treated in the model.  In particular, the parameterization of catchability (model estimated or fixed) and the level of error (input CVs and model estimated extra variance) associated with these two data sources provided considerably discrepencies in key management quantities (e.g., stock size and status; Figures \ref{fig:sensi-data-RE}, \ref{fig:sensi-data-ssb}, and \ref{fig:sensi-data-depl}). The model was comparatively robust to the removal of any given single data source, with the exception of the acoustic-visual survey, and the relative weighting of length and age composition data. The harmonic mean data weighting approach (based on the McAllister-Ianelli method) resulted in negligible change from the reference model that used the Francis weighting method.  The Dirichlet method only minimally adjusted the input sample sizes, nearly mimicking the sensitivity model where no weighting was conducted, which had the effect of increasing current estimates of stock size (20%) but no appreciably change in stock status. 
+
+Alternative treatment of the acoustic-visual survey data largely resulted in two alternative states of nature in terms of stock size and status (high and low) relative to the base model. Fixing catchability to 1.0 and reducing the input CV to near zero essentially forced the model to fit the 2021 acoustic-survey data point perfectly (high state of nature). However, when doing so the model estimated biological parameters (e.g., natural mortality and growth) that were extreme, nearing implausibility. Alternatively, estimating catchability, or similarly inputting the externally estimated CV of 0.45, resulted in a low state of nature where estimates of spawning output over recent years were below OFLs and stock status was in the precautionary zone. However, the interpretation of resulting acoustic-survey catchability was impractically high (3.0 or higher) given the comprehensive study design of the survey. Fixing the tagging catchability to the value assumed in the last assessment largely counteracts the change to the reference model after fixing the acoustic-visual catchability to 1.0 and reducing its input CV to near zero.  
+
+#### Model specification sensitivities
+Model specifications looked at the estimation of individual and combinations of life history parameters, including the treatment of natural mortality, growth, maturity, fecundity and recruitment, and fishery selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
+
+- Life history estimation
+
+	- Natural mortality ($M$)
+		1. Use 2015 $M$ values 
+		2. Lorenzen age varying $M$
+		3. Estimate $M$
+
+	- Growth parameters
+	 	4. Fix all growth parameters to external values, estimate $M$
+		5. Fix all growth parameters to external values
+	 	6. Estimate $L_min$
+	 	7. Estimate $CV_{young}$ and $CV_{old}$
+
+	- Reproductive Biology
+	 	8. Use biological maturity ogive (logistic model)
+	 	9. Use functional maturity ogive (logistic model)
+	 	10. Fecundity proportional to weight
+
+	- Recruitment estimation
+	 	11. No recruitment estimation
+	 	12. Estimate recruitment for all years in the model
+
+ - Selectivity  
+		13. Estimate logistic selectivity for all fleets
+	
+Likelihood values and estimates of key parameters and derived quantities from each model specification sensitivity are available in Table \ref{tab:modspec_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. In general, model specifications for natural mortality, selectivity, and growth caused the population to drop below the reference model estimate of stock size, while alternative reproductive biology models increased stock size.  Despite considerable differences in the historic trajectory of relative stock status across sensitivity models, there was considerably less variability in the estimate of current (2023) stock status (ranging from 0.49 to 0.65, where 0.55 is the reference model, with the exception of the estimate $L_min$ growth model that had convergence issues when estimating the length at minimum age). 
+
+Estimating female and male $M$ led to a considerably higher mortality rate for females (0.25 compared to 0.19 used in the reference model) and slightly higher for males (0.18 compared to 0.17). This had the effect of lowering both the beginning and ending stock scale, but had only a marginal influence on current stock status. Similarly, fixing growth but estimating $M$ also dropped stock scale but preserved stock status relative to the sensitivity that only fixed the growth parameters to external estimates. Due to the similarity between $M$ in the reference model and what was used in the previous 2015 assessment, there was little change in overall management quantities associated with this sensitivity model.    
+
+Fixing growth parameters in the model to external-to-the-assessment estimates resulted in a considerable change in the stock trajectory, both in terms of stock size and status, yet end up in about the same place by 2023. For example, over the most recent 20 years, this sensitivity model estimates the stock declining from a nearly unfished state in the early 2000s. In contrast, the reference model (and nearly all other sensitivity model) estimate the stock has been increasing from a precautionary state in the early 2000s. Estimating the CV for growth of young and old fish had negligible impact on results. The model that estimated $L_min$ did not pass key model diagnostic tests (e.g., stability and convergence) so was not considered further. 
+
+Using a logistic function to externally estimate maturity ogives, based on either biological or functional maturity measurements, increased scale and overall spawning output relative to the reference model.  This result was most prominent when biological maturity was used to describe the maturity schedule due to the appreciable reduction in the length at 50 percent maturity indicating that females mature at a younger age on average than when using functional maturity (Figure \ref{fig:bio-fxn-mat-color}). The minor differences between using a logistic function (sensitivity) versus a spline (reference model) was due to the latter allowing for skip spawning of older, mature females. Assuming that fecundity is proportional to female body weight, instead of an exponential relationship with length as used in the reference model, resulted in an increase in beginning and ending scale but little different in overall stock status.
+
+Recruitment estimation (assuming $\sigma_R$ = 0.6) was sensitive to the estimation of different ranges of years of recruitment deviations. While the truncated time series of recruitment used in the reference model can be considered parsimonious, the addition of estimating all recruitment years adds additional uncertainty to the stock status measure earlier in the time series. Estimating recruitment deviations for all years in the model dropped the scale of the population, altered the historic stock status trajectory, but had little effect on current stock status. Estimating the full time series of recruitments resulted in a significant negative trend in deviates early in the time period that was a concern. Removing the estimation of any recruitment deviates from the stock-recruitment curve resulted in reduced stock dynamics, where the decline in stock status from an unfished state was gradual and largely driven by the catch history.  
+
+Estimating all fleet selectivity patterns as logistic effectively removed the potential for cryptic biomass resulting from fleets not encountering and catching fish of older sizes or ages. This model resulted in an decrease in beginning and ending scale and reduced stock status since 1990 (even to the point where the stock would have been considered overfished from the 1990s to the early 2010s). The stock status discrepancy is reduced the closer the model gets to the current year, where the fraction of unfished is estimated to be 53 percent in 2023 compared to the pre-STAR reference model of 55 percent. The fit to the logistic selectivity model is not as good in terms of residual patterns and overall likelihood (based on AIC).  
+
+
+#### Likelihood Profiles
+
+Likelihood profiles were conducted for the acoustic-visual survey catchability (q) in natural log-space (ln($q$)), steepness ($h$), and female and male natural mortality ($M$) varying together with a constant ratio matching the reference model (0.19/0.17, female and male values respectively). Likelihood profiles were conducted by fixing the featured parameter(s) at specific values across a range of values and estimating all remaining parameters. A likelihood profile offers insight into model sensitivity to changing model parameter values, while providing an additional way to describe uncertainty in the parameter by identifying the range of parameters within 1.96 likelihood units of the reference model.
+
+The profile on the assumption of the acoustic-visual survey catchability demonstrates the expected scaling up and down of the population with the decrease and increase of the catchability, respectively (Figure \ref{fig:AVq-profile}). The change in the current spawning output is steeper than the initial spawning output, leading to a steep decline in relative biomass as ln($q$) gets larger. As the ln($q$) approaches 1.5, the stock approaches the overfished limit reference point. The most supported value of the ln($q$) is found near 1.17 with a very tight support interval. The most prominent length data (in samples and associated fisheries) support larger ln($q$) values, while age compositions support smaller ln($q$) values near the value used in the reference model (Figure \ref{fig:AVq-profile-components}). The less informed survey indices support larger ln($q$) values on the strength of the best fit index (non-trawl CPUE index).
+
+The steepness profile showed little information content for this parameter (Figure \ref{fig:steepness-profile}) as the best fit value went towards the bound of 1. Changing steepness mostly changed the estimate of initial stock size, with a higher initial stock size needed to make up for the lower recruitment compensation. Overall, the relative stock size changed little across a large range of steepness values. The biological compositions pushed the steepness to the highest value, whereas the index data indicated a mixed signal for the lowest and highest steepness values (Figure \ref{fig:steepness-profile-components}).
+ 
+The combined profile that varies female and male $M$ while maintaining the reference model offset demonstrated what had be seen in the model development, that when freely estimated, the model wants natural mortality values to be unreasonably high (Figure \ref{fig:M-multiprofile-combo}). All likelihood components confirm the drive for higher $M$ values for both sexes (Figures \ref{fig:M-multiprofile-like-components} to \ref{fig:M-multiprofile-survey-components}). Given the highly constrained model specification (i.e., a fix q on a survey), the range of reasonable natural mortality values adjust the scale of the population in order to match the value fixed in 2021. Similar to the steepness profile, the lower natural mortality values lead to lower productivity, and thus the need for a higher initial biomass, which changes quicker than the current, more pinned down, current biomass value. While the scale does change substantially, the current relative stock status is fairly stable and always above the target level.
+
+#### Additional STAR Panel sensitivities
+
+Further discussions in the STAR Panel lead to several additional model runs exploring alternatives to fixing the 
+
+### Final reference model
+
+The full list of estimate and fixed parameters are found in Table \ref{tab:model-params}. 
 
 General attributes of the reference model are that indices of abundance are assumed to have lognormal measurement errors. Length compositions and conditional age at length samples are all assumed to follow a multinomial sampling distribution, where the sample size is fixed at the input sample size calculated during compositional example, and where this input sample size is subsequently re-weighted to account for additional sources of overdispersion (see below). Recruitment deviations were also estimated are assumed to follow a lognormal distribution, where the standard deviation of this distribution is tuned as explained below.
 
@@ -876,7 +970,7 @@ Besides the additional of eight years of data, changes to some historical data s
 
 ### Model Convergence and Acceptability
 
-While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (\ensuremath{1.27617\times 10^{-4}}), inversion of the Hessian (passed), acceptable fits to data (passed), and reasonable parameter values (passed). 
+While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (\ensuremath{7.01333\times 10^{-5}}), inversion of the Hessian (passed), acceptable fits to data (passed), and reasonable parameter values (passed). 
 
 Model efficiency was explored by doing a short run Bayesian analysis using the Random Walk Metropolis with 2000 draws, keeping all the draws and examining the fast mixing parameters. Those estimated parameters that do not move much from the initial values slow the model down and are recommended to be fixed at the starting value [@monnahan_overcoming_2019]. This resulted in the fixing of three selectivity parameters (Figure \ref{fig:pairs-plot-fast}).
 
@@ -928,7 +1022,7 @@ Estimated selectivity curves for each fleet and survey (Figure \ref{fig:fleet-se
 
 The predicted spawning output (in millions of eggs) is provided in Table \ref{tab:timeseries} and plotted in Figure \ref{fig:ssb}. Estimated spawning output shows a large decline starting in the late 1970s when the recreational fishery begins in earnest. This decline is consistent until the late 1990s when it then rebounds due to several strong recruitments consistent with other rockfish stock assessments. The estimate of total biomass over time, which tracks that of spawning output, is shown in Figure \ref{fig:tot-bio}. 
 
-Relative spawning output declined below the management target ($SO_{40\%}$) by the 1990s, but rebounded to above the target in the 2010s (Figure \ref{fig:depl}). The relative stock status at the start of 2023 (0.43) is estimated to be above the rockfish relative biomass target of 0.4. Uncertainty intervals are extremely small and unbelievable, thus emphasizing alternative model specifications (mainly in the treatment of catchability) to capture uncertainty. The strong recruitment events are responsible for the dramatic increase and elevated stock status. Numbers of age-0 individuals indicate those years of particularly strong recruitment (Figure \ref{fig:recruits}). 
+Relative spawning output declined below the management target ($SO_{40\%}$) by the 1990s, but rebounded to above the target in the 2010s (Figure \ref{fig:depl}). The relative stock status at the start of 2023 (0.44) is estimated to be above the rockfish relative biomass target of 0.4. Uncertainty intervals are extremely small and unbelievable, thus emphasizing alternative model specifications (mainly in the treatment of catchability) to capture uncertainty. The strong recruitment events are responsible for the dramatic increase and elevated stock status. Numbers of age-0 individuals indicate those years of particularly strong recruitment (Figure \ref{fig:recruits}). 
 
 This current estimate shows a higher overall biomass (Figure \ref{fig:comp-ssb}), but similar relative stock status, as the 2015 stock assessment (Figure \ref{fig:comp-depl}). The differences in the scale, population dynamics, and current stock status are mostly due to the updated historical catch history, the estimation of recruitment deviations, and the pinning of the model to a different catchability (acoustic-visual survey vs the tag survey in 2015).
 
@@ -1037,7 +1131,7 @@ The biggest uncertainty and unresolved conflict is trying to reconcile the signa
 
 ## Reference Points
 
-Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative biomass (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:ReferencePoints}). The yield values are lower than the previous assessment for similar reference points due to updated life history estimates. The proxy FMSY values of management quantities, based on exploitation rates that achieve $\text{SPR}_{50\%}$ and $\text{SO}_{40\%}$, are more conservative (lower) than the exploitation rate at estimated MSY. Sustainable total yield using the proxy $\text{SPR}_{50\%}$ is 407 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 579.5 meggs. 
+Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative biomass (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:ReferencePoints}). The yield values are lower than the previous assessment for similar reference points due to updated life history estimates. The proxy FMSY values of management quantities, based on exploitation rates that achieve $\text{SPR}_{50\%}$ and $\text{SO}_{40\%}$, are more conservative (lower) than the exploitation rate at estimated MSY. Sustainable total yield using the proxy $\text{SPR}_{50\%}$ is 407 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 578 meggs. 
 
 Recent removals have been close to the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point, though the population size has continued to increase over recent years due to several above average recruitments. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
 
@@ -1219,7 +1313,7 @@ Parameter & Value & SD & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \endlastfoot
 NatM uniform Fem GP 1 & 0.19 & NA & -5 & (0.05, 0.25) & NA & Log Norm (-1.89, 0.075)\\
 L at Amin Fem GP 1 & 0 & NA & -5 & (-50, 100) & NA & None\\
-L at Amax Fem GP 1 & 50.922 & 0.262 & 3 & (1, 500) & OK & Normal (48.82, 0.3)\\
+L at Amax Fem GP 1 & 51.002 & 0.262 & 3 & (1, 500) & OK & Normal (48.82, 0.3)\\
 VonBert K Fem GP 1 & 0.182 & 0.002 & 3 & (0.001, 2) & OK & None\\
 CV young Fem GP 1 & 0.1 & NA & -5 & (0.001, 5) & NA & None\\
 CV old Fem GP 1 & 0.1 & NA & -5 & (0.001, 5) & NA & None\\
@@ -1231,57 +1325,57 @@ Eggs scalar Fem GP 1 & 1.41e-08 & NA & -3 & (0, 3) & NA & None\\
 Eggs exp len Fem GP 1 & 4.685 & NA & -3 & (0, 10) & NA & None\\
 NatM uniform Mal GP 1 & 0.17 & NA & -5 & (0.05, 0.25) & NA & Log Norm (-1.89, 0.2)\\
 L at Amin Mal GP 1 & 0 & NA & -3 & (-50, 100) & NA & None\\
-L at Amax Mal GP 1 & 46.38 & 0.342 & 3 & (1, 500) & OK & None\\
-VonBert K Mal GP 1 & 0.208 & 0.003 & 3 & (0.001, 2) & OK & None\\
+L at Amax Mal GP 1 & 46.036 & 0.337 & 3 & (1, 500) & OK & None\\
+VonBert K Mal GP 1 & 0.215 & 0.003 & 3 & (0.001, 2) & OK & None\\
 CV young Mal GP 1 & 0.1 & NA & -5 & (0.001, 5) & NA & None\\
 CV old Mal GP 1 & 0.1 & NA & -5 & (0.001, 5) & NA & None\\
 Wtlen 1 Mal GP 1 & 2.56318e-05 & NA & -99 & (0, 3) & NA & None\\
 Wtlen 2 Mal GP 1 & 2.894 & NA & -99 & (2, 4) & NA & None\\
 CohortGrowDev & 1 & NA & -1 & (0.1, 10) & NA & None\\
 FracFemale GP 1 & 0.5 & NA & -99 & (0.01, 0.99) & NA & None\\
-SR LN(R0) & 8.116 & 0.028 & 1 & (1e-04, 15) & OK & None\\
+SR LN(R0) & 8.104 & 0.029 & 1 & (1e-04, 15) & OK & None\\
 SR BH steep & 0.72 & NA & -1 & (0.2, 1) & NA & Log Norm (0.72, 0.24)\\
 SR sigmaR & 0.6 & NA & -6 & (0, 2) & NA & None\\
 SR regime & 0 & NA & -99 & (-5, 5) & NA & None\\
 SR autocorr & 0 & NA & -99 & (0, 2) & NA & None\\
-Main RecrDev 1980 & -0.789 & 0.374 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1981 & -0.781 & 0.363 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1982 & -0.487 & 0.308 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1983 & -0.549 & 0.298 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1984 & -0.1 & 0.218 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1985 & 0.097 & 0.177 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1986 & -0.083 & 0.171 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1987 & -0.167 & 0.154 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1988 & -0.133 & 0.129 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1989 & 0.119 & 0.096 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1990 & 0.052 & 0.084 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1991 & 0.171 & 0.070 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1992 & 0.077 & 0.064 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1993 & 0.074 & 0.060 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1994 & 0.382 & 0.053 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1995 & 0.335 & 0.057 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1996 & 0.063 & 0.073 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1997 & 0.029 & 0.091 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1998 & -0.297 & 0.142 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 1999 & 0.536 & 0.105 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2000 & 0.842 & 0.104 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2001 & 0.177 & 0.189 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2002 & -0.479 & 0.301 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2003 & 0.292 & 0.137 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2004 & -1.072 & 0.356 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2005 & 0.332 & 0.113 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2006 & 0.056 & 0.152 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2007 & -0.207 & 0.190 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2008 & 0.97 & 0.070 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2009 & -0.355 & 0.176 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2010 & 0.478 & 0.078 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2011 & 0.355 & 0.079 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2012 & 0.125 & 0.088 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2013 & 0.47 & 0.073 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2014 & 0.359 & 0.083 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2015 & -0.43 & 0.134 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2016 & 0.466 & 0.106 & 3 & (-5, 5) & act & dev (NA, NA)\\
-Main RecrDev 2017 & -0.928 & 0.241 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1980 & -0.762 & 0.374 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1981 & -0.754 & 0.364 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1982 & -0.46 & 0.308 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1983 & -0.523 & 0.298 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1984 & -0.078 & 0.218 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1985 & 0.117 & 0.177 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1986 & -0.062 & 0.171 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1987 & -0.143 & 0.154 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1988 & -0.104 & 0.129 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1989 & 0.154 & 0.096 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1990 & 0.093 & 0.084 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1991 & 0.214 & 0.070 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1992 & 0.12 & 0.064 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1993 & 0.109 & 0.060 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1994 & 0.403 & 0.053 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1995 & 0.338 & 0.057 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1996 & 0.054 & 0.073 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1997 & 0.017 & 0.091 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1998 & -0.298 & 0.141 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1999 & 0.505 & 0.106 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2000 & 0.827 & 0.103 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2001 & 0.153 & 0.187 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2002 & -0.52 & 0.297 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2003 & 0.241 & 0.131 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2004 & -1.329 & 0.368 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2005 & 0.412 & 0.102 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2006 & 0.323 & 0.120 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2007 & -0.497 & 0.233 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2008 & 1.011 & 0.067 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2009 & -0.354 & 0.177 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2010 & 0.494 & 0.078 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2011 & 0.373 & 0.078 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2012 & 0.136 & 0.087 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2013 & 0.471 & 0.073 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2014 & 0.348 & 0.083 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2015 & -0.455 & 0.133 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2016 & 0.42 & 0.105 & 3 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2017 & -0.993 & 0.239 & 3 & (-5, 5) & act & dev (NA, NA)\\
 Late RecrDev 2018 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
 Late RecrDev 2019 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
 Late RecrDev 2020 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
@@ -1291,18 +1385,18 @@ InitF seas 1 flt 1Trawl wdis & 0 & NA & -1 & (0, 1000) & NA & None\\
 InitF seas 1 flt 2Non-Trawl wdis & 0 & NA & -1 & (0, 1000) & NA & None\\
 InitF seas 1 flt 3Ocean & 0 & NA & -1 & (0, 1000) & NA & None\\
 InitF seas 1 flt 4Shore & 0 & NA & -1 & (0, 1000) & NA & None\\
-LnQ base Non-Trawl wdis(2) & -5.567 & NA & -1 & (-15, 15) & NA & None\\
-Q extraSD Non-Trawl wdis(2) & 0.032 & 0.017 & 3 & (0, 5) & LO & None\\
-LnQ base Ocean(3) & -9.026 & NA & -1 & (-15, 15) & NA & None\\
+LnQ base Non-Trawl wdis(2) & -5.594 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD Non-Trawl wdis(2) & 0.029 & 0.016 & 3 & (0, 5) & LO & None\\
+LnQ base Ocean(3) & -9.055 & NA & -1 & (-15, 15) & NA & None\\
 Q extraSD Ocean(3) & 0.214 & 0.043 & 3 & (0, 5) & OK & None\\
-LnQ base MPA(5) & -7.093 & NA & -1 & (-15, 15) & NA & None\\
-Q extraSD MPA(5) & 0.152 & 0.081 & 3 & (0, 5) & OK & None\\
+LnQ base MPA(5) & -7.13 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD MPA(5) & 0.148 & 0.080 & 3 & (0, 5) & OK & None\\
 LnQ base Acoustic Visual(6) & 0 & NA & -5 & (-15, 2) & NA & None\\
 Q extraSD Acoustic Visual(6) & 0 & NA & -3 & (0, 5) & NA & None\\
-LnQ base Tag(7) & -0.903 & NA & -1 & (-15, 15) & NA & None\\
-Q extraSD Tag(7) & 0.092 & 0.031 & 3 & (0, 5) & OK & None\\
-LnQ base MRFSS(8) & -7.604 & NA & -1 & (-15, 15) & NA & None\\
-Q extraSD MRFSS(8) & 0.357 & 0.086 & 3 & (0, 5) & OK & None\\
+LnQ base Tag(7) & -0.92 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD Tag(7) & 0.095 & 0.032 & 3 & (0, 5) & OK & None\\
+LnQ base MRFSS(8) & -7.621 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD MRFSS(8) & 0.335 & 0.082 & 3 & (0, 5) & OK & None\\
 Size DblN peak Trawl wdis(1) & 53.231 & NA & -4 & (16, 70) & NA & None\\
 Size DblN top logit Trawl wdis(1) & 0.77 & NA & -4 & (-15, 15) & NA & None\\
 Size DblN ascend se Trawl wdis(1) & 3.585 & NA & -4 & (-4, 12) & NA & None\\
@@ -1951,31 +2045,31 @@ fishery selectivities and with steepness fixed at 0.72.\label{fig:yield}](C:/Use
 # Appendix B: Fit to Conditional-Age-at-Length Composition Data {#app-b}
 
 
-![Pearson residuals, whole catch, Trawl_wdis (max=13.16) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Trawl_wdis (max=13.1) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Trawl_wdis (max=13.16) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Trawl_wdis (max=13.1) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Trawl_wdis (max=13.16) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Trawl_wdis (max=13.1) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Non-Trawl_wdis (max=10.83) (plot 1 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Non-Trawl_wdis (max=10.69) (plot 1 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Non-Trawl_wdis (max=10.83) (plot 2 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Non-Trawl_wdis (max=10.69) (plot 2 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Non-Trawl_wdis (max=10.83) (plot 3 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Non-Trawl_wdis (max=10.69) (plot 3 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Non-Trawl_wdis (max=10.83) (plot 4 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page4.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Non-Trawl_wdis (max=10.69) (plot 4 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page4.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Non-Trawl_wdis (max=10.83) (plot 5 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page5}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page5.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Non-Trawl_wdis (max=10.69) (plot 5 of 5).\label{fig:comp_condAALfit_residsflt2mkt0_page5}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page5.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Ocean (max=13.07) (plot 1 of 5).\label{fig:comp_condAALfit_residsflt3mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Ocean (max=95.66) (plot 1 of 5).\label{fig:comp_condAALfit_residsflt3mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Ocean (max=13.07) (plot 2 of 5).\label{fig:comp_condAALfit_residsflt3mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Ocean (max=95.66) (plot 2 of 5).\label{fig:comp_condAALfit_residsflt3mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Ocean (max=13.07) (plot 3 of 5).\label{fig:comp_condAALfit_residsflt3mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Ocean (max=95.66) (plot 3 of 5).\label{fig:comp_condAALfit_residsflt3mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Ocean (max=13.07) (plot 4 of 5).\label{fig:comp_condAALfit_residsflt3mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Ocean (max=95.66) (plot 4 of 5).\label{fig:comp_condAALfit_residsflt3mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Ocean (max=13.07) (plot 5 of 5).\label{fig:comp_condAALfit_residsflt3mkt0_page5}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Ocean (max=95.66) (plot 5 of 5).\label{fig:comp_condAALfit_residsflt3mkt0_page5}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png){width=100% height=100% alt="."}
 
 \clearpage
 
