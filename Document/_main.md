@@ -936,13 +936,13 @@ The combined profile that varies female and male $M$ while maintaining the refer
 
 #### Additional STAR Panel sensitivities
 
-Further discussions in the STAR Panel lead to several additional model runs exploring alternatives to fixing the 
+Further discussions in the STAR Panel lead to several additional model runs exploring alternatives to pinning the model to a precise interpretation of the acoustic-visual survey (i.e., low variance and set catchability). These explorations included  
 
 ### Final reference model
 
-The full list of estimate and fixed parameters are found in Table \ref{tab:model-params}. 
+The final reference model used length-based selectivities fixed to those estimated in the original reference model, then replaced the length compositions with marginal age compositions, fixed the acoustic-visual survey catchability to 1 and retained the input variance (CV = 0.45), then ran the model with the remaining specification as in the original model. The full list of estimate and fixed parameters are found in Table \ref{tab:model-params}. 
 
-General attributes of the reference model are that indices of abundance are assumed to have lognormal measurement errors. Length compositions and conditional age at length samples are all assumed to follow a multinomial sampling distribution, where the sample size is fixed at the input sample size calculated during compositional example, and where this input sample size is subsequently re-weighted to account for additional sources of overdispersion (see below). Recruitment deviations were also estimated are assumed to follow a lognormal distribution, where the standard deviation of this distribution is tuned as explained below.
+General attributes of the reference model are that indices of abundance are assumed to have lognormal measurement errors. Biological compositions are all assumed to follow a multinomial sampling distribution, where the sample size is fixed at the input sample size calculated during compositional example, and where this input sample size is subsequently re-weighted to account for additional sources of overdispersion (see below). Recruitment deviations were also estimated are assumed to follow a lognormal distribution, where the standard deviation of this distribution is tuned as explained below.
 
 Sensitivity scenarios and likelihood profiles (on the catchability of the acoustic visual survey, steepness, and natural mortality) were used to explore uncertainty in the above model specifications and are reported below. 
 
@@ -1107,23 +1107,23 @@ Estimating all fleet selectivity patterns as logistic effectively removed the po
 
 ### Likelihood Profiles
 
-Likelihood profiles were conducted for the acoustic-visual survey catchability (q) in natural log-space (ln($q$)), steepness ($h$), and female and male natural mortality ($M$) varying together with a constant ratio matching the reference model (0.19/0.17, female and male values respectively). Likelihood profiles were conducted by fixing the featured parameter(s) at specific values across a range of values and estimating all remaining parameters. A likelihood profile offers insight into model sensitivity to changing model parameter values, while providing an additional way to describe uncertainty in the parameter by identifying the range of parameters within 1.96 likelihood units of the reference model.
+Likelihood profiles were conducted for the the log of initial recruitment (ln($R_0$)), steepness ($h$), and female and male natural mortality ($M$) varying together with a constant ratio matching the reference model (0.19/0.17, female and male values respectively). Likelihood profiles were conducted by fixing the featured parameter(s) at specific values across a range of values and estimating all remaining parameters. A likelihood profile offers insight into model sensitivity to changing model parameter values, while providing an additional way to describe uncertainty in the parameter by identifying the range of parameters within 1.96 likelihood units of the reference model.
 
-The profile on the assumption of the acoustic-visual survey catchability demonstrates the expected scaling up and down of the population with the decrease and increase of the catchability, respectively (Figure \ref{fig:AVq-profile}). The change in the current spawning output is steeper than the initial spawning output, leading to a steep decline in relative biomass as ln($q$) gets larger. As the ln($q$) approaches 1.5, the stock approaches the overfished limit reference point. The most supported value of the ln($q$) is found near 1.17 with a very tight support interval. The most prominent length data (in samples and associated fisheries) support larger ln($q$) values, while age compositions support smaller ln($q$) values near the value used in the reference model (Figure \ref{fig:AVq-profile-components}). The less informed survey indices support larger ln($q$) values on the strength of the best fit index (non-trawl CPUE index).
+The profile on the assumption of $lnR_0$, which sets the initial scale of the population) demonstrates the expected scaling up and down of the population with increasing and decreasing initial recruitment, respectively (Figure \ref{fig:R0-profile}). The likelihood profile is well informed to the ultimate maximum likelihood estimate. The change in the current year spawning output is steeper than the initial spawning output, leading to a u-shaped relationship in relative biomass. No values of $lnR_0$ caused the population to approach an overfished state. The non-trawl and ocean boat ages and recruitment data are most supportive of a well-informed initial scale, whereas the index data are not informative to the population scale (Figure \ref{fig:R0-profile-components}).
 
-The steepness profile showed little information content for this parameter (Figure \ref{fig:steepness-profile}) as the best fit value went towards the bound of 1. Changing steepness mostly changed the estimate of initial stock size, with a higher initial stock size needed to make up for the lower recruitment compensation. Overall, the relative stock size changed little across a large range of steepness values. The biological compositions pushed the steepness to the highest value, whereas the index data indicated a mixed signal for the lowest and highest steepness values (Figure \ref{fig:steepness-profile-components}).
+The steepness profile showed little information content for this parameter (Figure \ref{fig:steepness-profile}) as the best fit value went towards the bound of 1. Changing steepness mostly changed the estimate of initial stock size, with a higher initial stock size needed to make up for the lower recruitment compensation. Overall, the relative stock size changed little with higher steepness values, then dropped most notable below values of 0.5. The age compositions pushed the steepness to the highest value, whereas the index data indicated a mixed signal for the lowest and highest steepness values (Figure \ref{fig:steepness-profile-components}).
  
-The combined profile that varies female and male $M$ while maintaining the reference model offset demonstrated what had be seen in the model development, that when freely estimated, the model wants natural mortality values to be unreasonably high (Figure \ref{fig:M-multiprofile-combo}). All likelihood components confirm the drive for higher $M$ values for both sexes (Figures \ref{fig:M-multiprofile-like-components} to \ref{fig:M-multiprofile-survey-components}). Given the highly constrained model specification (i.e., a fix q on a survey), the range of reasonable natural mortality values adjust the scale of the population in order to match the value fixed in 2021. Similar to the steepness profile, the lower natural mortality values lead to lower productivity, and thus the need for a higher initial biomass, which changes quicker than the current, more pinned down, current biomass value. While the scale does change substantially, the current relative stock status is fairly stable and always above the target level.
+The combined profile that varies female and male $M$ while maintaining the reference model offset demonstrated what had be seen in the model development, that when freely estimated, the model wants natural mortality values to be unreasonably high (Figure \ref{fig:M-multiprofile-combo}). All likelihood components confirm the drive for higher $M$ values for both sexes (Figures \ref{fig:M-multiprofile-like-components} to \ref{fig:M-multiprofile-survey-components}). Similar to the steepness profile, the lower natural mortality values lead to lower productivity, and thus the need for a higher initial biomass, which changes quicker than the current, more pinned down, current biomass value. While the scale does change substantially, the current relative stock status is fairly stable and always above the target level.
 
 
 ### Retrospective Analysis
 
-A ten-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 10 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a large shift away from a growing population once the acoustic-visual survey is removed from the population. The scale shifts downward and the population status show a declining population at or below the unfished level. This shows the weight of the treatment choice in the acoustic survey, as well as the more recent data that confirm a recent recruitment. The Mohn's rho evaluation of the degree of retrospective pattern in given in Table \ref{tab:RetroMohnsrho}.
+A five-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 5 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a large shift away from a growing population once the acoustic-visual survey is removed from the population. The scale shifts downward and the population status show a declining population at or below the unfished level. This shows the weight of the treatment choice in the acoustic survey, as well as the more recent data that confirm a recent recruitment. The Mohn's rho evaluation of the degree of retrospective pattern in given in Table \ref{tab:RetroMohnsrho}.
 
 
 ### Unresolved Problems and Major Uncertainties
 
-The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which want a lower population size and status) versus the acoustic and tag surveys (which want high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the biological data, despite large sample sizes, is another barrier to interpreting the current conditions, though given models using only biological data, the signal seems clear that the population could be at a lower stock status. 
+The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which want a lower population size and status) versus the acoustic and tag surveys (which want high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the length composition data, despite large sample sizes, is another barrier to interpreting the current conditions, as lengths drive the model to a lower stock status, while the ages push it to higher stock status, but not as high as the acoustic-visual survey would have it. 
 
 <!--chapter:end:34diagnostics.Rmd-->
 
@@ -1143,24 +1143,11 @@ The 2023 spawning output relative to unfished equilibrium spawning output is abo
 Black Rockfish removals have generally been below the equivalent ABC-ACL over the recent decade, with the exception of 2017 and 2022 when removals were slightly higher (Table \ref{tab:manage}). Exploitation on Black Rockfish increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of Black Rockfish acceptable biological catch (ABC) and annual catch limit (ACL) have been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manage}). Prior to 2017, management specifications were set for Black Rockfish in California and Oregon waters combined.  The Black Rockfish OFL has not been exceeded by Oregon removals over the past decade. The ACL and ABC were exceeded in 2017 and 2022 by a small margin, but were more than offset by underages in intervening years.
 
 
-## Unresolved Problems and Major Uncertainties
-
-The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which suggests a lower population size and status) versus the acoustic and tag surveys (which suggest high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the biological data, despite large sample sizes, is another barrier to interpreting the current conditions, though given models using only biological data, the signal seems clear that the population could be at a lower stock status.
-
-
 ## Harvest Projections and Decision Tables
 
-The following text will be modified, as appropriate, after the STAR panel and SSC meeting.
+The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, sigma = 0.5, and a time-varying buffer applied to the OFL.  These multipliers are also combined with the rockfish MSY proxy of FSPR=50% MSY and the 40-10 harvest control rule to calculate OFLs, ABCs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:project}.
 
-The Black Rockfish assessment is being considered as a category 2 assessment with a $P^*$ = 0.45, sigma = 0.72, and a time-varying buffer applied to the OFL.  These multipliers are also combined with the rockfish MSY proxy of FSPR=50% MSY and the 40-10 harvest control rule to calculate OFLs, ABCs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:project}.
-
-Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations considered alternative specifications of catchability for the acoustic-visual survey. The resultant decision table will be provided in Table \ref{tab:dec-tab}.
-
-Given the desire for states of nature to represent uncertainty in both scale and relative stock status, the treatment of the acoustic visual survey q, either being estimated by the model or being fixed to a value of 1, are reasonable alternative model structure hypotheses that collectively give a wide range of uncertainty in the current status and trend of Black Rockfish in Oregon. Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl} present spawning output and relative stock status, respectively, of the three states of nature.
-
-Further details about selecting the decision table states of nature will be added here after the STAR panel.    
-
-Further details summarizing the results presented in the decision table will be added here after the STAR panel.
+Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations considered alternative specifications of catchability for the acoustic-visual survey and well as weighting of the biological data. The final states of nature were defined as follows: the high state of nature was the pre-STAR reference model that assume the q on the acoustic-visual survey is 1.82, the highest value deemed reasonable by the acoustic survey team; the low state of nature assumes q = 1 for the acoustic-visual survey, but allows the large CV (45%) on the index, thus allowing the length composition data to drive the model to a lower scale and stock status. Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl} present spawning output and relative stock status, respectively, of the three states of nature. The catch rows assume P* values of 0.45 and 0.4, then a constant catch using the yield at FSPR=0.5. The resultant decision table is provided in Table \ref{tab:dec-tab}.
 
 
 ## Evaluation of Scientific Uncertainty
@@ -1202,9 +1189,14 @@ Recommended avenues for research to help improve future Black Rockfish stock ass
 3. Continue to build evidence for appropriate natural mortality values for females and males. 
 4. Improved historical catch reconstructions. Specifically, the historic trawl fishery catches (pre-1987) in particular require particular attention. A synoptic catch reconstruction is recommended, where states work together to resolve cross-boundary state catch issues as well as standardize the approach to catch recommendations to the extent possible.
 5. Stock structure for black rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.
-6. Continue acoustic-visual fisheries independent coastwide survey to develop a time series. Further refine the survey by addressing the recommendations of the SSC methodology review from 2022. Examine the potential of using spatial modeling to reduce the uncertainty in the population estimates from the acoustic-visual fisheries independent coastwide survey.
+6. Continue acoustic-visual fisheries independent coastwide survey to develop a time series. Further refine the survey by addressing the recommendations of the SSC methodology review from 2022. Examine the potential of using spatial modeling to reduce the uncertainty in the population estimates from the acoustic-visual fisheries independent coastwide survey. The STAR panel suggested the survey team focus on improving the survey estimates by a) obtaining a target strength estimate for black rockfish, b) developing a method for in-situ transducer calibration, and c) improving backscatter identification using visual surveys and other methods as appropriate. Concentrating on the echo integration component of the survey seems warranted given that methods are well developed and widely used, and it is regarded as a reliable and robust acoustic survey technique.
 7. Reconcile contradictory signal in the Black Rockfish biology versus the population scale.
 8. Better understand the ecology and habitats of Black Rockfish from settlement to age 4. Further development of surveys aimed specifically at recruitment or settlement rates of nearshore species, such as OSU’s SMURF collections, that are not frequently encountered in offshore federal age-0 surveys is needed. 
+9. Consider additional capacities in Stock Synthesis to model marine reserves (i.e., closed to fishing) and areas that are open to fishing.
+10. Simulation analyses or make a standard sensitivity exploration to examine circumstances in which options for treatment sex data for composition data are preferable under Option 1 or 2 treating them as separate or Option 3 treating them as combined and preserving sex ratio within samples.  Such studies should aim to provide criteria for their application to inform guidance in the PFMC’s Groundfish  Terms of  Reference and Accepted Practices documents.
+11. Develop and evaluate using the acoustic visual survey data to develop an informative prior for the PIT tag survey.
+12. Continue to collect functional maturity information and evaluate the role of geography, environmental forcing, and density dependence on functional maturity estimates for black rockfish. 
+
 
 <!--chapter:end:40management.Rmd-->
 
@@ -1696,6 +1688,56 @@ SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 
 \newpage
 
+<!-- ============================================================================== -->
+<!-- ******************   Pre-STAR   Likelihood Profiles      ********************* --> 
+<!-- ============================================================================== -->
+
+
+![Acoustic-visual survey catchability likelihood profile (change in the negative log-likelihood across a range of catchability values) and derived quantities.\label{fig:AVq-profile}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_LnQ_base_Acoustic_Visual(6).png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Acoustic-visual survey catchability likelihood profile for each of the likelihood components.\label{fig:AVq-profile-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_LnQ_base_Acoustic_Visual(6).png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities.\label{fig:steepness-profile}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_SR_BH_steep.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Beverton-Holt steepness parameter likelihood profile for each of the likelihood components.\label{fig:steepness-profile-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_SR_BH_steep.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Female and male $M$ multi-parameter likelihood profile and derived quantities. Red lines in the top left figure indicate significantly similar values compared to the reference model. Broken and solid lines in the bottom right figure indicate target and limit referene points, respectively.\label{fig:M-multiprofile-combo}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/M_fm_multilikelihood_profile.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-like-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/Piner_like_comps.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Length likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-length-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_Lt.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Age likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-age-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_age.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Survey likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-survey-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_survey.png){width=100% height=100% alt="."}
+
+\newpage
+
+
 <!-- ====================================================================== -->
 <!-- ***********************  Model convergence and Jitters     *********** --> 
 <!-- ====================================================================== -->
@@ -1927,49 +1969,35 @@ SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 <!-- ============================================================================== -->
 
 
-![Acoustic-visual survey catchability likelihood profile (change in the negative log-likelihood across a range of catchability values) and derived quantities.\label{fig:AVq-profile}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_LnQ_base_Acoustic_Visual(6).png){width=100% height=100% alt="."}
+![Initial recruitment ($lnR_0$) likelihood profile (change in the negative log-likelihood across a range of $ln(R0)$ values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference.\label{fig:R0-profile}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png){width=100% height=100% alt="."}
 
-\newpage
-
-
-![Acoustic-visual survey catchability likelihood profile for each of the likelihood components.\label{fig:AVq-profile-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_LnQ_base_Acoustic_Visual(6).png){width=100% height=100% alt="."}
-
-\newpage
+\pagebreak
 
 
-![Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities.\label{fig:steepness-profile}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png){width=100% height=100% alt="."}
+![Initial recruitment ($ln(R0)$) likelihood profile for each of the likelihood components.\label{fig:R0-profile-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_LN(R0).png){width=100% height=100% alt="."}
 
-\newpage
+\pagebreak
+
+
+![Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference.\label{fig:steepness-profile}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png){width=100% height=100% alt="."}
+
+\pagebreak
 
 
 ![Beverton-Holt steepness parameter likelihood profile for each of the likelihood components.\label{fig:steepness-profile-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_BH_steep.png){width=100% height=100% alt="."}
 
-\newpage
+\pagebreak
 
 
 ![Female and male $M$ multi-parameter likelihood profile and derived quantities. Red lines in the top left figure indicate significantly similar values compared to the reference model. Broken and solid lines in the bottom right figure indicate target and limit referene points, respectively.\label{fig:M-multiprofile-combo}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/M_fm_multilikelihood_profile.png){width=100% height=100% alt="."}
 
-\newpage
+\pagebreak
 
 
-![Likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-like-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/Piner_like_comps.png){width=100% height=100% alt="."}
-
-\newpage
-
-
-![Length likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-length-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_Lt.png){width=100% height=100% alt="."}
+![Likelihood values by component and within components for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-like-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_plots.png){width=100% height=100% alt="."}
 
 \newpage
 
-
-![Age likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-age-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_age.png){width=100% height=100% alt="."}
-
-\newpage
-
-
-![Survey likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-survey-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_survey.png){width=100% height=100% alt="."}
-
-\newpage
 
 ### Retrospectives
 
@@ -1978,15 +2006,20 @@ SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 <!-- ====================================================================== -->
 
 
-![Change in the estimate of spawning output when the most recent 10 years of data area removed sequentially.\label{fig:retro-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+![Change in the estimate of spawning output when the most recent 5 years of data area removed sequentially.\label{fig:retro-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
 \newpage
 
 
-![Change in the estimate of fraction unfished when the most recent 10 years of data area removed sequentially.\label{fig:retro-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+![Change in the estimate of fraction unfished when the most recent 5 years of data area removed sequentially.\label{fig:retro-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 \newpage
 
+
+
+![Relative error from the reference model for each of the 5 data peels in the restrospective analysis for 3 derived outputs.\label{fig:retro-RE_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/retro_percent_difference_3_panel.png){width=100% height=100% alt="."}
+
+\newpage
 
 ### Reference Points and Forecasts
 
