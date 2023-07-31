@@ -1471,12 +1471,16 @@ SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 
 \include{tex_tables/data_weight.tex}
 
-\include{tex_tables/data_sensis_q.tex}
+\include{tex_tables/data_sensis_q_preSTAR.tex}
 
-\include{tex_tables/data_sensis_other.tex}
+\include{tex_tables/data_sensis_other_preSTAR.tex}
+
+\include{tex_tables/modspec_sensis_preSTAR.tex}
+
+
+\include{tex_tables/data_sensis.tex}
 
 \include{tex_tables/modspec_sensis.tex}
-
 <!-- ======================================================= -->
 <!-- ***********       Retrospectives      ***************** --> 
 <!-- ======================================================= -->
@@ -1933,7 +1937,7 @@ SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 <!-- ====================================================================== -->
 
 
-![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_MSY.png){width=100% height=100% alt="."}
+![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png){width=100% height=100% alt="."}
 
 \newpage
 
@@ -1948,7 +1952,7 @@ SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 \newpage
 
 
-![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_MSY.png){width=100% height=100% alt="."}
+![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png){width=100% height=100% alt="."}
 
 \newpage
 
