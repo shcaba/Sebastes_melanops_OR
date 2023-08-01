@@ -31,9 +31,9 @@ The 2015 assessment defined three distinct stocks for assessment. Each stock mat
 Results for the Oregon assessment of `r spp` in 2015 estimated stock status in that year at 60.4%, and never showed a decline below the target biomass. This assessment was highly constrained by the choice to treat the catchability of the tagging index as known, thus the uncertainty in the assessment is very low.
 
 
-### Most Recent STAR Panel and SSC Recommendations
+### STAR Panel and SSC Recommendations from previous assessments
 
-The STAR panel identified the following issues as sources of major uncertainty:
+The 2015 STAR panel identified the following issues as sources of major uncertainty:
 
 * Natural mortality, especially in females. There are no data to differentiate whether the missing older females are dying or are avoiding capture. The choice between using a constant (as used in the California and Washington assessments) or step function (used in Oregon) is also an point of uncertainty. 
 * The level of cryptic biomass. This is a result of using dome-shaped selectivity to explain the absence of old females.
