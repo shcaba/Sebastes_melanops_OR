@@ -26,7 +26,7 @@ Overall, removals of `r spp` remained relatively low (generally less than 100 mt
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "catch2 landings stacked.png"), 
-caption = "Landings by fleet used in the reference model where catches in metric tons by fleet are stacked",
+caption = "Landings by fleet used in the reference model where catches in metric tons by fleet are stacked. wdis- With Discards",
 label = 'es-catch')
 ```
 
