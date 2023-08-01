@@ -25,7 +25,7 @@ author:
     first: C
     middle: 
     family: Rosemond
-author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.R. Rasmuson, c. Rosemond
+author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.K. Rasmuson, C. Rosemond
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
