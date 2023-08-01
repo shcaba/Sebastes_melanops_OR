@@ -1,4 +1,4 @@
-"Year","Trawl_wdis","Non-Trawl_wdis","Ocean","Shore","Total Landings"
+"Year","Trawl_wdis (mt)","Non-Trawl_wdis (mt)","Ocean (mt)","Shore (mt)","Total Catch (mt)"
 2013,0.083,107.473,321.306,13.282,442.144
 2014,0.707,122.916,342.548,13.282,479.453
 2015,0.51,122.119,458.606,13.282,594.517

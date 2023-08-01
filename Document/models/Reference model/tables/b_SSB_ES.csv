@@ -1,4 +1,4 @@
-"Year","Spawning Output","Lower Interval","Upper Interval","Fraction Unfished","Lower Interval","Upper Interval"
+"Year","Spawning Output (millions of eggs)","Lower Interval","Upper Interval","Fraction Unfished","Lower Interval","Upper Interval"
 2013,558.373,465.547733717394,651.198266282606,0.386393,0.343100335527487,0.429685664472513
 2014,561.443,467.174612235577,655.711387764423,0.388519,0.344518004543474,0.432519995456526
 2015,573.664,476.518581102671,670.809418897329,0.396975,0.351573806272919,0.442376193727081

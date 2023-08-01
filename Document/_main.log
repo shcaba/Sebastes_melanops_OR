@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.2)  30 JUL 2023 20:15
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.2)  31 JUL 2023 19:23
  restricted system commands enabled.
 **_main.tex
 (./_main.tex
@@ -939,11 +939,7 @@ LaTeX Warning: Label `tab:model-params' multiply defined.
 
 LaTeX Warning: Label `tab:model-params' multiply defined.
 
-(./tex_tables/likelihoods.aux) (./tex_tables/ReferencePoints.aux) (./tex_tables/Manage.aux) (./tex_tables/TimeSeries.aux) (./tex_tables/data_weight.aux) (./tex_tables/data_sensis_q_preSTAR.aux) (./tex_tables/data_sensis_other_preSTAR.aux) (./tex_tables/modspec_sensis_preSTAR.aux) (./tex_tables/data_sensis.aux) (./tex_tables/modspec_sensis.aux
-
-LaTeX Warning: Label `tab:modspec_sensis' multiply defined.
-
-) (./tex_tables/RetroMohnsrho.aux) (./tex_tables/project.aux) (./tex_tables/decision_table.aux)
+(./tex_tables/likelihoods.aux) (./tex_tables/ReferencePoints.aux) (./tex_tables/Manage.aux) (./tex_tables/TimeSeries.aux) (./tex_tables/data_weight.aux) (./tex_tables/data_sensis_q_preSTAR.aux) (./tex_tables/data_sensis_other_preSTAR.aux) (./tex_tables/modspec_sensis_preSTAR.aux) (./tex_tables/data_sensis.aux) (./tex_tables/modspec_sensis.aux) (./tex_tables/RetroMohnsrho.aux) (./tex_tables/project.aux) (./tex_tables/decision_table.aux)
 
 LaTeX Warning: Label `fig:steepness-profile' multiply defined.
 
@@ -1495,7 +1491,7 @@ Overfull \hbox (33.73131pt too wide) in alignment at lines 4--50
 ]
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1]
-Package marginnote Info: Using workaround for absolute page number on input line 514.
+Package marginnote Info: Using workaround for absolute page number on input line 522.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2]
@@ -1508,24 +1504,24 @@ Missing character: There is no δ (U+03B4) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no δ (U+03B4) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no δ (U+03B4) in font [lmroman10-regular]:+tlig;!
 ] [21] [22] [23] [24] [25] [26] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1050
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1070
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1078
 
  []
 
 [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 1725--1727
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1731
 []$\TU/lmr/m/n/10 https://www.pcouncil.org/documents/2019/10/assessing-cabezon-scorpaenichthys-marmoratus-stocks-in-
  []
 
 [49
 
 ]
-Overfull \hbox (0.12892pt too wide) in paragraph at lines 1737--1739
+Overfull \hbox (0.12892pt too wide) in paragraph at lines 1741--1743
 \TU/lmr/m/n/10 2023/04/report-of-the-pre-assessment-workshop-for-2023-groundfish-stock-assessments-of-copper-rockfish-
  []
 
@@ -3158,888 +3154,703 @@ Overfull \hbox (42.52208pt too wide) in alignment at lines 19--95
 ] [99] [100])
 \openout2 = tex_tables/data_sensis.aux
  (./tex_tables/data_sensis.tex
-Overfull \hbox (1.47937pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 ence 
- []
-
-
-Overfull \hbox (9.04855pt too wide) in paragraph at lines 8--8
+Overfull \hbox (7.34146pt too wide) in paragraph at lines 8--8
  \TU/lmr/m/n/9 Model| 
  []
 
 
-Overfull \hbox (1.94754pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 q=1, 
- []
-
-
-Overfull \hbox (5.05145pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 small 
- []
-
-
-Overfull \hbox (5.05145pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 small 
- []
-
-
-Overfull \hbox (1.94754pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 q=1, 
- []
-
-
-Overfull \hbox (7.52109pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 =0.45| 
- []
-
-
-Overfull \hbox (7.52109pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 =0.45| 
- []
-
-
-Overfull \hbox (2.01689pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 2015 
- []
-
-
-Overfull \hbox (4.48808pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 value| 
- []
-
-
-Overfull \hbox (2.01689pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 2015 
- []
-
-
-Overfull \hbox (5.7236pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 value, 
- []
-
-
-Overfull \hbox (1.22467pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 xvar| 
- []
-
-
-Overfull \hbox (4.75877pt too wide) in paragraph at lines 8--8
+Overfull \hbox (3.05168pt too wide) in paragraph at lines 8--8
  \TU/lmr/m/n/9 trawl| 
  []
 
 
-Overfull \hbox (9.5232pt too wide) in paragraph at lines 8--8
+Overfull \hbox (7.8161pt too wide) in paragraph at lines 8--8
  \TU/lmr/m/n/9 ORBS| 
  []
 
 
-Overfull \hbox (6.72276pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 MRF- 
- []
-
-
-Overfull \hbox (4.83527pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 MPA| 
- []
-
-
-Overfull \hbox (0.95735pt too wide) in paragraph at lines 8--8
- []|\TU/lmr/m/n/9 Add 
- []
-
-
-Overfull \hbox (5.97305pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 SMU- 
- []
-
-
-Overfull \hbox (1.98212pt too wide) in paragraph at lines 8--8
- \TU/lmr/m/n/9 data 
- []
-
-
-Overfull \hbox (10.14331pt too wide) in paragraph at lines 8--8
- []|\TU/lmr/m/n/9 Dirich- 
- []
-
-
-Overfull \hbox (8.53535pt too wide) in paragraph at lines 8--9
- []|\TU/lmr/m/n/9 McAll 
- []
-
-
-Overfull \hbox (18.77151pt too wide) in alignment at lines 5--10
- [][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (1.47937pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 ence 
- []
-
-
-Overfull \hbox (9.04855pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 Model| 
- []
-
-
-Overfull \hbox (1.94754pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 q=1, 
- []
-
-
-Overfull \hbox (5.05145pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 small 
- []
-
-
-Overfull \hbox (5.05145pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 small 
- []
-
-
-Overfull \hbox (1.94754pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 q=1, 
- []
-
-
-Overfull \hbox (7.52109pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 =0.45| 
- []
-
-
-Overfull \hbox (7.52109pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 =0.45| 
- []
-
-
-Overfull \hbox (2.01689pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 2015 
- []
-
-
-Overfull \hbox (4.48808pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 value| 
- []
-
-
-Overfull \hbox (2.01689pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 2015 
- []
-
-
-Overfull \hbox (5.7236pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 value, 
- []
-
-
-Overfull \hbox (1.22467pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 xvar| 
- []
-
-
-Overfull \hbox (4.75877pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 trawl| 
- []
-
-
-Overfull \hbox (9.5232pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 ORBS| 
- []
-
-
-Overfull \hbox (15.31795pt too wide) in paragraph at lines 13--13
+Overfull \hbox (13.61086pt too wide) in paragraph at lines 8--8
  \TU/lmr/m/n/9 MRFSS| 
  []
 
 
-Overfull \hbox (4.83527pt too wide) in paragraph at lines 13--13
+Overfull \hbox (3.12817pt too wide) in paragraph at lines 8--8
  \TU/lmr/m/n/9 MPA| 
  []
 
 
-Overfull \hbox (0.95735pt too wide) in paragraph at lines 13--13
- []|\TU/lmr/m/n/9 Add 
- []
-
-
-Overfull \hbox (17.08194pt too wide) in paragraph at lines 13--13
+Overfull \hbox (15.37485pt too wide) in paragraph at lines 8--8
  \TU/lmr/m/n/9 SMURF| 
  []
 
 
-Overfull \hbox (1.98212pt too wide) in paragraph at lines 13--13
- \TU/lmr/m/n/9 data 
- []
-
-
-Overfull \hbox (10.14331pt too wide) in paragraph at lines 13--13
+Overfull \hbox (8.43622pt too wide) in paragraph at lines 8--8
  []|\TU/lmr/m/n/9 Dirich- 
  []
 
 
-Overfull \hbox (8.53535pt too wide) in paragraph at lines 13--14
+Overfull \hbox (6.82826pt too wide) in paragraph at lines 8--8
  []|\TU/lmr/m/n/9 McAll 
  []
 
 
-Overfull \hbox (18.77151pt too wide) in alignment at lines 10--15
- [][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (0.5438pt too wide) in paragraph at lines 8--8
+ []|\TU/lmr/m/n/9 2015 
  []
 
 
-Overfull \hbox (18.77151pt too wide) in alignment at lines 15--17
- [][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (11.13965pt too wide) in paragraph at lines 8--8
+ \TU/lmr/m/n/9 catches| 
  []
 
 
-Overfull \hbox (18.77151pt too wide) in alignment at lines 17--19
- [][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (37.83058pt too wide) in paragraph at lines 8--8
+ []|\TU/lmr/m/n/9 Comps,Sex=3| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7493| 
+Overfull \hbox (39.0661pt too wide) in paragraph at lines 8--8
+ []|\TU/lmr/m/n/9 Comps,Sex=3; 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
+Overfull \hbox (7.34146pt too wide) in paragraph at lines 13--13
+ \TU/lmr/m/n/9 Model| 
+ []
+
+
+Overfull \hbox (3.05168pt too wide) in paragraph at lines 13--13
+ \TU/lmr/m/n/9 trawl| 
+ []
+
+
+Overfull \hbox (7.8161pt too wide) in paragraph at lines 13--13
+ \TU/lmr/m/n/9 ORBS| 
+ []
+
+
+Overfull \hbox (13.61086pt too wide) in paragraph at lines 13--13
+ \TU/lmr/m/n/9 MRFSS| 
+ []
+
+
+Overfull \hbox (3.12817pt too wide) in paragraph at lines 13--13
+ \TU/lmr/m/n/9 MPA| 
+ []
+
+
+Overfull \hbox (15.37485pt too wide) in paragraph at lines 13--13
+ \TU/lmr/m/n/9 SMURF| 
+ []
+
+
+Overfull \hbox (8.43622pt too wide) in paragraph at lines 13--13
+ []|\TU/lmr/m/n/9 Dirich- 
+ []
+
+
+Overfull \hbox (6.82826pt too wide) in paragraph at lines 13--13
+ []|\TU/lmr/m/n/9 McAll 
+ []
+
+
+Overfull \hbox (0.5438pt too wide) in paragraph at lines 13--13
+ []|\TU/lmr/m/n/9 2015 
+ []
+
+
+Overfull \hbox (11.13965pt too wide) in paragraph at lines 13--13
+ \TU/lmr/m/n/9 catches| 
+ []
+
+
+Overfull \hbox (37.83058pt too wide) in paragraph at lines 13--13
+ []|\TU/lmr/m/n/9 Comps,Sex=3| 
+ []
+
+
+Overfull \hbox (39.0661pt too wide) in paragraph at lines 13--13
+ []|\TU/lmr/m/n/9 Comps,Sex=3; 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 7587| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 7584| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 7613| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 7649| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 7621| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 7594| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 7596| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
  []|\TU/lmr/m/n/9 7601| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7443| 
+Overfull \hbox (5.31128pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 33507| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7460| 
+Overfull \hbox (5.31128pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 67802| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7456| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 4199| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7664| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 7601| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7466| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 7973| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7455| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--20
+ []|\TU/lmr/m/n/9 7876| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7511| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 20--21
+ []|\TU/lmr/m/n/9 7425| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7563| 
+Overfull \hbox (5.31128pt too wide) in paragraph at lines 21--21
+ []|\TU/lmr/m/n/9 25919| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7517| 
+Overfull \hbox (5.31128pt too wide) in paragraph at lines 21--21
+ []|\TU/lmr/m/n/9 60214| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7495| 
+Overfull \hbox (0.5438pt too wide) in paragraph at lines 21--21
+ \TU/lmr/m/n/9 3389| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7460| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 32--32
+ []|\TU/lmr/m/n/9 2708| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 7507| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 32--32
+ []|\TU/lmr/m/n/9 7445| 
  []
 
 
-Overfull \hbox (7.01837pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 29227| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 34--34
+ []|\TU/lmr/m/n/9 1301| 
  []
 
 
-Overfull \hbox (7.01837pt too wide) in paragraph at lines 20--20
- []|\TU/lmr/m/n/9 65785| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 34--34
+ []|\TU/lmr/m/n/9 3400| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 20--21
- []|\TU/lmr/m/n/9 4627| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 35--35
+ []|\TU/lmr/m/n/9 1055| 
  []
 
 
-Overfull \hbox (7.01837pt too wide) in paragraph at lines 21--21
- []|\TU/lmr/m/n/9 21734| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 35--35
+ []|\TU/lmr/m/n/9 2409| 
  []
 
 
-Overfull \hbox (7.01837pt too wide) in paragraph at lines 21--21
- []|\TU/lmr/m/n/9 58293| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 3803| 
  []
 
 
-Overfull \hbox (2.25089pt too wide) in paragraph at lines 21--22
- \TU/lmr/m/n/9 2866| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 3804| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 32--32
- []|\TU/lmr/m/n/9 1476| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 3803| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 32--32
- []|\TU/lmr/m/n/9 5427| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 3807| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 34--34
- []|\TU/lmr/m/n/9 2741| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 3803| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 35--35
- []|\TU/lmr/m/n/9 1757| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 3804| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3253| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 3803| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3255| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 3803| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3267| 
+Overfull \hbox (5.31128pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 16629| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3266| 
+Overfull \hbox (5.31128pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 33753| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3267| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 2127| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3250| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 3809| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3265| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 4005| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3267| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--39
+ []|\TU/lmr/m/n/9 3929| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3254| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 39--40
+ []|\TU/lmr/m/n/9 3724| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3260| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 40--40
+ []|\TU/lmr/m/n/9 1141| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3255| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 40--40
+ []|\TU/lmr/m/n/9 1840| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3255| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 1304| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3252| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 1305| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 3253| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 1304| 
  []
 
 
-Overfull \hbox (7.01837pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 13029| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 1307| 
  []
 
 
-Overfull \hbox (7.01837pt too wide) in paragraph at lines 39--39
- []|\TU/lmr/m/n/9 27306| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 1304| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 39--40
- []|\TU/lmr/m/n/9 1945| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 1304| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 40--40
- []|\TU/lmr/m/n/9 1452| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 1304| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 1304| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 5817| 
+ []
+
+
+Overfull \hbox (5.31128pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 12824| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 1306| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 2291| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--41
+ []|\TU/lmr/m/n/9 2243| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 41--42
+ []|\TU/lmr/m/n/9 1259| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 1751| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 1751| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 1751| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 1754| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 1750| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 1751| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 1750| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 1751| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 9670| 
+ []
+
+
+Overfull \hbox (5.31128pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 19090| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 1752| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
  []|\TU/lmr/m/n/9 1330| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1330| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--42
+ []|\TU/lmr/m/n/9 1297| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1335| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 42--43
+ []|\TU/lmr/m/n/9 1704| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1335| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 51.00| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1335| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 50.98| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1333| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 51.00| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1334| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 51.04| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1335| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 50.99| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1330| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 50.96| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1332| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 51.00| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1330| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 51.00| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1330| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 54.09| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1329| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 54.06| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 1330| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 50.14| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 5239| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 51.02| 
  []
 
 
-Overfull \hbox (7.01837pt too wide) in paragraph at lines 41--41
- []|\TU/lmr/m/n/9 10755| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 50.42| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1255| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--45
+ []|\TU/lmr/m/n/9 51.05| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1250| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 45--46
+ []|\TU/lmr/m/n/9 51.10| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1269| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 46.04| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1268| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 46.01| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1269| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 46.04| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1247| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 46.16| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1267| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 46.01| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1269| 
- []
-
-
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1256| 
- []
-
-
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1261| 
- []
-
-
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1256| 
- []
-
-
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1256| 
- []
-
-
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1255| 
- []
-
-
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 1255| 
- []
-
-
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 6812| 
- []
-
-
-Overfull \hbox (7.01837pt too wide) in paragraph at lines 42--42
- []|\TU/lmr/m/n/9 15099| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.85| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 51.36| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.29| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.31| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.29| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 51.38| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.35| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.29| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.84| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.51| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.74| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.78| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.86| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 50.85| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 53.70| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--45
- []|\TU/lmr/m/n/9 53.71| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 45--46
- []|\TU/lmr/m/n/9 50.47| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.88| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 45.32| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.48| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.49| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.48| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 45.38| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.52| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.48| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.87| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.57| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.78| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.80| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.90| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 44.88| 
- []
-
-
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
  []|\TU/lmr/m/n/9 45.96| 
  []
 
 
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--48
- []|\TU/lmr/m/n/9 45.97| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 46.03| 
  []
 
 
-Overfull \hbox (5.0074pt too wide) in paragraph at lines 48--49
- []|\TU/lmr/m/n/9 45.75| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 46.04| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1633| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 46.53| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 2194| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 46.73| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1313| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 46.33| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1327| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 46.08| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1313| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 44.91| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1730| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 45.41| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1337| 
+Overfull \hbox (3.30031pt too wide) in paragraph at lines 48--49
+ []|\TU/lmr/m/n/9 45.85| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1313| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1445| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1630| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1428| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1553| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1451| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1607| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1332| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1623| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1469| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1633| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1447| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1634| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1451| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1904| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1446| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--75
- []|\TU/lmr/m/n/9 1911| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1942| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 75--76
- []|\TU/lmr/m/n/9 1628| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1987| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 76--76
- []|\TU/lmr/m/n/9 1867| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1344| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 76--76
- []|\TU/lmr/m/n/9 1082| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1407| 
  []
 
 
-Overfull \hbox (2.48488pt too wide) in paragraph at lines 76--76
- []|\TU/lmr/m/n/9 1084| 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1340| 
  []
 
 
-Overfull \hbox (18.77151pt too wide) in alignment at lines 19--80
- [][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--62
+ []|\TU/lmr/m/n/9 1615| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 62--63
+ []|\TU/lmr/m/n/9 1463| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 63--63
+ []|\TU/lmr/m/n/9 1171| 
+ []
+
+
+Overfull \hbox (0.77779pt too wide) in paragraph at lines 63--63
+ []|\TU/lmr/m/n/9 1198| 
  []
 
 [101
@@ -4051,68 +3862,573 @@ Overfull \hbox (18.77151pt too wide) in alignment at lines 19--80
 ] [102])
 \openout2 = tex_tables/modspec_sensis.aux
  (./tex_tables/modspec_sensis.tex
-Overfull \hbox (1.93536pt too wide) in paragraph at lines 8--8
+Overfull \hbox (6.20354pt too wide) in paragraph at lines 8--8
  \TU/lmr/m/n/9 Model| 
  []
 
 
-Overfull \hbox (1.52353pt too wide) in paragraph at lines 8--8
+Overfull \hbox (5.7917pt too wide) in paragraph at lines 8--8
  []|\TU/lmr/m/n/9 Loren- 
  []
 
 
-Overfull \hbox (5.9283pt too wide) in paragraph at lines 8--8
+Overfull \hbox (10.19647pt too wide) in paragraph at lines 8--8
  \TU/lmr/m/n/9 growth, 
  []
 
 
-Overfull \hbox (4.69278pt too wide) in paragraph at lines 8--8
+Overfull \hbox (8.96095pt too wide) in paragraph at lines 8--8
  \TU/lmr/m/n/9 growth| 
  []
 
 
-Overfull \hbox (42.52208pt too wide) in alignment at lines 5--10
- [][][][][][][][][][][][][][][][][] 
+Overfull \hbox (2.277pt too wide) in paragraph at lines 8--8
+ \TU/lmr/m/n/9 Lmin| 
  []
 
 
-Overfull \hbox (1.93536pt too wide) in paragraph at lines 13--13
+Overfull \hbox (4.47316pt too wide) in paragraph at lines 8--8
+ \TU/lmr/m/n/9 CVlts| 
+ []
+
+
+Overfull \hbox (1.64037pt too wide) in paragraph at lines 8--8
+ \TU/lmr/m/n/9 ogive| 
+ []
+
+
+Overfull \hbox (1.64037pt too wide) in paragraph at lines 8--8
+ \TU/lmr/m/n/9 ogive| 
+ []
+
+
+Overfull \hbox (6.20354pt too wide) in paragraph at lines 13--13
  \TU/lmr/m/n/9 Model| 
  []
 
 
-Overfull \hbox (1.52353pt too wide) in paragraph at lines 13--13
+Overfull \hbox (5.7917pt too wide) in paragraph at lines 13--13
  []|\TU/lmr/m/n/9 Loren- 
  []
 
 
-Overfull \hbox (5.9283pt too wide) in paragraph at lines 13--13
+Overfull \hbox (10.19647pt too wide) in paragraph at lines 13--13
  \TU/lmr/m/n/9 growth, 
  []
 
 
-Overfull \hbox (4.69278pt too wide) in paragraph at lines 13--13
+Overfull \hbox (8.96095pt too wide) in paragraph at lines 13--13
  \TU/lmr/m/n/9 growth| 
  []
 
 
-Overfull \hbox (42.52208pt too wide) in alignment at lines 10--15
- [][][][][][][][][][][][][][][][][] 
+Overfull \hbox (2.277pt too wide) in paragraph at lines 13--13
+ \TU/lmr/m/n/9 Lmin| 
  []
 
 
-Overfull \hbox (42.52208pt too wide) in alignment at lines 15--17
- [][][][][][][][][][][][][][][][][] 
+Overfull \hbox (4.47316pt too wide) in paragraph at lines 13--13
+ \TU/lmr/m/n/9 CVlts| 
  []
 
 
-Overfull \hbox (42.52208pt too wide) in alignment at lines 17--19
- [][][][][][][][][][][][][][][][][] 
+Overfull \hbox (1.64037pt too wide) in paragraph at lines 13--13
+ \TU/lmr/m/n/9 ogive| 
  []
 
 
-Overfull \hbox (42.52208pt too wide) in alignment at lines 19--95
- [][][][][][][][][][][][][][][][][] 
+Overfull \hbox (1.64037pt too wide) in paragraph at lines 13--13
+ \TU/lmr/m/n/9 ogive| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 51.00| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 51.00| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 50.98| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 50.32| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 51.00| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 51.00| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 50.92| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 51.00| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 50.99| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 51.00| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 51.00| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 51.31| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--48
+ []|\TU/lmr/m/n/9 51.05| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 48--49
+ []|\TU/lmr/m/n/9 50.93| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 34.38| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--52
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 52--53
+ []|\TU/lmr/m/n/9 40.36| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.04| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.10| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.08| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 47.44| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.04| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.04| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.68| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.04| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.01| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.03| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.03| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.66| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--60
+ []|\TU/lmr/m/n/9 46.09| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 60--61
+ []|\TU/lmr/m/n/9 45.71| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--75
+ []|\TU/lmr/m/n/9 53.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 75--76
+ []|\TU/lmr/m/n/9 55.16| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--77
+ []|\TU/lmr/m/n/9 43.12| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 77--78
+ []|\TU/lmr/m/n/9 35.46| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--79
+ []|\TU/lmr/m/n/9 42.23| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 79--80
+ []|\TU/lmr/m/n/9 35.22| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--81
+ []|\TU/lmr/m/n/9 22.37| 
+ []
+
+
+Overfull \hbox (2.16238pt too wide) in paragraph at lines 81--82
+ []|\TU/lmr/m/n/9 33.00| 
  []
 
 [103
@@ -4146,10 +4462,10 @@ Overfull \hbox (33.73131pt too wide) in alignment at lines 4--50
 
 
 ]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/stock/black_rockfish_map.png, id=1858, 505.89pt x 722.7pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/stock/black_rockfish_map.png, id=1859, 505.89pt x 722.7pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/stock/black_rockfish_map.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/stock/black_rockfish_map.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/stock/black_rockfish_map.png  used on input line 2152.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/stock/black_rockfish_map.png  used on input line 2156.
 (luatex.def)             Requested size: 399.52519pt x 570.7503pt.
 [109
 
@@ -4160,486 +4476,486 @@ Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_
 Overfull \vbox (84.96439pt too high) has occurred while \output is active []
 
 [110<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/stock/black_rockfish_map.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png, id=1870, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png, id=1871, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png  used on input line 2160.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png  used on input line 2164.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [111<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png>]
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png  used on input line 2168.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png  used on input line 2172.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [112]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_NSlog.png, id=1881, 505.89pt x 505.89pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_NSlog.png, id=1882, 505.89pt x 505.89pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_NSlog.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_NSlog.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_NSlog.png  used on input line 2176.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_NSlog.png  used on input line 2180.
 (luatex.def)             Requested size: 469.76265pt x 469.76265pt.
 [113<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_NSlog.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_ORBS.png, id=1887, 505.89pt x 505.89pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_ORBS.png, id=1888, 505.89pt x 505.89pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_ORBS.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_ORBS.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_ORBS.png  used on input line 2184.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_ORBS.png  used on input line 2188.
 (luatex.def)             Requested size: 469.76265pt x 469.76265pt.
 [114<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_ORBS.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Source_Sex.png, id=1893, 482.55281pt x 317.68687pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Source_Sex.png, id=1894, 482.55281pt x 317.68687pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Source_Sex.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Source_Sex.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Source_Sex.png  used on input line 2195.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Source_Sex.png  used on input line 2199.
 (luatex.def)             Requested size: 469.76918pt x 309.2708pt.
 [115<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Source_Sex.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Sex_Year.png, id=1900, 482.55281pt x 317.68687pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Sex_Year.png, id=1901, 482.55281pt x 317.68687pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Sex_Year.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Sex_Year.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Sex_Year.png  used on input line 2203.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Sex_Year.png  used on input line 2207.
 (luatex.def)             Requested size: 469.76918pt x 309.2708pt.
 [116<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_AG_Sex_Year.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_VBGF_fit.png, id=1906, 447.1104pt x 465.4188pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_VBGF_fit.png, id=1907, 447.1104pt x 465.4188pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_VBGF_fit.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_VBGF_fit.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_VBGF_fit.png  used on input line 2211.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_VBGF_fit.png  used on input line 2215.
 (luatex.def)             Requested size: 469.7663pt x 489.00243pt.
 [117<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_VBGF_fit.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_CV_Sex_plot.png, id=1912, 422.32782pt x 335.75438pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_CV_Sex_plot.png, id=1913, 422.32782pt x 335.75438pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_CV_Sex_plot.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_CV_Sex_plot.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_CV_Sex_plot.png  used on input line 2219.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_CV_Sex_plot.png  used on input line 2223.
 (luatex.def)             Requested size: 469.76894pt x 373.47049pt.
 [118<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_CV_Sex_plot.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio1_sizeatage.png, id=1917, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio1_sizeatage.png, id=1918, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio1_sizeatage.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio1_sizeatage.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio1_sizeatage.png  used on input line 2227.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio1_sizeatage.png  used on input line 2231.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [119<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio1_sizeatage.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Age1_1plots.png, id=1923, 964.5636pt x 431.211pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Age1_1plots.png, id=1924, 964.5636pt x 431.211pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Age1_1plots.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Age1_1plots.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Age1_1plots.png  used on input line 2235.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Age1_1plots.png  used on input line 2239.
 (luatex.def)             Requested size: 469.75555pt x 210.0056pt.
 [120
 
 <c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Age1_1plots.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_Bias_plot.png, id=1929, 482.55281pt x 316.93407pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_Bias_plot.png, id=1930, 482.55281pt x 316.93407pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_Bias_plot.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_Bias_plot.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_Bias_plot.png  used on input line 2243.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_Bias_plot.png  used on input line 2247.
 (luatex.def)             Requested size: 469.76918pt x 308.53795pt.
 [121<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_Bias_plot.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_SD_plot.png, id=1936, 482.55281pt x 316.93407pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_SD_plot.png, id=1937, 482.55281pt x 316.93407pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_SD_plot.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_SD_plot.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_SD_plot.png  used on input line 2251.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_SD_plot.png  used on input line 2255.
 (luatex.def)             Requested size: 469.76918pt x 308.53795pt.
 [122<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/OR_Reader_SD_plot.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig1_bio_and_func_color.png, id=1943, 752.8125pt x 752.8125pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig1_bio_and_func_color.png, id=1944, 752.8125pt x 752.8125pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig1_bio_and_func_color.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig1_bio_and_func_color.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig1_bio_and_func_color.png  used on input line 2259.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig1_bio_and_func_color.png  used on input line 2263.
 (luatex.def)             Requested size: 469.77148pt x 469.77148pt.
 [123<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig1_bio_and_func_color.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig2_func_samplesize_color.png, id=1949, 752.8125pt x 752.8125pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig2_func_samplesize_color.png, id=1950, 752.8125pt x 752.8125pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig2_func_samplesize_color.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig2_func_samplesize_color.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig2_func_samplesize_color.png  used on input line 2267.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig2_func_samplesize_color.png  used on input line 2271.
 (luatex.def)             Requested size: 469.77148pt x 469.77148pt.
 [124<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/Fig2_func_samplesize_color.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio6_maturity.png, id=1955, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio6_maturity.png, id=1956, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio6_maturity.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio6_maturity.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio6_maturity.png  used on input line 2275.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio6_maturity.png  used on input line 2279.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [125<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio6_maturity.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio9_fecundity_len.png, id=1961, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio9_fecundity_len.png, id=1962, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio9_fecundity_len.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio9_fecundity_len.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio9_fecundity_len.png  used on input line 2283.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio9_fecundity_len.png  used on input line 2287.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [126<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio9_fecundity_len.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_OR_State_Source_Sex.png, id=1967, 483.30562pt x 368.1253pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_OR_State_Source_Sex.png, id=1968, 483.30562pt x 368.1253pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_OR_State_Source_Sex.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_OR_State_Source_Sex.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_OR_State_Source_Sex.png  used on input line 2291.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_OR_State_Source_Sex.png  used on input line 2295.
 (luatex.def)             Requested size: 469.77197pt x 357.81696pt.
 [127<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_OR_State_Source_Sex.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_lines_States_Sex.png, id=1973, 483.30562pt x 368.1253pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_lines_States_Sex.png, id=1974, 483.30562pt x 368.1253pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_lines_States_Sex.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_lines_States_Sex.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_lines_States_Sex.png  used on input line 2299.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_lines_States_Sex.png  used on input line 2303.
 (luatex.def)             Requested size: 469.77197pt x 357.81696pt.
 [128<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/biology_plots/LW_lines_States_Sex.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index9_standcpueall.png, id=1979, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index9_standcpueall.png, id=1980, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index9_standcpueall.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index9_standcpueall.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index9_standcpueall.png  used on input line 2307.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index9_standcpueall.png  used on input line 2311.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [129
 
 <c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index9_standcpueall.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_MRHnL.png, id=1985, 505.89pt x 505.89pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_MRHnL.png, id=1986, 505.89pt x 505.89pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_MRHnL.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_MRHnL.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_MRHnL.png  used on input line 2315.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_MRHnL.png  used on input line 2319.
 (luatex.def)             Requested size: 469.76265pt x 469.76265pt.
 [130<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/qq_MRHnL.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/index1_cpuedata_SMURF.png, id=1991, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/index1_cpuedata_SMURF.png, id=1992, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/index1_cpuedata_SMURF.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/index1_cpuedata_SMURF.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/index1_cpuedata_SMURF.png  used on input line 2323.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/index1_cpuedata_SMURF.png  used on input line 2327.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [131<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/index/index1_cpuedata_SMURF.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/Assess_catch_compare.png, id=1998, 762.85pt x 955.57pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/Assess_catch_compare.png, id=1999, 762.85pt x 955.57pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/Assess_catch_compare.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/Assess_catch_compare.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/Assess_catch_compare.png  used on input line 2337.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/Assess_catch_compare.png  used on input line 2341.
 (luatex.def)             Requested size: 455.64159pt x 570.75104pt.
 [132]
 Overfull \vbox (95.49887pt too high) has occurred while \output is active []
 
 [133<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/Assess_catch_compare.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_SB_comp_plot.png, id=2010, 517.18219pt x 339.51843pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_SB_comp_plot.png, id=2011, 517.18219pt x 339.51843pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_SB_comp_plot.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_SB_comp_plot.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_SB_comp_plot.png  used on input line 2345.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_SB_comp_plot.png  used on input line 2349.
 (luatex.def)             Requested size: 469.77635pt x 308.39755pt.
 [134<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_SB_comp_plot.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png, id=2016, 811.53188pt x 519.44063pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png, id=2017, 811.53188pt x 519.44063pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png  used on input line 2353.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png  used on input line 2357.
 (luatex.def)             Requested size: 469.76009pt x 300.68132pt.
 [135<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/Bridge/OR_Dep_comp_plot.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png, id=2022, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png, id=2023, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png  used on input line 2364.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png  used on input line 2368.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
 [136
 
 <c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png, id=2028, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png, id=2029, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png  used on input line 2372.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png  used on input line 2376.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
 [137<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_LnQ_base_Acoustic_Visual(6).png, id=2035, 505.89pt x 505.89pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_LnQ_base_Acoustic_Visual(6).png, id=2036, 505.89pt x 505.89pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_LnQ_base_Acoustic_Visual(6).png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_LnQ_base_Acoustic_Visual(6).png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_LnQ_base_Acoustic_Visual(6).png  used on input line 2380.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_LnQ_base_Acoustic_Visual(6).png  used on input line 2384.
 (luatex.def)             Requested size: 469.76265pt x 469.76265pt.
 [138<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_LnQ_base_Acoustic_Visual(6).png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_LnQ_base_Acoustic_Visual(6).png, id=2041, 505.89pt x 505.89pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_LnQ_base_Acoustic_Visual(6).png, id=2042, 505.89pt x 505.89pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_LnQ_base_Acoustic_Visual(6).png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_LnQ_base_Acoustic_Visual(6).png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_LnQ_base_Acoustic_Visual(6).png  used on input line 2388.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_LnQ_base_Acoustic_Visual(6).png  used on input line 2392.
 (luatex.def)             Requested size: 469.76265pt x 469.76265pt.
 [139<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_LnQ_base_Acoustic_Visual(6).png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_SR_BH_steep.png, id=2047, 505.89pt x 505.89pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_SR_BH_steep.png, id=2048, 505.89pt x 505.89pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_SR_BH_steep.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_SR_BH_steep.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_SR_BH_steep.png  used on input line 2396.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_SR_BH_steep.png  used on input line 2400.
 (luatex.def)             Requested size: 469.76265pt x 469.76265pt.
 [140<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/parameter_panel_SR_BH_steep.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_SR_BH_steep.png, id=2054, 505.89pt x 505.89pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_SR_BH_steep.png, id=2055, 505.89pt x 505.89pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_SR_BH_steep.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_SR_BH_steep.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_SR_BH_steep.png  used on input line 2404.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_SR_BH_steep.png  used on input line 2408.
 (luatex.def)             Requested size: 469.76265pt x 469.76265pt.
 [141<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/piner_panel_SR_BH_steep.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/M_fm_multilikelihood_profile.png, id=2062, 722.7pt x 722.7pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/M_fm_multilikelihood_profile.png, id=2063, 722.7pt x 722.7pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/M_fm_multilikelihood_profile.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/M_fm_multilikelihood_profile.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/M_fm_multilikelihood_profile.png  used on input line 2412.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/M_fm_multilikelihood_profile.png  used on input line 2416.
 (luatex.def)             Requested size: 469.76045pt x 469.76045pt.
 [142<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/M_fm_multilikelihood_profile.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/Piner_like_comps.png, id=2068, 426.09187pt x 438.13687pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/Piner_like_comps.png, id=2069, 426.09187pt x 438.13687pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/Piner_like_comps.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/Piner_like_comps.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/Piner_like_comps.png  used on input line 2420.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/Piner_like_comps.png  used on input line 2424.
 (luatex.def)             Requested size: 469.78177pt x 483.06181pt.
 [143<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/Piner_like_comps.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_Lt.png, id=2075, 426.09187pt x 438.13687pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_Lt.png, id=2076, 426.09187pt x 438.13687pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_Lt.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_Lt.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_Lt.png  used on input line 2428.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_Lt.png  used on input line 2432.
 (luatex.def)             Requested size: 469.78177pt x 483.06181pt.
 [144<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_Lt.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_age.png, id=2082, 426.09187pt x 438.13687pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_age.png, id=2083, 426.09187pt x 438.13687pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_age.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_age.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_age.png  used on input line 2436.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_age.png  used on input line 2440.
 (luatex.def)             Requested size: 469.78177pt x 483.06181pt.
 [145<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_age.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_survey.png, id=2089, 426.09187pt x 438.13687pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_survey.png, id=2091, 426.09187pt x 438.13687pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_survey.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_survey.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_survey.png  used on input line 2444.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_survey.png  used on input line 2448.
 (luatex.def)             Requested size: 469.78177pt x 483.06181pt.
 [146<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/pre-STAR/LC_survey.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/jitterplot.png, id=2096, 481.8pt x 481.8pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/jitterplot.png, id=2097, 481.8pt x 481.8pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/jitterplot.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/jitterplot.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/jitterplot.png  used on input line 2452.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/jitterplot.png  used on input line 2456.
 (luatex.def)             Requested size: 469.77148pt x 469.77148pt.
 [147<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/jitterplot.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/pairs_plot_fast.png, id=2102, 602.25pt x 351.3125pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/pairs_plot_fast.png, id=2103, 602.25pt x 351.3125pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/pairs_plot_fast.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/pairs_plot_fast.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/pairs_plot_fast.png  used on input line 2460.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/pairs_plot_fast.png  used on input line 2464.
 (luatex.def)             Requested size: 469.77148pt x 274.03336pt.
 [148<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/modconverge/pairs_plot_fast.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png, id=2107, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png, id=2108, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png  used on input line 2471.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png  used on input line 2475.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [149
 
 <c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png, id=2113, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png, id=2114, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png  used on input line 2479.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png  used on input line 2483.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [150<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl_wdis.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Non-Trawl_wdis.png, id=2119, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Non-Trawl_wdis.png, id=2120, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Non-Trawl_wdis.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Non-Trawl_wdis.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Non-Trawl_wdis.png  used on input line 2487.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Non-Trawl_wdis.png  used on input line 2491.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [151<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Non-Trawl_wdis.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Ocean.png, id=2126, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Ocean.png, id=2127, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Ocean.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Ocean.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Ocean.png  used on input line 2495.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Ocean.png  used on input line 2499.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [152<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Ocean.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Shore.png, id=2132, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Shore.png, id=2133, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Shore.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Shore.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Shore.png  used on input line 2503.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Shore.png  used on input line 2507.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [153<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Shore.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_MPA.png, id=2138, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_MPA.png, id=2139, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_MPA.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_MPA.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_MPA.png  used on input line 2511.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_MPA.png  used on input line 2515.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [154<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_MPA.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png, id=2144, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png, id=2145, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png  used on input line 2519.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png  used on input line 2523.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [155<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl_wdis.png, id=2150, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl_wdis.png, id=2151, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl_wdis.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl_wdis.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl_wdis.png  used on input line 2527.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl_wdis.png  used on input line 2531.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [156<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl_wdis.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNon-Trawl_wdis.png, id=2156, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNon-Trawl_wdis.png, id=2157, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNon-Trawl_wdis.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNon-Trawl_wdis.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNon-Trawl_wdis.png  used on input line 2535.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNon-Trawl_wdis.png  used on input line 2539.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [157<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNon-Trawl_wdis.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeOcean.png, id=2162, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeOcean.png, id=2163, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeOcean.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeOcean.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeOcean.png  used on input line 2543.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeOcean.png  used on input line 2547.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [158<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeOcean.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Non-Trawl_wdis.png, id=2168, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Non-Trawl_wdis.png, id=2169, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Non-Trawl_wdis.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Non-Trawl_wdis.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Non-Trawl_wdis.png  used on input line 2551.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Non-Trawl_wdis.png  used on input line 2555.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [159<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Non-Trawl_wdis.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MRFSS.png, id=2174, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MRFSS.png, id=2175, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MRFSS.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MRFSS.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MRFSS.png  used on input line 2559.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MRFSS.png  used on input line 2563.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [160<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MRFSS.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Ocean.png, id=2180, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Ocean.png, id=2181, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Ocean.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Ocean.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Ocean.png  used on input line 2567.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Ocean.png  used on input line 2571.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [161<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Ocean.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Tag.png, id=2188, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Tag.png, id=2189, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Tag.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Tag.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Tag.png  used on input line 2575.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Tag.png  used on input line 2579.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [162<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_Tag.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MPA.png, id=2194, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MPA.png, id=2195, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MPA.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MPA.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MPA.png  used on input line 2583.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MPA.png  used on input line 2587.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [163<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index2_cpuefit_MPA.png>]
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png  used on input line 2594.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png  used on input line 2598.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [164]
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs2_withbars.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs2_withbars.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs2_withbars.png  used on input line 2602.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs2_withbars.png  used on input line 2606.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [165]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png, id=2209, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png, id=2210, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png  used on input line 2610.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png  used on input line 2614.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [166<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SR_curve.png, id=2216, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SR_curve.png, id=2217, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SR_curve.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SR_curve.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SR_curve.png  used on input line 2618.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SR_curve.png  used on input line 2622.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [167<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SR_curve.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recruit_fit_bias_adjust.png, id=2221, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recruit_fit_bias_adjust.png, id=2222, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recruit_fit_bias_adjust.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recruit_fit_bias_adjust.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recruit_fit_bias_adjust.png  used on input line 2626.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recruit_fit_bias_adjust.png  used on input line 2630.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [168<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recruit_fit_bias_adjust.png>]
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png  used on input line 2634.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs3_varcheck.png  used on input line 2638.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [169]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png, id=2231, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png, id=2233, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png  used on input line 2645.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png  used on input line 2649.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [170<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png>]
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png  used on input line 2656.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png  used on input line 2660.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [171]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png, id=2245, 469.755pt x 289.08pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png, id=2246, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png  used on input line 2664.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png  used on input line 2668.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [172<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png>]
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png  used on input line 2672.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png  used on input line 2676.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [173]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png, id=2255, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png, id=2256, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png  used on input line 2683.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png  used on input line 2687.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
 [174<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png, id=2262, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png, id=2263, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png  used on input line 2691.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png  used on input line 2695.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
 [175<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png, id=2268, 384.7173pt x 414.348pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png, id=2269, 384.7173pt x 414.348pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png  used on input line 2702.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png  used on input line 2706.
 (luatex.def)             Requested size: 469.78882pt x 505.97168pt.
 [176]
 Overfull \vbox (9.15938pt too high) has occurred while \output is active []
 
 [177<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png, id=2279, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png, id=2280, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png  used on input line 2710.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png  used on input line 2714.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
 [178<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare4_Bratio_uncertainty.png, id=2284, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare4_Bratio_uncertainty.png, id=2285, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare4_Bratio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare4_Bratio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare4_Bratio_uncertainty.png  used on input line 2718.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare4_Bratio_uncertainty.png  used on input line 2722.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
 [179<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_data/compare4_Bratio_uncertainty.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png, id=2289, 429.2838pt x 414.348pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png, id=2290, 429.2838pt x 414.348pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png  used on input line 2726.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png  used on input line 2730.
 (luatex.def)             Requested size: 469.7507pt x 453.40697pt.
 [180<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png, id=2295, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png, id=2296, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png  used on input line 2734.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png  used on input line 2738.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
 [181<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png, id=2301, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png, id=2302, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png  used on input line 2742.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png  used on input line 2746.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
 [182<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png, id=2306, 505.89pt x 505.89pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png, id=2307, 505.89pt x 505.89pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png  used on input line 2753.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png  used on input line 2757.
 (luatex.def)             Requested size: 469.76265pt x 469.76265pt.
 [183<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_LN(R0).png, id=2313, 505.89pt x 505.89pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_LN(R0).png, id=2314, 505.89pt x 505.89pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_LN(R0).png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_LN(R0).png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_LN(R0).png  used on input line 2761.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_LN(R0).png  used on input line 2765.
 (luatex.def)             Requested size: 469.76265pt x 469.76265pt.
 [184<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_LN(R0).png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png, id=2319, 505.89pt x 505.89pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png, id=2320, 505.89pt x 505.89pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png  used on input line 2769.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png  used on input line 2773.
 (luatex.def)             Requested size: 469.76265pt x 469.76265pt.
 [185<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_BH_steep.png, id=2325, 505.89pt x 505.89pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_BH_steep.png, id=2326, 505.89pt x 505.89pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_BH_steep.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_BH_steep.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_BH_steep.png  used on input line 2777.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_BH_steep.png  used on input line 2781.
 (luatex.def)             Requested size: 469.76265pt x 469.76265pt.
 [186<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/piner_panel_SR_BH_steep.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/M_fm_multilikelihood_profile.png, id=2331, 722.7pt x 722.7pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/M_fm_multilikelihood_profile.png, id=2332, 722.7pt x 722.7pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/M_fm_multilikelihood_profile.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/M_fm_multilikelihood_profile.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/M_fm_multilikelihood_profile.png  used on input line 2785.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/M_fm_multilikelihood_profile.png  used on input line 2789.
 (luatex.def)             Requested size: 469.76045pt x 469.76045pt.
 [187<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/M_fm_multilikelihood_profile.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_plots.png, id=2336, 639.89063pt x 677.53125pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_plots.png, id=2337, 639.89063pt x 677.53125pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_plots.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_plots.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_plots.png  used on input line 2793.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_plots.png  used on input line 2797.
 (luatex.def)             Requested size: 469.7623pt x 497.39537pt.
 [188<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/likelihoods/LC_plots.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare2_spawnbio_uncertainty.png, id=2342, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare2_spawnbio_uncertainty.png, id=2343, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare2_spawnbio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare2_spawnbio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare2_spawnbio_uncertainty.png  used on input line 2804.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare2_spawnbio_uncertainty.png  used on input line 2808.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
 [189<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare2_spawnbio_uncertainty.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare4_Bratio_uncertainty.png, id=2349, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare4_Bratio_uncertainty.png, id=2350, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare4_Bratio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare4_Bratio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare4_Bratio_uncertainty.png  used on input line 2812.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare4_Bratio_uncertainty.png  used on input line 2816.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
 [190<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/compare4_Bratio_uncertainty.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/retro_percent_difference_3_panel.png, id=2355, 722.7pt x 867.24pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/retro_percent_difference_3_panel.png, id=2356, 722.7pt x 867.24pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/retro_percent_difference_3_panel.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/retro_percent_difference_3_panel.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/retro_percent_difference_3_panel.png  used on input line 2820.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/retro_percent_difference_3_panel.png  used on input line 2824.
 (luatex.def)             Requested size: 469.76045pt x 563.71257pt.
 
 Overfull \vbox (26.96132pt too high) has occurred while \output is active []
@@ -4647,290 +4963,290 @@ Overfull \vbox (26.96132pt too high) has occurred while \output is active []
 [191<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/retro/retro_percent_difference_3_panel.png>]
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png  used on input line 2831.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png  used on input line 2835.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [192]
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png  used on input line 2839.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png  used on input line 2843.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [193
 
 ]
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png  used on input line 2847.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png  used on input line 2851.
 (luatex.def)             Requested size: 469.75386pt x 289.07928pt.
 [194]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare2_spawnbio_uncertainty.png, id=2378, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare2_spawnbio_uncertainty.png, id=2379, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare2_spawnbio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare2_spawnbio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare2_spawnbio_uncertainty.png  used on input line 2855.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare2_spawnbio_uncertainty.png  used on input line 2859.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare4_Bratio_uncertainty.png, id=2379, 469.755pt x 361.35pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare4_Bratio_uncertainty.png, id=2380, 469.755pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare4_Bratio_uncertainty.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare4_Bratio_uncertainty.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare4_Bratio_uncertainty.png  used on input line 2861.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare4_Bratio_uncertainty.png  used on input line 2865.
 (luatex.def)             Requested size: 469.75386pt x 361.34912pt.
 [195<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare2_spawnbio_uncertainty.png>] [196<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/figures/management/compare4_Bratio_uncertainty.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt1mkt0.png, id=2390, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt1mkt0.png, id=2391, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt1mkt0.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt1mkt0.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt1mkt0.png  used on input line 2874.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt1mkt0.png  used on input line 2878.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png, id=2391, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png, id=2392, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png  used on input line 2880.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png  used on input line 2884.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [197
 
 <c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt1mkt0.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png, id=2399, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png, id=2400, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png  used on input line 2886.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png  used on input line 2890.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [198<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png, id=2406, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png, id=2407, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png  used on input line 2892.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png  used on input line 2896.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [199<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png, id=2413, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png, id=2414, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png  used on input line 2898.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png  used on input line 2902.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [200<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png, id=2420, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png, id=2421, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png  used on input line 2904.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png  used on input line 2908.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [201<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png, id=2428, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png, id=2429, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png  used on input line 2910.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png  used on input line 2914.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [202<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png>] [203<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png, id=2441, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png, id=2442, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png  used on input line 2921.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png  used on input line 2925.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png, id=2442, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png, id=2443, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png  used on input line 2927.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png  used on input line 2931.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [204
 
 <c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png, id=2450, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png, id=2451, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png  used on input line 2933.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png  used on input line 2937.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [205<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png, id=2457, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png, id=2458, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png  used on input line 2939.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png  used on input line 2943.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [206<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png, id=2464, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png, id=2465, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png  used on input line 2945.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png  used on input line 2949.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [207<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png, id=2471, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png, id=2472, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png  used on input line 2951.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png  used on input line 2955.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [208<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page4.png, id=2478, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page4.png, id=2479, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page4.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page4.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page4.png  used on input line 2957.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page4.png  used on input line 2961.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [209<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page5.png, id=2485, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page5.png, id=2486, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page5.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page5.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page5.png  used on input line 2963.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page5.png  used on input line 2967.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [210<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page4.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png, id=2492, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png, id=2493, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png  used on input line 2969.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png  used on input line 2973.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [211<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page5.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png, id=2500, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png, id=2501, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png  used on input line 2975.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png  used on input line 2979.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [212<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png, id=2507, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png, id=2508, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png  used on input line 2981.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png  used on input line 2985.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [213<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png, id=2514, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png, id=2515, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png  used on input line 2987.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png  used on input line 2991.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [214<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png, id=2521, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png, id=2522, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png  used on input line 2993.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png  used on input line 2997.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [215<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png>] [216<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page1.png, id=2535, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page1.png, id=2536, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page1.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page1.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page1.png  used on input line 3004.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page1.png  used on input line 3008.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png, id=2536, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png, id=2537, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png  used on input line 3010.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png  used on input line 3014.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [217
 
 <c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page1.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png, id=2544, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png, id=2545, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png  used on input line 3016.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png  used on input line 3020.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [218<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png, id=2551, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png, id=2552, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png  used on input line 3022.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png  used on input line 3026.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [219<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png, id=2558, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png, id=2559, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png  used on input line 3028.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png  used on input line 3032.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [220<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png, id=2565, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png, id=2566, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png  used on input line 3034.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png  used on input line 3038.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [221<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png, id=2573, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png, id=2574, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png  used on input line 3040.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png  used on input line 3044.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [222<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png, id=2580, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png, id=2581, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png  used on input line 3046.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png  used on input line 3050.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [223<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page4.png, id=2587, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page4.png, id=2588, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page4.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page4.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page4.png  used on input line 3052.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page4.png  used on input line 3056.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [224<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page5.png, id=2594, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page5.png, id=2595, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page5.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page5.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page5.png  used on input line 3058.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page5.png  used on input line 3062.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [225<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page4.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page6.png, id=2601, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page6.png, id=2602, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page6.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page6.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page6.png  used on input line 3064.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page6.png  used on input line 3068.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [226<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page5.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page7.png, id=2608, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page7.png, id=2609, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page7.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page7.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page7.png  used on input line 3070.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page7.png  used on input line 3074.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [227<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page6.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page1.png, id=2615, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page1.png, id=2616, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page1.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page1.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page1.png  used on input line 3076.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page1.png  used on input line 3080.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [228<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page7.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page2.png, id=2622, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page2.png, id=2623, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page2.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page2.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page2.png  used on input line 3082.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page2.png  used on input line 3086.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [229<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page1.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page3.png, id=2629, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page3.png, id=2630, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page3.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page3.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page3.png  used on input line 3088.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page3.png  used on input line 3092.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [230<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page2.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page4.png, id=2636, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page4.png, id=2637, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page4.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page4.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page4.png  used on input line 3094.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page4.png  used on input line 3098.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [231<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page3.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page5.png, id=2644, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page5.png, id=2645, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page5.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page5.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page5.png  used on input line 3100.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page5.png  used on input line 3104.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [232<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page4.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page6.png, id=2651, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page6.png, id=2652, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page6.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page6.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page6.png  used on input line 3106.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page6.png  used on input line 3110.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [233<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page5.png>] [234<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page6.png>] [235
 
 ]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex1_beg.png, id=2669, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex1_beg.png, id=2670, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex1_beg.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex1_beg.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex1_beg.png  used on input line 3125.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex1_beg.png  used on input line 3129.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex2_beg.png, id=2670, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex2_beg.png, id=2671, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex2_beg.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex2_beg.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex2_beg.png  used on input line 3134.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex2_beg.png  used on input line 3138.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [236
 
 <c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex1_beg.png>] [237<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers1_sex2_beg.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex1.png, id=2686, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex1.png, id=2687, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex1.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex1.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex1.png  used on input line 3148.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex1.png  used on input line 3152.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [238
 
 <c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex1.png>]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex2.png, id=2696, 469.755pt x 469.755pt>
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex2.png, id=2697, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex2.png Graphic file (type png)
 <use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex2.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex2.png  used on input line 3159.
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/numbers6_len_sex2.png  used on input line 3163.
 (luatex.def)             Requested size: 469.75386pt x 469.75386pt.
 [239
 
@@ -4949,13 +5265,13 @@ Package rerunfilecheck Info: File `_main.out' has not changed.
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 53604 strings out of 477247
+ 53607 strings out of 477247
  476930,1977958 words of node,token memory allocated
  897 words of node memory still in use:
    9 hlist, 2 vlist, 3 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 4 glyph, 41 attribute, 85 glue_spec, 22 attribute_list, 6 write, 1 close, 8 pdf_action nodes
-   avail lists: 1:6,2:18552,3:4653,4:131,5:639,6:2308,7:33092,8:214,9:14842,10:23,11:868,12:1
- 70392 multiletter control sequences out of 65536+600000
- 85 fonts using 17817355 bytes
+   avail lists: 1:6,2:18552,3:4653,4:286,5:639,6:2308,7:33092,8:214,9:14842,10:23,11:868,12:1
+ 70393 multiletter control sequences out of 65536+600000
+ 85 fonts using 17816955 bytes
  115i,12n,128p,2284b,875s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'app_d'
@@ -4966,10 +5282,10 @@ warning  (pdf backend): unreferenced destination with name 'app_b'
 
 warning  (pdf backend): unreferenced destination with name 'app_a'
 <c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman7-italic.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman9-italic.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf>
-Output written on _main.pdf (269 pages, 9871971 bytes).
+Output written on _main.pdf (269 pages, 9874433 bytes).
 
-PDF statistics: 2838 PDF objects out of 2984 (max. 8388607)
- 2254 compressed objects within 23 object streams
- 874 named destinations out of 1000 (max. 131072)
+PDF statistics: 2839 PDF objects out of 2984 (max. 8388607)
+ 2255 compressed objects within 23 object streams
+ 876 named destinations out of 1000 (max. 131072)
  880 words of extra memory for PDF output out of 10000 (max. 100000000)
 

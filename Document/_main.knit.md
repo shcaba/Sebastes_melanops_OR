@@ -313,9 +313,13 @@ Recommended avenues for research to help improve future Black Rockfish stock ass
 3. Continue to build evidence for appropriate natural mortality values for females and males. 
 4. Improved historical catch reconstructions. Specifically, the historic trawl fishery catches (pre-1987) in particular require particular attention. A synoptic catch reconstruction is recommended, where states work together to resolve cross-boundary state catch issues as well as standardize the approach to catch recommendations to the extent possible.
 5. Stock structure for black rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.
-6. Continue acoustic-visual fisheries independent coastwide survey to develop a time series. Further refine the survey by addressing the recommendations of the SSC methodology review from 2022. Examine the potential of using spatial modeling to reduce the uncertainty in the population estimates from the acoustic-visual fisheries independent coastwide survey.
+6. Continue acoustic-visual fisheries independent coastwide survey to develop a time series. Further refine the survey by addressing the recommendations of the SSC methodology review from 2022. Examine the potential of using spatial modeling to reduce the uncertainty in the population estimates from the acoustic-visual fisheries independent coastwide survey. The STAR panel suggested the survey team focus on improving the survey estimates by a) obtaining a target strength estimate for black rockfish, b) developing a method for in-situ transducer calibration, and c) improving backscatter identification using visual surveys and other methods as appropriate. Concentrating on the echo integration component of the survey seems warranted given that methods are well developed and widely used, and it is regarded as a reliable and robust acoustic survey technique.
 7. Reconcile contradictory signal in the Black Rockfish biology versus the population scale.
 8. Better understand the ecology and habitats of Black Rockfish from settlement to age 4. Further development of surveys aimed specifically at recruitment or settlement rates of nearshore species, such as OSU’s SMURF collections, that are not frequently encountered in offshore federal age-0 surveys is needed. 
+9. Consider additional capacities in Stock Synthesis to model marine reserves (i.e., closed to fishing) and areas that are open to fishing.
+10. Simulation analyses or make a standard sensitivity exploration to examine circumstances in which options for treatment sex data for composition data are preferable under Option 1 or 2 treating them as separate or Option 3 treating them as combined and preserving sex ratio within samples.  Such studies should aim to provide criteria for their application to inform guidance in the PFMC’s Groundfish  Terms of  Reference and Accepted Practices documents.
+11. Develop and evaluate using the acoustic visual survey data to develop an informative prior for the PIT tag survey.
+12. Continue to collect functional maturity information and evaluate the role of geography, environmental forcing, and density dependence on functional maturity estimates for black rockfish. 
 
 <!--chapter:end:01executive.Rmd-->
 
@@ -877,7 +881,7 @@ Data treatments explored included the treatment of catchability for the acoustic
 
 17. 2015 Catch history
 
-Likelihood values and estimates of key parameters and derived quantities from each data treatment sensitivity are available in Tables \ref{tab:data_sensis_q} and \ref{tab:data_sensis_other}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}. 
+Likelihood values and estimates of key parameters and derived quantities from each data treatment sensitivity are available in Tables \ref{tab:data_sensis_q_preSTAR} and \ref{tab:data_sensis_other_preSTAR}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}. 
 
 From a data standpoint, these sensitivities indicate the model was most sensitive to how information on absolute abundance, or population scale, from the acoustic-visual survey and the tagging data was treated in the model.  In particular, the parameterization of catchability (model estimated or fixed) and the level of error (input CVs and model estimated extra variance) associated with these two data sources provided considerably discrepencies in key management quantities (e.g., stock size and status; Figures \ref{fig:sensi-data-RE}, \ref{fig:sensi-data-ssb}, and \ref{fig:sensi-data-depl}). The model was comparatively robust to the removal of any given single data source, with the exception of the acoustic-visual survey, and the relative weighting of length and age composition data. The harmonic mean data weighting approach (based on the McAllister-Ianelli method) resulted in negligible change from the reference model that used the Francis weighting method.  The Dirichlet method only minimally adjusted the input sample sizes, nearly mimicking the sensitivity model where no weighting was conducted, which had the effect of increasing current estimates of stock size (20%) but no appreciably change in stock status. 
 
@@ -911,7 +915,7 @@ Model specifications looked at the estimation of individual and combinations of 
  - Selectivity  
 		13. Estimate logistic selectivity for all fleets
 	
-Likelihood values and estimates of key parameters and derived quantities from each model specification sensitivity are available in Table \ref{tab:modspec_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. In general, model specifications for natural mortality, selectivity, and growth caused the population to drop below the reference model estimate of stock size, while alternative reproductive biology models increased stock size.  Despite considerable differences in the historic trajectory of relative stock status across sensitivity models, there was considerably less variability in the estimate of current (2023) stock status (ranging from 0.49 to 0.65, where 0.55 is the reference model, with the exception of the estimate $L_min$ growth model that had convergence issues when estimating the length at minimum age). 
+Likelihood values and estimates of key parameters and derived quantities from each model specification sensitivity are available in Table \ref{tab:modspec_sensis_preSTAR}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. In general, model specifications for natural mortality, selectivity, and growth caused the population to drop below the reference model estimate of stock size, while alternative reproductive biology models increased stock size.  Despite considerable differences in the historic trajectory of relative stock status across sensitivity models, there was considerably less variability in the estimate of current (2023) stock status (ranging from 0.49 to 0.65, where 0.55 is the reference model, with the exception of the estimate $L_min$ growth model that had convergence issues when estimating the length at minimum age). 
 
 Estimating female and male $M$ led to a considerably higher mortality rate for females (0.25 compared to 0.19 used in the reference model) and slightly higher for males (0.18 compared to 0.17). This had the effect of lowering both the beginning and ending stock scale, but had only a marginal influence on current stock status. Similarly, fixing growth but estimating $M$ also dropped stock scale but preserved stock status relative to the sensitivity that only fixed the growth parameters to external estimates. Due to the similarity between $M$ in the reference model and what was used in the previous 2015 assessment, there was little change in overall management quantities associated with this sensitivity model.    
 
@@ -1035,30 +1039,27 @@ Sensitivity analyses were conducted to evaluate model sensitivity to alternative
 #### Data treatment sensitivities
 Data treatments explored included the treatment of catchability for the acoustic-visual survey and the tagging data, the removal of any one data source, and alternative approaches to data weighting. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
 
-- Treatment of absolute abundance catchability (q) 
-	1. Acoustic visual survey q = 1, CV = 0.0001
-  	2. Acoustic visual survey q Estimated, CV = 0.0001
-  	3. Acoustic visual survey q = 1, CV = 0.45
-  	4. Acoustic visual survey q estimated, CV = 0.45
-  	5. Tag survey q = to 2015 value (0.25) with #2 above
-  	6. Tag survey q = to 2015 value (0.25), but extra variance estimated, with #2 above
-
 - Remove abundance index series 
-	7. No Acoustic visual
-  	8. No tagging index
-  	9. No non-trawl index
-  	10. No ORBS index
-  	11. No MRFSS index
-  	12. No MPA index
-	13. Add SMURFs index 
+	1. No Acoustic visual
+  	2. No tagging index
+  	3. No non-trawl index
+  	4. No ORBS index
+  	5. No MRFSS index
+  	6. No MPA index
+	7. Add SMURFs index 
 
 - Data weighting (Table \ref{tab:data_wt})
-  	14. No data-weighting
-  	15. Dirichlet data-weighting
-  	16. McAllister-Ianelli data weighting
+  	8. No data-weighting
+  	9. Dirichlet data-weighting
+  	10. McAllister-Ianelli data weighting
 
+- Other
+	11. 2015 Catch history
+	12. Sex = 3
+	13. Sex = 3 and estimate $M$
+	14. No age bias
 
-Likelihood values and estimates of key parameters and derived quantities from each data treatment sensitivity are available in Tables \ref{tab:data_sensis_q} and \ref{tab:data_sensis_other}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}. 
+Likelihood values and estimates of key parameters and derived quantities from each data treatment sensitivity are available in Table \ref{tab:data_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}. 
 
 From a data standpoint, the model was the most sensitive to how information on absolute abundance, or population scale, from the acoustic-visual survey and the tagging data was treated in the model.  In particular, the parameterization of catchability (model estimated or fixed) and the level of error (input CVs and model estimated extra variance) associated with these two data sources provided considerably discrepencies in key management quantities (e.g., stock size and status; Figures \ref{fig:sensi-data-RE}, \ref{fig:sensi-data-ssb}, and \ref{fig:sensi-data-depl}). The model was comparatively robust to the removal of any given single data source, with the exception of the acoustic-visual survey, and the relative weighting of length and age composition data. The harmonic mean data weighting approach (based on the McAllister-Ianelli method) resulted in negligible change from the reference model that used the Francis weighting method.  The Dirichlet method only minimally adjusted the input sample sizes, nearly mimicking the sensitivity model where no weighting was conducted, which had the effect of increasing current estimates of stock size (20%) but no appreciably change in stock status. 
 

@@ -5,30 +5,27 @@ Sensitivity analyses were conducted to evaluate model sensitivity to alternative
 #### Data treatment sensitivities
 Data treatments explored included the treatment of catchability for the acoustic-visual survey and the tagging data, the removal of any one data source, and alternative approaches to data weighting. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
 
-- Treatment of absolute abundance catchability (q) 
-	1. Acoustic visual survey q = 1, CV = 0.0001
-  	2. Acoustic visual survey q Estimated, CV = 0.0001
-  	3. Acoustic visual survey q = 1, CV = 0.45
-  	4. Acoustic visual survey q estimated, CV = 0.45
-  	5. Tag survey q = to 2015 value (0.25) with #2 above
-  	6. Tag survey q = to 2015 value (0.25), but extra variance estimated, with #2 above
-
 - Remove abundance index series 
-	7. No Acoustic visual
-  	8. No tagging index
-  	9. No non-trawl index
-  	10. No ORBS index
-  	11. No MRFSS index
-  	12. No MPA index
-	13. Add SMURFs index 
+	1. No Acoustic visual
+  	2. No tagging index
+  	3. No non-trawl index
+  	4. No ORBS index
+  	5. No MRFSS index
+  	6. No MPA index
+	7. Add SMURFs index 
 
 - Data weighting (Table \ref{tab:data_wt})
-  	14. No data-weighting
-  	15. Dirichlet data-weighting
-  	16. McAllister-Ianelli data weighting
+  	8. No data-weighting
+  	9. Dirichlet data-weighting
+  	10. McAllister-Ianelli data weighting
 
+- Other
+	11. 2015 Catch history
+	12. Sex = 3
+	13. Sex = 3 and estimate $M$
+	14. No age bias
 
-Likelihood values and estimates of key parameters and derived quantities from each data treatment sensitivity are available in Tables \ref{tab:data_sensis_q} and \ref{tab:data_sensis_other}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}. 
+Likelihood values and estimates of key parameters and derived quantities from each data treatment sensitivity are available in Table \ref{tab:data_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}. 
 
 From a data standpoint, the model was the most sensitive to how information on absolute abundance, or population scale, from the acoustic-visual survey and the tagging data was treated in the model.  In particular, the parameterization of catchability (model estimated or fixed) and the level of error (input CVs and model estimated extra variance) associated with these two data sources provided considerably discrepencies in key management quantities (e.g., stock size and status; Figures \ref{fig:sensi-data-RE}, \ref{fig:sensi-data-ssb}, and \ref{fig:sensi-data-depl}). The model was comparatively robust to the removal of any given single data source, with the exception of the acoustic-visual survey, and the relative weighting of length and age composition data. The harmonic mean data weighting approach (based on the McAllister-Ianelli method) resulted in negligible change from the reference model that used the Francis weighting method.  The Dirichlet method only minimally adjusted the input sample sizes, nearly mimicking the sensitivity model where no weighting was conducted, which had the effect of increasing current estimates of stock size (20%) but no appreciably change in stock status. 
 
