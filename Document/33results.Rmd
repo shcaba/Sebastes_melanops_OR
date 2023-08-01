@@ -16,7 +16,7 @@ An extra effort was given to ensure the model did not rest on a local likelihood
 
 ##### Lengths
 
-Fits to the length data are examined based on the Pearson residuals-at-length, the annual mean lengths, and aggregated length composition data for the commercial and recreational fleets. Fits to the annual length composition are shown in [Appendix A](#app_a). 
+The lengths were initially fit to get the selectivity parameters, then dropped from contributing to the total likelihood in final reference model, but still retained to evaluate fits despite not influencing the total likelihood. Fits to the length data are examined based on the Pearson residuals-at-length, the annual mean lengths, and aggregated length composition data for the commercial and recreational fleets. Fits to the annual length composition are shown in [Appendix A](#app_a). 
 
 Pearson residuals of fits to the fishery and MPA survey length data are reasonably small with no distinct patterns (Figure \ref{fig:lt-pearson-resids}), though the shore-based fishery lengths, which are small samples, show a possible recruitment in 1985 that is not seen in the recruitment residuals. 
 
@@ -30,7 +30,7 @@ Fits to the mostly sex-specific conditional age at length data are examined base
 
 ##### Marginal Age compositions
 
-Marginal age compositions are not fit in the model, but they are included in order to see how well they fit the reference model without influencing the likelihood [Appendix D](#app_d). Marginal length and age composition cannot be used in the same model given the overlap of the same fish in both samples. This is why ages conditioned on lengths are often used with the length compositions. But it still stands that age compositions, instead of lengths, could be used. So adding the marginal age compositions passively (i.e., not contributing to the overall likelihood of the model) can offer insight into how consistent they are with the current model fit. Overall the fits are very good, and in an exploratory model run the length compositions were replaced with the age compositions and a very similar model result was obtained. Thus the conditional age at length compositions coupled with either length or age compositions provide similar results. This is likely due to the fact that the conditional ages capture the underlying age structure sufficiently to following the age structure over time.   
+Marginal age compositions are fit in the model once the lengths were removed [Appendix D](#app_d). Marginal length and age composition cannot be used in the same model given the overlap of the same fish in both samples. This is why ages conditioned on lengths are often used with either marginal length or age compositions. Models were run with marginal ages either in (i.e., no lengths used) or out (i.e., lengths used) of the likelihood. Overall the fits to the marginal ages are very good regardless of whether the marginal lengths or ages are included in the total likelihood. Thus the conditional age at length compositions coupled with either length or age compositions provide similar data fits.   
 
 ##### Fits to Indices of Abundance
 
