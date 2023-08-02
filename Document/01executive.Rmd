@@ -36,13 +36,13 @@ label = 'es-catch')
 
 The first `r spp` stock assessment along the west coast of the United States that included the majority of Oregon waters was completed in 1993, covering the area south of Cape Falcon, Oregon to north of Point Piedros Blancos, California [@sampson_status_2007]. Subsequent assessments that included Oregon waters were done in 2003 and 2007. In 2015, the last assessment prior to the current one was completed that included Oregon waters only as one of three (also Washington and California) separate assessment areas delineated by state lines [@cope_assessments_2016]. Similarly, this assessment treats Oregon waters as a single assessment area. The previous two assessments used Stock Synthesis software, as does this one (version 3.30.21.00).
 
-This assessment integrates data and information from multiple sources into one modeling framework. The stock assessment model for `r spp` is informed by catch data from two commercial fleets and two recreational fleets, six abundance indices, five sets of length composition data, and three sets of conditional age-at-length compositions. It also uses multiple ageing error matrices to incorporate ageing imprecision and applies fixed parameterizations of weight-at-length, maturity-at-length, fecundity-at-length, the Beverton-Holt stock-recruitment steepness value, and recruitment variability. Life history parameters were sex-specific (i.e., a two-sex model) with natural mortality fixed at external estimates and growth and recruitment parameters estimated.  Additional parameters that were estimated include initial population scale ($lnR_0$), selectivity for each fishery and survey, and extra survey variance. The base model was tuned to account for the weighting of the length and age data and index variances (which was estimated), as well as the specification of the recruitment bias adjustments.  Derived quantities include, among other things, the time series of spawning output, age and size structure, and current and projected future stock status. The model covers the years `r startyr` to `r endyr`, with a 12 year forecast beginning in `r endyr + 1`.
+This assessment integrates data and information from multiple sources into one modeling framework. The stock assessment model for `r spp` is informed by catch data from two commercial fleets and two recreational fleets, six abundance indices, five sets of length composition data, and three sets of conditional age-at-length compositions. It also uses multiple ageing error matrices to incorporate ageing imprecision and applies fixed parameterizations of weight-at-length, maturity-at-length, fecundity-at-length, the Beverton-Holt stock-recruitment steepness value, and recruitment variability. Life history parameters were sex-specific (i.e., a two-sex model) with natural mortality fixed at external estimates and growth and recruitment parameters estimated.  Additional parameters that were estimated include initial population scale ($lnR_0$), selectivity for each fishery and survey, and extra survey variance. Selectivity paramters were estimated using the length composition data and then were fixed in the final model that used marginal age compostion data (instead of lengths) to lessen the effect lengths were having on the assessment. The reference model was tuned to account for the weighting of the length and age data and index variances (which was estimated), as well as the specification of the recruitment bias adjustments.  Derived quantities include, among other things, the time series of spawning output, age and size structure, and current and projected future stock status. The model covers the years `r startyr` to `r endyr`, with a 12 year forecast beginning in `r endyr + 1`.
 
 Within model uncertainty is explicitly included in this assessment by parameter estimation uncertainty, while among model uncertainty is explored through sensitivity analyses addressing alternative input assumptions such as data treatment and weighting, and model specification sensitivity to the treatment of life history parameters, selectivity, recruitment, and survey catchability. A reference model was selected that best fit the observed data while concomitantly balancing the desire to capture the central tendency across those sources of uncertainty, ensure model realism and tractability, and promote robustness to potential model misspecification.
 
 ## Stock Biomass and Dynamics{-}
 
-Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was `r ssb_curr` meggs (~95 percent asymptotic intervals: `r ssb_curr_low` to `r ssb_curr_hi` meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (`r ssb0` meggs) gives a relative stock status level of `r round(100*depl_curr,0)` percent (~95 percent asymptotic intervals: `r round(100*depl_curr_low,0)` to `r round(100*depl_curr_hi,0)` percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size from 1993 to 2008, before steadily increasing back above target since that time. The largest of the estimated recruitment pulses occurred in 2008 and was followed by several above average recruitment years in the early 2010s, which contributed to the increase in spawning output through the mid to late 2010s. The minimum relative stock size of `r round(100*as.numeric(depl_min),0)` percent of unfished levels is estimated to have occurred in `r depl_min_yr`. Accordingly, the stock has not been below the minimum stock size threshold (i.e., never overfished based on median estimates). Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2009 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
+Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was `r ssb_curr` meggs (~95 percent asymptotic intervals: `r ssb_curr_low` to `r ssb_curr_hi` meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (`r ssb0` meggs) gives a relative stock status level of `r round(100*depl_curr,0)` percent (~95 percent asymptotic intervals: `r round(100*depl_curr_low,0)` to `r round(100*depl_curr_hi,0)` percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of increasing commercial removals in the 1960s and continued to decline with the increase in recreational catches through the 1990s, even dropping below the target relative stock size from 1992 to 2014, before steadily increasing back above target since that time. The largest of the estimated recruitment pulses occurred in 2008 and was followed by several above average recruitment years in the early 2010s, which contributed to the increase in spawning output through the mid to late 2010s. The minimum relative stock size of `r round(100*as.numeric(depl_min),0)` percent of unfished levels is estimated to have occurred in `r depl_min_yr`. Accordingly, the stock has not been below the minimum stock size threshold (i.e., never overfished based on median estimates). Currently the stock is estimated above the management target of $SO_{40\%}$ in 2023 and is estimated to have remained above the target since 2014 (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
 
 \input{tex_tables/b_SSB_ES.tex}
 
@@ -50,14 +50,14 @@ Spawning output (in millions of eggs; meggs) instead of spawning biomass is used
 add_figure(
 filein = file.path(mod_loc, "plots",
 "ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png"), 
-caption = "Estimated time series of spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model",
+caption = "Estimated time series of spawning output (circles and line: median; light broken lines: 95 percent intervals) for the reference model",
 label = 'es-ssb')
 ```
 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "ts9_Relative_spawning_output_intervals.png"), 
-caption = "Estimated time series of fraction of unfished spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model",
+caption = "Estimated time series of fraction of unfished spawning output (circles and line: median; light broken lines: 95 percent intervals) for the reference model",
 label = 'es-depl')
 ```
 
@@ -72,7 +72,7 @@ Recruitment is informed by the data and estimated from 1980 to 2017, before and 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png"), 
-caption = "Estimated time series of age-0 recruits (1000s) for the base model with 95 percent intervals",
+caption = "Estimated time series of age-0 recruits (1000s) for the reference model with 95 percent intervals",
 label = 'es-recruits')
 ```
 
@@ -92,14 +92,14 @@ Fishing intensity, as measured by the SPR rate (1 - SPR), has fluctuated around 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "SPR2_minusSPRseries.png"), 
-caption = "Estimated 1 - relative spawning ratio (SPR) by year for the base model. The management target is plotted as a red horizontal line and values above this reflect harvest in excess of the proxy harvest rate",
+caption = "Estimated 1 - relative spawning ratio (SPR) by year for the reference model. The management target is plotted as a red horizontal line and values above this reflect harvest in excess of the proxy harvest rate",
 label = 'es-1-spr')
 ```
 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "SPR4_phase.png"), 
-caption = "Phase plot of estimated 1-SPR versus fraction unfished for the base model",
+caption = "Phase plot of estimated 1-SPR versus fraction unfished for the reference model",
 label = 'es-phase')
 ```
 
@@ -122,7 +122,7 @@ The 2023 spawning output relative to unfished equilibrium spawning output is abo
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "yield2_yield_curve_with_refpoints.png"), 
-caption = "Equilibrium yield curve for the base case model. Values are based on (the time invariant)
+caption = "Equilibrium yield curve for the reference model. Values are based on (the time invariant)
 fishery selectivities and with steepness fixed at 0.72",
 label = 'es-yield')
 ```
