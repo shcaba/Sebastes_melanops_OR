@@ -63,8 +63,6 @@ address:
     Newport, Oregon 97365
   - ^3^Department of Fisheries, Wildlife, and Conservation Sciences, 104 Nash Hall, Oregon State University, Corvallis, OR 97331
 ---
-=======
----
 
 <!--chapter:end:00authors.Rmd-->
 
@@ -1193,7 +1191,7 @@ Recommended avenues for research to help improve future Black Rockfish stock ass
 
 # Acknowledgments
 
-The STAT would like to thank Mark Terwilliger at ODFW for sharing his aging expertise and his work to further refine aging error in this assessment. The STAT would also like to acknowledge the work of the Fish Research team at ODFW for their responsiveness to the SSC methodology review of the AV survey and their feedback throughout the development of this assessment. We are also very grateful to all who collected data throughout the years that have been incorporated into this assessment. Thank you to Chantel Wetzel for reviewing and offering many great edits. Owen Hamel, Jim Hastie John Budrick and Marlene Bellman also reviewed a pre-STAR draft. The STAT would also like to thank the STAR panel members for their comments and review. 
+The STAT would like to thank Mark Terwilliger at ODFW for sharing his aging expertise and his work to further refine aging error in this assessment. The STAT would also like to acknowledge the work of the Fish Research team at ODFW for their responsiveness to the SSC methodology review of the AV survey and their feedback throughout the development of this assessment. We are also very grateful to all who collected data throughout the years that have been incorporated into this assessment. Thank you to Chantel Wetzel for reviewing and offering many great edits. Owen Hamel, Jim Hastie John Budrick and Marlene Bellman also reviewed a pre-STAR draft. The STAT would also like to thank the STAR panel members (John Budrick, Yong Chen, Martin Dorn, and Joe Powers) for their detailed attention, constructive comments and intensive review. 
 
 \textit{Pictured on the title page are Mark Terwilliger (ODFW; left) and Laurie Weitkamp (NWFSC; right) displaying Black Rockfish landed during research surveys. Photo credits: Kelly Lawrence (left) and NOAA (right).}
 
