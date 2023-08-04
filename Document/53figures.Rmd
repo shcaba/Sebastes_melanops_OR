@@ -165,7 +165,7 @@ label = 'fxn-spline-mat-color')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "bio6_maturity.png"), 
-caption = "Maturity as a function of length (cm) used in the base model",
+caption = "Maturity as a function of length (cm) used in the reference model",
 label = 'maturity')
 ```
 
@@ -174,7 +174,7 @@ label = 'maturity')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "bio9_fecundity_len.png"), 
-caption = "Fecundity (kg) as a function of length (cm) used in the base model",
+caption = "Fecundity (kg) as a function of length (cm) used in the reference model",
 label = 'fecundity')
 ```
 
@@ -205,7 +205,7 @@ label = 'len-weight-or-wa')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "index9_standcpueall.png"), 
-caption = "The set of standardized indices (each index is scaled to have a mean observation of 1) used in the base model.",
+caption = "The set of standardized indices (each index is scaled to have a mean observation of 1) used in the reference model.",
 label = 'sur-summ-all')
 ```
 
