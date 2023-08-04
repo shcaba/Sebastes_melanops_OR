@@ -69,12 +69,15 @@ Recruitment is informed by the data and estimated from 1980 to 2017, before and 
 
 \input{tex_tables/c_Recr_ES.tex}
 
+\clearpage
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png"), 
 caption = "Estimated time series of age-0 recruits (1000s) for the reference model with 95 percent intervals",
 label = 'es-recruits')
 ```
+\clearpage
 
 ```{r, results = 'asis'}
 add_figure(
@@ -83,11 +86,15 @@ caption = "Estimated time series of recruitment deviations",
 label = 'es-recdev')
 ```
 
+\clearpage
+
 ## Exploitation Status{-}
 
 Fishing intensity, as measured by the SPR rate (1 - SPR), has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. Fishing was consistently at or above the target rate from 1988 to 2006 and has been slightly above it over the past 5 years as well (Table \ref{tab:exploitES} and Figures \ref{fig:es-1-spr} and \ref{fig:es-phase}). The steepness value of 0.72 indicates that a lower value of SPR (or equivalently a higher fishing intensity than $\text{SPR}_{50\%}$) would be consistent with the spawning output-based target of ($\text{SO}_{40\%}$) for sustainable removals. Trends in fishing intensity largely mirrored that of landings until the 1990s, after which recruitment pulses countered the catches somewhat to lower overall fishing intensity (though mostly still at or above target; Figure \ref{fig:es-1-spr}). The maximum fishing intensity (1 - SPR) was `r spr_max` in `r spr_max_yr`, which is well above the target of 0.50. The current level of 0.59 for 2022 is above that target. Fishing intensity over the past decade has ranged between 0.50 and 0.62 and the exploitation rate (range of 0.07 - 0.09, Table \ref{tab:exploitES}) has come down since the time series high of 0.12 in 1992. Current estimates indicate that `r spp` spawning output is greater than than the target biomass level ($\text{SO}_{40\%}$), though fishing intensity remains above the target $F_{MSY}$ proxy harvest rate of 1 - $\text{SPR}_{50\%}$ (Figure \ref{fig:es-phase}).
 
 \input{tex_tables/d_SPR_ES.tex}
+
+\clearpage
 
 ```{r, results = 'asis'}
 add_figure(
