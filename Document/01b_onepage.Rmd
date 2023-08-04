@@ -5,11 +5,11 @@
 
 \item This assessment for `r spp` in Oregon waters incorporates a wide range of data sources: removals from two commercial and two recreational fleets; three fishery-dependent indices of abundance, three fishery-independent indices of abundance, length and conditional age-at-length composition data for several fisheries and surveys; information on weight-at-length, maturity-at-length, and fecundity-at-length; information on natural mortality and the steepness of the Beverton-Holt stock-recruitment relationship; and estimates of ageing error.
 
-\item The addition of a new coastwide acoustic-visual survey (conducted in 2021) was incorporated into the base model to provide direct information on overall population scale and to anchor related information on scale from earlier (2005-2013) tagging data.   
+\item The addition of a new coastwide acoustic-visual survey (conducted in 2021) was incorporated into the reference model to provide direct information on overall population scale and to anchor related information on scale from earlier (2005-2013) tagging data.   
 
 \item `r spp` off the U.S. west coast appear to have complex sex-specific growth and mortality dynamics that are captured in this assessment through sex-specific parameterizations. In particular, observations of older females are lacking in the available data and is addressed by allowing for higher female natural mortality.
 
-\item The model was highly sensitive to model specifications for acoustic-visual (AV) survey catchability and recruitment. The base model fixed AV survey catchability at a reasonable value (1.0) given the survey design and `r spp` biology. Reconciling the signal in the
+\item The model was highly sensitive to model specifications for acoustic-visual (AV) survey catchability and recruitment. The reference model fixed AV survey catchability at a reasonable value (1.0) given the survey design and `r spp` biology. Reconciling the signal in the
 biological data (which suggests a lower population size and status) versus the AV and tag surveys (which suggest high stock sizes and status) is a major uncertainty.
 
 \item Parameters that were estimated in the reference model include male and female $L_{\infty}$ and $k$, recruitment deviations starting in 1980, equilibrium recruitment ($lnR_0$), and extra survey variance.  Length-based selectivity parameters in the final reference model were fixed to values previously estimated (i.e., pre-STAR panel reference model) and the length composition data was replaced with marginal age composition data to lessen the effect the lengths were having on the assessment.

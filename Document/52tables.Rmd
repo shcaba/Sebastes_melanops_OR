@@ -100,7 +100,7 @@ col_names = c('Parameter',
                          'Status',
                          'Prior (Exp.Val, SD)')
 table_format(x = mod_params,
-             caption = "List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).",
+             caption = "List of parameters used in the reference model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).",
              label = "model-params",
              align = 'l',
              col_names = col_names,
