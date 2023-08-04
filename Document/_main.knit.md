@@ -104,11 +104,11 @@ _**These materials do not constitute a formal publication and are for informatio
 
 \item This assessment for Black Rockfish in Oregon waters incorporates a wide range of data sources: removals from two commercial and two recreational fleets; three fishery-dependent indices of abundance, three fishery-independent indices of abundance, length and conditional age-at-length composition data for several fisheries and surveys; information on weight-at-length, maturity-at-length, and fecundity-at-length; information on natural mortality and the steepness of the Beverton-Holt stock-recruitment relationship; and estimates of ageing error.
 
-\item The addition of a new coastwide acoustic-visual survey (conducted in 2021) was incorporated into the base model to provide direct information on overall population scale and to anchor related information on scale from earlier (2005-2013) tagging data.   
+\item The addition of a new coastwide acoustic-visual survey (conducted in 2021) was incorporated into the reference model to provide direct information on overall population scale and to anchor related information on scale from earlier (2005-2013) tagging data.   
 
 \item Black Rockfish off the U.S. west coast appear to have complex sex-specific growth and mortality dynamics that are captured in this assessment through sex-specific parameterizations. In particular, observations of older females are lacking in the available data and is addressed by allowing for higher female natural mortality.
 
-\item The model was highly sensitive to model specifications for acoustic-visual (AV) survey catchability and recruitment. The base model fixed AV survey catchability at a reasonable value (1.0) given the survey design and Black Rockfish biology. Reconciling the signal in the
+\item The model was highly sensitive to model specifications for acoustic-visual (AV) survey catchability and recruitment. The reference model fixed AV survey catchability at a reasonable value (1.0) given the survey design and Black Rockfish biology. Reconciling the signal in the
 biological data (which suggests a lower population size and status) versus the AV and tag surveys (which suggest high stock sizes and status) is a major uncertainty.
 
 \item Parameters that were estimated in the reference model include male and female $L_{\infty}$ and $k$, recruitment deviations starting in 1980, equilibrium recruitment ($lnR_0$), and extra survey variance.  Length-based selectivity parameters in the final reference model were fixed to values previously estimated (i.e., pre-STAR panel reference model) and the length composition data was replaced with marginal age composition data to lessen the effect the lengths were having on the assessment.
@@ -228,17 +228,24 @@ Recruitment is informed by the data and estimated from 1980 to 2017, before and 
 
 \input{tex_tables/c_Recr_ES.tex}
 
+\clearpage
+
 
 ![Estimated time series of age-0 recruits (1000s) for the reference model with 95 percent intervals.\label{fig:es-recruits}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
+\clearpage
 
 
 ![Estimated time series of recruitment deviations.\label{fig:es-recdev}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/recdevs2_withbars.png){width=100% height=100% alt="."}
+
+\clearpage
 
 ## Exploitation Status{-}
 
 Fishing intensity, as measured by the SPR rate (1 - SPR), has fluctuated around the estimated SPR rate fishing intensity target of 0.50 (1 - $\text{SPR}_{50\%}$) since 1980. Fishing was consistently at or above the target rate from 1988 to 2006 and has been slightly above it over the past 5 years as well (Table \ref{tab:exploitES} and Figures \ref{fig:es-1-spr} and \ref{fig:es-phase}). The steepness value of 0.72 indicates that a lower value of SPR (or equivalently a higher fishing intensity than $\text{SPR}_{50\%}$) would be consistent with the spawning output-based target of ($\text{SO}_{40\%}$) for sustainable removals. Trends in fishing intensity largely mirrored that of landings until the 1990s, after which recruitment pulses countered the catches somewhat to lower overall fishing intensity (though mostly still at or above target; Figure \ref{fig:es-1-spr}). The maximum fishing intensity (1 - SPR) was 0.72 in 1992, which is well above the target of 0.50. The current level of 0.59 for 2022 is above that target. Fishing intensity over the past decade has ranged between 0.50 and 0.62 and the exploitation rate (range of 0.07 - 0.09, Table \ref{tab:exploitES}) has come down since the time series high of 0.12 in 1992. Current estimates indicate that Black Rockfish spawning output is greater than than the target biomass level ($\text{SO}_{40\%}$), though fishing intensity remains above the target $F_{MSY}$ proxy harvest rate of 1 - $\text{SPR}_{50\%}$ (Figure \ref{fig:es-phase}).
 
 \input{tex_tables/d_SPR_ES.tex}
+
+\clearpage
 
 
 ![Estimated 1 - relative spawning ratio (SPR) by year for the reference model. The management target is plotted as a red horizontal line and values above this reflect harvest in excess of the proxy harvest rate.\label{fig:es-1-spr}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
@@ -281,11 +288,11 @@ Black Rockfish removals have generally been below the equivalent ABC-ACL over th
 
 ## Unresolved Problems and Major Uncertainties{-}
 
-The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which suggests a lower population size and status) versus the acoustic and tag surveys (which suggest high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the biological data, despite large sample sizes, is another barrier to interpreting the current conditions, though given models using only biological data, the signal seems clear that the population could be at a lower stock status.
+The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which want a lower population size and status) versus the acoustic and tag surveys (which want high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the length composition data, despite large sample sizes, is another barrier to interpreting the current conditions, as lengths drive the model to a lower stock status, while the ages push it to higher stock status, but not as high as the acoustic-visual survey would have it.
 
 ## Scientific Uncertainty{-}
 
-The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which want a lower population size and status) versus the acoustic and tag surveys (which want high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the length composition data, despite large sample sizes, is another barrier to interpreting the current conditions, as lengths drive the model to a lower stock status, while the ages push it to higher stock status, but not as high as the acoustic-visual survey would have it.
+The model-estimated uncertainty around the 2023 spawning output was $\sigma$ = 0.11 and the uncertainty around the OFL was $\sigma$ = 0.09. This is clearly an underestimate of overall uncertainty because of the necessity to fix some life history parameters such as natural mortality and steepness, as well as a lack of explicit incorporation of model structural uncertainty. The alternative states of nature used to bracket uncertainty in the decision table assist with encapsulating model structure uncertainty.
 
 ## Harvest Projections and Decision Table{-}
 
@@ -820,7 +827,7 @@ There are five primary likelihood components for each assessment model:
 
 ## Reference Model Exploration, Key Assumptions and Specification
 
-The base assessment model for Oregon Black Rockfish was developed to balance parsimony and realism, and the goal was to estimate a spawning output trajectory and relative stock status for the population of Black Rockfish in state and federal waters off Oregon. The model contains many assumptions to achieve parsimony and uses different data types and sources to estimate reality. A series of investigative model runs were done to achieve the final base model. Constructing integrated models (i.e., those fitting many data types) takes considerable model exploration using different configurations of the following treatments:
+The reference assessment model for Oregon Black Rockfish was developed to balance parsimony and realism, and the goal was to estimate a spawning output trajectory and relative stock status for the population of Black Rockfish in state and federal waters off Oregon. The model contains many assumptions to achieve parsimony and uses different data types and sources to estimate reality. A series of investigative model runs were done to achieve the final reference model. Constructing integrated models (i.e., those fitting many data types) takes considerable model exploration using different configurations of the following treatments:
 
 - Data types and treatments
 - Parameter treatments: which parameter can, cannot and do not need to be estimated
@@ -882,7 +889,7 @@ Likelihood values and estimates of key parameters and derived quantities from ea
 
 From a data standpoint, these sensitivities indicate the model was most sensitive to how information on absolute abundance, or population scale, from the acoustic visual survey and the tagging data was treated in the model.  In particular, the parameterization of catchability (model estimated or fixed) and the level of error (input CVs and model estimated extra variance) associated with these two data sources provided considerably discrepencies in key management quantities (e.g., stock size and status; Figures \ref{fig:sensi-data-RE_preSTAR}, \ref{fig:sensi-data-ssb_preSTAR}, and \ref{fig:sensi-data-depl_preSTAR}). The model was comparatively robust to the removal of any given single data source, with the exception of the acoustic visual survey, and the relative weighting of length and age composition data. The harmonic mean data weighting approach (based on the McAllister-Ianelli method) resulted in negligible change from the reference model that used the Francis weighting method.  The Dirichlet method only minimally adjusted the input sample sizes, nearly mimicking the sensitivity model where no weighting was conducted, which had the effect of increasing current estimates of stock size (20%) but no appreciably change in stock status. 
 
-Alternative treatment of the acoustic visual survey data largely resulted in two alternative states of nature in terms of stock size and status (high and low) relative to the base model. Fixing catchability to 1.0 and reducing the input CV to near zero essentially forced the model to fit the 2021 acoustic-survey data point perfectly (high state of nature). However, when doing so the model estimated biological parameters (e.g., natural mortality and growth) that were extreme, nearing implausibility. Alternatively, estimating catchability, or similarly inputting the externally estimated CV of 0.45, resulted in a low state of nature where estimates of spawning output over recent years were below OFLs and stock status was in the precautionary zone. However, the interpretation of resulting acoustic-survey catchability was impractically high (3.0 or higher) given the comprehensive study design of the survey. Fixing the tagging catchability to the value assumed in the last assessment largely counteracts the change to the reference model after fixing the acoustic visual catchability to 1.0 and reducing its input CV to near zero.  
+Alternative treatment of the acoustic visual survey data largely resulted in two alternative states of nature in terms of stock size and status (high and low) relative to the reference model. Fixing catchability to 1.0 and reducing the input CV to near zero essentially forced the model to fit the 2021 acoustic-survey data point perfectly (high state of nature). However, when doing so the model estimated biological parameters (e.g., natural mortality and growth) that were extreme, nearing implausibility. Alternatively, estimating catchability, or similarly inputting the externally estimated CV of 0.45, resulted in a low state of nature where estimates of spawning output over recent years were below OFLs and stock status was in the precautionary zone. However, the interpretation of resulting acoustic-survey catchability was impractically high (3.0 or higher) given the comprehensive study design of the survey. Fixing the tagging catchability to the value assumed in the last assessment largely counteracts the change to the reference model after fixing the acoustic visual catchability to 1.0 and reducing its input CV to near zero.  
 
 #### Model specification sensitivities
 Model specifications looked at the estimation of individual and combinations of life history parameters, including the treatment of natural mortality, growth, maturity, fecundity and recruitment, and fishery selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
@@ -961,7 +968,8 @@ Besides the additional of eight years of data, changes to some historical data s
 - Addition of and fixing to the acoustic visual survey. This is different than the last model that fixed the stock scale to the tag survey catchability 
 - Estimation of recruitment
 - Female natural mortality is no longer a step, but a constant value
-- Length-based selectivity only (i.e., no age-based selectivity for females), and dome-shaped selectivity for the ocean boat fisheries (assumed logistic last time) 
+- Length-based selectivity only (i.e., no age-based selectivity for females), and dome-shaped selectivity for the ocean boat fisheries (assumed logistic last time)
+- Use of marginal ages 
 - Use of an updated functional maturity relationship
 - Changes in the removal history
 
@@ -974,12 +982,12 @@ Besides the additional of eight years of data, changes to some historical data s
 
 While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (\ensuremath{7.01333\times 10^{-5}}), inversion of the Hessian (passed), acceptable fits to data (passed), and reasonable parameter values (passed). 
 
-Model efficiency was explored by doing a short run Bayesian analysis using the Random Walk Metropolis with 2000 draws, keeping all the draws and examining the fast mixing parameters. Those estimated parameters that do not move much from the initial values slow the model down and are recommended to be fixed at the starting value [@monnahan_overcoming_2019]. This resulted in the fixing of three selectivity parameters (Figure \ref{fig:pairs-plot-fast}).
+Model efficiency was explored by doing a short run Bayesian analysis using the Random Walk Metropolis with 2000 draws, keeping all the draws and examining the fast mixing parameters. Those estimated parameters that do not move much from the initial values slow the model down and are recommended to be fixed at the starting value [@monnahan_overcoming_2019]. This resulted in the fixing of three selectivity parameters during the selectivity estimation stage of model construction (Figure \ref{fig:pairs-plot-fast}).
 
 An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.01. This was repeated 100 times with 17 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter}). A better fit, lower negative log-likelihood model was not found in any of remaining runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made. 
 
 
-## Base Model Results
+## Reference Model Results
 
 #### Fits to the Data
 
@@ -1124,7 +1132,7 @@ Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), ta
 
 Recent removals have been close to the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point, though the population size has continued to increase over recent years due to several above average recruitments. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
 
-The 2023 spawning output relative to unfished equilibrium spawning output is above (44 percent) the management target of 40 percent of unfished spawning output (i.e., 1.38 times above the target spawning output; Figure \ref{fig:es-phase}). The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$. Fishing intensity during the most recent year (2022) is estimated to be slightly below the fishing intensity target (0.96 times $\text{SPR}_{50\%}$; Figure \ref{fig:es-phase}).
+The 2023 spawning output relative to unfished equilibrium spawning output is above (43 percent) the management target of 40 percent of unfished spawning output (i.e., 1.08 times above the target spawning output; Figure \ref{fig:es-phase}). The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$. Fishing intensity during the most recent year (2022) is estimated to be above the fishing intensity target (1.18 times $\text{SPR}_{50\%}$; Figure \ref{fig:es-phase}).
 
 
 ## Management performance
@@ -1278,12 +1286,12 @@ The STAT would like to thank Mark Terwilliger at ODFW for sharing his aging expe
 \begin{landscape}\begingroup\fontsize{9}{11}\selectfont
 
 \begin{longtable}[t]{>{\raggedright\arraybackslash}p{7.5cm}lllll>{\raggedright\arraybackslash}p{3.5cm}}
-\caption{(\#tab:model-params)List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).}\\
+\caption{(\#tab:model-params)List of parameters used in the reference model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).}\\
 \toprule
 Parameter & Value & SD & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \midrule
 \endfirsthead
-\caption[]{(\#tab:model-params)List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD). \textit{(continued)}}\\
+\caption[]{(\#tab:model-params)List of parameters used in the reference model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD). \textit{(continued)}}\\
 \toprule
 Parameter & Value & SD & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \midrule
@@ -1597,12 +1605,12 @@ SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 \newpage
 
 
-![Maturity as a function of length (cm) used in the base model.\label{fig:maturity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio6_maturity.png){width=100% height=100% alt="."}
+![Maturity as a function of length (cm) used in the reference model.\label{fig:maturity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio6_maturity.png){width=100% height=100% alt="."}
 
 \newpage
 
 
-![Fecundity (kg) as a function of length (cm) used in the base model.\label{fig:fecundity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio9_fecundity_len.png){width=100% height=100% alt="."}
+![Fecundity (kg) as a function of length (cm) used in the reference model.\label{fig:fecundity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/bio9_fecundity_len.png){width=100% height=100% alt="."}
 
 \newpage
 
@@ -1621,7 +1629,7 @@ SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 <!-- ====================================================================== -->
 
 
-![The set of standardized indices (each index is scaled to have a mean observation of 1) used in the base model.\label{fig:sur-summ-all}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index9_standcpueall.png){width=100% height=100% alt="."}
+![The set of standardized indices (each index is scaled to have a mean observation of 1) used in the reference model.\label{fig:sur-summ-all}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/index9_standcpueall.png){width=100% height=100% alt="."}
 
 \newpage
 
