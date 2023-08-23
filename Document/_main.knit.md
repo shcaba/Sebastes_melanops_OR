@@ -1009,7 +1009,7 @@ Fits to the mostly sex-specific conditional age at length data are examined base
 
 ##### Marginal Age compositions
 
-Marginal age compositions are not formally fit in the model, but fits to that data are provided [Appendix D](#app_d). Marginal length and age composition cannot be used in the same model given the overlap of the same fish in both samples. This is why ages conditioned on lengths are often used with either marginal length or age compositions. Models were run with marginal ages either in (i.e., no lengths used) or out (i.e., lengths used) of the likelihood. Overall the fits to the marginal ages are very good regardless of whether the marginal lengths or ages are included in the total likelihood. Thus the conditional age at length compositions coupled with either length or age compositions provide similar data fits.   
+Marginal age compositions are not formally fit in the model, but fits to that data are provided in[Appendix D](#app_d). Marginal length and age composition cannot be used in the same model given the overlap of the same fish in both samples. This is why ages conditioned on lengths are often used with either marginal length or age compositions. Models were run with marginal ages either in (i.e., no lengths used) or out (i.e., lengths used) of the likelihood. Overall the fits to the marginal ages are very good regardless of whether the marginal lengths or ages are included in the total likelihood. Thus the conditional age at length compositions coupled with either length or age compositions provide similar data fits.   
 
 ##### Fits to Indices of Abundance
 
@@ -1071,7 +1071,7 @@ Likelihood values and estimates of key parameters and derived quantities from ea
 
 From a data standpoint, the model was most sensitive to how information on absolute abundance, or population scale, from the acoustic-visual and tag survey data, as was demonstrated in-depth in section 3.5.1.1.  For the current reference model that does not weight those as heavily, there is much less of an influence in key management quantities (e.g., stock size and status; Figures \ref{fig:sensi-data-RE}, \ref{fig:sensi-data-ssb}, and \ref{fig:sensi-data-depl}) when dropping those two indices. The model was generally robust to the removal of any single index accept for the non-trawl survey, which supports the more recent increase in stock size. The harmonic mean data weighting approach (based on the McAllister-Ianelli method) resulted in negligible change from the reference model that used the Francis weighting method. The Dirichlet method only minimally adjusted the input sample sizes, nearly mimicking the sensitivity model where no weighting was conducted, which had the effect of increasing initial and current estimates of stock size (the latter more than the former), resulting in an increase in stock status. 
 
-The remaining sensitivity scenarios gave mixed, but generally moderate changes in the derived quantities, especially considering the overall internally estimated uncertainty in the model is so low (~10%). The catch history treatment did very little to change model results. Conserving the sex ratio in the biological composition (option Sex=3) lowered the current stock size just beyond the lower bound of the internally estimate variance, and thus also the relative stock size. But when $M$ was estimated while using the Sex=3 option, both males and female $M$ values were very high and not basically the same, thus presenting an unexpected biological relationship (Table \ref{tab:data_sensis}). This is different from what is seen when $M$ is estimated but the sex ratio is not forced to match the sampled biological data, which does estimate male $M$ to be lower than female $M$ (Table \ref{tab:modspec_sensis}). It is thus not clear that adding the additional sex ratio constraint on the biological data returns more realistic biological relationships. Lastly, assuming no bias in ageing produced slightly lower current stock sizes and resultant lower relative stock size. None of the data treatments caused the stock to drop below the overfished limit.
+The remaining sensitivity scenarios gave mixed, but generally moderate changes in the derived quantities, especially considering the overall internally estimated uncertainty in the model is so low (~10%). The catch history treatment did very little to change model results. Conserving the sex ratio in the biological composition (option Sex=3) lowered the current stock size just beyond the lower bound of the internally estimate variance, and thus also the relative stock size. But when $M$ was estimated while using the Sex=3 option, both males and female $M$ values were very high and not basically the same, thus presenting an unexpected biological relationship (Table \ref{tab:data_sensis}). This is different from what is seen when $M$ is estimated but the sex ratio is not forced to match the sampled biological data, which does estimate male $M$ to be lower than female $M$ (Table \ref{tab:modspec_sensis}). Comparing the realized sex ratios from each model shows the Sex=3 option (Figure \ref{fig:sexratioSex3}) to skew toward more females more than the reference model (Figure \ref{fig:sexratioSex12}) that frees the model from the sex ratio constraint . While a sex ratio of close to or >0.5 for females may seem odd when females die faster than males, it makes sense in light of sex-specific growth (females are larger than males) and dome-shaped selectiity (males are caught more than females). This difference is demosntrated by looking at the realized sex ratios from the reference model using logistic selectivity (Figure \ref{fig:sexratio12Log}), which returns a more male-dominited sex ratio. It is thus not clear that adding the additional sex ratio constraint on the biological data returns more realistic biological relationships. Lastly, assuming no bias in ageing produced slightly lower current stock sizes and resultant lower relative stock size. None of the data treatments caused the stock to drop below the overfished limit.
 
 #### Model specification sensitivities
 Model specifications looked at the estimation of individual and combinations of life history parameters, including the treatment of natural mortality, growth, maturity, fecundity and recruitment, and fishery selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
@@ -1963,8 +1963,6 @@ SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 
 ![Comparison of the time series of relative spawning output between the 2015 and 2023 assessment results.\label{fig:comp-depl}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
-\newpage
-
 ### Sensitivities
 
 <!-- ====================================================================== -->
@@ -1985,6 +1983,22 @@ SizeSel P2 MRFSS(8) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 ![Relative spawning output time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-depl}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document/figures/sensi_data/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 \newpage
+
+
+![Sex ratio by age for the model using the sex=3 option.\label{fig:sexratioSex3}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document/figures/sexratios/sex3.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Sex ratio by age for the reference model (sex option 1 & 2).\label{fig:sexratioSex12}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document/figures/sexratios/sex12.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Sex ratio by age for the model using sex = 1 & 2 and logistic selectivity.\label{fig:sexratio12Log}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document/figures/sexratios/sex12_logsel.png){width=100% height=100% alt="."}
+
+\newpage
+
 
 
 ![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-RE}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png){width=100% height=100% alt="."}

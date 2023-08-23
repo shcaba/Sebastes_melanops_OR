@@ -1,0 +1,83 @@
+## Characterizing uncertainty
+### Sensitivity Analyses
+Sensitivity analyses were conducted to evaluate model sensitivity to alternative data treatment and model specifications.
+
+#### Data treatment sensitivities
+Data treatments explored included the treatment of catchability for the acoustic-visual survey and the tagging data, the removal of any one data source, and alternative approaches to data weighting. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
+
+- Remove abundance index series 
+	1. No Acoustic visual
+  	2. No tagging index
+  	3. No non-trawl index
+  	4. No ORBS index
+  	5. No MRFSS index
+  	6. No MPA index
+	7. Add SMURFs index 
+
+- Data weighting (Table \ref{tab:data_wt})
+  	8. No data-weighting
+  	9. Dirichlet data-weighting
+  	10. McAllister-Ianelli data weighting
+
+- Other
+	11. 2015 Catch history
+	12. Sex = 3
+	13. Sex = 3 and estimate $M$
+	14. No age bias
+
+Likelihood values and estimates of key parameters and derived quantities from each data treatment sensitivity are available in Table \ref{tab:data_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}. 
+
+From a data standpoint, the model was most sensitive to how information on absolute abundance, or population scale, from the acoustic-visual and tag survey data, as was demonstrated in-depth in section 3.5.1.1.  For the current reference model that does not weight those as heavily, there is much less of an influence in key management quantities (e.g., stock size and status; Figures \ref{fig:sensi-data-RE}, \ref{fig:sensi-data-ssb}, and \ref{fig:sensi-data-depl}) when dropping those two indices. The model was generally robust to the removal of any single index accept for the non-trawl survey, which supports the more recent increase in stock size. The harmonic mean data weighting approach (based on the McAllister-Ianelli method) resulted in negligible change from the reference model that used the Francis weighting method. The Dirichlet method only minimally adjusted the input sample sizes, nearly mimicking the sensitivity model where no weighting was conducted, which had the effect of increasing initial and current estimates of stock size (the latter more than the former), resulting in an increase in stock status. 
+
+The remaining sensitivity scenarios gave mixed, but generally moderate changes in the derived quantities, especially considering the overall internally estimated uncertainty in the model is so low (~10%). The catch history treatment did very little to change model results. Conserving the sex ratio in the biological composition (option Sex=3) lowered the current stock size just beyond the lower bound of the internally estimate variance, and thus also the relative stock size. But when $M$ was estimated while using the Sex=3 option, both males and female $M$ values were very high and not basically the same, thus presenting an unexpected biological relationship (Table \ref{tab:data_sensis}). This is different from what is seen when $M$ is estimated but the sex ratio is not forced to match the sampled biological data, which does estimate male $M$ to be lower than female $M$ (Table \ref{tab:modspec_sensis}). Comparing the realized sex ratios from each model shows the Sex=3 option to skew toward more females more than the reference model that frees the model from the sex ratio constraint (\ref{fig:sexratiocomp}). It is thus not clear that adding the additional sex ratio constraint on the biological data returns more realistic biological relationships. Lastly, assuming no bias in ageing produced slightly lower current stock sizes and resultant lower relative stock size. None of the data treatments caused the stock to drop below the overfished limit.
+
+#### Model specification sensitivities
+Model specifications looked at the estimation of individual and combinations of life history parameters, including the treatment of natural mortality, growth, maturity, fecundity and recruitment, and fishery selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
+
+- Life history estimation
+
+	- Natural mortality ($M$)
+		1. Use 2015 $M$ values 
+		2. Lorenzen age varying $M$
+		3. Estimate $M$
+
+	- Growth parameters
+	 	4. Fix all growth parameters to external values, estimate $M$
+		5. Fix all growth parameters to external values
+	 	6. Estimate $L_{Amin}$
+	 	7. Estimate $CV_{young}$ and $CV_{old}$
+
+	- Reproductive Biology
+	 	8. Use biological maturity ogive (logistic model)
+	 	9. Use functional maturity ogive (logistic model)
+	 	10. Fecundity proportional to weight
+
+	- Recruitment estimation
+	 	11. No recruitment estimation
+	 	12. Estimate recruitment for all years in the model
+
+ - Selectivity  
+		13. Estimate logistic selectivity for all fleets
+	
+Likelihood values and estimates of key parameters and derived quantities from each model specification sensitivity are available in Table \ref{tab:modspec_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. In general, none of the model specification scenarios caused the model to drop below the overfished limit, and only two (deterministic recruitment and all logistic selectivity) caused it to drop below the target reference level. Only three of the thirteen scenarios were outside the fairly tight confidence limits of the reference model, two above (fixed growth, estimated $M$; estimating all years of recruitment deviations) and one below (deterministic recruitment). Current spawning output was the most sensitive of the main derived outputs, with lower $M$, fixed growth, and deterministic recruitment causing lower values, and maturity and fecundity treatments causing higher biomass estimates. Many of those treatments also affected the initial spawning output in the same direction.  
+
+
+### Likelihood Profiles
+
+Likelihood profiles were conducted for the the log of initial recruitment (ln($R_0$)), steepness ($h$), and female and male natural mortality ($M$) varying together with a constant ratio matching the reference model (0.19/0.17, female and male values respectively). Likelihood profiles were conducted by fixing the featured parameter(s) at specific values across a range of values and estimating all remaining parameters. A likelihood profile offers insight into model sensitivity to changing model parameter values, while providing an additional way to describe uncertainty in the parameter by identifying the range of parameters within 1.96 likelihood units of the reference model.
+
+The profile on the assumption of $lnR_0$, which sets the initial scale of the population) demonstrates the expected scaling up and down of the population with increasing and decreasing initial recruitment, respectively (Figure \ref{fig:R0-profile}). The likelihood profile is well informed to the ultimate maximum likelihood estimate. The change in the current year spawning output is steeper than the initial spawning output, leading to a u-shaped relationship in relative biomass. No values of $lnR_0$ caused the population to approach an overfished state. The non-trawl and ocean boat ages and recruitment data are most supportive of a well-informed initial scale, whereas the index data are not informative to the population scale (Figure \ref{fig:R0-profile-components}).
+
+The steepness profile showed little information content for this parameter (Figure \ref{fig:steepness-profile}) as the best fit value went towards the bound of 1. Changing steepness mostly changed the estimate of initial stock size, with a higher initial stock size needed to make up for the lower recruitment compensation. Overall, the relative stock size changed little with higher steepness values, then dropped most notable below values of 0.5. The age compositions pushed the steepness to the highest value, whereas the index data indicated a mixed signal for the lowest and highest steepness values (Figure \ref{fig:steepness-profile-components}).
+ 
+The combined profile that varies female and male $M$ while maintaining the reference model offset demonstrated what had be seen in the model development, that when freely estimated, the model wants natural mortality values to be unreasonably high (Figure \ref{fig:M-multiprofile-combo}). All likelihood components confirm the drive for higher $M$ values for both sexes (Figures \ref{fig:M-multiprofile-like-components} to \ref{fig:M-multiprofile-survey-components}). Similar to the steepness profile, the lower natural mortality values lead to lower productivity, and thus the need for a higher initial biomass, which changes quicker than the current, more pinned down, current biomass value. While the scale does change substantially, the current relative stock status is fairly stable and always above the target level.
+
+
+### Retrospective Analysis
+
+A five-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 5 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a large shift away from a growing population once the acoustic-visual survey is removed from the population. The scale shifts downward and the population status show a declining population at or below the unfished level. This shows the weight of the treatment choice in the acoustic survey, as well as the more recent data that confirm a recent recruitment. The Mohn's rho evaluation of the degree of retrospective pattern in given in Table \ref{tab:RetroMohnsrho}.
+
+
+### Unresolved Problems and Major Uncertainties
+
+The biggest uncertainty and unresolved conflict is trying to reconcile the signal in the biological data (which want a lower population size and status) versus the acoustic and tag surveys (which want high stock sizes and status). This is the major issue the current assessment is confronting. Another acoustic-visual survey data point could help resolve how much uncertainty there is in the estimate. The lack of contrast in the length composition data, despite large sample sizes, is another barrier to interpreting the current conditions, as lengths drive the model to a lower stock status, while the ages push it to higher stock status, but not as high as the acoustic-visual survey would have it. 
