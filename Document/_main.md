@@ -1,6 +1,6 @@
 ---
 geometry: margin=1in
-month: "August"
+month: "September"
 year: "2023"
 preamble: 
 csl: canadian-journal-of-fisheries-and-aquatic-sciences.csl
@@ -267,7 +267,7 @@ Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), ta
 
 Recent removals have been above the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point, though the population size has continued to increase over recent years due to several above average recruitments. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:es-yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
 
-The 2023 spawning output relative to unfished equilibrium spawning output is above (43 percent) the management target of 40 percent of unfished spawning output (i.e., 1.08 times above the target spawning output; Figure \ref{fig:es-phase}). The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$. Fishing intensity during the most recent year (2022) is estimated to be above the fishing intensity target (1.18 times $\text{SPR}_{50\%}$; Figure \ref{fig:es-phase}).
+The 2023 spawning output relative to unfished equilibrium spawning output is above (45 percent) the management target of 40 percent of unfished spawning output (i.e., 1.08 times above the target spawning output; Figure \ref{fig:es-phase}). The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$. Fishing intensity during the most recent year (2022) is estimated to be above the fishing intensity target (1.18 times $\text{SPR}_{50\%}$; Figure \ref{fig:es-phase}).
  
 
 
@@ -1134,7 +1134,7 @@ Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), ta
 
 Recent removals have been close to the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point, though the population size has continued to increase over recent years due to several above average recruitments. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
 
-The 2023 spawning output relative to unfished equilibrium spawning output is above (43 percent) the management target of 40 percent of unfished spawning output (i.e., 1.08 times above the target spawning output; Figure \ref{fig:es-phase}). The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$. Fishing intensity during the most recent year (2022) is estimated to be above the fishing intensity target (1.18 times $\text{SPR}_{50\%}$; Figure \ref{fig:es-phase}).
+The 2023 spawning output relative to unfished equilibrium spawning output is above (45 percent) the management target of 40 percent of unfished spawning output (i.e., 1.08 times above the target spawning output; Figure \ref{fig:es-phase}). The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$. Fishing intensity during the most recent year (2022) is estimated to be above the fishing intensity target (1.18 times $\text{SPR}_{50\%}$; Figure \ref{fig:es-phase}).
 
 
 ## Management performance
