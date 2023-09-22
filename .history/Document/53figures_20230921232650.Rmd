@@ -165,7 +165,7 @@ label = 'fxn-spline-mat-color')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "bio6_maturity.png"), 
-caption = "Maturity as a function of length (cm) used in the base model",
+caption = "Maturity as a function of length (cm) used in the reference model",
 label = 'maturity')
 ```
 
@@ -174,7 +174,7 @@ label = 'maturity')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "bio9_fecundity_len.png"), 
-caption = "Fecundity (kg) as a function of length (cm) used in the base model",
+caption = "Fecundity (kg) as a function of length (cm) used in the reference model",
 label = 'fecundity')
 ```
 
@@ -205,7 +205,7 @@ label = 'len-weight-or-wa')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "index9_standcpueall.png"), 
-caption = "The set of standardized indices (each index is scaled to have a mean observation of 1) used in the base model.",
+caption = "The set of standardized indices (each index is scaled to have a mean observation of 1) used in the reference model.",
 label = 'sur-summ-all')
 ```
 
@@ -265,7 +265,7 @@ add_figure(
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(bridge_fig_loc, "OR_Dep_comp_plot.png"), 
-  caption = "Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
+  caption = "Comparison of relative spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
   label = 'deps-bridge-comps')
 
 ``` 
@@ -305,7 +305,7 @@ label = 'modbuild-data-ssb')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_data_fig_loc, "pre-STAR/Sensi_logREplot_SB_Dep_F_MSY.png"),
-caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
+caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the pre-STAR reference model. See section 3.5.1.1 for more details on each scenario",
 label = 'sensi-data-RE_preSTAR')
 ```
 
@@ -314,7 +314,7 @@ label = 'sensi-data-RE_preSTAR')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_data_fig_loc, "pre-STAR/compare2_spawnbio_uncertainty.png"),
-caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
+caption = "Spawning output (in millions of eggs) time series by data treatment compared to the pre-STAR reference model. See section 3.5.1.1 for more details on each scenario",
 label = 'sensi-data-ssb_preSTAR')
 ```
 
@@ -323,7 +323,7 @@ label = 'sensi-data-ssb_preSTAR')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_data_fig_loc, "pre-STAR/compare4_Bratio_uncertainty.png"),
-caption = "Relative spawning output time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
+caption = "Relative spawning output time series by data treatment compared to the pre-STAR reference model. See section 3.5.1.1 for more details on each scenario",
 label = 'sensi-data-depl_preSTAR')
 ```
 
@@ -332,7 +332,7 @@ label = 'sensi-data-depl_preSTAR')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "pre-STAR/Sensi_logREplot_SB_Dep_F_MSY.png"),
-caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
+caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the pre-STAR reference model. See section 3.5.1.2 for more details on each scenario",
 label = 'sensi-modspec-RE_preSTAR')
 ```
 
@@ -341,7 +341,7 @@ label = 'sensi-modspec-RE_preSTAR')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "pre-STAR/compare2_spawnbio_uncertainty.png"),
-caption = "Spawning output (in millions of eggs) time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
+caption = "Spawning output (in millions of eggs) time series by model specification scenario compared to the pre-STAR reference model. See 'section 3.5.1.2 for more details on each scenario",
 label = 'sensi-modspec-ssb_preSTAR')
 ```
 
@@ -350,7 +350,7 @@ label = 'sensi-modspec-ssb_preSTAR')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "pre-STAR/compare4_Bratio_uncertainty.png"),
-caption = "Relative spawning output time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
+caption = "Relative spawning output time series by model specification scenario compared to the pre-STAR reference model. See section 3.5.1.2 for more details on each scenario",
 label = 'sensi-modspec-depl_preSTAR')
 ```
 
@@ -746,8 +746,6 @@ caption = "Comparison of the time series of relative spawning output between the
 label = 'comp-depl')
 ```
 
-\newpage
-
 ### Sensitivities
 
 <!-- ====================================================================== -->
@@ -780,6 +778,34 @@ label = 'sensi-data-depl')
 ```
 
 \newpage
+
+```{r, echo=FALSE, results='asis'}
+add_figure(
+filein = file.path(sexratio_fig_loc, "sex3.png"),
+caption = "Sex ratio by age for the model using the sex=3 option",
+label = 'sexratioSex3')
+```
+
+\newpage
+
+```{r, echo=FALSE, results='asis'}
+add_figure(
+filein = file.path(sexratio_fig_loc, "sex12.png"),
+caption = "Sex ratio by age for the reference model (sex option 1 & 2)",
+label = 'sexratioSex12')
+```
+
+\newpage
+
+```{r, echo=FALSE, results='asis'}
+add_figure(
+filein = file.path(sexratio_fig_loc, "sex12_logsel.png"),
+caption = "Sex ratio by age for the model using sex = 1 & 2 and logistic selectivity",
+label = 'sexratio12Log')
+```
+
+\newpage
+
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(

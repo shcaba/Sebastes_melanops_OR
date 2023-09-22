@@ -265,7 +265,7 @@ add_figure(
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(bridge_fig_loc, "OR_Dep_comp_plot.png"), 
-  caption = "Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
+  caption = "Comparison of relative spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
   label = 'deps-bridge-comps')
 
 ``` 
