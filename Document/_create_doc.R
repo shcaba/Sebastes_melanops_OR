@@ -77,5 +77,20 @@ if(file.exists("_main.Rmd")){
 # Render the pdf
 bookdown::render_book("00a.Rmd", clean=FALSE, output_dir = getwd())
 
+# Specify the directory for the document
+setwd("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document") #laptop
+
+setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document")
+setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/temp")
+
+if(file.exists("_main.Rmd")){
+  file.remove("_main.Rmd")
+}
+# Render the pdf
+bookdown::render_book("00a.Rmd", clean=FALSE, output_dir = getwd())
+
+#########################################################################
+
+
 #########################################################################
 
