@@ -11,9 +11,11 @@ filein = file.path(mod_loc, "plots")
 for (a in plot.vec){
 	cap = len_fit$caption[a]
 	lab = len_fit$label[a]
+	altcap = len_fit$altcaption[a]
 	add_figure(filein = file.path(filein, len_fit$file[a]), 
 			   caption = cap, 
-			   label = lab)
+			   label = lab,
+			   alt_caption=altcap)
 }
 
 ```
@@ -35,9 +37,11 @@ filein = file.path(mod_loc, "plots")
 for (a in plot.vec){
 	cap = len_fit$caption[a]
 	lab = len_fit$label[a]
+	altcap = aal_fit$altcaption[a]
 	add_figure(filein = file.path(filein, len_fit$file[a]), 
 			   caption = cap, 
-			   label = lab)
+			   label = lab,
+			   alt_caption=altcap)
 }
 
 ```
@@ -82,9 +86,11 @@ for (a in plot.vec){
 #	cap = age_fit$caption[a]
 	cap = cap.in[match(a,plot.vec)]
 	lab = age_fit$label[a]
+	altcap = age_fit$altcaption[a]
 	add_figure(filein = file.path(filein, age_fit$file[a]), 
 			   caption = cap, 
-			   label = lab)
+			   label = lab,
+			   alt_caption=altcap)
 
 #base_name = "Reference model"
 #mod_loc = file.path(
@@ -122,9 +128,11 @@ filein = file.path(mod_loc, "plots")
 for (a in plot.vec){
 	cap = age_fit$caption[a]
 	lab = age_fit$label[a]
+	altcap = age_fit$altcaption[a]
 	add_figure(filein = file.path(filein, age_fit$file[a]), 
 			   caption = cap, 
-			   label = lab)
+			   label = lab,
+			   alt_caption=altcap)
 }
 
 #add_figure(filein = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/#comp_gstagefit_flt1mkt0.png", 
@@ -143,7 +151,8 @@ for (a in plot.vec){
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers1_sex1_beg.png"), 
 caption = "Female black rockfish mean age over time",
-label = 'num_age_females')
+label = 'num_age_females',
+alt_caption = "Number at age are found in the model output Report file")
 ```
 
 
@@ -152,7 +161,8 @@ label = 'num_age_females')
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers1_sex2_beg.png"), 
 caption = "Male black rockfish mean age over time",
-label = 'num_age_males')
+label = 'num_age_males',
+alt_caption = "Number at age are found in the model output Report file")
 ```
 
 \clearpage
@@ -164,7 +174,8 @@ label = 'num_age_males')
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers6_len_sex1.png"), 
 caption = "Female black rockfish mean length (cm) over time",
-label = 'num_lts_females')
+label = 'num_lts_females',
+alt_caption = "Mean lengths are found in the model output Report file")
 ```
 
 \clearpage
@@ -175,7 +186,8 @@ label = 'num_lts_females')
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers6_len_sex2.png"), 
 caption = "Male black rockfish mean length over time",
-label = 'num_lts_males')
+label = 'num_lts_males',
+alt_caption = "Mean lengths are found in the model output Report file")
 ```
 
 

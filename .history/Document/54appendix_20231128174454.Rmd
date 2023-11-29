@@ -11,9 +11,11 @@ filein = file.path(mod_loc, "plots")
 for (a in plot.vec){
 	cap = len_fit$caption[a]
 	lab = len_fit$label[a]
+	altcap = len_fit$altcaption[a]
 	add_figure(filein = file.path(filein, len_fit$file[a]), 
 			   caption = cap, 
-			   label = lab)
+			   label = lab,
+			   alt_caption=altcap)
 }
 
 ```
@@ -35,9 +37,11 @@ filein = file.path(mod_loc, "plots")
 for (a in plot.vec){
 	cap = len_fit$caption[a]
 	lab = len_fit$label[a]
+	altcap = aal_fit$altcaption[a]
 	add_figure(filein = file.path(filein, len_fit$file[a]), 
 			   caption = cap, 
-			   label = lab)
+			   label = lab,
+			   alt_caption=altcap)
 }
 
 ```
@@ -47,8 +51,7 @@ for (a in plot.vec){
 # Appendix C: Fit to Conditional-Age-at-Length Composition Data {#app-c}
 
 ```{r, results='asis'}
-mod_loc = file.path("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models",
-   base_name)
+mod_loc = file.path(user_dir, "models", base_name)
 plot_info = read.csv(file.path(mod_loc, "plots", "plotinfotable_for_doc.csv"))
 age_fit = plot_info[which(plot_info$category == "A@LComp"), ]
 plot.vec = c(grep("comp_condAALfit_Andre_plotsflt1mkt0", age_fit$label),
@@ -83,9 +86,11 @@ for (a in plot.vec){
 #	cap = age_fit$caption[a]
 	cap = cap.in[match(a,plot.vec)]
 	lab = age_fit$label[a]
+	altcap = age_fit$altcaption[a]
 	add_figure(filein = file.path(filein, age_fit$file[a]), 
 			   caption = cap, 
-			   label = lab)
+			   label = lab,
+			   alt_caption=altcap)
 
 #base_name = "Reference model"
 #mod_loc = file.path(
@@ -112,21 +117,27 @@ for (a in plot.vec){
 
 \clearpage
 
-# Appendix D: Detailed Fit to Length Composition Data {#app-d}
+# Appendix D: Passive Fit to Marginal Age Composition Data {#app-d}
 
 ```{r, results='asis'}
 plot_info = read.csv(file.path(mod_loc, "plots", "plotinfotable_for_doc.csv"))
 age_fit = plot_info[which(plot_info$category == "AgeComp"), ]
-plot.vec = grep("comp_gstagedat_flt", age_fit$label)
+plot.vec = grep("comp_gstagefit_flt", age_fit$label)
 filein = file.path(mod_loc, "plots")
 
 for (a in plot.vec){
 	cap = age_fit$caption[a]
 	lab = age_fit$label[a]
+	altcap = age_fit$altcaption[a]
 	add_figure(filein = file.path(filein, age_fit$file[a]), 
 			   caption = cap, 
-			   label = lab)
+			   label = lab,
+			   alt_caption=altcap)
 }
+
+#add_figure(filein = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/#comp_gstagefit_flt1mkt0.png", 
+#			   caption = "test", 
+#			   label = 'comp_gstagefit_flt1mkt0')
 
 ```
 
@@ -139,8 +150,9 @@ for (a in plot.vec){
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers1_sex1_beg.png"), 
-caption = "Female vermilion rockfish mean age over time",
-label = 'num_age_females')
+caption = "Female black rockfish mean age over time",
+label = 'num_age_females',
+alt_caption = "Number at age are found in the model output Report file")
 ```
 
 
@@ -148,8 +160,9 @@ label = 'num_age_females')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers1_sex2_beg.png"), 
-caption = "Male vermilion rockfish mean age over time",
-label = 'num_age_males')
+caption = "Male black rockfish mean age over time",
+label = 'num_age_males',
+alt_caption = "Number at age are found in the model output Report file")
 ```
 
 \clearpage
@@ -160,8 +173,9 @@ label = 'num_age_males')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers6_len_sex1.png"), 
-caption = "Female vermilion rockfish mean length (cm) over time",
-label = 'num_lts_females')
+caption = "Female black rockfish mean length (cm) over time",
+label = 'num_lts_females',
+alt_caption = "Mean lengths are found in the model output Report file")
 ```
 
 \clearpage
@@ -171,8 +185,9 @@ label = 'num_lts_females')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers6_len_sex2.png"), 
-caption = "Male vermilion rockfish mean length over time",
-label = 'num_lts_males')
+caption = "Male black rockfish mean length over time",
+label = 'num_lts_males',
+alt_caption = "Mean lengths are found in the model output Report file")
 ```
 
 
