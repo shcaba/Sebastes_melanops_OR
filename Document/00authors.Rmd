@@ -13,19 +13,19 @@ author:
   - name: Aaron M. Berger
     code: 1
     first: A
-    middle: D
-    family: Whitman
+    middle: M
+    family: Berger
   - name: Leif K. Rasmuson
     code: 2
     first: L
     middle: K
     family: Rasmuson
-  - name: Claire Rosemond
+  - name: R. Claire Rosemond
     code: 3
-    first: C
-    middle: 
+    first: R
+    middle: C 
     family: Rosemond
-author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.K. Rasmuson, C. Rosemond
+author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.K. Rasmuson, R. C. Rosemond
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National

@@ -1,6 +1,6 @@
 ---
 geometry: margin=1in
-month: "November"
+month: "December"
 year: "2023"
 preamble: 
 csl: canadian-journal-of-fisheries-and-aquatic-sciences.csl
@@ -32,19 +32,19 @@ author:
   - name: Aaron M. Berger
     code: 1
     first: A
-    middle: D
-    family: Whitman
+    middle: M
+    family: Berger
   - name: Leif K. Rasmuson
     code: 2
     first: L
     middle: K
     family: Rasmuson
-  - name: Claire Rosemond
+  - name: R. Claire Rosemond
     code: 3
-    first: C
-    middle: 
+    first: R
+    middle: C 
     family: Rosemond
-author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.K. Rasmuson, C. Rosemond
+author_list: Cope, J.M., A.D. Whitman, A.M. Berger, L.K. Rasmuson, R. C. Rosemond
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
@@ -678,9 +678,9 @@ Exploratory runs first attempted to estimate natural mortality with a high bound
 
 #### Age validation
 
-Fish ages estimated for age-based stock assessment models need to be accurate and precise because ageing error can affect all model input data. Current protocol for ageing groundfishes is to count growth marks on break-and-burn preparations of sagittal otoliths [@CARE_2006] but interpreting the growth marks can be challenging and lead to errors in ageing. To validate the break-and-burn ageing method for Black Rockfish off Oregon, researchers at ODFW and the University of Alberta used secondary ion mass spectroscopy (SIMS) to determine oxygen isotope ratios (δ18O) in Black Rockfish sagittal otoliths. Because an otolith is acellular, metabolically inert, and grows throughout the life of the fish, any elements accreted onto its surface are permanently retained [@campana_1999]. Otolith oxygen isotopes exist in equilibrium with ambient seawater [@iacumin_1992] and otolith δ18O is inversely related to water temperature and is a function of salinity [@hoie_2004]; therefore, sequential δ18O measurements across the otolith are a proxy for seasonal temperature cycles experienced by the fish throughout its lifespan.
+Fish ages estimated for age-based stock assessment models need to be accurate and precise because ageing error can affect all model input data. Current protocol for ageing groundfishes is to count growth marks on break-and-burn preparations of sagittal otoliths [@CARE_2006] but interpreting the growth marks can be challenging and lead to errors in ageing. To validate the break-and-burn ageing method for Black Rockfish off Oregon, researchers at ODFW and the University of Alberta used secondary ion mass spectroscopy (SIMS) to determine oxygen isotope ratios ( $\delta$ 18O) in Black Rockfish sagittal otoliths. Because an otolith is acellular, metabolically inert, and grows throughout the life of the fish, any elements accreted onto its surface are permanently retained [@campana_1999]. Otolith oxygen isotopes exist in equilibrium with ambient seawater [@iacumin_1992] and otolith $\delta$ 18O is inversely related to water temperature and is a function of salinity [@hoie_2004]; therefore, sequential $\delta$ 18O measurements across the otolith are a proxy for seasonal temperature cycles experienced by the fish throughout its lifespan.
 
-SIMS proved to be effective for producing detailed otolith δ18O chronologies with adequate temporal resolution for identification of seasonal trends in water temperatures. Locations of annuli counted during break-and-burn ageing of Black Rockfish sagittae generally corresponded to maxima in the δ18O chronologies, inferring formation during periods when water temperatures were relatively cold. Generally, chronologies were characterized as having one strong signal peak and trough between annuli; however, δ18O chronologies could be highly irregular and chaotic between maxima, inferring vertical and lateral movements known to occur in this species, as well as prolonged larval duration and settlement in shallow nearshore areas with short-term variation in water temperatures and salinities. The break-and-burn method of ageing was validated for Oregon Black Rockfish up to 12 years old [@terwilliger_2023].
+SIMS proved to be effective for producing detailed otolith $\delta$ 18O chronologies with adequate temporal resolution for identification of seasonal trends in water temperatures. Locations of annuli counted during break-and-burn ageing of Black Rockfish sagittae generally corresponded to maxima in the $\delta$ 18O chronologies, inferring formation during periods when water temperatures were relatively cold. Generally, chronologies were characterized as having one strong signal peak and trough between annuli; however $\delta$ 18O chronologies could be highly irregular and chaotic between maxima, inferring vertical and lateral movements known to occur in this species, as well as prolonged larval duration and settlement in shallow nearshore areas with short-term variation in water temperatures and salinities. The break-and-burn method of ageing was validated for Oregon Black Rockfish up to 12 years old [@terwilliger_2023].
 
 An additional study by Stephens et al., currently in review, used bomb radio carbon to validate Black Rockfish ages. This study had older fish than the Terwilliger et al. 2023 study but the fish were sourced entirely from the California stock. This study found that ages obtained by break-and-burn were systematically biased towards under-ageing. Further, the magnitude of the under-ageing increased as the fish got older. However, since none of the age readers in this study conducted any of the ageing for the Oregon stock and the fish were from California, additional research is needed to determine how best to incorporate these data into future stock assessments.
 
